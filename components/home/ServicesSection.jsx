@@ -7,12 +7,6 @@ import PrimaryButton from "../shared/PrimaryButton";
 const bitter = Bitter({ subsets: ["latin"] });
 
 function ServicesSection() {
-  const combinedServices = [
-    ...serviceData.personal_injury_law.slice(0, 3),
-    ...serviceData.criminal_law.slice(-3),
-  ];
-
-  console.log("Trip Law", combinedServices);
   return (
     <div className="">
       <SectionLayout>
@@ -33,27 +27,43 @@ function ServicesSection() {
 
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {serviceData.personal_injury_law.map((service, index) => (
-              <div key={index} className="service-item">
-                <img src={service.icon} alt={service.title} />
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <PrimaryButton
-                  title={"READ MORE"}
-                  link={"/"}
-                  style={
-                    "flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary text-primary rounded-lg bg-transparent  md:text-lg md:px-8  "
-                  }
-                  radius={"sm"}
-                  icon_style={"text-primary"}
-                />
-              </div>
-            ))}
+            {serviceData.personal_injury_law
+              .slice(0, 3)
+              .map((service, index) => (
+                <div key={index} className="service-item">
+                  <div className="p-4 rounded-full bg-[#D5AD45] inline-block">
+                    <img
+                      src={service.icon}
+                      alt={service.title}
+                      width={40}
+                      height={40}
+                    />
+                  </div>
+                  <h3>{service.title}</h3>
+                  <p>{service.description}</p>
+                  <PrimaryButton
+                    title={"READ MORE"}
+                    link={"/"}
+                    style={
+                      "flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary text-primary rounded-lg bg-transparent  md:text-lg md:px-8  "
+                    }
+                    radius={"sm"}
+                    icon_style={"text-primary"}
+                  />
+                </div>
+              ))}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {serviceData.criminal_law.map((service, index) => (
-              <div key={index} className="service-item">
-                <img src={service.icon} alt={service.title} />
+            {serviceData.criminal_law.slice(0, 3).map((service, index) => (
+              <div key={index} className="text-ce">
+                <div className="p-4 rounded-full bg-[#D5AD45] inline-block">
+                  <img
+                    src={service.icon}
+                    alt={service.title}
+                    width={40}
+                    height={40}
+                  />
+                </div>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <PrimaryButton
