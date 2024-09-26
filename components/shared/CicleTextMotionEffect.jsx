@@ -10,7 +10,7 @@ export default function CicleTextMotionEffect() {
 
   return (
     <div className="App">
-      <section class="sectionDic">
+      <section className="sectionDic">
         {Letter.map((item, index) => {
           return (
             <span

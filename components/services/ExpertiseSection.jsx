@@ -14,15 +14,15 @@ const ExpertiseSection = () => {
               Success
             </h2>
             <div className="mt-12">
-              <ul class="space-y-4 text-left text-gray-500 dark:text-gray-400">
-                <li class="flex items-start space-x-3 rtl:space-x-reverse text-white">
+              <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
+                <li className="flex items-start space-x-3 rtl:space-x-reverse text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    class="flex-shrink-0 w-7 h-7 text-white"
+                    className="flex-shrink-0 w-7 h-7 text-white"
                   >
                     <path
                       strokeLinecap="round"
@@ -42,14 +42,14 @@ const ExpertiseSection = () => {
                     to exponential growth.
                   </span>
                 </li>
-                <li class="flex items-start space-x-3 rtl:space-x-reverse text-white">
+                <li className="flex items-start space-x-3 rtl:space-x-reverse text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    class="flex-shrink-0 w-7 h-7 text-white"
+                    className="flex-shrink-0 w-7 h-7 text-white"
                   >
                     <path
                       strokeLinecap="round"
@@ -68,14 +68,14 @@ const ExpertiseSection = () => {
                     maximize profitability.
                   </span>
                 </li>
-                <li class="flex items-start space-x-3 rtl:space-x-reverse text-white">
+                <li className="flex items-start space-x-3 rtl:space-x-reverse text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    class="flex-shrink-0 w-7 h-7 text-white"
+                    className="flex-shrink-0 w-7 h-7 text-white"
                   >
                     <path
                       strokeLinecap="round"
