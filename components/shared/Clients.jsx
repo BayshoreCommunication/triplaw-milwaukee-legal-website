@@ -1,7 +1,7 @@
 import React from "react";
-import SectionLayout from "../shared/SectionLayout";
+import SectionLayout from "./SectionLayout";
 import { Bitter } from "next/font/google";
-import { DoubleTabSection } from "../shared/DoubleTabSection";
+import { DoubleTabSection } from "./DoubleTabSection";
 import Marquee from "react-fast-marquee";
 
 const bitter = Bitter({ subsets: ["latin"] });

@@ -1,13 +1,13 @@
 import AboutSection from "@/components/home/AboutSection";
 import DeportationDefense from "@/components/home/DeportationDefense";
-import Clients from "@/components/home/Clients";
 import HeroSection from "@/components/home/HeroSection";
-import HumanitarianImmigration from "@/components/home/HumanitarianImmigration";
 import NewsSection from "@/components/home/NewsSection";
 import ScheduleSection from "@/components/home/ScheduleSection";
 import ServicesSection from "@/components/home/ServicesSection";
 import FAQ from "@/components/shared/FAQ";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import CallToAction from "@/components/shared/CallToAction";
+import Clients from "@/components/shared/Clients";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <WhyChooseUs />
       <FAQ />
       <Clients />
-      <HumanitarianImmigration />
+      <CallToAction />
       <DeportationDefense />
       <ScheduleSection />
       <NewsSection />
