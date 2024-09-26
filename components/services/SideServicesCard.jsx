@@ -25,28 +25,30 @@ const SideServicesCard = ({ serversData }) => {
   const pathname = usePathname();
 
   return (
-    <motion.div
+    <motion.li
       variants={variants}
       whileHover={{ scale: 0.99 }}
       whileTap={{ scale: 0.95 }}
-      href='#'
-      class={`flex max-w-md p-6 border border-gray-200 rounded-sm shadow hover:bg-gray-100 items-center gap-6 mb-2 ${pathname === '/services/' + serversData?.slug ? 'bg-gray-200' : 'bg-white'}`}
+      className={`p-6 border border-gray-200 rounded-sm shadow hover:bg-gray-100 flex items-center gap-6 mb-2`}
     >
-      <Image
-        src={serversData.icon}
-        alt='Picture of the author'
-        width={100}
-        height={100}
-      />
-      <div>
-        <h5 class='mb-2 text-lg font-bold tracking-wide text-gray-900 dark:text-white'>
+      {/* Custom Icon */}
+      <div className='flex items-center justify-center p-3 rounded-full bg-primary'>
+        {/* Use your custom icon or image here */}
+        <Image
+          src={serversData.icon} // Assuming serversData.icon contains the icon URL
+          alt='Custom Icon'
+          width={24}
+          height={24}
+        />
+      </div>
+
+      {/* List content */}
+      <div className='flex flex-col'>
+        <h5 className='text-lg font-bold tracking-wide text-gray-900'>
           {serversData.title}
         </h5>
-        <p class='font-normal text-gray-700 dark:text-gray-400 line-clamp-2'>
-          {serversData?.sortTitle}
-        </p>
       </div>
-    </motion.div>
+    </motion.li>
   );
 };
 

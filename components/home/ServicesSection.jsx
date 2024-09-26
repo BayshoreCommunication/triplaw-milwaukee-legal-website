@@ -1,14 +1,14 @@
-import React from "react";
-import SectionLayout from "../shared/SectionLayout";
-import { Bitter } from "next/font/google";
-import { serviceData } from "@/config/serviceData";
-import PrimaryButton from "../shared/PrimaryButton";
+import React from 'react';
+import SectionLayout from '../shared/SectionLayout';
+import { Bitter } from 'next/font/google';
+import PrimaryButton from '../shared/PrimaryButton';
+import { allServiceData } from '@/config/serviceData';
 
-const bitter = Bitter({ subsets: ["latin"] });
+const bitter = Bitter({ subsets: ['latin'] });
 
 function ServicesSection() {
   return (
-    <div className="">
+    <div className=''>
       <SectionLayout>
         <div>
           <h2
@@ -17,7 +17,7 @@ function ServicesSection() {
             Our Services
           </h2>
 
-          <p className="mb-4 text-lg text-center text-stone-950 md:text-left">
+          <p className='mb-4 text-lg text-center text-stone-950 md:text-left'>
             Are you married to a USAn the United States? Obtaining a green card
             through marriage can be a complex and emotionally charged process.
             We understand the challenges you face and are dedicated to providing
@@ -26,12 +26,12 @@ function ServicesSection() {
         </div>
 
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {serviceData.personal_injury_law
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            {allServiceData.personal_injury_law
               .slice(0, 3)
               .map((service, index) => (
-                <div key={index} className="service-item">
-                  <div className="p-4 rounded-full bg-[#D5AD45] inline-block">
+                <div key={index} className='service-item'>
+                  <div className='p-4 rounded-full bg-[#D5AD45] inline-block'>
                     <img
                       src={service.icon}
                       alt={service.title}
@@ -42,21 +42,21 @@ function ServicesSection() {
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
                   <PrimaryButton
-                    title={"READ MORE"}
-                    link={"/"}
+                    title={'READ MORE'}
+                    link={'/'}
                     style={
-                      "flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary text-primary rounded-lg bg-transparent  md:text-lg md:px-8  "
+                      'flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary text-primary rounded-lg bg-transparent  md:text-lg md:px-8  '
                     }
-                    radius={"sm"}
-                    icon_style={"text-primary"}
+                    radius={'sm'}
+                    icon_style={'text-primary'}
                   />
                 </div>
               ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {serviceData.criminal_law.slice(0, 3).map((service, index) => (
-              <div key={index} className="text-ce">
-                <div className="p-4 rounded-full bg-[#D5AD45] inline-block">
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+            {allServiceData?.criminal_law.slice(0, 3).map((service, index) => (
+              <div key={index} className='text-ce'>
+                <div className='p-4 rounded-full bg-[#D5AD45] inline-block'>
                   <img
                     src={service.icon}
                     alt={service.title}
@@ -67,12 +67,12 @@ function ServicesSection() {
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <PrimaryButton
-                  title={"READ MORE"}
-                  link={"/"}
+                  title={'READ MORE'}
+                  link={'/'}
                   style={
-                    "flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary !text-primary rounded-lg bg-transparent  md:text-lg md:px-8  "
+                    'flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary !text-primary rounded-lg bg-transparent  md:text-lg md:px-8  '
                   }
-                  radius={"sm"}
+                  radius={'sm'}
                 />
               </div>
             ))}

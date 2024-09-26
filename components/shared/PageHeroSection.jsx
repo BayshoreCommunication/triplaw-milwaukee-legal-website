@@ -3,19 +3,24 @@ import SectionLayout from '../shared/SectionLayout';
 import Link from 'next/link';
 import CardMotion from '../motion/CardMotion';
 import Image from 'next/image';
+import { Playfair_Display } from 'next/font/google';
+
+const playfair = Playfair_Display({ subsets: ['latin'] });
 
 const PageHeroSection = ({ image, title }) => {
   return (
     <>
-      <div className='relative w-full h-full bg-black bg-opacity-85 mt-[70px]'>
+      <div className='relative w-full bg-black bg-opacity-85'>
         <Image
-          src={`${image}`}
+          src={'/assets/hero-img/hero-bg.jpg'}
           alt={title}
           layout='fill'
           objectFit='cover'
+          objectPosition='top center'
           className='z-0'
           priority
         />
+
         <CardMotion
           whileInView={{
             opacity: 1,
@@ -30,20 +35,22 @@ const PageHeroSection = ({ image, title }) => {
           }}
         >
           <SectionLayout>
-            <div className='relative py-20 gap-10 items-center md:flex z-10'>
-              <h1 className={`text-white font-bold text-4xl text-center`}>
+            <div className='relative z-10 gap-10 py-20 mt-[50px]'>
+              <h1
+                className={`text-white font-bold text-5xl text-center mb-6 ${playfair.className}`}
+              >
                 {title}
               </h1>
 
               <nav
-                className='flex justify-center mt-8 md:mt-1 items-center'
+                className='flex items-center justify-center mt-8 md:mt-1'
                 aria-label='Breadcrumb'
               >
                 <ol className='inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse'>
                   <li className='inline-flex items-center'>
                     <Link
                       href='/'
-                      className='inline-flex items-center text-sm font-medium text-stone-200 hover:text-red-700'
+                      className='inline-flex items-center text-lg font-medium text-stone-200 hover:text-primary'
                     >
                       Home
                     </Link>
@@ -51,7 +58,7 @@ const PageHeroSection = ({ image, title }) => {
                   <li>
                     <div className='flex items-center'>
                       <svg
-                        className='rtl:rotate-180 w-3 h-3 text-stone-50 mx-1'
+                        className='w-3 h-3 mx-1 rtl:rotate-180 text-stone-50'
                         aria-hidden='true'
                         xmlns='http://www.w3.org/2000/svg'
                         fill='none'
@@ -68,7 +75,7 @@ const PageHeroSection = ({ image, title }) => {
 
                       <Link
                         href='#'
-                        className='ms-1 text-sm font-medium text-white md:ms-2'
+                        className='text-lg font-medium text-primary ms-1 md:ms-2'
                       >
                         {title}
                       </Link>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { servicesData } from '@/config/data';
 import parse from 'html-react-parser';
 import { Link } from '@nextui-org/react';
 import SectionLayout from '@/components/shared/SectionLayout';
@@ -7,6 +6,8 @@ import SideServicesCard from '@/components/services/SideServicesCard';
 import PageHeroSection from '@/components/shared/PageHeroSection';
 import CardMotion from '@/components/motion/CardMotion';
 import Head from 'next/head';
+import { allServiceData } from '@/config/serviceData';
+import { IoIosArrowForward } from 'react-icons/io';
 
 const css = `
   h1{
@@ -43,7 +44,7 @@ nav{
 `;
 
 const page = async ({ params }) => {
-  const servicesDetails = servicesData?.filter(
+  const servicesDetails = allServiceData?.personal_injury_law?.filter(
     (service) => service.slug === params.slug,
   );
 
@@ -56,7 +57,7 @@ const page = async ({ params }) => {
       </Head>
       <style>{css}</style>
       <PageHeroSection
-        image={'/assets/services/hero-banner.png'}
+        image={'/assets/hero-img/hero-bg.jpg'}
         title={'Services'}
       />
       <SectionLayout bg='bg-white'>
@@ -79,19 +80,31 @@ const page = async ({ params }) => {
 
           <hr className='w-full h-[1px] mx-auto my-8 bg-[#1B2639] border-0 rounded md:my-5' />
 
-          <div className='grid gap-12 mb-10 gird-col-1 sm:grid-cols-3'>
+          <div className='grid items-start gap-12 mb-10 gird-col-1 sm:grid-cols-3'>
             {servicesDetails?.map((services, index) => (
               <div className='col-span-2'>
-                <div className='mt-5 text-base'>{parse(services?.dece)}</div>
+                {/* <div className='mt-5 text-base'>{parse(services?.dece)}</div> */}
+                <div className='mt-5 text-base'>
+                  {/* {servicesDetails[0]?.description} */}
+                </div>
               </div>
             ))}
 
-            <div className='col-span-2 sm:col-span-1 h-[100%] md:h-[1600px] overflow-y-scroll overflow-x-hidden hidden md:block'>
-              {servicesData?.map((el, index) => (
-                <Link href={`/services/${el?.slug}`} key={index}>
-                  <SideServicesCard serversData={el} />
-                </Link>
-              ))}
+            <div className='h-[100%] md:h-[1600px] overflow-y-scroll overflow-x-hidden hidden md:block w-full bg-black p-5'>
+              <ul className='list-none'>
+                {allServiceData?.personal_injury_law?.map((el, index) => (
+                  // <Link href={`/services/${el?.slug}`} key={index}>
+                  //   <SideServicesCard serversData={el} />
+                  // </Link>
+                  <li
+                    key={el?.title}
+                    className='flex justify-between py-5 text-xl font-normal text-white border-gray-600 border-b-1'
+                  >
+                    <p>{el?.title}</p>
+                    <IoIosArrowForward className='size-6' />
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </CardMotion>

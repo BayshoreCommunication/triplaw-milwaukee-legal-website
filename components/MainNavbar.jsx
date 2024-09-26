@@ -49,7 +49,7 @@ const MainNavbar = () => {
 
   return (
     <section
-      className={`fixed top-0 left-0 right-0 py-4 z-50 ${navbarColor || pathname !== '/' ? '!bg-black shadow-small duration-1000' : 'bg-transparent'}`}
+      className={`fixed top-0 left-0 right-0 py-4 z-50 ${navbarColor ? '!bg-black shadow-small duration-1000' : 'bg-transparent'}`}
     >
       <div className='container hidden md:block'>
         <div className='flex items-center justify-between'>

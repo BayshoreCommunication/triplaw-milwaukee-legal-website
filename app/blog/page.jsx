@@ -6,7 +6,6 @@ import SectionLayout from '@/components/shared/SectionLayout';
 import parse from 'html-react-parser';
 import { Link } from '@nextui-org/react';
 import HeroSection from '@/components/blog/HeroSection';
-import ScondayButton from '@/components/shared/ScondayButton';
 import CardMotion from '@/components/motion/CardMotion';
 import Head from 'next/head';
 
