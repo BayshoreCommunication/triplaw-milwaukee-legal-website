@@ -8,6 +8,7 @@ import Link from 'next/link';
 import CardMotion from '../motion/CardMotion';
 import ServiceTabContent from './ServiceTabContent';
 
+
 const playfair = Playfair_Display({ subsets: ['latin'] });
 
 const ServiceTabSection = () => {

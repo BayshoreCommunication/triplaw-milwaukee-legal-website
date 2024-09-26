@@ -102,12 +102,12 @@ const page = async ({ params }) => {
               </div>
             ))}
 
-            <div className='col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden '>
+            <div className='col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden bg-black p-3'>
               {blogPostData?.data
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (
                   <Link
-                    className='flex items-center gap-6 mb-4 '
+                    className='flex items-start gap-6 py-4 border-gray-600 border-b-1'
                     key={index}
                     href={`/blog/${blogs?.slug}`}
                   >
@@ -116,24 +116,12 @@ const page = async ({ params }) => {
                       height={180}
                       src={blogs?.featuredImage?.image?.url}
                       alt={blogs?.featuredImage?.altText}
-                      className='bg-center bg-cover'
+                      className='w-[100px] h-auto bg-center bg-cover'
                     />
                     <div>
-                      <div className='text-[0.8rem] md:text-[.8rem] text-black text-left italic mt-0'>
-                        {postDate(blogs?.createdAt)}
-                      </div>
-                      <div className='text-md font-bold text-[#1B2639] text-left line-clamp-2'>
+                      <div className='text-md font-bold text-[#ffffff] text-left line-clamp-2'>
                         {blogs?.title}
                       </div>
-                      <div className='font-normal text-[.8rem] text-black mb-2 md:mb-4 line-clamp-1 h-6'>
-                        {parse(blogs?.body)}
-                      </div>
-                      <button
-                        type='button'
-                        class='text-white bg-[#1B2639] hover:bg-[#162030] font-medium text-sm md:text-lg px-3 py-1.5 me-2 focus:outline-none rounded-md'
-                      >
-                        Read More
-                      </button>
                     </div>
                   </Link>
                 ))}

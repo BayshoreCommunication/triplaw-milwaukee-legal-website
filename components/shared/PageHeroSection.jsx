@@ -7,7 +7,7 @@ import { Playfair_Display } from 'next/font/google';
 
 const playfair = Playfair_Display({ subsets: ['latin'] });
 
-const PageHeroSection = ({ image, title }) => {
+const PageHeroSection = ({ title, subTitle }) => {
   return (
     <>
       <div className='relative w-full bg-black bg-opacity-85'>
@@ -77,7 +77,7 @@ const PageHeroSection = ({ image, title }) => {
                         href='#'
                         className='text-lg font-medium text-primary ms-1 md:ms-2'
                       >
-                        {title}
+                        {subTitle}
                       </Link>
                     </div>
                   </li>
