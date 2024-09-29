@@ -1,6 +1,10 @@
 import AboutSection from "@/components/about-us/AboutSection";
 import HeroSection from "@/components/about-us/HeroSection";
 import TestimonialSection from "@/components/about-us/TestimonialSection";
+import VideoSection from "@/components/about-us/VideoSection";
+import WhoWeAre from "@/components/about-us/WhoWeAre";
+import CallToAction from "@/components/shared/CallToAction";
+import Clients from "@/components/shared/Clients";
 import FAQ from "@/components/shared/FAQ";
 import Head from "next/head";
 
@@ -17,8 +21,10 @@ const page = () => {
       </Head>
       <HeroSection />
       <AboutSection />
-      <FAQ />
-      {/* <TestimonialSection /> */}
+      <VideoSection />
+      <Clients />
+      <WhoWeAre />
+      <CallToAction />
     </>
   );
 };

@@ -47,9 +47,9 @@ const Clients = () => {
   ];
 
   return (
-    <SectionLayout bg="bg-white px-8">
-      <Marquee pauseOnHover={true} speed={80}>
-        <div className="flex  justify-between items-center gap-8">
+    <div className="bg-white px-8 my-16">
+      <Marquee pauseOnHover={true} speed={80} gradient={true}>
+        <div className="flex  justify-between items-center gap-x-12">
           {clientsData.map((client, index) => (
             <img
               key={index}
@@ -62,7 +62,7 @@ const Clients = () => {
           ))}
         </div>
       </Marquee>
-    </SectionLayout>
+    </div>
   );
 };
 

@@ -1,104 +1,68 @@
 import React from "react";
 import SectionLayout from "../shared/SectionLayout";
-import { Bitter } from "next/font/google";
+
 import { allServiceData } from "@/config/serviceData";
 import PrimaryButton from "../shared/PrimaryButton";
+import { Playfair_Display } from "next/font/google";
+import ServiceCard from "../services/ServiceCard";
+import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
-const bitter = Bitter({ subsets: ["latin"] });
+const playfair = Playfair_Display({ subsets: ["latin"] });
 
 function ServicesSection() {
   return (
-    <div className="">
+    <div className="bg-[#F6F6F6]">
       <SectionLayout>
-        <div className='w-full lg:max-w-[60%] mx-auto'>
-          <h2
-            className={`text-stone-950 font-bold text-3xl md:text-5xl mt-5 mb-4 text-center ${bitter.className}`}
-          >
-            Our Services
-          </h2>
+        <div className="w-full lg:max-w-[60%] mx-auto">
+          <ScrollMotionEffect effect="fade-right" duration="2000">
+            <h2
+              className={`text-stone-950 font-bold text-3xl md:text-5xl mb-4 text-center ${playfair.className}`}
+            >
+              Our Services
+            </h2>
+          </ScrollMotionEffect>
 
-<<<<<<< HEAD
-          <p className='mb-4 text-lg text-center text-stone-950 '>
-=======
-          <p className="mb-4 text-lg text-center text-stone-950 ">
->>>>>>> e4513f85d671e58f7953cf897395504cc9faa647
-            Are you married to a USAn the United States? Obtaining a green card
-            through marriage can be a complex and emotionally charged process.
-            We understand the challenges you face and are dedicated to providing
-            comprehensive legal guidance throughout your journey.
-          </p>
+          <ScrollMotionEffect effect="fade-left" duration="2000">
+            <p className="mb-4 text-sm text-center md:text-lg text-stone-950 ">
+              {`Are you married to a USAn the United States? Obtaining a green card through marriage can be a complex and emotionally charged process. We understand the challenges you face and are dedicated to providing comprehensive legal guidance throughout your journey.`}
+            </p>
+          </ScrollMotionEffect>
         </div>
 
-        <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {allServiceData.personal_injury_law
               .slice(0, 3)
               .map((service, index) => (
-<<<<<<< HEAD
-                <div key={index} className='text-center'>
-                  <div className='p-4 rounded-full bg-[#D5AD45] inline-block mx-auto'>
-=======
-                <div key={index} className="text-center">
-                  <div className="p-4 rounded-full bg-[#D5AD45] inline-block mx-auto">
->>>>>>> e4513f85d671e58f7953cf897395504cc9faa647
-                    <img
-                      src={service.icon}
-                      alt={service.title}
-                      width={40}
-                      height={40}
-                    />
-                  </div>
-                  <h3>{service.title}</h3>
-                  <p>{service.description}</p>
-                  <div className='inline-block mx-auto'>
-                    <PrimaryButton
-                      title={'READ MORE'}
-                      link={'/'}
-                      style={
-                        'flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary text-primary rounded-lg bg-transparent  md:text-lg md:px-8  '
-                      }
-                      radius={'sm'}
-                      icon_style={'text-primary'}
-                    />
-                  </div>
-                </div>
+                <ScrollMotionEffect
+                  key={index}
+                  effect="fade-up"
+                  duration="2000"
+                >
+                  <ServiceCard serversData={service} index={index} />
+                </ScrollMotionEffect>
               ))}
           </div>
-<<<<<<< HEAD
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+          <div className="grid grid-cols-1 gap-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
             {allServiceData.criminal_law.slice(0, 3).map((service, index) => (
-              <div key={index} className='text-center'>
-                <div className='p-4 rounded-full bg-[#D5AD45] inline-block mx-auto'>
-=======
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            {allServiceData.criminal_law.slice(0, 3).map((service, index) => (
-              <div key={index} className="text-center">
-                <div className="p-4 rounded-full bg-[#D5AD45] inline-block mx-auto">
->>>>>>> e4513f85d671e58f7953cf897395504cc9faa647
-                  <img
-                    src={service.icon}
-                    alt={service.title}
-                    width={40}
-                    height={40}
-                  />
-                </div>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <div className='inline-block mx-auto'>
-                  <PrimaryButton
-                    title={"READ MORE"}
-                    link={"/"}
-                    style={
-                      "flex items-center justify-center px-2 py-2  text-sm font-medium border border-primary text-primary rounded-lg bg-transparent  md:text-lg md:px-8  "
-                    }
-                    radius={"sm"}
-                    icon_style={"text-primary"}
-                  />
-                </div>
-              </div>
+              <ScrollMotionEffect key={index} effect="fade-up" duration="2000">
+                <ServiceCard serversData={service} index={""} />
+              </ScrollMotionEffect>
             ))}
           </div>
         </div>
+        <ScrollMotionEffect effect="fade-up" duration="2000">
+          <div className="flex justify-center items-center mt-10">
+            <PrimaryButton
+              title={"View All"}
+              link={"/case"}
+              style={
+                "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary w-56"
+              }
+              radius={"sm"}
+            />
+          </div>
+        </ScrollMotionEffect>
       </SectionLayout>
     </div>
   );
