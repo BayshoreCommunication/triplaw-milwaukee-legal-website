@@ -22,7 +22,7 @@ const variants = {
   },
 };
 
-const SideServicesCard = ({ serversData }) => {
+const CaseStudiesSidebar = ({ CaseStudiesData }) => {
   const pathname = usePathname();
 
   return (
@@ -31,24 +31,20 @@ const SideServicesCard = ({ serversData }) => {
       whileHover={{ scale: 0.99 }}
       whileTap={{ scale: 0.95 }}
       href="#"
-      className={``}
+      className={`border-b-1 border-gray-500`}
     >
-      <div className="flex items-start w-full py-4 gap-x-3">
-        <Image
-          src="/assets/image.jpg"
-          alt="tick-box"
-          className="w-[80px] h-auto"
-          width={200}
-          height={100}
-        />
-        <p
-          className={`text-lg tracking-wide line-clamp-2  mt-[-10px]  ${pathname === "/services/" + serversData?.slug ? "text-primary" : "text-white"}`}
+      <div className="flex justify-between items-center w-full py-4">
+        {/* <h5
+          className={`mb-2 text-xl font-bold tracking-wide   ${pathname === "/case-studies/" ? "text-primary" : "text-white"}`}
         >
-          Davis v. Thompson Logistics – Auto Accident Injury Claim
-        </p>
+          This is demo tiel
+        </h5> */}
+        <MdKeyboardArrowRight
+          className={`size-6 ${pathname === "/case-studies/" + "serversData?.slug " ? "text-primary" : "text-white"}`}
+        />
       </div>
     </motion.div>
   );
 };
 
-export default SideServicesCard;
+export default CaseStudiesSidebar;

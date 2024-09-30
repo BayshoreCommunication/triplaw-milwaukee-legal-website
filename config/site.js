@@ -18,46 +18,46 @@ export const SITECONFIG = {
       "With attorneys based in Florida, USA, our team has substantial experience in all areas of family and business immigration law. With a combined experience of 10 years, Trip Law is providing value-added immigration law services all over the United States.",
     company: [
       {
-        title: "Privacy Policy",
-        slug: "/privacy-policy",
-      },
-      {
-        title: "Disclaimers and Terms of Use",
-        slug: "/disclaimers-and-terms-of-use",
-      },
-      {
-        title: "Angel Investor",
-        slug: "/angel-investor",
-      },
-      {
-        title: "Terms of Service",
-        slug: "/terms-of-service",
-      },
-      {
-        title: "Legal Information",
-        slug: "/leagal-information",
-      },
-    ],
-    quick_links: [
-      {
-        title: "Home",
-        slug: "/",
+        title: "About us",
+        slug: "/about",
       },
       {
         title: "Services",
         slug: "/services",
       },
       {
-        title: "About Us",
-        slug: "/about",
+        title: "Recent Casesr",
+        slug: "/case-studies",
       },
       {
-        title: "News",
+        title: "Blog",
         slug: "/blog",
       },
       {
-        title: "Contact Us",
+        title: "Podcasts",
+        slug: "/https://podcasters.spotify.com/pod/show/theimmigrationzone",
+      },
+      {
+        title: "Contact us",
         slug: "/contact",
+      },
+    ],
+    quick_links: [
+      {
+        title: "Disclaimer",
+        slug: "/disclaimers-and-terms-of-use",
+      },
+      {
+        title: "Privacy Policy",
+        slug: "/privacy-policy",
+      },
+      {
+        title: "Terms Of Service",
+        slug: "/terms-of-service",
+      },
+      {
+        title: "Cookie Policy",
+        slug: "/legal-information",
       },
     ],
     contact_us: [

@@ -38,14 +38,14 @@ const playfair = Playfair_Display({ subsets: ["latin"] });
 const CaseStudies = () => {
   const [activeItem, setActiveItem] = useState(1);
   return (
-    <div className="mt-5">
+    <div className="">
       <SectionLayout>
         <h2
-          className={`text-stone-950 font-bold text-3xl md:text-5xl mt-5 text-center mb-10 ${playfair.className}`}
+          className={`text-stone-950 font-bold text-3xl md:text-5xl text-center ${playfair.className}`}
         >
-          Legal Solutions for Better World
+          Recent Cases
         </h2>
-        <div className="grid items-center justify-between mb-20 md:grid-cols-3 gap-x-10 gap-y-32">
+        <div className="grid items-center justify-between md:grid-cols-3 gap-x-10 gap-y-32 mt-8 md:mt-16">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9]?.map((el, index) => (
             <CaseStudiesCard key={index} caseData={el} index={index} />
           ))}

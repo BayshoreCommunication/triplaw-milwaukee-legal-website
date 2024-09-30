@@ -17,29 +17,30 @@ const AboutSection = () => {
   return (
     <div className="mt-5">
       <SectionLayout>
-        <div className=" flex items-start md:flex-row flex-col">
-          <div className="flex-1">
-            <Image
-              src="/assets/about/triplaw.png"
-              alt="hardam tripathi"
-              width={1000}
-              height={600}
-              className="w-[500px] h-auto mx-auto"
-            />
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+          <ScrollMotionEffect effect="fade-right" duration="2000">
+            <div className="flex-1">
+              <Image
+                src="/assets/about/triplaw.png"
+                alt="hardam tripathi"
+                width={1000}
+                height={600}
+                className="w-[500px] h-auto mx-auto"
+              />
+            </div>
+          </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <div className="flex-1">
               <h2
-                className={`text-stone-950 font-bold text-3xl md:text-4xl mt-5 mb-2 text-start ${playfair.className}`}
+                className={`text-stone-950 font-bold text-3xl md:text-4xl mt-5 mb-2 text-center md:text-left ${playfair.className}`}
               >
                 Hardam Tripathi, Esq.
               </h2>
 
-              <h4 className="text-lg md:text-xl mb-4">
+              <h4 className="text-lg md:text-xl mb-4 text-center md:text-left">
                 Your Personal Injury & Criminal Attorney
               </h4>
-              <p className="mb-2">
+              <p className="mb-2 text-center md:text-left">
                 {`   USA Immigration Attorney Hardam Tripathi is a USA Immigration
                 and Nationality Law Attorney specializing in Business & Investor
                 Based Immigration, specifically in Treaty Based Investor Visas
@@ -52,7 +53,7 @@ const AboutSection = () => {
                 adjustment of status, citizenship/naturalization, and visa &
                 green card services.`}
               </p>
-              <p className="mb-2">
+              <p className="mb-2 text-center md:text-left">
                 {`Prior to launching his own law firm, Tripathi served as a management consultant with a Big Four firm, representing clients in matters related to strategic risk intelligence & risk management consulting in the government and public services space. Tripathi has also worked for various other small to mid-size firms in Florida, providing regulatory and policy advice to aid clients effectively navigate Federal and state government programs. Tripathi’s legal education and professional experience with stints at Federal agencies and state government, has served as a catalyst to aid clients understand the regulations, policies, and procedures related to their immigration needs. His knowledge in prior policy application and statutory interpretation, contributes to positive outcomes for clients.`}
               </p>
             </div>

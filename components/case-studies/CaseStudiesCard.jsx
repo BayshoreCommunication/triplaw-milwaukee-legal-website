@@ -8,7 +8,7 @@ const CaseStudiesCard = ({ caseData, index }) => {
   const [activeItem, setActiveItem] = useState(1);
   return (
     <Link
-      href={`/case-studies/${"test"}`}
+      href={`/case-studies/${"testpage"}`}
       key={index}
       className="cursor-pointer"
     >

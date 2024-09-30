@@ -1,11 +1,14 @@
-import Image from 'next/image';
-import GetAllPostData from '@/lib/GetAllPostData';
-import parse from 'html-react-parser';
-import SectionLayout from '@/components/shared/SectionLayout';
-import HeroSection from '@/components/blog/HeroSection';
-import CardMotion from '@/components/motion/CardMotion';
-import Head from 'next/head';
-import Link from 'next/link';
+import Image from "next/image";
+import GetAllPostData from "@/lib/GetAllPostData";
+import parse from "html-react-parser";
+import SectionLayout from "@/components/shared/SectionLayout";
+import HeroSection from "@/components/blog/HeroSection";
+import CardMotion from "@/components/motion/CardMotion";
+import Head from "next/head";
+import Link from "next/link";
+import { Playfair_Display } from "next/font/google";
+
+const playfair = Playfair_Display({ subsets: ["latin"] });
 
 const css = `
  h1, h2, p, br, nav {
@@ -43,14 +46,14 @@ const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.filter(
-    (blogs) => blogs.slug === params.slug,
+    (blogs) => blogs.slug === params.slug
   );
 
   const postDate = (date) => {
-    const formattedDate = new Date(date).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
+    const formattedDate = new Date(date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
     return formattedDate;
   };
@@ -59,12 +62,12 @@ const page = async ({ params }) => {
     <>
       <Head>
         <title>{blogDetails[0]?.title}</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta name='description' content={blogDetails[0]?.title} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={blogDetails[0]?.title} />
       </Head>
       <style>{css}</style>
       <HeroSection />
-      <SectionLayout bg='bg-white'>
+      <SectionLayout bg="bg-white">
         <CardMotion
           whileInView={{
             opacity: 1,
@@ -78,36 +81,43 @@ const page = async ({ params }) => {
             y: 100,
           }}
         >
-          <h2 className='mb-0 md:mb-4 text-xl md:text-3xl font-bold tracking-normal text-left text-[#1B2639]'>
-            {blogDetails[0]?.title}
-          </h2>
-
-          <hr className='w-full h-[1px] mx-auto mt-0 mb-6 bg-[#1B2639] border-0 rounded ' />
-
-          <div className='grid gap-12 mb-10 gird-col-1 sm:grid-cols-3'>
+          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3">
             {blogDetails?.map((blogs, index) => (
-              <div className='col-span-2'>
+              <div className="col-span-2">
+                <div className="flex items-center justify-between">
+                  <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
+                    {blogs?.author}
+                  </p>
+                  <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
+                    {postDate(blogs?.createdAt)}
+                  </p>
+                </div>
+                <h2
+                  className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639] ${playfair.className}`}
+                >
+                  {blogs?.title}
+                </h2>
                 <Image
                   width={1000}
                   height={300}
                   src={blogs?.featuredImage?.image?.url}
                   alt={blogs?.featuredImage?.altText}
-                  className='w-full h-auto bg-center bg-cover'
+                  className="w-full h-auto bg-center bg-cover"
                 />
 
-                <p className='text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 '>
-                  {postDate(blogs?.createdAt)}
-                </p>
-                <div className='mt-2 text-md'>{parse(blogs?.body)}</div>
+                <div className="mt-2 text-md">{parse(blogs?.body)}</div>
               </div>
             ))}
 
-            <div className='col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden bg-black p-3'>
+            <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden bg-black p-3">
+              <h2 className="font-medium text-4xl text-white border-b-2 border-white pb-4 mb-6">
+                Our Latest News
+              </h2>
               {blogPostData?.data
                 ?.filter((pub, no) => pub.published === true)
                 ?.map((blogs, index) => (
                   <Link
-                    className='flex items-start gap-6 py-4 border-gray-600 border-b-1'
+                    className="flex items-start gap-6 py-4 border-gray-600 border-b-1"
                     key={index}
                     href={`/blog/${blogs?.slug}`}
                   >
@@ -116,10 +126,10 @@ const page = async ({ params }) => {
                       height={180}
                       src={blogs?.featuredImage?.image?.url}
                       alt={blogs?.featuredImage?.altText}
-                      className='w-[100px] h-auto bg-center bg-cover'
+                      className="w-[100px] h-auto bg-center bg-cover"
                     />
                     <div>
-                      <div className='text-md font-bold text-[#ffffff] text-left line-clamp-2'>
+                      <div className="text-md font-bold text-[#ffffff] text-left line-clamp-2">
                         {blogs?.title}
                       </div>
                     </div>
