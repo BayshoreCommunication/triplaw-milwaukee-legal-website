@@ -19,28 +19,34 @@ const ClientTestimonials = () => {
       <ScrollMotionEffect effect="fade-up" duration="2000">
         <SectionLayout>
           <h2
-            className={`text-stone-950 font-bold text-3xl md:text-5xl mb-8 text-center ${playfair.className}`}
+            className={`text-stone-950 font-bold text-3xl md:text-5xl mb-12 text-center ${playfair.className}`}
           >
             Our Client Testimonials
           </h2>
-          <div className="mx-16">
+          <div className="mx-0 md:mx-16">
             <Swiper
-              slidesPerView={2}
-              spaceBetween={30}
+              pagination={{
+                dynamicBullets: true,
+              }}
+              modules={Pagination}
               pagination={{
                 clickable: true,
               }}
-              modules={Pagination} // Enable Pagination module
               className="flex"
               breakpoints={{
                 640: {
-                  slidesPerView: 1,
+                  slidesPerView: 1, // Mobile
+                  spaceBetween: 10,
                 },
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 1, // Tablet
+                  spaceBetween: 10,
+                },
+                1024: {
+                  slidesPerView: 2, // Desktop
+                  spaceBetween: 40,
                 },
               }}
-              className="flex"
             >
               {[1, 2, 3, 4, 5, 6, 7, 8]?.map((el, index) => (
                 <SwiperSlide key={index}>
@@ -48,7 +54,7 @@ const ClientTestimonials = () => {
                     <div className="flex items-start gap-x-3">
                       <hr className="w-px  bg-primary border-primary border-1 h-[120px]" />
                       <div className="">
-                        <h3 className="font-normal text-xl text-black">
+                        <h3 className="font-normal text-md md:text-xl text-black">
                           Have the third divide foreign bring give void rise
                           you'll grass ton fowl fourth-morning gathering main
                           also an evening where intro the yielding spirit called
@@ -66,17 +72,19 @@ const ClientTestimonials = () => {
                           alt="experienced-icon"
                           width={95}
                           height={95}
-                          className="rounded-full size-20"
+                          className="rounded-full size-14 md:size-20"
                         />
                         <div className="">
-                          <h3 className="font-semibold text-2xl text-black">
+                          <h3 className="font-semibold text-lg md:text-2xl text-black">
                             Jack Bailey
                           </h3>
-                          <p className="text-black ">Senior Lawyer</p>
+                          <p className="text-black text-sm md:text-lg">
+                            Senior Lawyer
+                          </p>
                         </div>
                       </div>
-                      <div className="bg-primary p-5 rounded-full">
-                        <RiDoubleQuotesR className="size-6 text-white" />
+                      <div className="bg-primary p-3 md:p-4 rounded-full">
+                        <RiDoubleQuotesR className="size-5 md:size-6 text-white" />
                       </div>
                     </div>
                   </div>

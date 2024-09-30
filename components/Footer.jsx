@@ -100,7 +100,7 @@ const Footer = () => {
               </div>
               <div className="">
                 <h2 className="text-[22px] font-semibold text-black">
-                  Company
+                  Quick Links
                 </h2>
                 <hr className="mt-2 mb-6 w-28 border-primary" />
                 <ul className="ml-0 text-black list-none text-[18px] font-medium">
@@ -115,7 +115,7 @@ const Footer = () => {
               </div>
               <div className="">
                 <h2 className="text-[22px] font-semibold text-black">
-                  Quick Links
+                  Legal Areas
                 </h2>
                 <hr className="w-32 mt-2 mb-6 border-primary" />
                 <ul className="ml-0 text-[18px] font-medium text-black list-none">
@@ -130,7 +130,7 @@ const Footer = () => {
               </div>
               <div className="">
                 <h2 className="font-semibold text-black text-[22px]">
-                  Contact
+                  Contact us
                 </h2>
                 <hr className="w-24 mt-2 mb-6 border-primary" />
                 <ul className="ml-0 text-[18px] font-medium text-black list-none">
@@ -143,7 +143,7 @@ const Footer = () => {
                       </h3>
                     </div>
                     <p className="mt-2 ml-1">
-                      231 N. Kentucky Ave. Ste. 213, Lakeland, Florida 33801
+                      {` 231 N. Kentucky Ave. Ste. 213, Lakeland, Florida 33801`}
                     </p>
                   </li>
                   <li className="mb-4">

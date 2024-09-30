@@ -15,6 +15,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import PrimaryButton from "../shared/PrimaryButton";
 import CaseStudiesCard from "./CaseStudiesCard";
+import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const variants = {
   open: {
@@ -38,16 +39,21 @@ const playfair = Playfair_Display({ subsets: ["latin"] });
 const CaseStudies = () => {
   const [activeItem, setActiveItem] = useState(1);
   return (
-    <div className="">
+    <div className="mb-14">
       <SectionLayout>
-        <h2
-          className={`text-stone-950 font-bold text-3xl md:text-5xl text-center ${playfair.className}`}
-        >
-          Recent Cases
-        </h2>
+        <ScrollMotionEffect effect="fade-up" duration="2000">
+          <h2
+            className={`text-stone-950 font-bold text-3xl md:text-5xl text-center ${playfair.className}`}
+          >
+            Recent Cases
+          </h2>
+        </ScrollMotionEffect>
+
         <div className="grid items-center justify-between md:grid-cols-3 gap-x-10 gap-y-32 mt-8 md:mt-16">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9]?.map((el, index) => (
-            <CaseStudiesCard key={index} caseData={el} index={index} />
+            <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
+              <CaseStudiesCard caseData={el} index={index} />
+            </ScrollMotionEffect>
           ))}
         </div>
       </SectionLayout>

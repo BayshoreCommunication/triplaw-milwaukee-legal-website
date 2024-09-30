@@ -35,7 +35,9 @@ const RecentCases = () => {
         </div>
         <div className="grid items-center justify-between mb-20 md:grid-cols-3 gap-x-10 gap-y-32 mt-14">
           {[1, 2, 3, 4, 5, 6]?.map((el, index) => (
-            <CaseStudiesCard key={index} caseData={el} index={index} />
+            <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
+              <CaseStudiesCard key={index} caseData={el} index={index} />
+            </ScrollMotionEffect>
           ))}
         </div>
       </SectionLayout>
