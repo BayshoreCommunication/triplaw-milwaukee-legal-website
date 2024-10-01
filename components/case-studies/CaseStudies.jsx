@@ -49,7 +49,7 @@ const CaseStudies = () => {
           </h2>
         </ScrollMotionEffect>
 
-        <div className="grid items-center justify-between md:grid-cols-3 gap-x-10 gap-y-32 mt-8 md:mt-16">
+        <div className="grid items-center justify-between md:grid-cols-3 gap-x-10  gap-y-8 md:gap-y-32 mt-8 md:mt-16">
           {[1, 2, 3, 4, 5, 6, 7, 8, 9]?.map((el, index) => (
             <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
               <CaseStudiesCard caseData={el} index={index} />

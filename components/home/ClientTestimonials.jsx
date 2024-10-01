@@ -19,7 +19,7 @@ const ClientTestimonials = () => {
       <ScrollMotionEffect effect="fade-up" duration="2000">
         <SectionLayout>
           <h2
-            className={`text-stone-950 font-bold text-3xl md:text-5xl mb-12 text-center ${playfair.className}`}
+            className={`text-stone-950 font-bold text-3xl md:text-5xl mb-5 md:mb-12 text-center ${playfair.className}`}
           >
             Our Client Testimonials
           </h2>

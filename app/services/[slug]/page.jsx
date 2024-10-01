@@ -62,10 +62,7 @@ const page = async ({ params }) => {
         <meta name="description" content="" />
       </Head>
       <style>{css}</style>
-      <PageHeroSection
-        image={"/assets/hero-img/hero-bg.jpg"}
-        title={"Services"}
-      />
+      <PageHeroSection subTitle={"Services"} title={"Services"} />
       <SectionLayout>
         <div className="grid items-start gap-12 mb-10 gird-col-1 sm:grid-cols-3">
           <div className="col-span-2">

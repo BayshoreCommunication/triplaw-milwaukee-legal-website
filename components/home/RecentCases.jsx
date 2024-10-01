@@ -14,26 +14,28 @@ const RecentCases = () => {
   return (
     <div>
       <SectionLayout>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-center md:justify-between">
           <ScrollMotionEffect effect="fade-right" duration="2000">
             <h2
-              className={`text-stone-950 font-bold text-3xl md:text-5xl mb-4 text-center  ${playfair.className}`}
+              className={`text-stone-950 font-bold text-3xl md:text-5xl mb-0 md:mb-4 text-center md:text-left  ${playfair.className}`}
             >
               Recent Cases
             </h2>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-left" duration="2000">
-            <PrimaryButton
-              title={"View All"}
-              link={"/case"}
-              style={
-                "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary"
-              }
-              radius={"sm"}
-            />
+            <div className="hidden md:block">
+              <PrimaryButton
+                title={"View All"}
+                link={"/case"}
+                style={
+                  "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary"
+                }
+                radius={"sm"}
+              />
+            </div>
           </ScrollMotionEffect>
         </div>
-        <div className="grid items-center justify-between mb-20 md:grid-cols-3 gap-x-10 gap-y-32 mt-14">
+        <div className="grid items-center justify-between mb-8 md:mb-20 md:grid-cols-3 gap-x-10 gap-y-8 md:gap-y-32 mt-8 md:mt-14">
           {[1, 2, 3, 4, 5, 6]?.map((el, index) => (
             <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
               <CaseStudiesCard key={index} caseData={el} index={index} />

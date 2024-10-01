@@ -28,7 +28,7 @@ const RecentBlogs = async () => {
   return (
     <div className="mb-6">
       <SectionLayout>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-center md:justify-between">
           <ScrollMotionEffect effect="fade-right" duration="2000">
             <h2
               className={`text-stone-950 font-bold text-3xl md:text-5xl mb-4 text-center  ${playfair.className}`}
@@ -37,18 +37,20 @@ const RecentBlogs = async () => {
             </h2>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-left" duration="2000">
-            <PrimaryButton
-              title={"View All"}
-              link={"/case"}
-              style={
-                "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary"
-              }
-              radius={"sm"}
-            />
+            <div className="hidden md:block">
+              <PrimaryButton
+                title={"View All"}
+                link={"/case"}
+                style={
+                  "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary "
+                }
+                radius={"sm"}
+              />
+            </div>
           </ScrollMotionEffect>
         </div>
 
-        <div className="grid items-stretch justify-between grid-cols-1 md:grid-cols-3  gap-6 mt-10">
+        <div className="grid items-stretch justify-between grid-cols-1 md:grid-cols-3  gap-6 mt-4 md:mt-10">
           {blogPostData?.data
             ?.filter((pub, no) => pub.published === true && no <= 2)
             ?.map((blogs, index) => (
@@ -103,6 +105,18 @@ const RecentBlogs = async () => {
               </ScrollMotionEffect>
             ))}
         </div>
+        <ScrollMotionEffect effect="fade-left" duration="2000">
+          <div className="flex justify-center mt-10 md:hidden">
+            <PrimaryButton
+              title={"View All"}
+              link={"/case"}
+              style={
+                "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary"
+              }
+              radius={"sm"}
+            />
+          </div>
+        </ScrollMotionEffect>
       </SectionLayout>
     </div>
   );

@@ -34,14 +34,14 @@ const WhyChooseUs = () => {
     <SectionLayout bg="bg-white lg:py-8">
       <ScrollMotionEffect effect="fade-up" duration="2000">
         <h2
-          className={`text-stone-950 font-bold text-3xl md:text-5xl mb-8 text-center ${playfair.className}`}
+          className={`text-stone-950 font-bold text-3xl md:text-5xl mb-0 md:mb-8 text-center ${playfair.className}`}
         >
           Why Choose Us
         </h2>
       </ScrollMotionEffect>
 
       <ScrollMotionEffect effect="fade-up" duration="2000">
-        <div className="flex flex-col xl:flex-row items-center justify-center gap-12 mt-3 lg:mt-12">
+        <div className="flex flex-col xl:flex-row items-center justify-center gap-12 mt-0 lg:mt-12">
           <div className="order-1 xl:order-2">
             <Image
               src="/assets/home/scale.png"

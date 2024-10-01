@@ -23,13 +23,13 @@ function ServicesSection() {
           </ScrollMotionEffect>
 
           <ScrollMotionEffect effect="fade-left" duration="2000">
-            <p className="mb-4 text-sm text-center md:text-lg text-stone-950 ">
+            <p className="mb-0 md:mb-4 text-sm text-center md:text-lg text-stone-950 ">
               {`Are you married to a USAn the United States? Obtaining a green card through marriage can be a complex and emotionally charged process. We understand the challenges you face and are dedicated to providing comprehensive legal guidance throughout your journey.`}
             </p>
           </ScrollMotionEffect>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-8 md:mt-16">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {allServiceData.personal_injury_law
               .slice(0, 3)

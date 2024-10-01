@@ -77,8 +77,10 @@ const page = async () => {
                   />
                   <div className="mb-6">
                     <div className="flex items-center justify-between mb-3">
-                      <p>{postDate(blogs?.createdAt)}</p>
-                      <p>{postDate(blogs?.createdAt)}</p>
+                      {/* <p>{postDate(blogs?.createdAt)}</p> */}
+                      <p className="text-gray-900">
+                        {postDate(blogs?.createdAt)}
+                      </p>
                     </div>
                     <h5
                       className={`mb-2 font-bold tracking-wide text-center text-md md:text-md lg:text-lg xl:text-lg 2xl:text-2xl ${index === 1 ? "text-white group-hover:text-black" : "text-black group-hover:text-black"}`}
@@ -91,14 +93,13 @@ const page = async () => {
                       {parse(blogs?.body)}
                     </p>
                     <div className="flex justify-center mt-8">
-                      <PrimaryButton
-                        title={"Read More"}
-                        link={"/about"}
-                        style={
-                          "flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none"
-                        }
+                      <Link
+                        link={`/blog/${blogs.slug}`}
+                        className="flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none gap-2"
                         radius={"sm"}
-                      />
+                      >
+                        Read More
+                      </Link>
                     </div>
                   </div>
                   {/* Add a colored bottom strip */}

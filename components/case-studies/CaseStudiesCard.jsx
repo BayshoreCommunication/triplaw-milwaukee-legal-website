@@ -33,17 +33,17 @@ const CaseStudiesCard = ({ caseData, index }) => {
         </div>
 
         {index === activeItem ? (
-          <div className="absolute -bottom-16 right-0 z-10 p-6 bg-[#000000] rounded-md w-[400px]">
+          <div className="absolute bottom-0 md:-bottom-16 md:right-0 z-10 p-3 md:p-6 bg-[#000000] rounded-md w-full md:w-[400px]">
             <div className="flex items-center justify-between mb-2 text-white">
               <p>Car Accident Case</p>
               <p>December 19, 2023</p>
             </div>
-            <h2 className="text-2xl font-semibold text-white line-clamp-1">
+            <h2 className="text-lg md:text-2xl font-semibold text-white line-clamp-1">
               A client was rear-ended at a traffic li
             </h2>
           </div>
         ) : (
-          <div className="absolute -bottom-16 right-0 z-10 p-6 bg-[#F6F6F6] rounded-md w-[400px]">
+          <div className="absolute bottom-0 md:-bottom-16 md:right-0 z-10  p-3 md:p-6 bg-[#F6F6F6] rounded-md w-full md:w-[400px]">
             <div className="flex items-center justify-between mb-2">
               <p>Car Accident Case</p>
               <p>December 19, 2023</p>

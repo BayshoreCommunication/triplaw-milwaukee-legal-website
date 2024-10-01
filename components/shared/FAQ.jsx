@@ -15,27 +15,27 @@ const FAQ = () => {
   return (
     <SectionLayout bg="bg-[#F6F6F6] lg:py-12">
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-10 ">
-        {/* <ScrollMotionEffect effect="fade-right" duration="2000"> */}
-        <div className=" flex justify-center">
-          <Image
-            src="/assets/home/hardam-tripathi.png"
-            alt="hardam tripathi"
-            width={600}
-            height={600}
-          />
-        </div>
-        {/* </ScrollMotionEffect> */}
+        <ScrollMotionEffect effect="fade-right" duration="2000">
+          <div className=" flex justify-center">
+            <Image
+              src="/assets/home/hardam-tripathi.png"
+              alt="hardam tripathi"
+              width={600}
+              height={600}
+            />
+          </div>
+        </ScrollMotionEffect>
 
         <div className="w-full">
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <div className="w-[100%]">
               <h2
-                className={`text-stone-950 font-bold text-3xl md:text-4xl mt-5 mb-2 text-start ${playfair.className}`}
+                className={`text-stone-950 font-bold text-2xl md:text-4xl mt-1 md:mt-5 mb-1 md:mb-2 text-center md:text-left ${playfair.className}`}
               >
                 Every Essential Quarry for Our Clients
               </h2>
               <div className="flex-1">
-                <div className="w-full pt-8">
+                <div className="w-full pt-4 md:pt-8">
                   <Accordion defaultExpandedKeys={["1"]} className="w-full">
                     <AccordionItem
                       key="1"
