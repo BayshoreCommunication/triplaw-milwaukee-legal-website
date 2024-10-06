@@ -25,7 +25,7 @@ const AboutSection = () => {
                     height={480}
                     className="w-[600px] h-auto "
                   />
-                  <div className="absolute flex items-center justify-center p-4 transform rounded-md -bottom-3 md:bottom-0 gap-x-2 left-1/4">
+                  <div className="absolute flex items-center justify-center p-4 transform rounded-md -bottom-3 md:bottom-0 gap-x-2 left-[20%]">
                     <div className="p-2 rounded-full md:p-4 bg-opacity-80 bg-stone-800">
                       <IoCallOutline className="text-white size-4 md:size-6" />
                     </div>
@@ -33,7 +33,7 @@ const AboutSection = () => {
                       <p className="mb-1 text-xs text-white white md:text-sm">
                         We are available - 24/7
                       </p>
-                      <h2 className="text-lg font-bold text-white md:text-2xl">
+                      <h2 className="text-base font-bold text-white md:text-2xl">
                         (863)-599-6735
                       </h2>
                     </div>

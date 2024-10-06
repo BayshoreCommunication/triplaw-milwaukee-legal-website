@@ -11,6 +11,14 @@ export const SITECONFIG = {
     { title: "Case Studies", slug: "/case-studies" },
     { title: "Blog", slug: "/blog" },
   ],
+  mainNavMobile: [
+    { title: "Home", slug: "/" },
+    { title: "About Us", slug: "/about" },
+    { title: "Services", slug: "/services" },
+    { title: "Case Studies", slug: "/case-studies" },
+    { title: "Blog", slug: "/blog" },
+    { title: "Contact", slug: "/contact" },
+  ],
 
   footer: {
     footer_logo: "/assets/site-logo/footer-logo.svg",

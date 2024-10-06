@@ -44,7 +44,7 @@ const Footer = () => {
                   legal professional in the federal government.
                 </p>
 
-                <div className="flex gap-3 mt-10 sm:mt-4">
+                <div className="flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
                   <Link
                     href="https://www.facebook.com/TripLawPA"
                     target="_blank"
@@ -142,9 +142,13 @@ const Footer = () => {
                         Location
                       </h3>
                     </div>
-                    <p className="mt-2 ml-1">
-                      {` 231 N. Kentucky Ave. Ste. 213, Lakeland, Florida 33801`}
-                    </p>
+                    <Link
+                      href="https://maps.app.goo.gl/BxuNRwy3CHg2ykCd7"
+                      className=" hover:underline duration-300"
+                      target="_blank"
+                    >
+                      231 N. Kentucky Ave. Ste. 213, Lakeland, Florida 33801
+                    </Link>
                   </li>
                   <li className="mb-4">
                     <div className="flex items-center gap-x-1">
@@ -154,10 +158,20 @@ const Footer = () => {
                         Contact
                       </h3>
                     </div>
-                    <p className="mt-2 ml-1">
-                      (863)-599-6735
-                      <span className="ml-3 text-primary">+1 863-599-6735</span>
-                    </p>
+                    <div className="flex flex-wrap gap-x-3 gap-y-1">
+                      <Link
+                        href="tel:+18635996735"
+                        className="hover:underline duration-300"
+                      >
+                        (863) 599-6735
+                      </Link>
+                      <Link
+                        href="tel:+18635996735"
+                        className="hover:underline duration-300"
+                      >
+                        (863) 599-6735
+                      </Link>
+                    </div>
                   </li>
 
                   <li className="mb-4">
@@ -168,7 +182,12 @@ const Footer = () => {
                         Email
                       </h3>
                     </div>
-                    <p className="mt-2 ml-1">info@trip-law.com</p>
+                    <Link
+                      href="mailto:info@trip-law.com"
+                      className="hover:underline duration-300"
+                    >
+                      info@trip-law.com
+                    </Link>
                   </li>
                 </ul>
               </div>
