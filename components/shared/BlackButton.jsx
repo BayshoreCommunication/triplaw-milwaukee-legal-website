@@ -6,9 +6,6 @@ function BlackButton({ title, link, style }) {
     <motion.a
       // href={link}
       whileTap={{ scale: 0.85 }}
-      // whileHover={{
-
-      // }}
       // transition={{ duration: 0.5 }}
       type="button"
       className={`text-white bg-[#1B2639] hover:bg-[#162030] font-medium text-lg px-8 py-2.5 mb-2 cursor-pointer ${style}`}
