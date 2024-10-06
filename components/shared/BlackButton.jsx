@@ -7,8 +7,7 @@ function BlackButton({ title, link, style }) {
       // href={link}
       whileTap={{ scale: 0.85 }}
       // whileHover={{
-      //   scale: 1.1,
-      //   backgroundColor: "#162030",
+
       // }}
       // transition={{ duration: 0.5 }}
       type="button"
