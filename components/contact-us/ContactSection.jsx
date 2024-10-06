@@ -20,6 +20,9 @@ const ContactSection = () => {
     name: "",
     phone: "",
     email: "",
+    zipCode: "",
+    states: "",
+    likeToContact: "",
     message: "",
   });
 
@@ -56,7 +59,12 @@ const ContactSection = () => {
 
     // Check if there are any errors
     if (Object.keys(errors).length === 0) {
-      send("", "", emailForm, "")
+      send(
+        "service_xtbeufj",
+        "template_f066chv",
+        emailForm,
+        "y7vvdB4gjuQFue5A6"
+      )
         .then((response) => {
           setLoading(false); // Stop loading
           Swal.fire({
@@ -68,6 +76,9 @@ const ContactSection = () => {
               name: "",
               phone: "",
               email: "",
+              zipCode: "",
+              states: "",
+              likeToContact: "",
               message: "",
             });
           });
@@ -82,6 +93,9 @@ const ContactSection = () => {
               name: "",
               phone: "",
               email: "",
+              zipCode: "",
+              states: "",
+              likeToContact: "",
               message: "",
             });
             setLoading(false); // Stop loading
@@ -91,6 +105,8 @@ const ContactSection = () => {
       setLoading(false); // Stop loading
     }
   };
+
+  console.log("check data value 104", emailForm);
 
   return (
     <SectionLayout>
@@ -173,16 +189,16 @@ const ContactSection = () => {
                       placeholder="example@gmail.com"
                       required
                       type="text"
-                      name="states"
-                      value={emailForm.email}
+                      name="state"
+                      value={emailForm.state}
                       onChange={(event) => {
                         setEmailForm({
                           ...emailForm,
-                          email: event.target.value,
+                          state: event.target.value,
                         });
                       }}
                     />
-                    <span className="text-orange-600">{formErrors.email}</span>
+                    <span className="text-orange-600">{formErrors.state}</span>
                   </div>
                   <div className="w-full mb-6">
                     <p className="text-black ">Zip Code</p>
@@ -191,16 +207,18 @@ const ContactSection = () => {
                       placeholder="example@gmail.com"
                       required
                       type="email"
-                      name="email"
-                      value={emailForm.email}
+                      name="zipeCode"
+                      value={emailForm.zipeCode}
                       onChange={(event) => {
                         setEmailForm({
                           ...emailForm,
-                          email: event.target.value,
+                          zipeCode: event.target.value,
                         });
                       }}
                     />
-                    <span className="text-orange-600">{formErrors.email}</span>
+                    <span className="text-orange-600">
+                      {formErrors.zipeCode}
+                    </span>
                   </div>
                 </div>
 
@@ -213,8 +231,14 @@ const ContactSection = () => {
                     <div className="flex items-center mb-4 mt-3">
                       <input
                         type="checkbox"
-                        // checked={selectedCheckbox === "checkbox1"}
-                        // onChange={() => handleCheckboxChange("checkbox1")}
+                        name="likeToContact"
+                        value={"Phone"}
+                        onChange={(event) => {
+                          setEmailForm({
+                            ...emailForm,
+                            likeToContact: event.target.checked,
+                          });
+                        }}
                         className="w-4 h-4 text-primary bg-gray-100 border-gray-300 rounded-full "
                       />
                       <label className="ms-2 text-sm font-medium text-black">
@@ -226,8 +250,14 @@ const ContactSection = () => {
                     <div className="flex items-center">
                       <input
                         type="checkbox"
-                        // checked={selectedCheckbox === "checkbox2"}
-                        // onChange={() => handleCheckboxChange("checkbox2")}
+                        name="likeToContact"
+                        value={"Email"}
+                        onChange={(event) => {
+                          setEmailForm({
+                            ...emailForm,
+                            likeToContact: event.target.checked,
+                          });
+                        }}
                         className="w-4 h-4 text-primary bg-gray-100 border-gray-300 rounded-full "
                       />
                       <label className="ms-2 text-sm font-medium text-black">

@@ -77,7 +77,7 @@ const MainNavbar = () => {
           <div className="flex items-center">
             <PrimaryButton
               title={"Contact Us"}
-              link={"/"}
+              link={"/contact"}
               style={"bg-primary text-white"}
               radius={"sm"}
             />
