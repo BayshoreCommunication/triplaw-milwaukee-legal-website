@@ -77,7 +77,7 @@ const page = async () => {
                   />
                   <div className="mb-6">
                     <div className="flex items-center justify-between mb-3">
-                      {/* <p>{postDate(blogs?.createdAt)}</p> */}
+                      <p>{postDate(blogs?.category)}</p>
                       <p className="text-gray-900">
                         {postDate(blogs?.createdAt)}
                       </p>

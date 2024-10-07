@@ -74,7 +74,7 @@ const RecentBlogs = async () => {
                     />
                     <div className="mb-6">
                       <div className="flex items-center justify-between mb-3">
-                        <p>{postDate(blogs?.createdAt)}</p>
+                        <p>{postDate(blogs?.category)}</p>
                         <p>{postDate(blogs?.createdAt)}</p>
                       </div>
                       <h5
@@ -88,14 +88,13 @@ const RecentBlogs = async () => {
                         {parse(blogs?.body)}
                       </p>
                       <div className="flex justify-center mt-8">
-                        <PrimaryButton
+                        <Link
                           title={"Read More"}
-                          link={"/about"}
-                          style={
-                            "flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none"
-                          }
-                          radius={"sm"}
-                        />
+                          href={`/blog/${blogs.slug}`}
+                          className="flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none"
+                        >
+                          Read More
+                        </Link>
                       </div>
                     </div>
                     {/* Add a colored bottom strip */}
@@ -109,7 +108,7 @@ const RecentBlogs = async () => {
           <div className="flex justify-center mt-10 md:hidden">
             <PrimaryButton
               title={"View All"}
-              link={"/case"}
+              link={"/blog"}
               style={
                 "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary"
               }
