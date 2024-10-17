@@ -71,8 +71,8 @@ const HeroSection = () => {
                   variants={variants}
                   className="mt-4 text-center text-white text-md md:text-lg md:mt-5 md:text-left"
                 >
-                  Giving You Advices That Matters. Connecting Families To Their
-                  Immigration Dream
+                  Giving You Advices That Matters. Connecting Families To a
+                  better legal future
                 </motion.p>
 
                 <motion.div
@@ -89,10 +89,10 @@ const HeroSection = () => {
                     </span>
                   </Link>
                   <Link
-                    href={"tel:(863)-599-6735"}
-                    className="flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white border rounded-lg border-primary bg-none hover:bg-primary md:text-lg md:px-8 me-0 md:me-6 w-[180px] md:w-[240px]"
+                    href={"tel:+18633702427"}
+                    className="flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white border rounded-lg border-primary hover:bg-primary md:text-lg md:px-8 me-0 md:me-6 w-[180px] md:w-[240px] bg-transparent"
                   >
-                    (863)-599-6735
+                    +1 (863) 370-2427
                   </Link>
                 </motion.div>
               </div>

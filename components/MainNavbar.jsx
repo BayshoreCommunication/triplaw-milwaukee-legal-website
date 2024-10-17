@@ -16,6 +16,7 @@ import { Orbitron } from "next/font/google";
 import Image from "next/image";
 import PrimaryButton from "./shared/PrimaryButton";
 import { SITECONFIG } from "@/config/site";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
@@ -75,12 +76,19 @@ const MainNavbar = () => {
             ))}
           </div>
           <div className="flex items-center">
-            <PrimaryButton
+            {/* <PrimaryButton
               title={"Contact Us"}
               link={"/contact"}
               style={"bg-primary text-white"}
               radius={"sm"}
-            />
+            /> */}
+            <Link
+              href="/contact"
+              className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-primary text-white rounded-lg hover:bg-[#facc15] duration-300"
+            >
+              Contact Us
+              <FaArrowRightLong className="ml-2  size-5" />
+            </Link>
           </div>
         </div>
       </div>

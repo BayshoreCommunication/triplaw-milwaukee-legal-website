@@ -16,10 +16,10 @@ export default function Home() {
       <AboutSection />
       <ServicesSection />
       <RecentCases />
-      <ClientTestimonials />
+      {/* <ClientTestimonials /> */}
       <WhyChooseUs />
       <FAQ />
-      <Clients />
+      {/* <Clients /> */}
       <CallToAction />
       <RecentBlogs />
     </main>

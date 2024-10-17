@@ -4,8 +4,10 @@ import PrimaryButton from "../shared/PrimaryButton";
 import Image from "next/image";
 import { IoCallOutline } from "react-icons/io5";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 import { Playfair_Display } from "next/font/google";
+import Link from "next/link";
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 const AboutSection = () => {
@@ -33,9 +35,12 @@ const AboutSection = () => {
                       <p className="mb-1 text-xs text-white white md:text-sm">
                         We are available - 24/7
                       </p>
-                      <h2 className="text-base font-bold text-white md:text-2xl">
-                        (863)-599-6735
-                      </h2>
+                      <Link
+                        href={"tel:+18633702427"}
+                        className="text-base font-bold text-white md:text-2xl"
+                      >
+                        +1 (863) 370-2427
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -109,14 +114,21 @@ const AboutSection = () => {
                   </li>
                 </ul>
                 <div className="flex justify-center mt-8 md:justify-start">
-                  <PrimaryButton
+                  {/* <PrimaryButton
                     title={"READ MORE"}
                     link={"/about"}
                     style={
                       "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg bg-primary hover:bg-yellow-400 md:text-lg md:px-8 me-3 md:me-6 "
                     }
                     radius={"sm"}
-                  />
+                  /> */}
+                  <Link
+                    href="/about"
+                    className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-primary text-white rounded-lg hover:bg-[#facc15] duration-300"
+                  >
+                    READ MORE
+                    <FaArrowRightLong className="ml-2  size-5" />
+                  </Link>
                 </div>
               </div>
             </ScrollMotionEffect>

@@ -38,10 +38,12 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="py-5 text-[18px] font-normal text-center text-black md:text-left max-w-[450px] leading-8">
-                  At Trip Law we set out to create a unique law firm where
-                  outstanding immigration representation and a deep commitment
-                  to humanity go hand in hand. Hardam H. Tripathi was a former
-                  legal professional in the federal government.
+                  At Trip Law, we offer dedicated criminal defense and personal
+                  injury representation, ensuring justice and advocacy for those
+                  in need. Our team works tirelessly to protect clients' rights,
+                  providing compassionate support through challenging times. We
+                  blend legal expertise with a deep commitment to humanity,
+                  delivering exceptional results for every case.
                 </p>
 
                 <div className="flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
