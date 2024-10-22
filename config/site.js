@@ -8,14 +8,14 @@ export const SITECONFIG = {
     { title: "Home", slug: "/" },
     { title: "About Us", slug: "/about" },
     { title: "Services", slug: "/services" },
-    { title: "Case Studies", slug: "/case-studies" },
+    // { title: "Case Studies", slug: "/case-studies" },
     { title: "Blog", slug: "/blog" },
   ],
   mainNavMobile: [
     { title: "Home", slug: "/" },
     { title: "About Us", slug: "/about" },
     { title: "Services", slug: "/services" },
-    { title: "Case Studies", slug: "/case-studies" },
+    // { title: "Case Studies", slug: "/case-studies" },
     { title: "Blog", slug: "/blog" },
     { title: "Contact", slug: "/contact" },
   ],
@@ -33,10 +33,10 @@ export const SITECONFIG = {
         title: "Services",
         slug: "/services",
       },
-      {
-        title: "Recent Casesr",
-        slug: "/case-studies",
-      },
+      // {
+      //   title: "Recent Casesr",
+      //   slug: "/case-studies",
+      // },
       {
         title: "Blog",
         slug: "/blog",

@@ -165,14 +165,14 @@ const Footer = () => {
                         href="tel:+18635996735"
                         className="hover:underline duration-300"
                       >
-                        (863) 599-6735
+                        +1 (863) 370-2427
                       </Link>
-                      <Link
+                      {/* <Link
                         href="tel:+18635996735"
                         className="hover:underline duration-300"
                       >
                         (863) 599-6735
-                      </Link>
+                      </Link> */}
                     </div>
                   </li>
 
@@ -185,10 +185,11 @@ const Footer = () => {
                       </h3>
                     </div>
                     <Link
-                      href="mailto:info@trip-law.com"
+                      href="mailto:info@milwaukeelegalpros.com
+"
                       className="hover:underline duration-300"
                     >
-                      info@trip-law.com
+                      info@milwaukeelegalpros.com
                     </Link>
                   </li>
                 </ul>

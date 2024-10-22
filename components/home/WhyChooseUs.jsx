@@ -5,7 +5,13 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
-const FeatureBlock = ({ title, description, imgSrc, reverse = false }) => {
+const FeatureBlock = ({
+  title,
+  description,
+  imgSrc,
+  reverse,
+  className = false,
+}) => {
   return (
     <div
       className={`flex flex-col md:flex-row ${
@@ -21,7 +27,8 @@ const FeatureBlock = ({ title, description, imgSrc, reverse = false }) => {
           className="size-20"
         />
       </div>
-      <div className="text-center md:text-start xl:text-end">
+
+      <div className={`text-center md:text-left xl:text-end ${className}`}>
         <h4 className="text-2xl font-semibold mb-2">{title}</h4>
         <p className="text-lg text-gray-600">{description}</p>
       </div>
@@ -56,25 +63,25 @@ const WhyChooseUs = () => {
             <FeatureBlock
               title="Expert Legal Advice"
               description="Legal guidance, ensuring informed decisions and understanding of complex legal issues."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/expert-legal-advice.png"
               reverse
             />
             <FeatureBlock
               title="Efficient Case Handling"
               description="Handles your legal matters efficiently, leading to quicker and more effective resolutions."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/efficient-case-handling.png"
               reverse
             />
             <FeatureBlock
               title="Cost-Effective"
               description="Offers flexible fee structures, providing cost-effective legal solutions compared to larger firms."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/cost-effective.png"
               reverse
             />
             <FeatureBlock
               title="Accessible and Responsive"
               description="More accessible and responsive, addressing your concerns and questions promptly and effectively."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/accessible-and-responsive.png"
               reverse
             />
           </div>
@@ -82,24 +89,28 @@ const WhyChooseUs = () => {
           {/* Bottom Column */}
           <div className="flex flex-col gap-5 lg:gap-8 order-3 xl:order-3">
             <FeatureBlock
+              className="xl:!text-start"
               title="Personalized Attention"
               description="Offers dedicated focus on your case, understanding unique circumstances and goals."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/personalized-attention.png"
             />
             <FeatureBlock
+              className="xl:!text-start"
               title="Confidentiality and Trust"
               description="Ensures sensitive information is managed with the highest level of confidentiality and trust."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/confidentiality-and-trust.png"
             />
             <FeatureBlock
+              className="xl:!text-start"
               title="Proactive Legal Planning"
               description="Helps with proactive planning like estate planning and contract reviews to prevent future legal issues."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/proactive-legal-planning.png"
             />
             <FeatureBlock
+              className="xl:!text-start"
               title="Comprehensive Legal Services"
               description="Provides a wide range of legal services, from litigation to negotiation, for complete support."
-              imgSrc="/assets/home/experienced-icon.png"
+              imgSrc="/assets/home/comprehensive-legal-services.png"
             />
           </div>
         </div>
