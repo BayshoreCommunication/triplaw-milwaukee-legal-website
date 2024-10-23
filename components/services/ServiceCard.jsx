@@ -2,6 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import PrimaryButton from "../shared/PrimaryButton";
+import parse from "html-react-parser";
+import Link from "next/link";
 
 const ServiceCard = ({ serversData, index }) => {
   return (
@@ -29,17 +31,15 @@ const ServiceCard = ({ serversData, index }) => {
           <p
             className={`font-normal text-center line-clamp-2 transition-colors text-black group-hover:text-white`}
           >
-            {serversData?.description}
+            {serversData?.shortDesc}
           </p>
           <div className="flex justify-center mt-8">
-            <PrimaryButton
-              title={"Read More"}
-              link={"/about"}
-              style={
-                "flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none group-hover:border-white group-hover:text-white"
-              }
-              radius={"sm"}
-            />
+            <Link
+              href={`/services/${serversData?.slug}`}
+              className="flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none group-hover:border-white group-hover:text-white"
+            >
+              Read More
+            </Link>
           </div>
         </div>
       </div>

@@ -72,7 +72,7 @@ const ServiceTabSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <ServiceTabContent />
+          <ServiceTabContent activeTab={activeTab} />
         </motion.div>
       </div>
     </SectionLayout>
