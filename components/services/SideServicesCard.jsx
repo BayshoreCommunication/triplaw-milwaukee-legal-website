@@ -22,7 +22,7 @@ const variants = {
   },
 };
 
-const SideServicesCard = ({ serversData }) => {
+const SideServicesCard = ({ servicesData }) => {
   const pathname = usePathname();
 
   return (
@@ -41,11 +41,18 @@ const SideServicesCard = ({ serversData }) => {
           width={200}
           height={100}
         />
-        <p
-          className={`text-lg tracking-wide line-clamp-2  mt-[-10px]  ${pathname === "/services/" + serversData?.slug ? "text-primary" : "text-white"}`}
-        >
-          Davis v. Thompson Logistics – Auto Accident Injury Claim
-        </p>
+        <div className="">
+          <h2
+            className={`text-lg tracking-wide line-clamp-2  mt-[-20px]  ${pathname === "/services/" + servicesData?.slug ? "text-primary" : "text-white"}`}
+          >
+            {servicesData?.title}
+          </h2>
+          <p
+            className={`text-base tracking-wide line-clamp-1  mt-[0px]  ${pathname === "/services/" + servicesData?.slug ? "text-primary" : "text-white"}`}
+          >
+            {servicesData?.shortDesc}
+          </p>
+        </div>
       </div>
     </motion.div>
   );

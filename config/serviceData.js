@@ -682,6 +682,487 @@ You might have a medical malpractice case if you have been affected by the follo
         </div>
         `,
     },
+
+    {
+      icon: "/assets/services/services-icon/car-accident.png",
+      title: "Traffic Tickets",
+      slug: "medical-malpractice",
+      shortDesc:
+        "If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.",
+
+      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+        <div>
+        
+        <div className ="text-lg md:text-xl mb-6">If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.</div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+           Who can use this service?
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+            Our traffic ticket legal service is designed for anyone dealing with these issues:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+           Have received a traffic ticket due to violating traffic rules. These involve any kinds of minor to major mistakes like reckless driving, running a red signal, or other errors. 
+          </li>
+          
+          <li className="text-lg md:text-xl">
+            Worrying about the potential consequences of their driving history.
+          </li>
+
+          <li className="text-lg md:text-xl">
+             Needs to avoid the hassle of a court appearance.
+          </li>
+
+          <li className="text-lg md:text-xl">
+              Wants to boost the insurance premium.
+          </li>
+
+          <li className="text-lg md:text-xl">
+             Seeking help to keep their driver's license free of points.
+          </li>
+
+          <li className="text-lg md:text-xl">
+             Can not understand how to deal with traffic ticket issues.
+          </li>
+            
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+        Problems You Will Face
+        </h4>
+  
+        <p className="text-lg md:text-xl mb-4">
+           Because of traffic ticket issues, you will experience the following complications: 
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+            If you are dealing with diverse traffic violations, it can add up to heavy fines and court fees.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+              Due to the addition of more points to the license, your insurance rate will increase. It may also cause suspension of your driver's license.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+              Insurance companies and hospitals often have their attorneys who will work against you. So it's difficult facing these large organizations.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+             If the violation is serious, you may need to appear in court. Driving recklessly is one of the examples of a serious violation. 
+          </li>     
+
+          <li className="text-lg md:text-xl">
+            Since a single traffic ticket can increase your insurance rates, it can also have a drastic impact on your entire finances for years. 
+          </li>     
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+         How Milwaukee Legal Pros can support you
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+           We understand how critical situations you may experience due to traffic tickets.Our legal team is committed to help you overcome this complexities.
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+            We will go to the court on your behalf so that you don't have to take this additional pressure of court appearance on your own. This can save your time and stress from handling the legal system alone. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+           We can help reduce your punishments or get the ticket removed.  
+          </li>
+        
+          <li className="text-lg md:text-xl">
+            We try our best to remove points from your license. So, we can suggest that you attend a traffic school. This way you can prevent inserting points to your license. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+              We can minimize the extended financial impact of increasing insurance rates by removing your traffic ticket. 
+          </li>  
+        </ul>
+        </div>
+        
+        <div>
+  
+        
+        </div>
+        </div>
+        `,
+    },
+
+    {
+      icon: "/assets/services/services-icon/car-accident.png",
+      title: "Nursing Home Abuse & Neglect",
+      slug: "nursing-home-abuse-and-neglect",
+      shortDesc:
+        "If someone your beloved has been harmed in a nursing home, due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
+
+      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+        <div>
+        
+        <div className ="text-lg md:text-xl mb-6">If someone your beloved has been harmed in a nursing home, due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care. 
+        </div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+           Who can use this service?
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+           Our nursing home abuse and neglect service is specially prepared for families, who needs legal help for these issues: 
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+           Suspect that their family members are mistreated in a nursing home. 
+          </li>
+          
+          <li className="text-lg md:text-xl">
+            Have noticed behavioral change, injury in the body parts or unexpected health issues.
+          </li>
+
+          <li className="text-lg md:text-xl">
+            Thinks the nursing home authority is responsible for such an incident and wants to take legal action against them.
+          </li>
+
+          <li className="text-lg md:text-xl">
+              Seeking help to understand the signs of abuse and undecided about the next steps. 
+          </li>       
+            
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+        Problems You Will Face
+        </h4>
+  
+        <p className="text-lg md:text-xl mb-4">
+           Due to a nursing home abuse and neglect, your will struggle with the following problems: 
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+            Since elderly people may struggle to speak out, it would be difficult to identify the signs of abuse or neglect. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+              You might not clearly identify who is exactly accountable for the mistreatment, whether staff or the organization itself. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+             It's confusing to understand the law associated with the care of elderly people. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+            Collecting evidence and proving your case strongly might be challenging.
+          </li>     
+   
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+         How Milwaukee Legal Pros can support you
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+           We understand, how painful it is to see your family members in such a place, where they should feel safe. At our law firm, we can provide you with guidance and support to solve your problem through these steps:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+           We provide various resources and arrange seminars to educate the family members of the victim. As a result, they will understand the signs of abuse even if their loved one can not speak up.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+           We will investigate the case and help the families figure out who is specifically responsible for this mistreatment. Then they can find out whether an individual staff member or nursing home authority has conducted such an occurrence.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+            We will break down the legal terms clearly by using simple language for the families. This would be beneficial to make them understand the complex laws about the care of elderly people. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+             We can assist the families to collect important evidence to prepare a strong case. 
+          </li>  
+
+
+          <li className="text-lg md:text-xl">
+          Our experienced attorneys will work closely with the family members to calculate how much compensation you can claim to cover your overall expenses. These involve expenses for medical care, mental distress, and other losses. 
+          </li>  
+
+        </ul>
+        </div>
+        
+        <div>
+  
+        
+        </div>
+        </div>
+        `,
+    },
+
+    {
+      icon: "/assets/services/services-icon/car-accident.png",
+      title: "Wrongful Death",
+      slug: "wrongful-death",
+      shortDesc:
+        "Seeing the death of our loved one is the most tragic moment in our life. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and support you throughout this challenging journey. ",
+
+      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+        <div>
+        
+        <div className ="text-lg md:text-xl mb-6">Seeing the death of our loved one is the most tragic moment in our life. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and support you throughout this challenging journey. 
+        </div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+           Who can use this service?
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+          Our wrongful death services are prepared for families who have lost their loved one because of the following occurrences:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+            Car crash 
+          </li>
+          
+          <li className="text-lg md:text-xl">
+            Healthcare negligence or misconduct 
+          </li>
+
+          <li className="text-lg md:text-xl">
+            Accidents in the workplace 
+          </li>
+
+          <li className="text-lg md:text-xl">
+              Defective or hazardous products 
+          </li>       
+
+          <li className="text-lg md:text-xl">
+              Negligence or intentional harm to another person.
+          </li>      
+            
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+        Problems You Will Face
+        </h4>
+  
+        <p className="text-lg md:text-xl mb-4">
+           After a wrongful death, there are a lot of complications family members of the victim often experience:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+            Losing a loved one unexpectedly may cause deep mental pain. Along with this stress and suffering, you have to think about the financial burden. Managing expenses to organize the funeral program, hospital bills, and the loss of earnings leave the family members struggling. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+              Figuring out who is accountable for this wrongful death is tough. Especially, collecting strong evidence that shows someone else's negligence caused the occurrence.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+             Insurance companies may try to prove a low settlement to the families. Then, it becomes difficult to manage the fair compensation that the family deserves.
+          </li>
+        
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+         How Milwaukee Legal Pros can support you
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+         We understand the situation that you will face after the wrongful death of your loved ones. So, we are committed to help you with the following ways:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+              In the initial consultation, we will listen to the story of the victim’s family members. Then, we will review the case to understand the overall impact of their loss. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+           We can investigate the case to figure out the group, who is truly accountable for this occurrence.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+            We will handle all the paperwork, negotiation with the insurance company, and the court proceedings. 
+          </li>
+        
+          <li className="text-lg md:text-xl">
+             We will help you ease your financial burden by providing all the support and attention to handle these difficult times. This way we can help you get the compensation you deserve, after the wrongful death of your family member.
+          </li>  
+
+
+          <li className="text-lg md:text-xl">
+          We understand that no compensation in the world can bring back to your loved one. We can just help you by providing financial relief that covers all your required expenses. 
+          </li>  
+
+        </ul>
+        </div>
+        
+        <div>
+  
+        
+        </div>
+        </div>
+        `,
+    },
+
+    {
+      icon: "/assets/services/services-icon/car-accident.png",
+      title: "Workplace Injury Accidents",
+      slug: "workplace-injury-accidents",
+      shortDesc:
+        "Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.",
+
+      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+        <div>
+        
+        <div className ="text-lg md:text-xl mb-6">Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.
+        </div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+           Who can use this service?
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+         This service is designed for people who are facing the following problems: 
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+           Have suffered injuries in workplace accidents due to unsafe conditions.
+          </li>
+          
+          <li className="text-lg md:text-xl">
+            Your injury occurred because of someone else's negligence like a supervisor, co-worker, or third party.
+          </li>
+
+          <li className="text-lg md:text-xl">
+            Injured workers seek compensation for medical bills, lost wages, and other damages.
+          </li>
+
+          <li className="text-lg md:text-xl">
+              Injured independent contractors or temporary workers (depending on the contract and situation. 
+          </li>       
+
+          <li className="text-lg md:text-xl">
+              Visitors or clients who are injured on-site due to unsafe workplace conditions.
+          </li>      
+            
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+        Problems You Will Face
+        </h4>
+  
+        <p className="text-lg md:text-xl mb-4">
+          After a workplace injury accident, you may face several challenges:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+           You may suffer from long-term health issues like broken bones, head injuries, or repetitive strain injuries that require serious medical support.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+              You may face fast-accumulating hospital bills, treatment fees, and other healthcare expenses.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+           You may lose your valuable earnings if you cannot continue your work because of the injury, even losing your job or retaliation for filing claims.
+          </li>
+          
+          <li className="text-lg md:text-xl">
+           You might face disagreements with your employer or their insurance company about compensation or injury claims.
+          </li>
+
+
+          <li className="text-lg md:text-xl">
+          Your insurance company may offer you a quick settlement that is far less than what you really deserve.
+          </li>
+
+        </ul>
+        </div>
+        
+        <div>
+        
+        <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+         How Milwaukee Legal Pros can support you
+        </h4>
+        
+        <p className="text-lg md:text-xl mb-4">
+         We understand your situation and help you in every step by providing you assistance with the following things:
+        </p>
+        
+        <ul className="flex flex-col gap-2 list-disc pl-5">
+        
+          <li className="text-lg md:text-xl">
+              We will gather medical evidence to ensure you are compensated for ongoing treatments and rehabilitation needs.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+           We will fight to cover all your medical costs, including hospital bills and long-term care.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+            We will seek compensation for lost wages, future earnings, and protect your rights if your employer retaliates.
+          </li>
+        
+          <li className="text-lg md:text-xl">
+           We will represent you in disputes with employers or insurance to ensure fair compensation for your injury.
+          </li>  
+
+
+          <li className="text-lg md:text-xl">
+          We will negotiate to secure the full amount you deserve, and if needed, take your case to court.
+          </li>  
+
+        </ul>
+        </div>
+        
+        <div>
+  
+        
+        </div>
+        </div>
+        `,
+    },
   ],
   criminal_law: [
     {

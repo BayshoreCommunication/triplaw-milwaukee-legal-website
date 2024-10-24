@@ -10,6 +10,7 @@ import CaseStudiesCard from "../case-studies/CaseStudiesCard";
 import GetAllPostData from "@/lib/GetAllPostData";
 import Link from "next/link";
 import Image from "next/image";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -38,14 +39,13 @@ const RecentBlogs = async () => {
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <div className="hidden md:block">
-              <PrimaryButton
-                title={"View All"}
-                link={"/case"}
-                style={
-                  "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary "
-                }
-                radius={"sm"}
-              />
+              <Link
+                href="/blog"
+                className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-none  rounded-lg hover:bg-primary duration-300 border-2 border-black hover:border-primary text-black hover:text-white"
+              >
+                Vew All
+                <FaArrowRightLong className="ml-2  size-5" />
+              </Link>
             </div>
           </ScrollMotionEffect>
         </div>
@@ -106,14 +106,13 @@ const RecentBlogs = async () => {
         </div>
         <ScrollMotionEffect effect="fade-left" duration="2000">
           <div className="flex justify-center mt-10 md:hidden">
-            <PrimaryButton
-              title={"View All"}
-              link={"/blog"}
-              style={
-                "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary"
-              }
-              radius={"sm"}
-            />
+            <Link
+              href="/blog"
+              className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-none  rounded-lg hover:bg-primary duration-300 border-2 border-black hover:border-primary text-black hover:text-white"
+            >
+              Vew All
+              <FaArrowRightLong className="ml-2  size-5" />
+            </Link>
           </div>
         </ScrollMotionEffect>
       </SectionLayout>

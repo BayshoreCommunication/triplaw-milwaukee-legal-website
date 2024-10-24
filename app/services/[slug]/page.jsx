@@ -60,6 +60,10 @@ const page = async ({ params }) => {
       (service) => service.slug === params.slug
     );
 
+  const servicesDetaAll = (allServiceData?.personal_injury_law || []).concat(
+    allServiceData?.criminal_law || []
+  );
+
   return (
     <>
       <Head>
@@ -92,8 +96,8 @@ const page = async ({ params }) => {
             <h2 className="font-medium text-4xl text-white border-b-2 border-white pb-4 mb-6">
               Practice Areas
             </h2>
-            {allServiceData?.personal_injury_law?.map((el, index) => (
-              <SideServicesCard servicesData={el} />
+            {servicesDetaAll?.map((el, index) => (
+              <SideServicesCard servicesData={el} key={index} />
             ))}
           </div>
         </div>

@@ -43,7 +43,7 @@ export const SITECONFIG = {
       },
       {
         title: "Podcasts",
-        slug: "/https://podcasters.spotify.com/pod/show/theimmigrationzone",
+        slug: "https://podcasters.spotify.com/pod/show/theimmigrationzone",
       },
       {
         title: "Contact us",

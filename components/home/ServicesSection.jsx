@@ -1,11 +1,12 @@
 import React from "react";
 import SectionLayout from "../shared/SectionLayout";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 import { allServiceData } from "@/config/serviceData";
 import PrimaryButton from "../shared/PrimaryButton";
 import { Playfair_Display } from "next/font/google";
 import ServiceCard from "../services/ServiceCard";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import Link from "next/link";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -53,14 +54,13 @@ function ServicesSection() {
         </div>
         <ScrollMotionEffect effect="fade-up" duration="2000">
           <div className="flex justify-center items-center mt-10">
-            <PrimaryButton
-              title={"View All"}
-              link={"/case"}
-              style={
-                "flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg  hover:bg-primary  md:text-lg md:px-8 me-3 md:me-6 bg-transparent border-2 border-black text-black hover:text-white hover:border-primary w-56"
-              }
-              radius={"sm"}
-            />
+            <Link
+              href="/services"
+              className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-none  rounded-lg hover:bg-primary duration-300 border-2 border-black hover:border-primary text-black hover:text-white"
+            >
+              Vew All
+              <FaArrowRightLong className="ml-2  size-5" />
+            </Link>
           </div>
         </ScrollMotionEffect>
       </SectionLayout>
