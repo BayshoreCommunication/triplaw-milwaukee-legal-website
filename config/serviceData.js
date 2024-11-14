@@ -35,7 +35,7 @@ export const allServiceData = {
         </li>
 
           <li className="text-lg md:text-xl">
-           Feels devastating to deal with the insurance company or other legal process.
+           It feels devastating to deal with the insurance company or other legal process.
         </li>
 
         <li className="text-lg md:text-xl">
@@ -89,7 +89,7 @@ How Milwaukee Legal Pros can support you
       </h4>
       
       <p className="text-lg md:text-xl mb-4">
-      We understand how bad a motorcycle accident can change your life. That's why we offer the following services:
+      We understand how devastating a motorcycle accident can change your life. That's why we offer the following services:
       </p>
       
       <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -357,7 +357,7 @@ We will ensure that you get fair compensation for both current and future medica
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Dog Bites",
-      slug: "trucking-accidents",
+      slug: "dog-bites",
       shortDesc:
         "Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. ",
 
@@ -367,11 +367,11 @@ We will ensure that you get fair compensation for both current and future medica
         <div className ="text-lg md:text-xl mb-6">Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-Dog bites legal service is ideal for anyone who is facing these troubles:
+Dog bite legal service is ideal for anyone who is facing these troubles:
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -463,8 +463,8 @@ We understand dog bites can cause psychological problems like post-traumatic str
         `,
     },
     {
-      icon: "/assets/services/services-icon/car-accident.png",
-      title: "Slip And Falls",
+      icon: "/assets/services/services-icon/slip-fall.png",
+      title: "Slips and Falls",
       slug: "slip-and-falls",
       shortDesc:
         "Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
@@ -475,11 +475,11 @@ We understand dog bites can cause psychological problems like post-traumatic str
         <div className ="text-lg md:text-xl mb-6">Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-This service is designed for people, who are facing the following problems:
+This service is designed for people who are facing the following problems:
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -574,7 +574,7 @@ This service is designed for people, who are facing the following problems:
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/medical-malpractice.png",
       title: "Medical Malpractice",
       slug: "medical-malpractice",
       shortDesc:
@@ -586,7 +586,7 @@ This service is designed for people, who are facing the following problems:
         <div className ="text-lg md:text-xl mb-6">If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence..</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -686,7 +686,7 @@ You might have a medical malpractice case if you have been affected by the follo
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets",
-      slug: "medical-malpractice",
+      slug: "traffic-tickets",
       shortDesc:
         "If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.",
 
@@ -696,7 +696,7 @@ You might have a medical malpractice case if you have been affected by the follo
         <div className ="text-lg md:text-xl mb-6">If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -726,7 +726,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
 
           <li className="text-lg md:text-xl">
-             Can not understand how to deal with traffic ticket issues.
+             Struggling to understand how to deal with traffic ticket issues.
           </li>
             
         </ul>
@@ -773,7 +773,7 @@ You might have a medical malpractice case if you have been affected by the follo
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-           We understand how critical situations you may experience due to traffic tickets.Our legal team is committed to help you overcome this complexities.
+           We understand how critical situations you may experience due to traffic tickets.Our legal team is committed to helping you overcome these complexities.
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -809,20 +809,20 @@ You might have a medical malpractice case if you have been affected by the follo
       title: "Nursing Home Abuse & Neglect",
       slug: "nursing-home-abuse-and-neglect",
       shortDesc:
-        "If someone your beloved has been harmed in a nursing home, due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
+        "If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
         <div>
         
-        <div className ="text-lg md:text-xl mb-6">If someone your beloved has been harmed in a nursing home, due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care. 
+        <div className ="text-lg md:text-xl mb-6">If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.
         </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-           Our nursing home abuse and neglect service is specially prepared for families, who needs legal help for these issues: 
+           Our nursing home abuse and neglect service is specially prepared for families who needs legal help for these issues: 
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -832,7 +832,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
           
           <li className="text-lg md:text-xl">
-            Have noticed behavioral change, injury in the body parts or unexpected health issues.
+            Have noticed behavioral changes, injuries in the body parts, or unexpected health issues.
           </li>
 
           <li className="text-lg md:text-xl">
@@ -902,7 +902,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
         
           <li className="text-lg md:text-xl">
-             We can assist the families to collect important evidence to prepare a strong case. 
+             We can assist the families collecting important evidence to prepare a strong case. 
           </li>  
 
 
@@ -926,16 +926,16 @@ You might have a medical malpractice case if you have been affected by the follo
       title: "Wrongful Death",
       slug: "wrongful-death",
       shortDesc:
-        "Seeing the death of our loved one is the most tragic moment in our life. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and support you throughout this challenging journey. ",
+        "Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
         <div>
         
-        <div className ="text-lg md:text-xl mb-6">Seeing the death of our loved one is the most tragic moment in our life. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and support you throughout this challenging journey. 
+        <div className ="text-lg md:text-xl mb-6">Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.
         </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -1052,7 +1052,7 @@ You might have a medical malpractice case if you have been affected by the follo
         </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -1066,7 +1066,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
           
           <li className="text-lg md:text-xl">
-            Your injury occurred because of someone else's negligence like a supervisor, co-worker, or third party.
+            Your injury occurred because of someone else's negligence, like a supervisor, co-worker, or third party.
           </li>
 
           <li className="text-lg md:text-xl">
@@ -1074,7 +1074,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
 
           <li className="text-lg md:text-xl">
-              Injured independent contractors or temporary workers (depending on the contract and situation. 
+              Injured independent contractors or temporary workers (depending on the contract and situation).
           </li>       
 
           <li className="text-lg md:text-xl">
@@ -2784,7 +2784,7 @@ Problems You Will Face
       </li>
 
       <li className="text-lg md:text-xl">
-       Drivers facing severe penalties.
+       Drivers are facing severe penalties.
       </li>
 
       <li className="text-lg md:text-xl">
@@ -2810,8 +2810,6 @@ Problems You Will Face
       </li>
       <li className="text-lg md:text-xl">
        Convictions for traffic offenses often lead to significantly higher insurance premiums.
-
-
       </li>
       <li className="text-lg md:text-xl">
     Especially for commercial drivers, a criminal traffic conviction can jeopardize your job and future employment opportunities.
@@ -2886,7 +2884,7 @@ Contact us for a free consultation to get the right support based on your unique
         Business professionals accused of embezzlement, stock manipulation, and insider trading.
       </li>
       <li className="text-lg md:text-xl">
-        Healthcare providers accused of upcoding, overutilization, and violations of the Anti-Kickback Statute.
+        Healthcare providers are accused of upcoding, overutilization, and violations of the Anti-Kickback Statute.
       </li>
       <li className="text-lg md:text-xl">
         Government or public officials facing charges related to corruption, bribery, or misuse of public funds.
@@ -2919,7 +2917,7 @@ Challenges You Might Face After Being Charged With White Collar
       White-collar cases are often complicated, requiring a specialized defense team, including attorneys, forensic accountants, and investigators.
       </li>
       <li className="text-lg md:text-xl">
-     In addition to severe penalties like fines, restitution, probation, and imprisonment, aggravated white-collar crime cases (first-degree felony), you could face long prison sentences.
+     In addition to severe penalties like fines, restitution, probation, and imprisonment for aggravated white-collar crime cases (first-degree felony), you could face long prison sentences.
       </li>
       <li className="text-lg md:text-xl">
        Victims may sue for additional compensation, leading to more financial penalties and legal battles.
@@ -3007,11 +3005,11 @@ Contact us for a free consultation to get the right support based on your unique
         Owners of healthcare businesses or practices targeted by federal agencies.
       </li>
       <li className="text-lg md:text-xl">
-      Pharmaceutical companies facing allegations of fraudulent marketing practices, kickbacks, or off-label promotion of drugs.
+      Pharmaceutical companies are facing allegations of fraudulent marketing practices, kickbacks, or off-label promotion of drugs.
       </li>
 
     <li className="text-lg md:text-xl">
-       Medical device manufacturers accused of fraud related to the marketing and sale of medical devices.
+       Medical device manufacturers are accused of fraud related to the marketing and sale of medical devices.
       </li>
 
       <li className="text-lg md:text-xl">
@@ -3028,8 +3026,7 @@ Contact us for a free consultation to get the right support based on your unique
       </li>
 
            <li className="text-lg md:text-xl">
-  Research and development personnel accused of falsifying data or engaging in other fraudulent activities.
-
+  Research and development personnel are accused of falsifying data or engaging in other fraudulent activities.
       </li>
 
     </ul>
@@ -3197,7 +3194,7 @@ We simplify the legal process for you, explaining your rights and court procedur
       Our team works to reduce fines and community service requirements. We explore plea deals or diversion programs for first-time offenders.
       </li>
       <li className="text-lg md:text-xl">
-        We gather evidence and find witnesses to build a solid defense and ensure you're well-represented in court.
+        We gather evidence and find witnesses to build a solid defense and ensure you're well represented in court.
       </li>
       <li className="text-lg md:text-xl">
          We focus on minimizing the impact of a criminal record on your job and travel rights.
@@ -3216,7 +3213,6 @@ We simplify the legal process for you, explaining your rights and court procedur
   <div>
     <p className="text-lg md:text-xl">
 Contact us for a free consultation to get the right support based on your unique situation. We are committed to guiding you through the legal process and helping you move forward with your life.
-
     </p>
   </div>
 </div>
