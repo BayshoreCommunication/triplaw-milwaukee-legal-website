@@ -1165,6 +1165,7 @@ You might have a medical malpractice case if you have been affected by the follo
     },
   ],
   criminal_law: [
+    // Start -Abu
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "OWI Defence ( Dui Defense)",
@@ -1280,125 +1281,144 @@ Problems You Will Face
       title: "Drug Charges",
       slug: "drug-charges",
       shortDesc:
-        "Drug charges in the United States cover a wide range of offenses, including the illegal possession, distribution, manufacture, and trafficking of restricted drugs. These charges can vary greatly, depending on federal and state regulations, the sort of drug used, and the quantity in question. These charges can arise from possessing equipment used for drug manufacturing or consumption. This can lead to fines and imprisonment. ",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+        "Drug charges in the United States cover a wide range of offenses, including the illegal possession, distribution, manufacture, and trafficking of restricted drugs. These charges can vary greatly, depending on federal and state regulations, the sort of drug used, and the quantity in question.These charges can result from having equipment used to make drug or use drug. If convicted, you could face fine or prison time. ",
+      description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Drug charges in the United States cover a wide range of
+                    offenses, including the illegal possession, distribution,
+                    manufacture, and trafficking of restricted drugs. These
+                    charges can vary greatly, depending on federal and state
+                    regulations, the sort of drug used, and the quantity in
+                    question.These charges can result from having equipment used
+                    to make drug or use drug. If convicted, you could face fine
+                    or prison time.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">Drug charges in the United States cover a wide range of offenses, including the illegal possession, distribution, manufacture, and trafficking of restricted drugs. These charges can vary greatly, depending on federal and state regulations, the sort of drug used, and the quantity in question. These charges can arise from possessing equipment used for drug manufacturing or consumption. This can lead to fines and imprisonment. 
-</div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Anyone involved in a drug-related case should have legal
+                    representation to ensure their rights. The following can
+                    utilize the service:
+                  </p>
 
-<p className="text-lg md:text-xl mb-4">
-Anyone involved in a drug-related case should have legal representation to ensure their rights. The following can utilize the service:
-</p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals charged with possessing illegal substances
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Those accused of trafficking or distributing drugs
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  Individuals charged with possessing illegal substances 
-  </li>
-  
-  <li className="text-lg md:text-xl">
-  Those accused of trafficking or distributing drugs
-  </li>
+                    <li className="text-lg md:text-xl">
+                      If any first-time offender wants to mitigate the
+                      consequences of their charge by enrolling in treatment
+                      programs or community service, they can do so.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    If any first-time offender wants to mitigate the consequences of their charge by enrolling in treatment programs or community service.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
 
-</ul>
-</div>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Depending on the severity of the act, this can lead to
+                      varying degrees of charges, from misdemeanors to felonies.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      If minors are involved in drug offenses, it can lead to
+                      enhanced penalties
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
+                    <li className="text-lg md:text-xl">
+                      If minors are involved in drug offenses, it can lead to
+                      enhanced penalties
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      A drug conviction can severely hinder future employment
+                      opportunities and housing facilities
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    Depending on the severity of the act, this can lead to varying degrees of charges, from misdemeanors to felonies. 
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Some may face probation or mandatory participation in
+                      treatment programs.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    If you’ve refused a breathalyzer or have a BAC over 0.08% results in an automatic administrative suspension under Wisconsin’s implied consent law
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Drug charges can complicate family law matters,
+                      particularly in custody cases.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    If minors are involved in drug offenses, it  can lead to enhanced penalties
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Proven criminal record can impact personal relationships,
+                      professional licensing, and social standing
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    A drug conviction can severely hinder future employment opportunities and housing facilities
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
 
-  <li className="text-lg md:text-xl">
- Some may face probation or mandatory participation in treatment programs.
-  </li>
+                  <p className="text-lg md:text-xl mb-4">
+                    Here are several key reasons why our legal representation
+                    can be significant in your situation:
+                  </p>
 
-  <li className="text-lg md:text-xl">
-  Drug charges can complicate family law matters, particularly in custody cases.
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We’ll carefully review the evidence against their client,
+                      identify potential weaknesses in the prosecution's case,
+                      and develop a solid defense strategy.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-Proven criminal record can impact personal relationships, professional licensing, and social standing
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We advocate for treatment programs rather than harsh
+                      penalties, and fines.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      Experienced attorneys can negotiate with prosecutors to
+                      potentially reduce charges or penalties.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      We work to minimize the impact of a drug charge on family
+                      law matters.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
+                    <li className="text-lg md:text-xl">
+                      Milwaukee Legal Pros handles your case discreetly, working
+                      to resolve it without unnecessarily damaging your
+                      reputation.
+                    </li>
 
-<p className="text-lg md:text-xl mb-4">
-Here are several key reasons  why our legal representation can be significant in your situation:
-</p>
+                    <li className="text-lg md:text-xl">
+                      We can guide clients on how to communicate with law
+                      enforcement and avoid making statements that could be used
+                      against them in court.
+                    </li>
+                  </ul>
+                </div>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-    We’ll carefully review the evidence against their client, identify potential weaknesses in the prosecution's case, and develop a solid defense strategy.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We advocate for treatment programs rather than harsh penalties, and fines.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    Experienced attorneys can negotiate with prosecutors to potentially reduce charges or penalties
-  </li>
-
-  <li className="text-lg md:text-xl">
-  We work to minimize the impact of a drug charge on family law matters
-  </li>
-
-  <li className="text-lg md:text-xl">
-    Milwaukee Legal Pros handles your case discreetly, working to resolve it without unnecessarily damaging your reputation.
-  </li>
-
-    <li className="text-lg md:text-xl">
-    We can guide clients on how to communicate with law enforcement and avoid making statements that could be used against them in court.
-  </li>
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
-  Facing drug charges? Contact us for a free consultation, and we'll help you understand your options and protect your rights.
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Facing drug charges? Contact us for a free consultation, and
+                    we'll help you understand your options and protect your
+                    rights.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -1406,118 +1426,125 @@ Here are several key reasons  why our legal representation can be significant in
       title: "Felonies",
       slug: "felonies",
       shortDesc:
-        "Felonies are serious crimes. Typically, it is defined as offenses that are punishable by imprisonment for more than one year. These crimes include a wide range of actions, such as murder, armed robbery, and drug trafficking. Wisconsin law categorizes felonies into nine classifications, from Class A to Class I. Each class has specific penalties related with it.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+        "Felonies are serious crimes, typically defined as offenses punishable by imprisonment for more than one year. These crimes encompass a wide range of actions, such as murder, armed robbery, and drug trafficking. Wisconsin law categorizes felonies into nine classifications, from Class A to Class I, with each class carrying specific penalties associated with it.",
+      description: `       <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Felonies are serious crimes, typically defined as offenses
+                    punishable by imprisonment for more than one year. These
+                    crimes encompass a wide range of actions, such as murder,
+                    armed robbery, and drug trafficking. Wisconsin law
+                    categorizes felonies into nine classifications, from Class A
+                    to Class I, with each class carrying specific penalties
+                    associated with it.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">Felonies are serious crimes. Typically, it is defined as offenses that are punishable by imprisonment for more than one year. These crimes include a wide range of actions, such as murder, armed robbery, and drug trafficking. Wisconsin law categorizes felonies into nine classifications, from Class A to Class I. Each class has specific penalties related with it. 
-</div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      People facing charges such as drug trafficking, and
+                      robbery that lead to felony charges
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone involved in violent crimes who requires a robust
+                      defense.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  People facing charges such as drug trafficking, and robbery that lead to felony charges
-  </li>
-  
-  <li className="text-lg md:text-xl">
-  Anyone involved in violent crimes who requires a robust defense.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Individuals accused of white-collar crimes like fraud or
+                      embezzlement
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Individuals accused of white-collar crimes like fraud or embezzlement 
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Anyone needing support in understanding their rights and
+                      options after being charged with a felony.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    Anyone needing support in understanding their rights and options after being charged with a felony.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
 
-</ul>
-</div>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      The consequences result in lengthy prison sentences, hefty
+                      fines, and mandatory restitution.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      Individuals may lose the right to vote following a felony
+                      conviction.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
+                    <li className="text-lg md:text-xl">
+                      The conviction impact on your work opportunities and
+                      professional life
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Being charged with a felony can carry significant social
+                      stigma
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    The consequences result in lengthy prison sentences, hefty fines, and mandatory restitution.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Personal relationships and community standing may be
+                      deeply affected by this charge
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Individuals may lose the right to vote following a felony conviction.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Navigating the legal landscape of felony charges can be
+                      confusing, and difficult.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-  The conviction impact on your work opportunities and professional life
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
 
-  <li className="text-lg md:text-xl">
-    Being charged with a felony can carry significant social stigma
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Our team specializes in understanding both state and
+                      federal laws regarding felonies.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-Personal relationships and community standing may be deeply affected by this charge
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We have successfully defended numerous clients against
+                      felony charges.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-Navigating the legal landscape of felony charges can be confusing, and difficult.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We strive to achieve favorable outcomes through strategic
+                      legal approaches and minimize your penalties.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      We handle each case with tailored defense strategies
+                      according to specific circumstances.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      Our defense attorneys are adept at negotiating with
+                      prosecutors if your case goes to trial
+                    </li>
+                  </ul>
+                </div>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
-
-
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-   Our team specializes in understanding both state and federal laws regarding felonies
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We advocate for treatment programs rather than harsh penalties, and fines.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We have successfully defended numerous clients against felony charges
-  </li>
-
-  <li className="text-lg md:text-xl">
-  We strive to achieve favorable outcomes through strategic legal approaches and minimize your penalties
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We handle each case with tailored defense strategies according to specific circumstances.
-  </li>
-
-    <li className="text-lg md:text-xl">
-    Our defense attorneys are adept at negotiating with prosecutors if your case goes to trial
-  </li>
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
-  Don't go through your felony charges by yourself. Reach out to us for a free consultation, and we'll offer tailored advice for your unique circumstance.
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Don't go through your felony charges by yourself. Reach out
+                    to us for a free consultation, and we'll offer tailored
+                    advice for your unique circumstance.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -1526,117 +1553,126 @@ Navigating the legal landscape of felony charges can be confusing, and difficult
       slug: "theft-charges",
       shortDesc:
         "Theft Charges are defined as the unlawful taking of someone else's property with the intent of permanently depriving the owner of it. It includes larceny, shoplifting, embezzlement, robbery, cyber theft, fraud, etc. These charges can arise from various motivations. If you’re struggling with such charges, our legal representation can create a robust defense strategy and ensure that your rights are protected throughout the legal process.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+      description: `  <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Theft Charges are defined as the unlawful taking of someone
+                    else's property with the intent of permanently depriving the
+                    owner of it. It includes larceny, shoplifting, embezzlement,
+                    robbery, cyber theft, fraud, etc. These charges can arise
+                    from various motivations. If you’re struggling with such
+                    charges, our legal representation can create a robust
+                    defense strategy and ensure that your rights are protected
+                    throughout the legal process.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">Theft Charges are defined as the unlawful taking of someone else's property with the intent of permanently depriving the owner of it. It includes larceny, shoplifting, embezzlement, robbery, cyber theft, fraud, etc. These charges can arise from various motivations. If you’re struggling with such charges, our legal representation can create a robust defense strategy and ensure that your rights are protected throughout the legal process.
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Individuals facing theft charges can greatly benefit from
+                    legal services that specialize in this area. Including:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone eager to understand and need guidance through the
+                      legal process regarding theft charges.
+                    </li>
 
-</div>
+                    <li className="text-lg md:text-xl">
+                      People charged with shoplifting or stealing from retail
+                      establishments.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
-<p className="text-lg md:text-xl mb-4">
-Individuals facing theft charges can greatly benefit from legal services that specialize in this area. Including:
-</p>
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      If anyone wants to reduce their penalties.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-      Anyone eager to understand and need guidance through the legal process regarding theft charges
-  </li>
-  
-  <li className="text-lg md:text-xl">
-    People charged with shoplifting or stealing from retail establishments
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Anybody facing grand theft charges requires a robust legal
+                      defense.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   If anyone wants to reduce their penalties
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Those facing charges related to misappropriation, identity
+                      theft, or any form of theft.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    Anybody facing grand theft charges requires a robust legal defense.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
 
-  <li className="text-lg md:text-xl">
-    Those facing charges related to misappropriation, identity theft, or any form of theft
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Legal penalties such as fines, restitution, probation, or
+                      imprisonment, depending on the severity of the charge
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      A permanent criminal record can affect future employment
+                      and other opportunities.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      Courts may order individuals to pay back the value of
+                      stolen items, and then you may face a financial burden.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
+                    <li className="text-lg md:text-xl">
+                      Being charged with theft can bring social stigma.
+                    </li>
+                  </ul>
+                </div>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Choosing the right legal representation is crucial for
+                    anyone facing theft charges. We offer:
+                  </p>
 
-  <li className="text-lg md:text-xl">
-    Legal penalties such as fines, restitution, probation, or imprisonment, depending on the severity of the charge
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Team specializes in theft-related cases, providing you
+                      with in-depth knowledge of both state and federal laws.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   A permanent criminal record can affect future employment and other opportunities.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We have successfully represented numerous clients facing
+                      theft charges, committed to giving you the best outcome in
+                      your circumstances and freeing you from having a criminal
+                      record.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  Courts may order individuals to pay back the value of stolen items, and then you may face a financial burden.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We take the time to understand the specifics of your
+                      situation and act, negotiate, and collect evidence
+                      accordingly.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Being charged with theft can bring social stigma.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We are committed to ensuring that your rights are fully
+                      protected at every stage of the legal process.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      Avoiding or minimizing penalties with our legal defense.
+                    </li>
+                  </ul>
+                </div>
 
-<div>
-
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
-<p className="text-lg md:text-xl mb-4">
-  Choosing the right legal representation is crucial for anyone facing theft charges. We offer: 
-</p>
-
-
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-   Team specializes in theft-related cases, providing you with in-depth knowledge of both state and federal laws.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We have successfully represented numerous clients facing theft charges, committed to giving you the best outcome in your circumstances and freeing you from having a criminal record.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We take the time to understand the specifics of your situation and act, negotiate, and collect evidence accordingly. 
-  </li>
-
-  <li className="text-lg md:text-xl">
-  We are committed to ensuring that your rights are fully protected at every stage of the legal process.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    Avoiding or minimizing penalties with our legal defense. 
-  </li>
-
-
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
-  Call us for a free consultation. Let us help you protect your future and regain control over your life.
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Call us for a free consultation. Let us help you protect
+                    your future and regain control over your life.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -1645,121 +1681,138 @@ Problems You Will Face
       slug: "assault",
       shortDesc:
         "Assault refers to a range of behaviors involving threats or attempts to harm another person. Assault charges can arise from various situations, ranging from domestic disputes to bar fights, and can lead to severe legal consequences. This is where an experienced criminal defense attorney becomes invaluable and fights for you to protect your rights.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+      description: `      <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Assault refers to a range of behaviors involving threats or
+                    attempts to harm another person. Assault charges can arise
+                    from various situations, ranging from domestic disputes to
+                    bar fights, and can lead to severe legal consequences. This
+                    is where an experienced criminal defense attorney becomes
+                    invaluable and fights for you to protect your rights.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">Assault refers to a range of behaviors involving threats or attempts to harm another person. Assault charges can arise from various situations, ranging from domestic disputes to bar fights, and can lead to severe legal consequences. This is where an experienced criminal defense attorney becomes invaluable and fights for you to protect your rights. 
-</div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    If you’re facing assault charges, you can greatly benefit
+                    from specialized legal services. This service is fit for:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone needing advice on their rights and options after
+                      being charged with assault.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
-<p className="text-lg md:text-xl mb-4">
-If you’re facing assault charges, you can greatly benefit from specialized legal services. This service is fit for:
-</p>
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Those charged with simple assault who may not fully
+                      understand the legal procedure and any potential
+                      consequences
+                    </li>
 
-  <li className="text-lg md:text-xl">
-      Anyone needing advice on their rights and options after being charged with assault.
-  </li>
-  
-  <li className="text-lg md:text-xl">
-   Those charged with simple assault who may not fully understand the legal procedure and any potential consequences
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Those facing more serious charges involving threats with a
+                      deadly weapon
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Those facing more serious charges involving threats with a deadly weapon
-  </li>
+                    <li className="text-lg md:text-xl">
+                      If someone is threatening to harm you or others in a way
+                      that could lead to serious criminal charges, using the
+                      legal service can protect you.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    If you’re getting threats with the intent to commit a felony.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Assault charges can lead to several complications:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      A conviction can result in a permanent criminal record,
+                      affecting future employment and housing opportunities.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      Depending on the charge, penalties may include fines,
+                      probation, or imprisonment, up to five years for
+                      aggravated assault.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      Victims may seek restraining orders that limit contact and
+                      can complicate personal relationships.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
-<p className="text-lg md:text-xl mb-4">
-Assault charges can lead to several complications:
-</p>
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Facing criminal charges can lead to significant stress and
+                      anxiety for the accused.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    A conviction can result in a permanent criminal record, affecting future employment and housing opportunities.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Understanding the legal paths of these penalties and their
+                      steps can be confusing but crucial
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Depending on the charge, penalties may include fines, probation, or imprisonment, up to five years for aggravated assault.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Wisconsin has a statute of limitations for criminal
+                      assault charges, maintaining and filing a claim within
+                      that time frame can be tough.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    Victims may seek restraining orders that limit contact and can complicate personal relationships.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
 
-  <li className="text-lg md:text-xl">
-  Facing criminal charges can lead to significant stress and anxiety for the accused.
-  </li>
+                  <p className="text-lg md:text-xl mb-4">
+                    Choosing the right legal representation is crucial for
+                    anyone facing assault charges. Here’s why our service stands
+                    out:
+                  </p>
 
-  <li className="text-lg md:text-xl">
-  Understanding the legal paths of these penalties and their steps can be confusing but crucial
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will thoroughly review the facts surrounding your case,
+                      including police reports, witness statements, and any
+                      available evidence.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  Wisconsin has a statute of limitations for criminal assault charges, maintaining and filing a claim within that time frame can be tough. 
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We understand Wisconsin's specific laws and defenses.
+                      We’ll work on minimizing your fines, probation,
+                      imprisonment, and restraining orders.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      We have successfully defended numerous clients against
+                      assault charges, so we prioritize maintaining time
+                      limitation for filing a claim for assault
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      Each case is evaluated individually, allowing us to
+                      develop tailored defense strategies that address specific
+                      circumstances and allegations.
+                    </li>
+                  </ul>
+                </div>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
-
-<p className="text-lg md:text-xl mb-4">
-  Choosing the right legal representation is crucial for anyone facing assault charges. Here’s why our service stands out:
-</p>
-
-
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-   We will thoroughly review the facts surrounding your case, including police reports, witness statements, and any available evidence.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We understand Wisconsin's specific laws and defenses. We’ll work on minimizing your fines, probation, imprisonment, and restraining orders.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We have successfully defended numerous clients against assault charges, so we prioritize maintaining time limitation for filing a claim for assault 
-  </li>
-
-  <li className="text-lg md:text-xl">
-  Each case is evaluated individually, allowing us to develop tailored defense strategies that address specific circumstances and allegations.
-
-  </li>
-
-
-
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
- Contact us today and secure expert legal assistance where individuals can better navigate their cases and protect their rights. With our free consultation, make an informed decision about your situation.  
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Contact us today and secure expert legal assistance where
+                    individuals can better navigate their cases and protect
+                    their rights. With our free consultation, make an informed
+                    decision about your situation.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -1768,116 +1821,127 @@ Assault charges can lead to several complications:
       slug: "battery",
       shortDesc:
         "Battery charges appear in Wisconsin and throughout the United States when someone intentionally touches or hits another person without their consent, causing harm to them. Battery laws vary by state, but Wisconsin has specific rules defining battery and its penalties. Under Wisconsin Statutes Section 940.19, battery can be classified as either simple battery or aggravated battery, depending on the extent of the harm and whether a dangerous weapon was involved. Whether your charges are simple or aggravated, we can help protect your rights and get the compensation you deserve.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+      description: `         <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Battery charges appear in Wisconsin and throughout the
+                    United States when someone intentionally touches or hits
+                    another person without their consent, causing harm to them.
+                    Battery laws vary by state, but Wisconsin has specific rules
+                    defining battery and its penalties. Wisconsin Statutes
+                    Section 940.19 classifies battery as either simple or
+                    aggravated, based on the extent of the harm and whether a
+                    dangerous weapon was involved.Whether your charges are
+                    simple or aggravated, we can help protect your rights and
+                    get the compensation you deserve.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">Battery charges appear in Wisconsin and throughout the United States when someone intentionally touches or hits another person without their consent, causing harm to them. Battery laws vary by state, but Wisconsin has specific rules defining battery and its penalties. Under Wisconsin Statutes Section 940.19, battery can be classified as either simple battery or aggravated battery, depending on the extent of the harm and whether a dangerous weapon was involved. Whether your charges are simple or aggravated, we can help protect your rights and get the compensation you deserve. 
-</div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Anyone dealing with Individuals facing battery-related
+                    charges in the U.S. can benefit from specialized legal
+                    services, including:
+                  </p>
 
-<p className="text-lg md:text-xl mb-4">
-Anyone dealing with Individuals facing battery-related charges in the U.S. can benefit from specialized legal services, including:
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Those charged with minor battery offenses may not fully
+                      understand the legal implications.
+                    </li>
 
-</p>
+                    <li className="text-lg md:text-xl">
+                      Those facing battery charges in connection with domestic
+                      violence
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone accused of battery charges as part of a larger
+                      assault case where the stakes are higher
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Those charged with minor battery offenses may not fully understand the legal implications.
-  </li>
-  
-  <li className="text-lg md:text-xl">
-   Those facing battery charges in connection with domestic violence 
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Individuals needing guidance on their rights and options
+                      after being charged with battery
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    Anyone accused of battery charges as part of a larger assault case where the stakes are higher
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Battery charges might cause many complications:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      A conviction may result in a lifelong criminal record,
+                      affecting career and housing chances.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Individuals needing guidance on their rights and options after being charged with battery
-  </li>
+                    <li className="text-lg md:text-xl">
+                      The punishment could include fines, probation, or prison
+                      time depending on how serrious the crime is.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      Victims may obtain restraining orders ( also known as
+                      injunction), which prohibit contact and can disrupt
+                      personal relationships.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      Facing charges of crime can cause tremendous stress and
+                      mental chaos for the accused.
+                    </li>
+                  </ul>
+                </div>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
-<p className="text-lg md:text-xl mb-4">
-Battery charges might cause many complications:
-</p>
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
 
-  <li className="text-lg md:text-xl">
-    A conviction may result in a lifelong criminal record, affecting career and housing chances.
-  </li>
+                  <p className="text-lg md:text-xl mb-4">
+                    When facing battery charges, choosing the right legal team
+                    is crucial. Here’s why our service stands out:
+                  </p>
 
-  <li className="text-lg md:text-xl">
-   Fines, probation, or prison may be imposed as legal punishments, depending on the severity of the offense.
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We specialize Wisconsin battery laws, ensuring that your
+                      defense is based on the most up-to-date legal information.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    Victims may obtain restraining orders ( also known as injunction), which prohibit contact and can disrupt personal relationships.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Our team has successfully defended numerous clients, from
+                      first-time offenders to those facing serious aggravated
+                      battery charges.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  Facing charges of crime can cause tremendous stress and mental chaos for the accused.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We offer personalized defense strategies, acting to remove
+                      you from the criminal record with a tailored approach.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      Beyond legal defense, our support can help you with your
+                      well-being and mental health throughout the legal process.
+                    </li>
+                  </ul>
+                </div>
 
-<div>
-
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
-
-<p className="text-lg md:text-xl mb-4">
- When facing battery charges, choosing the right legal team is crucial. Here’s why our service stands out:
-</p>
-
-
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-    We specialize Wisconsin battery laws, ensuring that your defense is based on the most up-to-date legal information.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    Our team has successfully defended numerous clients, from first-time offenders to those facing serious aggravated battery charges.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    We offer personalized defense strategies, acting to remove you from the criminal record with a tailored approach.
-  </li>
-
-  <li className="text-lg md:text-xl">
-  Beyond legal defense, our support can help you with your well-being and mental health throughout the legal process.
-
-  </li>
-
-
-
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
- Don’t navigate these charges alone. Contact us today for a free consultation, and let us guide you through your legal options to protect your rights and future
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Don’t navigate these charges alone. Contact us today for a
+                    free consultation, and let us guide you through your legal
+                    options to protect your rights and future
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -1885,125 +1949,141 @@ Battery charges might cause many complications:
       title: "Firearms Charges",
       slug: "firearms-charges",
       shortDesc:
-        "In the United States, firearms charges are based on a combination of federal and state laws governing firearms possession, sale, and transfer. Federal laws such as the National Firearms Act of 1934 and the Gun Control Act of 1968 established registration, fees, and dealer licensing. Violations of these rules can result in serious consequences. ",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+        "In the United States, firearms charges are based on a combination of federal and state laws governing firearms possession, sale, and transfer. Federal laws such as the National Firearms Act of 1934 and the Gun Control Act of 1968 established registration, fees, and dealer licensing. Violations of these rules can result in serious consequences.",
+      description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    In the United States, firearms charges are based on a
+                    combination of federal and state laws governing firearms
+                    possession, sale, and transfer. Federal laws such as the
+                    National Firearms Act of 1934 and the Gun Control Act of
+                    1968 established registration, fees, and dealer licensing.
+                    Violations of these rules can result in serious
+                    consequences.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">In the United States, firearms charges are based on a combination of federal and state laws governing firearms possession, sale, and transfer. Federal laws such as the National Firearms Act of 1934 and the Gun Control Act of 1968 established registration, fees, and dealer licensing. Violations of these rules can result in serious consequences. 
-</div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Anyone facing firearms charges can significantly benefit
+                    from legal services specializing in gun law. This includes:
+                  </p>
 
-<p className="text-lg md:text-xl mb-4">
-Anyone facing firearms charges can significantly benefit from legal services specializing in gun law. This includes:
-</p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Those with past conviction are prohibited from possessing
+                      firearms.
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      People charged with transporting or selling firearms
+                      without proper licenses may seek legal help for firearms
+                      trafficking.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Those prohibited from possessing firearms due to past convictions.
-  </li>
-  
-  <li className="text-lg md:text-xl">
-  People charged with transporting or selling firearms without proper licenses may seek legal help for firearms trafficking.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Individuals are facing charges for minor infractions
+                      related to firearms or first-time offenders.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    Individuals are facing charges for minor infractions related to firearms or first-time offenders.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Anyone accused of using firearms with involvement with
+                      drug trafficking or violent crimes.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-  Anyone accused of using firearms with involvement with drug trafficking or violent crimes.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Facing firearms charges can lead to several complications:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Federal charges, such as those for violating the National
+                      Firearms Act or Gun Control Act, often carry harsher
+                      penalties than state offenses.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      You may be sentenced to longer prison and significant
+                      fines.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      We can help by determining if you were legally permitted
+                      to carry and whether any exemptions apply.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
-<p className="text-lg md:text-xl mb-4">
-Facing firearms charges can lead to several complications:
-</p>
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Navigating federal versus state laws can be confusing,
+                      particularly regarding the specifics of gun ownership and
+                      possession rights.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    Federal charges, such as those for violating the National Firearms Act or Gun Control Act, often carry harsher penalties than state offenses
-  </li>
+                    <li className="text-lg md:text-xl">
+                      A conviction can result in the permanent loss of the right
+                      to own or possess firearms, affecting personal and
+                      professional life.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-  You may be sentenced to longer prison and significant fines.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
 
-  <li className="text-lg md:text-xl">
-    We can help by determining if you were legally permitted to carry and whether any exemptions apply
-  </li>
+                  <p className="text-lg md:text-xl mb-4">
+                    Choosing the right legal representation is crucial for
+                    anyone facing firearms charges. Here’s why our service
+                    stands out:
+                  </p>
 
-  <li className="text-lg md:text-xl">
-  Navigating federal versus state laws can be confusing, particularly regarding the specifics of gun ownership and possession rights.
-  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Our team specializes in both federal and state firearm
+                      regulations, ensuring that you receive informed guidance
+                      tailored to your case.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  A conviction can result in the permanent loss of the right to own or possess firearms, affecting personal and professional life.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      If you’re charged with a violent crime involving a
+                      firearm, we can work to reduce or dismiss charges by
+                      arguing self-defense, lack of intent, etc.
+                    </li>
 
-</ul>
-</div>
+                    <li className="text-lg md:text-xl">
+                      We have successfully defended numerous clients against
+                      serious firearm charges and will work on minimizing
+                      harsher penalties.
+                    </li>
 
-<div>
+                    <li className="text-lg md:text-xl">
+                      We assess each case individually, developing tailored
+                      defense strategies that address specific circumstances and
+                      potential violations.
+                    </li>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
+                    <li className="text-lg md:text-xl">
+                      You can rest easy knowing you’re taking each step right.
+                    </li>
+                  </ul>
+                </div>
 
-<p className="text-lg md:text-xl mb-4">
- Choosing the right legal representation is crucial for anyone facing firearms charges. Here’s why our service stands out:
-</p>
-
-
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-Our team specializes in both federal and state firearm regulations, ensuring that you receive informed guidance tailored to your case.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    Our team has successfully defended numerous clients, from first-time offenders to those facing serious aggravated battery charges.
-  </li>
-
-  <li className="text-lg md:text-xl">
-  If you’re charged with a violent crime involving a firearm, we can work to reduce or dismiss charges by arguing self-defense, lack of intent, etc.
-  </li>
-
-  <li className="text-lg md:text-xl">
-  We have successfully defended numerous clients against serious firearm charges and will work on minimizing harsher penalties.
-  </li>
-
-    <li className="text-lg md:text-xl">
-  We assess each case individually, developing tailored defense strategies that address specific circumstances and potential violations.
-  </li>
-
-  <li className="text-lg md:text-xl">
-  You can rest easy knowing you’re taking each step right.
-  </li>
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
-Don’t feel lonely in your legal journey and contact us today for a free consultation. We will guide you according to your unique situation so that you can better navigate their cases and protect your rights. 
-
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Don’t feel lonely in your legal journey and contact us today
+                    for a free consultation. We will guide you according to your
+                    unique situation so that you can better navigate their cases
+                    and protect your rights.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -2012,125 +2092,132 @@ Don’t feel lonely in your legal journey and contact us today for a free consul
       slug: "drug-trafficking",
       shortDesc:
         "Drug trafficking, often known as illegal drug trade or narcotrafficking, is the unlawful business of cultivating, producing, distributing, and selling drugs forbidden by drug laws. The consequences have a huge influence on economies, society, and healthcare systems. Wisconsin follows both state and federal drug laws, which means those charged could face either or both jurisdictions depending on the scope of the offense. Therefore, legal services for drug trafficking are essential for anyone directly or indirectly involved in drug-related legal issues.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-<div>
+      description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Drug trafficking, often known as illegal drug trade or
+                    narcotrafficking, is the unlawful business of cultivating,
+                    producing, distributing, and selling drugs forbidden by drug
+                    laws. The consequences have a huge influence on economies,
+                    society, and healthcare systems. Wisconsin follows both
+                    state and federal drug laws, which means those charged could
+                    face either or both jurisdictions depending on the scope of
+                    the offense. Therefore, legal services for drug trafficking
+                    are essential for anyone directly or indirectly involved in
+                    drug-related legal issues.
+                  </div>
 
-<div className ="text-lg md:text-xl mb-6">Drug trafficking, often known as illegal drug trade or narcotrafficking, is the unlawful business of cultivating, producing, distributing, and selling drugs forbidden by drug laws. The consequences have a huge influence on economies, society, and healthcare systems. Wisconsin follows both state and federal drug laws, which means those charged could face either or both jurisdictions depending on the scope of the offense. Therefore, legal services for drug trafficking are essential for anyone directly or indirectly involved in drug-related legal issues. 
-</div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Will Benefit From This Service?
+                  </h4>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Who Will Benefit From This Service?
-</h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Here’s an overview of who can utilize these legal services:
+                  </p>
 
-<p className="text-lg md:text-xl mb-4">
-Here’s an overview of who can utilize these legal services:
-</p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone charged with drug trafficking, whether it involves
+                      possession, distribution, or manufacturing.
+                    </li>
 
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individual requires attorneys for federal drug laws and
+                      court procedures.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Anyone charged with drug trafficking, whether it involves possession, distribution, or manufacturing.
-  </li>
-  
-  <li className="text-lg md:text-xl">
-  Individual requires attorneys for federal drug laws and court procedures.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Those who may want to negotiate a plea deal.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-   Those who may want to negotiate a plea deal
-  </li>
+                    <li className="text-lg md:text-xl">
+                      People involved in related criminal activities such as
+                      money laundering or arms trafficking associated with drug
+                      trafficking.
+                    </li>
 
-  <li className="text-lg md:text-xl">
- People involved in related criminal activities such as money laundering or arms trafficking associated with drug trafficking
+                    <li className="text-lg md:text-xl">
+                      If any transportation company is involved in a drug
+                      trafficking operation.
+                    </li>
+                  </ul>
+                </div>
 
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You Will Face
+                  </h4>
+                  <p className="text-lg md:text-xl mb-4">
+                    Engaging in or being affected by drug trafficking can lead
+                    to various challenges, such as:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals caught trafficking drugs in Wisconsin, face
+                      severe legal penalties, including lengthy prison
+                      sentences, hefty fines, and probation.
+                    </li>
 
-    <li className="text-lg md:text-xl">
- If any transportation company is involved in a drug trafficking operation
+                    <li className="text-lg md:text-xl">
+                      Drug trafficking is often associated with violent crime
+                      which can destabilize communities. Being charged with this
+                      may cause you socially left out.
+                    </li>
 
-  </li>
+                    <li className="text-lg md:text-xl">
+                      If anyone gets into addiction in connection with drug
+                      trafficking, this can harm physical and mental health.
+                    </li>
 
+                    <li className="text-lg md:text-xl">
+                      While some may benefit economically in the short term, in
+                      the long run, they suffer from increased crime rates and
+                      reduced quality of life due to drug-related offenses.
+                    </li>
+                  </ul>
+                </div>
 
-</ul>
-</div>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros can help you?
+                  </h4>
 
-<div>
+                  <p className="text-lg md:text-xl mb-4">
+                    Here’s why our service stands out :
+                  </p>
 
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-Problems You Will Face
-</h4>
-<p className="text-lg md:text-xl mb-4">
-Engaging in or being affected by drug trafficking can lead to various challenges, such as:
-</p>
-<ul className="flex flex-col gap-2 list-disc pl-5">
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Our legal representation ensures that you’re protected
+                      during investigations and court proceedings.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-    Individuals caught trafficking drugs in Wisconsin, face severe legal penalties, including lengthy prison sentences, hefty fines, and probation.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We handle the legal system effectively, ensuring that your
+                      rights are protected throughout the process, free you from
+                      stress, and prohibit your any wrong step.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-  Drug trafficking is often associated with violent crime which can destabilize communities. Being charged with this may cause you socially left out. 
+                    <li className="text-lg md:text-xl">
+                      Our attorneys are skilled at negotiating plea deals or
+                      seeking reduced charges.
+                    </li>
 
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We'll thoroughly review the evidence against you,
+                      identifying any weaknesses in the prosecution's case.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-    If anyone gets into addiction in connection with drug trafficking, this can harm physical and mental health.
-  </li>
-
-  <li className="text-lg md:text-xl">
-  While some may benefit economically in the short term, in the long run, they suffer from increased crime rates and reduced quality of life due to drug-related offenses.
-  </li>
-
-
-</ul>
-</div>
-
-<div>
-
-<h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-  How Milwaukee Legal Pros can help you?
-</h4>
-
-<p className="text-lg md:text-xl mb-4">
-Here’s why our service stands out :
-</p>
-
-
-<ul className="flex flex-col gap-2 list-disc pl-5">
-
-  <li className="text-lg md:text-xl">
-Our team specializes in both federal and state firearm regulations, ensuring that you receive informed guidance tailored to your case.
-  </li>
-
-  <li className="text-lg md:text-xl">
-    Our legal representation ensures that you’re protected during investigations and court proceedings
-  </li>
-
-  <li className="text-lg md:text-xl">
-  If you’re charged with a violent crime involving a firearm, we can work to reduce or dismiss charges by arguing self-defense, lack of intent, etc.
-  </li>
-
-  <li className="text-lg md:text-xl">
-  Our attorneys are skilled at negotiating plea deals or seeking reduced charges. 
-  </li>
-
-    <li className="text-lg md:text-xl">
-We'll thoroughly review the evidence against you, identifying any weaknesses in the prosecution's case.
-  </li>
-
-</ul>
-</div>
-
-<div>
-
-<p className="text-lg md:text-xl">
-Don't face your drug trafficking charges alone. Contact us today for a free consultation, and we'll provideyou  personalized guidance on your unique situation. 
-
-</p>
-
-</div>
-</div>
-`,
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Don't face your drug trafficking charges alone. Contact us
+                    today for a free consultation, and we'll provideyou
+                    personalized guidance on your unique situation.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -2139,87 +2226,122 @@ Don't face your drug trafficking charges alone. Contact us today for a free cons
       slug: "arson",
       shortDesc:
         "Arson, the intentional and malicious burning of property, is a serious crime under Wisconsin Statute 943.021. It can be done intentionally or unintentionally. This conviction comes with severe legal consequences. It can cause significant property damage, loss of life, and emotional trauma. If you are facing arson charges or are under investigation, it is crucial to seek legal representation from a qualified arson criminal lawyer.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-  <div>
-    <div className ="text-lg md:text-xl mb-6">Arson, the intentional and malicious burning of property, is a serious crime under Wisconsin Statute 943.021. It can be done intentionally or unintentionally. This conviction comes with severe legal consequences. It can cause significant property damage, loss of life, and emotional trauma. If you are facing arson charges or are under investigation, it is crucial to seek legal representation from a qualified arson criminal lawyer.
-    </div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-      This Service Is For
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-        Individuals facing arson charges in Wisconsin.
-      </li>
-      <li className="text-lg md:text-xl">
-        People accused of setting fire to property or causing damage through explosives.
-      </li>
-      <li className="text-lg md:text-xl">
-        Those dealing with felony charges, potential prison time, and large fines due to arson accusations.
-      </li>
-      <li className="text-lg md:text-xl">
-        Individuals facing arson allegations from intentional property damage, reckless behavior, or false claims.
-      </li>
-      <li className="text-lg md:text-xl">
-        Anyone needing legal defense against arson charges based on direct or circumstantial evidence.
-      </li>
-      <li className="text-lg md:text-xl">
-        People concerned about misunderstandings or false allegations related to fire incidents.
-      </li>
-    </ul>
-  </div>
+      description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Arson, the intentional and malicious burning of property, is
+                    a serious crime under Wisconsin Statute 943.021. It can be
+                    done intentionally or unintentionally. This conviction comes
+                    with severe legal consequences. It can cause significant
+                    property damage, loss of life, and emotional trauma. If you
+                    are facing arson charges or are under investigation, it is
+                    crucial to seek legal representation from a qualified arson
+                    criminal lawyer.
+                  </div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    This Service Is For
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals facing arson charges in Wisconsin.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      People accused of setting fire to property or causing
+                      damage through explosives.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Those dealing with felony charges, potential prison time,
+                      and large fines due to arson accusations.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Individuals facing arson allegations from intentional
+                      property damage, reckless behavior, or false claims.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Anyone needing legal defense against arson charges based
+                      on direct or circumstantial evidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      People concerned about misunderstandings or false
+                      allegations related to fire incidents.
+                    </li>
+                  </ul>
+                </div>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-      Problems You Will Face
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-        OWI conviction can lead to license suspension, with penalties varying based on prior offenses and BAC level.
-      </li>
-      <li className="text-lg md:text-xl">
-        If you’ve refused a breathalyzer or have a BAC over 0.08%, it results in an automatic administrative suspension under Wisconsin’s implied consent law.
-      </li>
-      <li className="text-lg md:text-xl">
-        When you request a formal hearing (DMV) to challenge the suspension and contest the evidence against you.
-      </li>
-      <li className="text-lg md:text-xl">
-        Defending against suspension is harder with prior OWI convictions, and results in longer revocations or ignition interlock device (IID) requirements.
-      </li>
-      <li className="text-lg md:text-xl">
-        If the officer had no valid reason to stop you, you can challenge the evidence.
-      </li>
-      <li className="text-lg md:text-xl">
-        Faulty BAC tests, blood tests, or faulty devices.
-      </li>
-    </ul>
-  </div>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Challenges You Might Face After Being Charged With Arson
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Arson charges can lead to significant prison time, hefty
+                      fines, and a permanent criminal record.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      The prosecution must prove that you intentionally set the
+                      fire, which can be challenging to refute without proper
+                      legal representation.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Arson cases often involve intricate forensic evidence that
+                      requires expert analysis.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Being charged with arson can severely damage your
+                      reputation and impact various aspects of your life,
+                      including employment and housing opportunities.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      If the fire involved insured property, there might be
+                      additional complications with insurance claims and
+                      investigations.
+                    </li>
+                  </ul>
+                </div>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-      How Milwaukee Legal Pros Can Help You
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-        Our lawyers are experts at negotiating with prosecutors to reduce charges or penalties.
-      </li>
-      <li className="text-lg md:text-xl">
-        We deal effectively with insurance companies to minimize the financial impact.
-      </li>
-      <li className="text-lg md:text-xl">
-        We meticulously identify weaknesses in the prosecution's evidence, whether it’s the legality of the traffic stop, accuracy of sobriety tests, or procedural errors.
-      </li>
-      <li className="text-lg md:text-xl">
-        We provide the right legal representation in both DMV hearings and criminal court, fighting to protect your license and limit the long-term consequences of an OWI conviction.
-      </li>
-    </ul>
-  </div>
-  <div>
-    <p className="text-lg md:text-xl">
-      Anyone facing OWI charges, whether a first-time offender or someone with prior convictions, can significantly benefit from the expertise and advocacy of our qualified attorneys. Contact us today for a consultation.
-    </p>
-  </div>
-</div>
-`,
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Experts Help You Overcome Arson Charges
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We meticulously examine all aspects of your case,
+                      including forensic evidence, witness testimonies, and
+                      investigative procedures, to identify weaknesses in the
+                      prosecution’s case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We collaborate with fire investigation experts to analyze
+                      the fire’s origin, cause, and behavior, providing crucial
+                      evidence to support your defense.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our defense strategies include arguing a lack of criminal
+                      intent, accidental fire defense, and false accusation
+                      defense to challenge the core elements of the
+                      prosecution’s case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We engage in strategic negotiations with prosecutors to
+                      seek reduced charges or alternative Sentencing options,
+                      aiming for the best possible outcome for you.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our legal team has extensive experience in handling arson
+                      cases and is dedicated to protecting your rights and
+                      future.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Contact us for a free consultation to get the right support
+                    based on your unique situation. We are committed to guiding
+                    you through the legal process and helping you move forward
+                    with your life.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -2228,96 +2350,131 @@ Don't face your drug trafficking charges alone. Contact us today for a free cons
       slug: "kidnapping",
       shortDesc:
         "Kidnapping is defined as the unlawful confinement or abduction of a person against their will. It is a severe offense under Wisconsin Statute 940.31, often resulting in harsh penalties including lengthy prison sentences. If you are facing kidnapping charges, it is essential to seek immediate legal representation from an experienced criminal defense lawyer.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-  <div>
-    <div className ="text-lg md:text-xl mb-6">Arson, the intentional and malicious burning of property, is a serious crime under Wisconsin Statute 943.021. It can be done intentionally or unintentionally. This conviction comes with severe legal consequences. It can cause significant property damage, loss of life, and emotional trauma. If you are facing arson charges or are under investigation, it is crucial to seek legal representation from a qualified arson criminal lawyer.
-    </div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-      This Service Is For
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-        Individuals arrested or charged with kidnapping in Wisconsin.
-      </li>
-      <li className="text-lg md:text-xl">
-        Defendants who did not intend to commit the kidnapping.
-      </li>
-      <li className="text-lg md:text-xl">
-        Defendants who were forced to commit the kidnapping.
-      </li>
-      <li className="text-lg md:text-xl">
-       Situations where the victim consented to the kidnapping.
-      </li>
-      <li className="text-lg md:text-xl">
-       Cases where the victim or witness may have mistaken the defendant for someone else.
-      </li>
-      <li className="text-lg md:text-xl">
-        Defendants who believed they had the authority to take the victim or that the victim consented to go with them.
-      </li>
+      description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Kidnapping is defined as the unlawful confinement or
+                    abduction of a person against their will. It is a severe
+                    offense under Wisconsin Statute 940.31, often resulting in
+                    harsh penalties including lengthy prison sentences. If you
+                    are facing kidnapping charges, it is essential to seek
+                    immediate legal representation from an experienced criminal
+                    defense lawyer.
+                  </div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    This Service Is For
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals arrested or charged with kidnapping in
+                      Wisconsin.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Defendants who did not intend to commit the kidnapping.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Defendants who were forced to commit the kidnapping.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Situations where the victim consented to the kidnapping.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Cases where the victim or witness may have mistaken the
+                      defendant for someone else.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Defendants who believed they had the authority to take the
+                      victim or that the victim consented to go with them.
+                    </li>
 
-        <li className="text-lg md:text-xl">
-        Defendants who were not mentally stable at the time of the incident.
-      </li>
+                    <li className="text-lg md:text-xl">
+                      Defendants who were not mentally stable at the time of the
+                      incident.
+                    </li>
 
-        <li className="text-lg md:text-xl">
-        Situations where the victim is a relative, and the situation was a misunderstanding.
-      </li>
-    </ul>
-  </div>
+                    <li className="text-lg md:text-xl">
+                      Situations where the victim is a relative, and the
+                      situation was a misunderstanding.
+                    </li>
+                  </ul>
+                </div>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-     Challenges You Might Face After Being Charged With Kidnapping Case
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-       Kidnapping is a first-degree felony in Wisconsin, punishable by up to life in prison and significant fines.
-      </li>
-      <li className="text-lg md:text-xl">
-      The prosecution must prove that you forcibly, secretly, or by threat confined, abducted, or imprisoned another person against their will.
-      </li>
-      <li className="text-lg md:text-xl">
-        Understanding the nuances of what constitutes kidnapping, especially when it involves other crimes or specific intents, can be challenging.
-      </li>
-      <li className="text-lg md:text-xl">
-Being charged with kidnapping can severely damage your reputation and affect various aspects of your life, including employment and personal relationships.
-      </li>
-      <li className="text-lg md:text-xl">
-     If the kidnapping involves a child under 13 or is accompanied by other crimes like sexual battery or aggravated child abuse, the charges and penalties can be even more severe.
-    </ul>
-  </div>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Challenges You Might Face After Being Charged With
+                    Kidnapping Case
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Kidnapping is a first-degree felony in Wisconsin,
+                      punishable by up to life in prison and significant fines.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      The prosecution must prove that you forcibly, secretly, or
+                      by threat confined, abducted, or imprisoned another person
+                      against their will.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Understanding the nuances of what constitutes kidnapping,
+                      especially when it involves other crimes or specific
+                      intents, can be challenging.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Being charged with kidnapping can severely damage your
+                      reputation and affect various aspects of your life,
+                      including employment and personal relationships.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      If the kidnapping involves a child under 13 or is
+                      accompanied by other crimes like sexual battery or
+                      aggravated child abuse, the charges and penalties can be
+                      even more severe.{" "}
+                    </li>
+                  </ul>
+                </div>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-     How Milwaukee Legal Experts Help You Overcome Kidnapping Charges 
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-   We work hard to reduce your kidnapping charges and avoid life imprisonment by negotiating plea deals or challenging weak evidence.
-      </li>
-      <li className="text-lg md:text-xl">
-        We focus on proving there was no force, secrecy, or threat involved. If the situation was a misunderstanding or consensual, we fight to clear your name.
-      </li>
-      <li className="text-lg md:text-xl">
-        We break down the legal details and argue against any overcharges or misinterpretations by the prosecution.
-      </li>
-      <li className="text-lg md:text-xl">
-We aim to handle your case discreetly and quickly to protect your personal and professional reputation.
-      </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Experts Help You Overcome Kidnapping
+                    Charges
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We work hard to reduce your kidnapping charges and avoid
+                      life imprisonment by negotiating plea deals or challenging
+                      weak evidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We focus on proving there was no force, secrecy, or threat
+                      involved. If the situation was a misunderstanding or
+                      consensual, we fight to clear your name.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We break down the legal details and argue against any
+                      overcharges or misinterpretations by the prosecution.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We aim to handle your case discreetly and quickly to
+                      protect your personal and professional reputation.
+                    </li>
 
-            <li className="text-lg md:text-xl">
-If your case includes other crimes like child endangerment, we challenge each charge individually, working to reduce penalties and highlight any weaknesses in the prosecution’s case.
-
-      </li>
-    </ul>
-  </div>
-  <div>
-    <p className="text-lg md:text-xl">
-Contact us for a free consultation to get the right support based on your unique situation. We are committed to guiding you through the legal process and helping you move forward with your life.
-    </p>
-  </div>
-</div>
-`,
+                    <li className="text-lg md:text-xl">
+                      If your case includes other crimes like child
+                      endangerment, we challenge each charge individually,
+                      working to reduce penalties and highlight any weaknesses
+                      in the prosecution’s case.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Contact us for a free consultation to get the right support
+                    based on your unique situation. We are committed to guiding
+                    you through the legal process and helping you move forward
+                    with your life.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -2326,107 +2483,139 @@ Contact us for a free consultation to get the right support based on your unique
       slug: "sexual-crimes",
       shortDesc:
         "Sexual crimes involve offenses such as sexual assault, rape, child molestation, statutory rape, child pornography, internet-related sex crimes, prostitution, and solicitation. These offenses  are prosecuted vigorously under the Wisconsin law. Basically, an 18-year-old or over commits a mentioned crime with under or over 18 years old without consent. Over 1 million adults faced sexual violence in their lifetime. It comes with severe penalties including long-term imprisonment and mandatory registration as a sex offender. Legal representation from a specialized attorney is crucial to navigating these complex and sensitive cases.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-  <div>
-    <div className ="text-lg md:text-xl mb-6">Sexual crimes involve offenses such as sexual assault, rape, child molestation, statutory rape, child pornography, internet-related sex crimes, prostitution, and solicitation. These offenses  are prosecuted vigorously under the Wisconsin law. Basically, an 18-year-old or over commits a mentioned crime with under or over 18 years old without consent. Over 1 million adults faced sexual violence in their lifetime. It comes with severe penalties including long-term imprisonment and mandatory registration as a sex offender. Legal representation from a specialized attorney is crucial to navigating these complex and sensitive cases.</div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-    This Service Is For
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-      Individuals accused of sexual assault.
-      </li>
-      <li className="text-lg md:text-xl">
-        People charged with rape.
-      </li>
-      <li className="text-lg md:text-xl">
-        Accused of statutory rape(sexual relations with individuals under the legal age of consent).
-      </li>
-      <li className="text-lg md:text-xl">
-       Facing child pornography charges.
-      </li>
-      <li className="text-lg md:text-xl">
-       Charged with indecent exposure.
-      </li>
-      <li className="text-lg md:text-xl">
-        Accused of prostitution or solicitation.
-      </li>
+      description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    Sexual crimes involve offenses such as sexual assault, rape,
+                    child molestation, statutory rape, child pornography,
+                    internet-related sex crimes, prostitution, and solicitation.
+                    These offenses are prosecuted vigorously under the Wisconsin
+                    law. Basically, an 18-year-old or over commits a mentioned
+                    crime with under or over 18 years old without consent. Over
+                    1 million adults faced sexual violence in their lifetime. It
+                    comes with severe penalties including long-term imprisonment
+                    and mandatory registration as a sex offender. Legal
+                    representation from a specialized attorney is crucial to
+                    navigating these complex and sensitive cases.
+                  </div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    This Service Is For
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals accused of sexual assault.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      People charged with rape.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Accused of statutory rape(sexual relations with
+                      individuals under the legal age of consent).
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Facing child pornography charges.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Charged with indecent exposure.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Accused of prostitution or solicitation.
+                    </li>
 
-        <li className="text-lg md:text-xl">
-        Facing internet-related sex crimes(e.g., online solicitation, child pornography, revenge porn, or underage sexting).
-      </li>
+                    <li className="text-lg md:text-xl">
+                      Facing internet-related sex crimes(e.g., online
+                      solicitation, child pornography, revenge porn, or underage
+                      sexting).
+                    </li>
 
-        <li className="text-lg md:text-xl">
-        Dealing with false allegations and need to clear their name.
-      </li>
-    </ul>
-  </div>
+                    <li className="text-lg md:text-xl">
+                      Dealing with false allegations and need to clear their
+                      name.
+                    </li>
+                  </ul>
+                </div>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-     Challenges You Might Face After Being Charged With Sexual Crime 
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-      Sexual crimes can lead to long prison sentences, hefty fines, and mandatory sex offender registration for life.
-      </li>
-      <li className="text-lg md:text-xl">
-      Accusations can harm your reputation, affecting your job, relationships, and community standing, even if you're not convicted.
-      </li>
-      <li className="text-lg md:text-xl">
-        Cases often involve sensitive evidence, making it difficult to establish a clear defense, as it may rely heavily on conflicting testimonies.
-      </li>
-      <li className="text-lg md:text-xl">
-A conviction requires sex offender registration, which limits your freedom, housing options, and job opportunities.
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Challenges You Might Face After Being Charged With Sexual
+                    Crime
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Sexual crimes can lead to long prison sentences, hefty
+                      fines, and mandatory sex offender registration for life.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Accusations can harm your reputation, affecting your job,
+                      relationships, and community standing, even if you're not
+                      convicted.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Cases often involve sensitive evidence, making it
+                      difficult to establish a clear defense, as it may rely
+                      heavily on conflicting testimonies.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      A conviction requires sex offender registration, which
+                      limits your freedom, housing options, and job
+                      opportunities.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      The stress of facing such charges can take a toll on your
+                      mental health, given the legal process and public
+                      scrutiny.
+                    </li>
 
-      </li>
-      <li className="text-lg md:text-xl">
-     The stress of facing such charges can take a toll on your mental health, given the legal process and public scrutiny.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      Establishing that encounters were consensual can be
+                      challenging, especially when the prosecution focuses on
+                      victim statements.
+                    </li>
+                  </ul>
+                </div>
 
-  <li className="text-lg md:text-xl">
-     Establishing that encounters were consensual can be challenging, especially when the prosecution focuses on victim statements.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Experts Help You Overcome Sexual Crime
+                    Charges
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We analyze all evidence, including conflicting
+                      testimonies, to build a strong defense.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Collaborate with forensic experts and psychologists to
+                      challenge prosecution evidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Protect your privacy and manage public perception
+                      effectively.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Negotiate for lesser charges to avoid mandatory sex
+                      offender registration.
+                    </li>
 
-    </ul>
-  </div>
+                    <li className="text-lg md:text-xl">
+                      Gather evidence to establish consensual encounters.
+                    </li>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-     How Milwaukee Legal Experts Help You Overcome Sexual Crime Charges
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-   We analyze all evidence, including conflicting testimonies, to build a strong defense.
-      </li>
-      <li className="text-lg md:text-xl">
-        Collaborate with forensic experts and psychologists to challenge prosecution evidence.
-      </li>
-      <li className="text-lg md:text-xl">
-        Protect your privacy and manage public perception effectively.
-      </li>
-      <li className="text-lg md:text-xl">
-Negotiate for lesser charges to avoid mandatory sex offender registration.
-      </li>
-
-        <li className="text-lg md:text-xl">
-          Gather evidence to establish consensual encounters.
-
-      </li>
-
-        <li className="text-lg md:text-xl">
-          Aim for reduced charges or dismissal through skilled negotiation.
-
-      </li>
-    </ul>
-  </div>
-  <div>
-    <p className="text-lg md:text-xl">
-Contact us for a free consultation to get the right support based on your unique situation. We are committed to guiding you through the legal process and helping you move forward with your life.
-    </p>
-  </div>
-</div>
-`,
+                    <li className="text-lg md:text-xl">
+                      Aim for reduced charges or dismissal through skilled
+                      negotiation.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Contact us for a free consultation to get the right support
+                    based on your unique situation. We are committed to guiding
+                    you through the legal process and helping you move forward
+                    with your life.
+                  </p>
+                </div>
+              </div>`,
     },
 
     {
@@ -2434,103 +2623,135 @@ Contact us for a free consultation to get the right support based on your unique
       title: "Murder",
       slug: "murder",
       shortDesc:
-        "Murder is when someone unlawfully kills another person with bad intentions. It is one of the most serious crimes under Wisconsin law, specifically Wisconsin Statutes 940.01, 940.02, and 940.05. It carries penalties that can include life imprisonment or the death penalty. If you are charged with murder, it is important to have a highly skilled criminal defense lawyer to protect your rights and build a strong defense.",
+        "In Wisconsin, the definition of “murder” falls under the category of first-degree intentional homicide. This is defined as causing the death of another human being or an unborn child with the intent to kill that person or unborn child. It is one of the most serious crimes under Wisconsin law, specifically Wisconsin Statutes 940.01, 940.02, and 940.05. It carries penalties that can include life imprisonment or the death penalty. If you are charged with murder, it is important to have a highly skilled criminal defense lawyer to protect your rights and build a strong defense.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-  <div>
-    <div className ="text-lg md:text-xl mb-6">Murder is when someone unlawfully kills another person with bad intentions. It is one of the most serious crimes under Wisconsin law, specifically Wisconsin Statutes 940.01, 940.02, and 940.05. It carries penalties that can include life imprisonment or the death penalty. If you are charged with murder, it is important to have a highly skilled criminal defense lawyer to protect your rights and build a strong defense.</div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-    This Service Is For
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-         Individuals charged with murder in Wisconsin.
-      </li>
-      <li className="text-lg md:text-xl">
-        Those accused of first-degree, second-degree, or third-degree murder.
-      </li>
-      <li className="text-lg md:text-xl">
-        People facing felony murder charges related to other crimes such as arson, robbery, or kidnapping.
-      </li>
-      <li className="text-lg md:text-xl">
-       Anyone needing legal defense for homicide charges, including manslaughter.
-      </li>
-    
-    </ul>
-  </div>
+                <div>
+                  <div className="text-lg md:text-xl mb-6">
+                    In Wisconsin, the definition of “murder” falls under the
+                    category of first-degree intentional homicide. This is
+                    defined as causing the death of another human being or an
+                    unborn child with the intent to kill that person or unborn
+                    child. It is one of the most serious crimes under Wisconsin
+                    law, specifically Wisconsin Statutes 940.01, 940.02, and
+                    940.05. It carries penalties that can include life
+                    imprisonment or the death penalty. If you are charged with
+                    murder, it is important to have a highly skilled criminal
+                    defense lawyer to protect your rights and build a strong
+                    defense.
+                  </div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    This Service Is For
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals charged with murder in Wisconsin.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Those accused of first-degree, second-degree, or
+                      third-degree murder.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      People facing felony murder charges related to other
+                      crimes such as arson, robbery, or kidnapping.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Anyone needing legal defense for homicide charges,
+                      including manslaughter.
+                    </li>
+                  </ul>
+                </div>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-    Challenges You Might Face After Being Charged With Murder Case 
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-      Convictions can lead to life imprisonment or the death penalty.
-      </li>
-      <li className="text-lg md:text-xl">
-     Murder cases involve intricate legal definitions and require a thorough understanding of both state and federal laws.
-      </li>
-      <li className="text-lg md:text-xl">
-       These cases often rely heavily on forensic evidence, which can be complex and require expert analysis.
-      </li>
-      <li className="text-lg md:text-xl">
-        Being charged with murder can severely damage your reputation and impact various aspects of your life, including employment and personal relationships.
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Challenges You Might Face After Being Charged With Murder
+                    Case
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Convictions can lead to life imprisonment or the death
+                      penalty.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Murder cases involve intricate legal definitions and
+                      require a thorough understanding of both state and federal
+                      laws.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      These cases often rely heavily on forensic evidence, which
+                      can be complex and require expert analysis.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Being charged with murder can severely damage your
+                      reputation and impact various aspects of your life,
+                      including employment and personal relationships.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      The stress of facing such serious charges can take a
+                      significant toll on your mental and emotional well-being.
+                    </li>
 
+                    <li className="text-lg md:text-xl">
+                      The prosecution will assign experienced and accomplished
+                      detectives and attorneys to ensure a conviction.
+                    </li>
+                  </ul>
+                </div>
 
-      </li>
-      <li className="text-lg md:text-xl">
-     The stress of facing such serious charges can take a significant toll on your mental and emotional well-being.
-  </li>
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Experts Help You Overcome Murder Charges
+                  </h4>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We make customized defense plans that challenge the
+                      prosecution's case and highlight weaknesses in their
+                      evidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our thorough investigation covers every detail to build
+                      the strongest case possible.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We ensure your defense is solid and comprehensive,
+                      addressing all legal nuances specific to Wisconsin
+                      homicide cases.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team works with top experts to analyze complex
+                      forensic and digital evidence.
+                    </li>
 
-  <li className="text-lg md:text-xl">
-     The prosecution will assign experienced and accomplished detectives and attorneys to ensure a conviction.
-  </li>
+                    <li className="text-lg md:text-xl">
+                      We scrutinize every aspect of the investigation for
+                      constitutional violations, aiming to suppress improperly
+                      obtained evidence and protect your rights.
+                    </li>
 
-    </ul>
-  </div>
+                    <li className="text-lg md:text-xl">
+                      We handle your case with the utmost discretion to protect
+                      your personal and professional reputation throughout the
+                      legal process.
+                    </li>
 
-  <div>
-    <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-     How Milwaukee Legal Experts Help You Overcome Murder Charges 
-    </h4>
-    <ul className="flex flex-col gap-2 list-disc pl-5">
-      <li className="text-lg md:text-xl">
-        We make customized defense plans that challenge the prosecution's case and highlight weaknesses in their evidence. 
-      </li>
-      <li className="text-lg md:text-xl">
-        Our thorough investigation covers every detail to build the strongest case possible.
-      </li>
-      <li className="text-lg md:text-xl">
-        We ensure your defense is solid and comprehensive, addressing all legal nuances specific to Wisconsin homicide cases.
-      </li>
-      <li className="text-lg md:text-xl">
-          Our team works with top experts to analyze complex forensic and digital evidence.
-      </li>
-
-        <li className="text-lg md:text-xl">
-          We scrutinize every aspect of the investigation for constitutional violations, aiming to suppress improperly obtained evidence and protect your rights.
-
-      </li>
-
-        <li className="text-lg md:text-xl">
-          We handle your case with the utmost discretion to protect your personal and professional reputation throughout the legal process.
-        </li>
-
-          <li className="text-lg md:text-xl">
-          Our attorneys can argue reasonable doubt, call key witnesses, and use strategic defenses to give you the best chance of success.
-        </li>
-
-    </ul>
-  </div>
-  <div>
-    <p className="text-lg md:text-xl">
-Contact us for a free consultation to get the right support based on your unique situation. We are committed to guiding you through the legal process and helping you move forward with your life.
-    </p>
-  </div>
-</div>
-`,
+                    <li className="text-lg md:text-xl">
+                      Our attorneys can argue reasonable doubt, call key
+                      witnesses, and use strategic defenses to give you the best
+                      chance of success.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Contact us for a free consultation to get the right support
+                    based on your unique situation. We are committed to guiding
+                    you through the legal process and helping you move forward
+                    with your life.
+                  </p>
+                </div>
+              </div>`,
     },
-
+    // End - Abu
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets With Criminal Negligence",
@@ -2895,8 +3116,8 @@ Contact us for a free consultation to get the right support based on your unique
 
     {
       icon: "/assets/services/services-icon/car-accident.png",
-      title: "Pharmaceutical Fraud",
-      slug: "pharmaceutical-fraud",
+      title: "Public Intoxication Defense",
+      slug: "public-intoxication-defense",
       shortDesc:
         "The act of being visibly drunk or under the influence of drugs in public is considered public intoxication, also known as disorderly intoxication. There are mainly two scenarios: one is causing danger to people or property, and another is disturbing people in public areas. This can lead to arrest and penalties under Wisconsin Statute 125.07(4). A skilled defense attorney can help challenge the charges and work towards a favorable outcome.",
 
