@@ -78,9 +78,9 @@ const page = async ({ params }) => {
           {/* ---------- */}
           <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-10">
             <div className="flex flex-col justify-center md:justify-start mt-6">
-              {/* <div className="">{parse(servicesDetails?.description)}</div> */}
+              <div className="">{parse(servicesDetails?.description)}</div>
               {/* ============================= */}
-              <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+              {/* <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <div className="text-lg md:text-xl mb-6">
                     In Wisconsin, the definition of “murder” falls under the
@@ -204,7 +204,7 @@ const page = async ({ params }) => {
                     with your life.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               {/* ============================= */}
               <div className="flex justify-center mt-12">
