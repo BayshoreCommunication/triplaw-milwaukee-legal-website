@@ -1,7 +1,9 @@
+import Link from "next/link";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 import PrimaryButton from "./PrimaryButton";
 import SectionLayout from "./SectionLayout";
 import { Playfair_Display } from "next/font/google";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -34,14 +36,15 @@ const CallToAction = () => {
             </p>
           </div>
           <div className="flex justify-center mt-6">
-            <PrimaryButton
-              title={"Free Consultancy"}
-              link={"/about"}
-              style={
-                "flex items-center justify-center px-2 py-3 text-sm font-medium text-white rounded-lg bg-primary hover:bg-yellow-400 md:text-lg"
-              }
-              radius={"sm"}
-            />
+            <div className="flex justify-center m-6">
+            <Link
+              href="/contact"
+              className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-primary text-white rounded-lg hover:bg-[#facc15] duration-300"
+            >
+              Contact Us
+              <FaArrowRightLong className="ml-2  size-5" />
+            </Link>
+          </div>
           </div>
         </SectionLayout>
       </ScrollMotionEffect>
