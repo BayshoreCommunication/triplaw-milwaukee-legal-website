@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Link from "next/link";
 
 const variants = {
   open: {
@@ -30,10 +31,10 @@ const SideServicesCard = ({ servicesData }) => {
       variants={variants}
       whileHover={{ scale: 0.99 }}
       whileTap={{ scale: 0.95 }}
-      href="#"
+      
       className={``}
     >
-      <div className="flex items-start w-full py-4 gap-x-3">
+      <Link href={`/services/${servicesData?.slug}`} className="flex items-start w-full py-4 gap-x-3 h-full border-b border-gray-500">
         <Image
           src="/assets/image.jpg"
           alt="tick-box"
@@ -41,7 +42,7 @@ const SideServicesCard = ({ servicesData }) => {
           width={200}
           height={100}
         />
-        <div className="">
+        <div className="h-full">
           <h2
             className={`text-lg tracking-wide line-clamp-2  mt-[-20px]  ${pathname === "/services/" + servicesData?.slug ? "text-primary" : "text-white"}`}
           >
@@ -53,7 +54,7 @@ const SideServicesCard = ({ servicesData }) => {
             {servicesData?.shortDesc}
           </p>
         </div>
-      </div>
+      </Link>
     </motion.div>
   );
 };

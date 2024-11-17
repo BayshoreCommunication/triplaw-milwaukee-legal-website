@@ -74,7 +74,7 @@ const page = async ({ params }) => {
       <style>{css}</style>
       <PageHeroSection subTitle={"Services"} title={"Services"} />
       <SectionLayout>
-        <div className="grid items-start gap-12 mb-10 gird-col-1 sm:grid-cols-3">
+        <div className="grid items-stretch justify-items-stretch gap-12 mb-10 gird-col-1 sm:grid-cols-3">
           {/* ---------- */}
           <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-10">
             <div className="flex flex-col justify-center md:justify-start mt-6">
