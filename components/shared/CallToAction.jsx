@@ -38,10 +38,10 @@ const CallToAction = () => {
           <div className="flex justify-center mt-6">
             <div className="flex justify-center m-6">
             <Link
-              href="/contact"
+              href="/appointment"
               className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-primary text-white rounded-lg hover:bg-[#facc15] duration-300"
             >
-              Contact Us
+              Free Consultation
               <FaArrowRightLong className="ml-2  size-5" />
             </Link>
           </div>
