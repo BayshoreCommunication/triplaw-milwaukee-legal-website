@@ -1171,7 +1171,7 @@ You might have a medical malpractice case if you have been affected by the follo
       title: "OWI Defence (Dui Defense)",
       slug: "owi-defence",
       shortDesc:
-        "OWI( Operating While Intoxicated ) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
+        "OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
 <div>
 
