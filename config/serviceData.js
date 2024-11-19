@@ -583,7 +583,7 @@ This service is designed for people who are facing the following problems:
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
         <div>
         
-        <div className ="text-lg md:text-xl mb-6">If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence..</div>
+        <div className ="text-lg md:text-xl mb-6">If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
            Who is this service for?
@@ -945,19 +945,19 @@ You might have a medical malpractice case if you have been affected by the follo
         <ul className="flex flex-col gap-2 list-disc pl-5">
         
           <li className="text-lg md:text-xl">
-            Car crash 
+            Car crash. 
           </li>
           
           <li className="text-lg md:text-xl">
-            Healthcare negligence or misconduct 
+            Healthcare negligence or misconduct. 
           </li>
 
           <li className="text-lg md:text-xl">
-            Accidents in the workplace 
+            Accidents in the workplace. 
           </li>
 
           <li className="text-lg md:text-xl">
-              Defective or hazardous products 
+              Defective or hazardous products. 
           </li>       
 
           <li className="text-lg md:text-xl">
@@ -1175,7 +1175,7 @@ You might have a medical malpractice case if you have been affected by the follo
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
 <div>
 
-<div className ="text-lg md:text-xl mb-6">OWI( Operating While Intoxicated ) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.
+<div className ="text-lg md:text-xl mb-6">OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.
 </div>
 
 <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
@@ -1185,7 +1185,7 @@ Who Will Benefit From This Service?
 <ul className="flex flex-col gap-2 list-disc pl-5">
 
   <li className="text-lg md:text-xl">
-  Those charged with a OWI (Operating While Intoxicated) for the first time and  facing severe penalties, including license suspension and fines
+  Those charged with a OWI (Operating While Intoxicated) for the first time and  facing severe penalties, including license suspension and fines.
   </li>
   
   <li className="text-lg md:text-xl">
@@ -1193,11 +1193,11 @@ Who Will Benefit From This Service?
   </li>
 
   <li className="text-lg md:text-xl">
-    People with employment concerns such as OWI convictions can adversely affect job prospects
+    People with employment concerns such as OWI convictions can adversely affect job prospects.
   </li>
 
   <li className="text-lg md:text-xl">
-    Those concerned about losing their driving license 
+    Those concerned about losing their driving license. 
   </li>
 
 </ul>
@@ -1216,7 +1216,7 @@ Problems You Will Face
   </li>
 
   <li className="text-lg md:text-xl">
-    If you’ve refused a breathalyzer or have a BAC over 0.08% results in an automatic administrative suspension under Wisconsin’s implied consent law
+    If you’ve refused a breathalyzer or have a BAC over 0.08% results in an automatic administrative suspension under Wisconsin’s implied consent law.
   </li>
 
   <li className="text-lg md:text-xl">
@@ -1228,7 +1228,7 @@ Problems You Will Face
   </li>
 
   <li className="text-lg md:text-xl">
-    If the officer had no valid reason to stop you, and you want to challenge the evidence
+    If the officer had no valid reason to stop you, and you want to challenge the evidence.
   </li>
 
   <li className="text-lg md:text-xl">
@@ -1247,7 +1247,7 @@ Problems You Will Face
 <ul className="flex flex-col gap-2 list-disc pl-5">
 
   <li className="text-lg md:text-xl">
-    Our lawyers are expert at negotiating with prosecutors to reduce charges or penalties
+    Our lawyers are expert at negotiating with prosecutors to reduce charges or penalties.
   </li>
 
   <li className="text-lg md:text-xl">
@@ -1307,11 +1307,11 @@ Problems You Will Face
 
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
-                      Individuals charged with possessing illegal substances
+                      Individuals charged with possessing illegal substances.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Those accused of trafficking or distributing drugs
+                      Those accused of trafficking or distributing drugs.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1335,17 +1335,17 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       If minors are involved in drug offenses, it can lead to
-                      enhanced penalties
+                      enhanced penalties.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       If minors are involved in drug offenses, it can lead to
-                      enhanced penalties
+                      enhanced penalties.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       A drug conviction can severely hinder future employment
-                      opportunities and housing facilities
+                      opportunities and housing facilities.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1360,7 +1360,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Proven criminal record can impact personal relationships,
-                      professional licensing, and social standing
+                      professional licensing, and social standing.
                     </li>
                   </ul>
                 </div>
@@ -1446,7 +1446,7 @@ Problems You Will Face
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
                       People facing charges such as drug trafficking, and
-                      robbery that lead to felony charges
+                      robbery that lead to felony charges.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1456,7 +1456,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Individuals accused of white-collar crimes like fraud or
-                      embezzlement
+                      embezzlement.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1484,17 +1484,17 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       The conviction impact on your work opportunities and
-                      professional life
+                      professional life.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Being charged with a felony can carry significant social
-                      stigma
+                      stigma.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Personal relationships and community standing may be
-                      deeply affected by this charge
+                      deeply affected by this charge.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1532,7 +1532,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Our defense attorneys are adept at negotiating with
-                      prosecutors if your case goes to trial
+                      prosecutors if your case goes to trial.
                     </li>
                   </ul>
                 </div>
@@ -1608,7 +1608,7 @@ Problems You Will Face
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
                       Legal penalties such as fines, restitution, probation, or
-                      imprisonment, depending on the severity of the charge
+                      imprisonment, depending on the severity of the charge.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1708,12 +1708,12 @@ Problems You Will Face
                     <li className="text-lg md:text-xl">
                       Those charged with simple assault who may not fully
                       understand the legal procedure and any potential
-                      consequences
+                      consequences.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Those facing more serious charges involving threats with a
-                      deadly weapon
+                      deadly weapon.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1755,7 +1755,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Understanding the legal paths of these penalties and their
-                      steps can be confusing but crucial
+                      steps can be confusing but crucial.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1793,7 +1793,7 @@ Problems You Will Face
                     <li className="text-lg md:text-xl">
                       We have successfully defended numerous clients against
                       assault charges, so we prioritize maintaining time
-                      limitation for filing a claim for assault
+                      limitation for filing a claim for assault.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1854,17 +1854,17 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Those facing battery charges in connection with domestic
-                      violence
+                      violence.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Anyone accused of battery charges as part of a larger
-                      assault case where the stakes are higher
+                      assault case where the stakes are higher.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Individuals needing guidance on their rights and options
-                      after being charged with battery
+                      after being charged with battery.
                     </li>
                   </ul>
                 </div>
@@ -1884,7 +1884,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       The punishment could include fines, probation, or prison
-                      time depending on how serrious the crime is.
+                      time depending on how serious the crime is.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1938,7 +1938,7 @@ Problems You Will Face
                   <p className="text-lg md:text-xl">
                     Don’t navigate these charges alone. Contact us today for a
                     free consultation, and let us guide you through your legal
-                    options to protect your rights and future
+                    options to protect your rights and future.
                   </p>
                 </div>
               </div>`,
@@ -2213,7 +2213,7 @@ Problems You Will Face
                 <div>
                   <p className="text-lg md:text-xl">
                     Don't face your drug trafficking charges alone. Contact us
-                    today for a free consultation, and we'll provideyou
+                    today for a free consultation, and we'll provide you
                     personalized guidance on your unique situation.
                   </p>
                 </div>
@@ -2428,7 +2428,7 @@ Problems You Will Face
                       If the kidnapping involves a child under 13 or is
                       accompanied by other crimes like sexual battery or
                       aggravated child abuse, the charges and penalties can be
-                      even more severe.{" "}
+                      even more severe.
                     </li>
                   </ul>
                 </div>
