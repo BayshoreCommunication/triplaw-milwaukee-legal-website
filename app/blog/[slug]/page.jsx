@@ -42,6 +42,39 @@ ul {
 
 `;
 
+export async function generateMetadata({ params }) {
+  const blogPostData = await GetAllPostData();
+
+  const blogDetails = blogPostData?.data?.find(
+    (blogs) => blogs.slug === params.slug
+  );
+
+  if (!blogDetails) {
+    return {
+      title: "Blog not found",
+      description: "No blog post available.",
+    };
+  }
+
+  let description = parse(blogDetails?.body);
+
+  return {
+    title: blogDetails?.title,
+    description:
+      description[0]?.props?.children?.props?.children || blogDetails?.excerpt,
+    openGraph: {
+      title: blogDetails?.title,
+      description:
+        description[0]?.props?.children?.props?.children ||
+        blogDetails?.excerpt,
+      images: [blogDetails?.featuredImage?.image?.url],
+      url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
+      type: "article",
+      site_name: "milwaukeelegalpros.com",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
 
