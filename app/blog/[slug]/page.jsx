@@ -70,7 +70,7 @@ export async function generateMetadata({ params }) {
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
       type: "article",
-      site_name: "milwaukeelegalpros.com",
+      site_name: "milwaukeelegalpros",
     },
   };
 }
