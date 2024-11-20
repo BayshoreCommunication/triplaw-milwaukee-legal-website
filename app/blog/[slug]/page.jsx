@@ -57,7 +57,7 @@ export async function generateMetadata({ params }) {
   }
 
   let description = parse(blogDetails?.body);
-
+  console.log(blogDetails?.featuredImage?.image?.url);
   return {
     title: blogDetails?.title,
     description:
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }) {
       description:
         description[0]?.props?.children?.props?.children ||
         blogDetails?.excerpt,
-      images: [blogDetails?.featuredImage?.image?.url],
+      images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
       type: "article",
       site_name: "milwaukeelegalpros.com",
