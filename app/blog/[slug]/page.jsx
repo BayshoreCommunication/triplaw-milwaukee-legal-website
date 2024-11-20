@@ -57,13 +57,19 @@ export async function generateMetadata({ params }) {
   }
 
   let description = parse(blogDetails?.body);
-
+  //console.log(description[0]?.props?.children);
   return {
     title: blogDetails?.title,
-    description: description[0]?.props?.children || blogDetails?.excerpt,
+    description:
+      description[0]?.props?.children ||
+      description[0]?.props?.children.props?.children ||
+      description[0]?.props?.children[0].props?.children,
     openGraph: {
       title: blogDetails?.title,
-      description: description[0]?.props?.children || blogDetails?.excerpt,
+      description:
+        description[0]?.props?.children ||
+        description[0]?.props?.children.props?.children ||
+        description[0]?.props?.children[0].props?.children,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
       type: "article",
