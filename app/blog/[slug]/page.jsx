@@ -60,10 +60,10 @@ export async function generateMetadata({ params }) {
 
   return {
     title: blogDetails?.title,
-    description: description?.props?.children || blogDetails?.excerpt,
+    description: description[0]?.props?.children || blogDetails?.excerpt,
     openGraph: {
       title: blogDetails?.title,
-      description: description?.props?.children || blogDetails?.excerpt,
+      description: description[0]?.props?.children || blogDetails?.excerpt,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
       type: "article",
