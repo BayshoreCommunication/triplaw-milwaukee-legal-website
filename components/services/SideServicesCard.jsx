@@ -31,12 +31,14 @@ const SideServicesCard = ({ servicesData }) => {
       variants={variants}
       whileHover={{ scale: 0.99 }}
       whileTap={{ scale: 0.95 }}
-      
       className={``}
     >
-      <Link href={`/services/${servicesData?.slug}`} className="flex items-start w-full py-4 gap-x-3 h-full border-b border-gray-500">
+      <Link
+        href={`/services/${servicesData?.slug}`}
+        className="flex items-start w-full py-4 gap-x-3 h-full border-b border-gray-500"
+      >
         <Image
-          src="/assets/image.jpg"
+          src={`${servicesData?.practiceAreasSidebarImage}`}
           alt="tick-box"
           className="w-[80px] h-auto"
           width={200}

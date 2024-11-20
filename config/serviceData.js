@@ -5,6 +5,7 @@ export const allServiceData = {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Motorcycle Accidents",
       slug: "motorcycle-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Motorcycle-Accidents.jpg",
       shortDesc:
         "If you've been injured in a motorcycle accident, our legal team can help you get the compensation. Motorcycle accidents often result in serious injuries, financial hardship, and emotional distress. Our experienced motorcycle accident lawyers are dedicated to fighting for your rights. We'll work to ensure you receive full compensation for your injuries, pain, suffering, lost wages, and damage to your motorcycle.",
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -134,6 +135,7 @@ How Milwaukee Legal Pros can support you
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Car Accidents",
       slug: "car-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Car-Accidents.jpg",
       shortDesc:
         "If you've been involved in a car accident, our legal team is here to help. We understand how stressful it can be to navigate legal matters, injuries, and insurance companies after an accident. That's why we're committed to helping you get the compensation you deserve so you can focus on your recovery.",
 
@@ -255,6 +257,7 @@ You can contact us for a free consultation to get the right support based on you
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Trucking Accidents",
       slug: "trucking-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Truck-Accidents.jpg",
       shortDesc:
         "Trucking accidents can have a devastating impact on your life. Due to the size and weight of commercial trucks like 18-wheelers and semis, these collisions often result in severe injuries and property damage. If you or someone else has been in such an occurrence, you don't have to deal with this situation alone. Our dedicated team is here to provide you with all kinds of support to compensate for your problems.",
 
@@ -376,6 +379,7 @@ We will ensure that you get fair compensation for both current and future medica
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Dog Bites",
       slug: "dog-bites",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Dog-Bites.jpg",
       shortDesc:
         "Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. ",
 
@@ -490,6 +494,7 @@ We understand dog bites can cause psychological problems like post-traumatic str
       icon: "/assets/services/services-icon/slip-fall.png",
       title: "Slips and Falls",
       slug: "slip-and-falls",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Slips-and-Falls.jpg",
       shortDesc:
         "Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
 
@@ -609,6 +614,7 @@ This service is designed for people who are facing the following problems:
       icon: "/assets/services/services-icon/medical-malpractice.png",
       title: "Medical Malpractice",
       slug: "medical-malpractice",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Medical-Malpractice.jpg",
       shortDesc:
         "If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence.",
 
@@ -727,6 +733,7 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets",
       slug: "traffic-tickets",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Traffic-Tickets.jpg",
       shortDesc:
         "If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.",
 
@@ -855,6 +862,7 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Nursing Home Abuse & Neglect",
       slug: "nursing-home-abuse-and-neglect",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Nursing-Home-Abuse-&-Neglect.jpg",
       shortDesc:
         "If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
 
@@ -977,6 +985,7 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Wrongful Death",
       slug: "wrongful-death",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Wrongful-Death.jpg",
       shortDesc:
         "Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.",
 
@@ -1101,6 +1110,7 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Workplace Injury Accidents",
       slug: "workplace-injury-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Workplace-Injury-Accidents.jpg",
       shortDesc:
         "Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.",
 
@@ -1236,6 +1246,7 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "OWI Defence (Dui Defense)",
       slug: "owi-defence",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/OWI-Defense.jpg",
       shortDesc:
         "OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
       description: `<div className="col-span-2 flex flex-col  gap-3 md:gap-6 lg:gap-8">
@@ -1354,6 +1365,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Drug Charges",
       slug: "drug-charges",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Drug-Charges.jpg",
       shortDesc:
         "Drug charges in the United States cover a wide range of offenses, including the illegal possession, distribution, manufacture, and trafficking of restricted drugs. These charges can vary greatly, depending on federal and state regulations, the sort of drug used, and the quantity in question.These charges can result from having equipment used to make drug or use drug. If convicted, you could face fine or prison time. ",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -1508,6 +1520,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Felonies",
       slug: "felonies",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Felonies.jpg",
       shortDesc:
         "Felonies are serious crimes, typically defined as offenses punishable by imprisonment for more than one year. These crimes encompass a wide range of actions, such as murder, armed robbery, and drug trafficking. Wisconsin law categorizes felonies into nine classifications, from Class A to Class I, with each class carrying specific penalties associated with it.",
       description: `       <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -1642,6 +1655,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Theft Charges",
       slug: "theft-charges",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Theft-Charges.jpg",
       shortDesc:
         "Theft Charges are defined as the unlawful taking of someone else's property with the intent of permanently depriving the owner of it. It includes larceny, shoplifting, embezzlement, robbery, cyber theft, fraud, etc. These charges can arise from various motivations. If you’re struggling with such charges, our legal representation can create a robust defense strategy and ensure that your rights are protected throughout the legal process.",
       description: `  <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -1780,6 +1794,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Assault",
       slug: "assault",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Assault.jpg",
       shortDesc:
         "Assault refers to a range of behaviors involving threats or attempts to harm another person. Assault charges can arise from various situations, ranging from domestic disputes to bar fights, and can lead to severe legal consequences. This is where an experienced criminal defense attorney becomes invaluable and fights for you to protect your rights.",
       description: `      <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -1928,6 +1943,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Battery",
       slug: "battery",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Battery.jpg",
       shortDesc:
         "Battery charges appear in Wisconsin and throughout the United States when someone intentionally touches or hits another person without their consent, causing harm to them. Battery laws vary by state, but Wisconsin has specific rules defining battery and its penalties. Under Wisconsin Statutes Section 940.19, battery can be classified as either simple battery or aggravated battery, depending on the extent of the harm and whether a dangerous weapon was involved. Whether your charges are simple or aggravated, we can help protect your rights and get the compensation you deserve.",
       description: `         <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2066,6 +2082,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Firearms Charges",
       slug: "firearms-charges",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Firearms-Charges.jpg",
       shortDesc:
         "In the United States, firearms charges are based on a combination of federal and state laws governing firearms possession, sale, and transfer. Federal laws such as the National Firearms Act of 1934 and the Gun Control Act of 1968 established registration, fees, and dealer licensing. Violations of these rules can result in serious consequences.",
       description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2217,6 +2234,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Drug Trafficking",
       slug: "drug-trafficking",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Drug-Trafficking.jpg",
       shortDesc:
         "Drug trafficking, often known as illegal drug trade or narcotrafficking, is the unlawful business of cultivating, producing, distributing, and selling drugs forbidden by drug laws. The consequences have a huge influence on economies, society, and healthcare systems. Wisconsin follows both state and federal drug laws, which means those charged could face either or both jurisdictions depending on the scope of the offense. Therefore, legal services for drug trafficking are essential for anyone directly or indirectly involved in drug-related legal issues.",
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2360,6 +2378,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Arson",
       slug: "arson",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Arson.jpg",
       shortDesc:
         "Arson, the intentional and malicious burning of property, is a serious crime under Wisconsin Statute 943.021. It can be done intentionally or unintentionally. This conviction comes with severe legal consequences. It can cause significant property damage, loss of life, and emotional trauma. If you are facing arson charges or are under investigation, it is crucial to seek legal representation from a qualified arson criminal lawyer.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2492,6 +2511,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Kidnapping",
       slug: "kidnapping",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Kidnapping.jpg", 
       shortDesc:
         "Kidnapping is defined as the unlawful confinement or abduction of a person against their will. It is a severe offense under Wisconsin Statute 940.31, often resulting in harsh penalties including lengthy prison sentences. If you are facing kidnapping charges, it is essential to seek immediate legal representation from an experienced criminal defense lawyer.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2633,6 +2653,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Sexual Crimes",
       slug: "sexual-crimes",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Sexual-Crimes.jpg",
       shortDesc:
         "Sexual crimes involve offenses such as sexual assault, rape, child molestation, statutory rape, child pornography, internet-related sex crimes, prostitution, and solicitation. These offenses  are prosecuted vigorously under the Wisconsin law. Basically, an 18-year-old or over commits a mentioned crime with under or over 18 years old without consent. Over 1 million adults faced sexual violence in their lifetime. It comes with severe penalties including long-term imprisonment and mandatory registration as a sex offender. Legal representation from a specialized attorney is crucial to navigating these complex and sensitive cases.",
       description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2781,6 +2802,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Murder",
       slug: "murder",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Murder.jpg",
       shortDesc:
         "In Wisconsin, the definition of “murder” falls under the category of first-degree intentional homicide. This is defined as causing the death of another human being or an unborn child with the intent to kill that person or unborn child. It is one of the most serious crimes under Wisconsin law, specifically Wisconsin Statutes 940.01, 940.02, and 940.05. It carries penalties that can include life imprisonment or the death penalty. If you are charged with murder, it is important to have a highly skilled criminal defense lawyer to protect your rights and build a strong defense.",
 
@@ -2928,6 +2950,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets With Criminal Negligence",
       slug: "traffic-tickets-with-criminal-negligence",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Traffic-Tickets-With-Criminal-Negligence.jpg",
       shortDesc:
         "A traffic ticket with criminal negligence is issued when a driver is accused of driving recklessly and causing an accident under Wisconsin Statute 346.62. Another reason for traffic tickets can be due to drunk driving (OWI) under Wisconsin Statute 346.63. This can lead to severe consequences including fines, license suspension, and even jail time. It is important to consult with a knowledgeable attorney to mitigate these penalties and defend your case effectively.",
 
@@ -3050,6 +3073,7 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "White Collar Defense",
       slug: "white-collar-defense",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/White-Collar-Defense.jpg",
       shortDesc:
         "White-collar crimes, including fraud, embezzlement, and insider trading, involve non-violent offenses under Wisconsin Statutes 943.20 (theft), 943.50 (retail theft), and 943.81 (fraudulent writings), among others. These crimes are typically committed for financial gain and are prosecuted under both state and federal laws. An experienced white-collar defense attorney can help navigate these complex cases and develop a robust defense strategy.",
 
@@ -3172,6 +3196,7 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Pharmaceutical Fraud",
       slug: "pharmaceutical-fraud",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Pharmaceutical-Fraud.jpg",
       shortDesc:
         "Pharmaceutical fraud involves illegal activities such as prescription forgery, drug diversion, and false claims. It is a serious offense under Wisconsin law, often resulting in significant fines and imprisonment. If you are accused of pharmaceutical fraud, it’s important to have legal representation from a specialized attorney to defend against these charges and protect your rights.",
 
@@ -3310,6 +3335,7 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Public Intoxication Defense",
       slug: "public-intoxication-defense",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Public-Intoxication-Defense.jpg",
       shortDesc:
         "The act of being visibly drunk or under the influence of drugs in public is considered public intoxication, also known as disorderly intoxication. There are mainly two scenarios: one is causing danger to people or property, and another is disturbing people in public areas. This can lead to arrest and penalties under Wisconsin Statute 125.07(4). A skilled defense attorney can help challenge the charges and work towards a favorable outcome.",
 
