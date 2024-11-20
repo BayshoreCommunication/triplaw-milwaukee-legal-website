@@ -105,7 +105,7 @@ const page = async ({ params }) => {
                   className="w-full h-auto bg-center bg-cover"
                 />
 
-                <div className="mt-2 text-md">{parse(blogs?.body)}</div>
+                <div className="mt-8 text-md">{parse(blogs?.body)}</div>
               </div>
             ))}
 
