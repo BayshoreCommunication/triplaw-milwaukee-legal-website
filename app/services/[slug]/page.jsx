@@ -64,149 +64,24 @@ const page = async ({ params }) => {
     allServiceData?.criminal_law || []
   );
 
+  //console.log(servicesDetails);
+
   return (
     <>
       <Head>
-        <title>{servicesDetails[0]?.title}</title>
+        <title>{servicesDetails?.title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
       </Head>
       <style>{css}</style>
-      <PageHeroSection subTitle={"Services"} title={"Services"} />
+      <PageHeroSection subTitle={"Services"} title={servicesDetails?.title} />
       <SectionLayout>
-        <div className="grid items-start gap-12 mb-10 gird-col-1 sm:grid-cols-3">
+        <div className="grid items-stretch justify-items-stretch gap-12 mb-10 gird-col-1 sm:grid-cols-3">
           {/* ---------- */}
           <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-10">
-            <div className="flex flex-col justify-center md:justify-start mt-6">
-              {/* <div className="">{parse(servicesDetails?.description)}</div> */}
-              {/* ============================= */}
-              <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-                <div>
-                  <div className="text-lg md:text-xl mb-6">
-                    In Wisconsin, the definition of “murder” falls under the
-                    category of first-degree intentional homicide. This is
-                    defined as causing the death of another human being or an
-                    unborn child with the intent to kill that person or unborn
-                    child. It is one of the most serious crimes under Wisconsin
-                    law, specifically Wisconsin Statutes 940.01, 940.02, and
-                    940.05. It carries penalties that can include life
-                    imprisonment or the death penalty. If you are charged with
-                    murder, it is important to have a highly skilled criminal
-                    defense lawyer to protect your rights and build a strong
-                    defense.
-                  </div>
-                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-                    This Service Is For
-                  </h4>
-                  <ul className="flex flex-col gap-2 list-disc pl-5">
-                    <li className="text-lg md:text-xl">
-                      Individuals charged with murder in Wisconsin.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Those accused of first-degree, second-degree, or
-                      third-degree murder.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      People facing felony murder charges related to other
-                      crimes such as arson, robbery, or kidnapping.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Anyone needing legal defense for homicide charges,
-                      including manslaughter.
-                    </li>
-                  </ul>
-                </div>
+            <div className="flex flex-col justify-center md:justify-start ">
+              <div className="">{parse(servicesDetails?.description)}</div>
 
-                <div>
-                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-                    Challenges You Might Face After Being Charged With Murder
-                    Case
-                  </h4>
-                  <ul className="flex flex-col gap-2 list-disc pl-5">
-                    <li className="text-lg md:text-xl">
-                      Convictions can lead to life imprisonment or the death
-                      penalty.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Murder cases involve intricate legal definitions and
-                      require a thorough understanding of both state and federal
-                      laws.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      These cases often rely heavily on forensic evidence, which
-                      can be complex and require expert analysis.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Being charged with murder can severely damage your
-                      reputation and impact various aspects of your life,
-                      including employment and personal relationships.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      The stress of facing such serious charges can take a
-                      significant toll on your mental and emotional well-being.
-                    </li>
-
-                    <li className="text-lg md:text-xl">
-                      The prosecution will assign experienced and accomplished
-                      detectives and attorneys to ensure a conviction.
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-                    How Milwaukee Legal Experts Help You Overcome Murder Charges
-                  </h4>
-                  <ul className="flex flex-col gap-2 list-disc pl-5">
-                    <li className="text-lg md:text-xl">
-                      We make customized defense plans that challenge the
-                      prosecution's case and highlight weaknesses in their
-                      evidence.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Our thorough investigation covers every detail to build
-                      the strongest case possible.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      We ensure your defense is solid and comprehensive,
-                      addressing all legal nuances specific to Wisconsin
-                      homicide cases.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Our team works with top experts to analyze complex
-                      forensic and digital evidence.
-                    </li>
-
-                    <li className="text-lg md:text-xl">
-                      We scrutinize every aspect of the investigation for
-                      constitutional violations, aiming to suppress improperly
-                      obtained evidence and protect your rights.
-                    </li>
-
-                    <li className="text-lg md:text-xl">
-                      We handle your case with the utmost discretion to protect
-                      your personal and professional reputation throughout the
-                      legal process.
-                    </li>
-
-                    <li className="text-lg md:text-xl">
-                      Our attorneys can argue reasonable doubt, call key
-                      witnesses, and use strategic defenses to give you the best
-                      chance of success.
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <p className="text-lg md:text-xl">
-                    Contact us for a free consultation to get the right support
-                    based on your unique situation. We are committed to guiding
-                    you through the legal process and helping you move forward
-                    with your life.
-                  </p>
-                </div>
-              </div>
-
-              {/* ============================= */}
               <div className="flex justify-center mt-12">
                 <Link
                   href="/contact"

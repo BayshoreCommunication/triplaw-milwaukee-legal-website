@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const ServiceCard = ({ serversData, index }) => {
   return (
-    <div className="relative flex flex-col items-center max-w-sm gap-6 p-6 border border-gray-200 rounded-md shadow overflow-hidden group">
+    <div className="relative flex flex-col items-center justify-between max-w-sm gap-6 p-6 border border-gray-200 rounded-md shadow overflow-hidden group h-full">
       {/* Smooth background effect from bottom to top */}
       <div className="absolute inset-0 z-0 bg-black transform scale-y-0 origin-bottom transition-transform duration-700 ease-out group-hover:scale-y-100"></div>
 

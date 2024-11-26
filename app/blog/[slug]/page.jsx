@@ -42,6 +42,42 @@ ul {
 
 `;
 
+export async function generateMetadata({ params }) {
+  const blogPostData = await GetAllPostData();
+
+  const blogDetails = blogPostData?.data?.find(
+    (blogs) => blogs.slug === params.slug
+  );
+
+  if (!blogDetails) {
+    return {
+      title: "Blog not found",
+      description: "No blog post available.",
+    };
+  }
+
+  let description = parse(blogDetails?.body);
+  //console.log(description[0]?.props?.children);
+  return {
+    title: blogDetails?.title,
+    description:
+      description[0]?.props?.children ||
+      description[0]?.props?.children.props?.children ||
+      description[0]?.props?.children[0].props?.children,
+    openGraph: {
+      title: blogDetails?.title,
+      description:
+        description[0]?.props?.children ||
+        description[0]?.props?.children.props?.children ||
+        description[0]?.props?.children[0].props?.children,
+      images: blogDetails?.featuredImage?.image?.url,
+      url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
+      type: "article",
+      site_name: "milwaukeelegalpros.com",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
 
@@ -105,7 +141,7 @@ const page = async ({ params }) => {
                   className="w-full h-auto bg-center bg-cover"
                 />
 
-                <div className="mt-2 text-md">{parse(blogs?.body)}</div>
+                <div className="mt-8 text-md">{parse(blogs?.body)}</div>
               </div>
             ))}
 

@@ -13,6 +13,13 @@ import PrimaryButton from "@/components/shared/PrimaryButton";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
+export const metadata = {
+  title:
+    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+  description:
+    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+};
+
 const page = async () => {
   const blogPostData = await GetAllPostData();
 
@@ -27,14 +34,14 @@ const page = async () => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Trip Law Blog - Insights and Updates on Immigration Law</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
           content={`Stay informed on the latest immigration news, legal updates, and valuable resources with TripLaw's immigration blog`}
         />
-      </Head>
+      </Head> */}
       <HeroSection />
       <SectionLayout bg="bg-white">
         <CardMotion
@@ -77,7 +84,7 @@ const page = async () => {
                   />
                   <div className="mb-6">
                     <div className="flex items-center justify-between mb-3">
-                      <p>{postDate(blogs?.category)}</p>
+                      <p>{blogs?.category}</p>
                       <p className="text-gray-900">
                         {postDate(blogs?.createdAt)}
                       </p>

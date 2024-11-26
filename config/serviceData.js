@@ -5,10 +5,17 @@ export const allServiceData = {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Motorcycle Accidents",
       slug: "motorcycle-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Motorcycle-Accidents.jpg",
       shortDesc:
         "If you've been injured in a motorcycle accident, our legal team can help you get the compensation. Motorcycle accidents often result in serious injuries, financial hardship, and emotional distress. Our experienced motorcycle accident lawyers are dedicated to fighting for your rights. We'll work to ensure you receive full compensation for your injuries, pain, suffering, lost wages, and damage to your motorcycle.",
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
       <div>
+      <img
+        src="/assets/services/personal-injury-law/Motorcycle-Accidents.jpg"
+        alt="Motorcycle Accidents"
+        className="w-full h-full mb-10"
+    />
       
       <div className ="text-lg md:text-xl mb-6">If you've been injured in a motorcycle accident, our legal team can help you get the compensation. Motorcycle accidents often result in serious injuries, financial hardship, and emotional distress. Our experienced motorcycle accident lawyers are dedicated to fighting for your rights. We'll work to ensure you receive full compensation for your injuries, pain, suffering, lost wages, and damage to your motorcycle.</div>
       
@@ -35,7 +42,7 @@ export const allServiceData = {
         </li>
 
           <li className="text-lg md:text-xl">
-           Feels devastating to deal with the insurance company or other legal process.
+           It feels devastating to deal with the insurance company or other legal process.
         </li>
 
         <li className="text-lg md:text-xl">
@@ -89,7 +96,7 @@ How Milwaukee Legal Pros can support you
       </h4>
       
       <p className="text-lg md:text-xl mb-4">
-      We understand how bad a motorcycle accident can change your life. That's why we offer the following services:
+      We understand how devastating a motorcycle accident can change your life. That's why we offer the following services:
       </p>
       
       <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -128,12 +135,18 @@ How Milwaukee Legal Pros can support you
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Car Accidents",
       slug: "car-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Car-Accidents.jpg",
       shortDesc:
         "If you've been involved in a car accident, our legal team is here to help. We understand how stressful it can be to navigate legal matters, injuries, and insurance companies after an accident. That's why we're committed to helping you get the compensation you deserve so you can focus on your recovery.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
         <div>
-        
+        <img
+        src="/assets/services/personal-injury-law/Car-Accidents.jpg"
+        alt="Car Accidents"
+        className="w-full h-full mb-10"
+    />
         <div className ="text-lg md:text-xl mb-6">If you've been involved in a car accident, our legal team is here to help. We understand how stressful it can be to navigate legal matters, injuries, and insurance companies after an accident. That's why we're committed to helping you get the compensation you deserve so you can focus on your recovery.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
@@ -244,11 +257,19 @@ You can contact us for a free consultation to get the right support based on you
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Trucking Accidents",
       slug: "trucking-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Truck-Accidents.jpg",
       shortDesc:
         "Trucking accidents can have a devastating impact on your life. Due to the size and weight of commercial trucks like 18-wheelers and semis, these collisions often result in severe injuries and property damage. If you or someone else has been in such an occurrence, you don't have to deal with this situation alone. Our dedicated team is here to provide you with all kinds of support to compensate for your problems.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
         <div>
+
+        <img
+        src="/assets/services/personal-injury-law/Truck-Accidents.jpg"
+        alt="Truck Accidents"
+        className="w-full h-full mb-10"
+    />
         
         <div className ="text-lg md:text-xl mb-6">Trucking accidents can have a devastating impact on your life. Due to the size and weight of commercial trucks like 18-wheelers and semis, these collisions often result in severe injuries and property damage. If you or someone else has been in such an occurrence, you don't have to deal with this situation alone. Our dedicated team is here to provide you with all kinds of support to compensate for your problems.</div>
         
@@ -357,21 +378,28 @@ We will ensure that you get fair compensation for both current and future medica
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Dog Bites",
-      slug: "trucking-accidents",
+      slug: "dog-bites",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Dog-Bites.jpg",
       shortDesc:
         "Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. ",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
         <div>
-        
+        <img
+        src="/assets/services/personal-injury-law/Dog-Bites.jpg"
+        alt="Dog-Bites"
+        className="w-full h-full mb-10"
+    />
         <div className ="text-lg md:text-xl mb-6">Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-Dog bites legal service is ideal for anyone who is facing these troubles:
+Dog bite legal service is ideal for anyone who is facing these troubles:
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -463,23 +491,32 @@ We understand dog bites can cause psychological problems like post-traumatic str
         `,
     },
     {
-      icon: "/assets/services/services-icon/car-accident.png",
-      title: "Slip And Falls",
+      icon: "/assets/services/services-icon/slip-fall.png",
+      title: "Slips and Falls",
       slug: "slip-and-falls",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Slips-and-Falls.jpg",
       shortDesc:
         "Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
         <div>
         
+        <img
+        src="/assets/services/personal-injury-law/Slips-and-Falls.jpg"
+        alt="Slips and Falls"
+        className="w-full h-full mb-10"
+        />
+
         <div className ="text-lg md:text-xl mb-6">Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-This service is designed for people, who are facing the following problems:
+This service is designed for people who are facing the following problems:
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -574,19 +611,28 @@ This service is designed for people, who are facing the following problems:
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/medical-malpractice.png",
       title: "Medical Malpractice",
       slug: "medical-malpractice",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Medical-Malpractice.jpg",
       shortDesc:
         "If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
         <div>
         
-        <div className ="text-lg md:text-xl mb-6">If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence..</div>
+        <img
+        src="/assets/services/personal-injury-law/Medical-Malpractice.jpg"
+        alt="Medical Malpractice"s
+        className="w-full h-full mb-10"
+        />
+        
+        <div className ="text-lg md:text-xl mb-6">If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -686,17 +732,25 @@ You might have a medical malpractice case if you have been affected by the follo
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets",
-      slug: "medical-malpractice",
+      slug: "traffic-tickets",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Traffic-Tickets.jpg",
       shortDesc:
         "If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
         <div>
+
+        <img
+        src="/assets/services/personal-injury-law/Traffic-Tickets.jpg"
+        alt="Traffic-Tickets"
+        className="w-full h-full mb-10"
+        />
         
         <div className ="text-lg md:text-xl mb-6">If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.</div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -726,7 +780,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
 
           <li className="text-lg md:text-xl">
-             Can not understand how to deal with traffic ticket issues.
+             Struggling to understand how to deal with traffic ticket issues.
           </li>
             
         </ul>
@@ -773,7 +827,7 @@ You might have a medical malpractice case if you have been affected by the follo
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-           We understand how critical situations you may experience due to traffic tickets.Our legal team is committed to help you overcome this complexities.
+           We understand how critical situations you may experience due to traffic tickets.Our legal team is committed to helping you overcome these complexities.
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -808,21 +862,27 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Nursing Home Abuse & Neglect",
       slug: "nursing-home-abuse-and-neglect",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Nursing-Home-Abuse-&-Neglect.jpg",
       shortDesc:
-        "If someone your beloved has been harmed in a nursing home, due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
+        "If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
         <div>
-        
-        <div className ="text-lg md:text-xl mb-6">If someone your beloved has been harmed in a nursing home, due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care. 
+        <img
+        src="/assets/services/personal-injury-law/Nursing-Home-Abuse-&-Neglect.jpg"
+        alt="Nursing-Home-Abuse-&-Neglect"
+        className="w-full h-full mb-10"
+    />
+        <div className ="text-lg md:text-xl mb-6">If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.
         </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
-           Our nursing home abuse and neglect service is specially prepared for families, who needs legal help for these issues: 
+           Our nursing home abuse and neglect service is specially prepared for families who needs legal help for these issues: 
         </p>
         
         <ul className="flex flex-col gap-2 list-disc pl-5">
@@ -832,7 +892,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
           
           <li className="text-lg md:text-xl">
-            Have noticed behavioral change, injury in the body parts or unexpected health issues.
+            Have noticed behavioral changes, injuries in the body parts, or unexpected health issues.
           </li>
 
           <li className="text-lg md:text-xl">
@@ -902,7 +962,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
         
           <li className="text-lg md:text-xl">
-             We can assist the families to collect important evidence to prepare a strong case. 
+             We can assist the families collecting important evidence to prepare a strong case. 
           </li>  
 
 
@@ -925,17 +985,25 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Wrongful Death",
       slug: "wrongful-death",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Wrongful-Death.jpg",
       shortDesc:
-        "Seeing the death of our loved one is the most tragic moment in our life. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and support you throughout this challenging journey. ",
+        "Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
         <div>
+
+        <img
+        src="/assets/services/personal-injury-law/Wrongful-Death.jpg"
+        alt="Wrongful Death"
+        className="w-full h-full mb-10"
+        />
         
-        <div className ="text-lg md:text-xl mb-6">Seeing the death of our loved one is the most tragic moment in our life. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and support you throughout this challenging journey. 
+        <div className ="text-lg md:text-xl mb-6">Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.
         </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -945,19 +1013,19 @@ You might have a medical malpractice case if you have been affected by the follo
         <ul className="flex flex-col gap-2 list-disc pl-5">
         
           <li className="text-lg md:text-xl">
-            Car crash 
+            Car crash. 
           </li>
           
           <li className="text-lg md:text-xl">
-            Healthcare negligence or misconduct 
+            Healthcare negligence or misconduct. 
           </li>
 
           <li className="text-lg md:text-xl">
-            Accidents in the workplace 
+            Accidents in the workplace. 
           </li>
 
           <li className="text-lg md:text-xl">
-              Defective or hazardous products 
+              Defective or hazardous products. 
           </li>       
 
           <li className="text-lg md:text-xl">
@@ -1042,17 +1110,25 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Workplace Injury Accidents",
       slug: "workplace-injury-accidents",
+      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Workplace-Injury-Accidents.jpg",
       shortDesc:
         "Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
         <div>
+
+        <img
+        src="/assets/services/personal-injury-law/Workplace-Injury-Accidents.jpg"
+        alt="Workplace Injury Accidents"
+        className="w-full h-full mb-10"
+        />
         
         <div className ="text-lg md:text-xl mb-6">Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.
         </div>
         
         <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-           Who can use this service?
+           Who is this service for?
         </h4>
         
         <p className="text-lg md:text-xl mb-4">
@@ -1066,7 +1142,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
           
           <li className="text-lg md:text-xl">
-            Your injury occurred because of someone else's negligence like a supervisor, co-worker, or third party.
+            Your injury occurred because of someone else's negligence, like a supervisor, co-worker, or third party.
           </li>
 
           <li className="text-lg md:text-xl">
@@ -1074,7 +1150,7 @@ You might have a medical malpractice case if you have been affected by the follo
           </li>
 
           <li className="text-lg md:text-xl">
-              Injured independent contractors or temporary workers (depending on the contract and situation. 
+              Injured independent contractors or temporary workers (depending on the contract and situation).
           </li>       
 
           <li className="text-lg md:text-xl">
@@ -1168,14 +1244,23 @@ You might have a medical malpractice case if you have been affected by the follo
     // Start -Abu
     {
       icon: "/assets/services/services-icon/car-accident.png",
-      title: "OWI Defence ( Dui Defense)",
+      title: "OWI Defence (Dui Defense)",
       slug: "owi-defence",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/OWI-Defense.jpg",
       shortDesc:
-        "OWI( Operating While Intoxicated ) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
-      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+        "OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
+      description: `<div className="col-span-2 flex flex-col  gap-3 md:gap-6 lg:gap-8">
+
+      
 <div>
 
-<div className ="text-lg md:text-xl mb-6">OWI( Operating While Intoxicated ) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.
+      <img
+        src="/assets/services/criminal-law/OWI-Defense.jpg"
+        alt="Car Accidents"
+        className="w-full h-full mb-10"
+      />
+
+<div className ="text-lg md:text-xl mb-6">OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.
 </div>
 
 <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
@@ -1185,7 +1270,7 @@ Who Will Benefit From This Service?
 <ul className="flex flex-col gap-2 list-disc pl-5">
 
   <li className="text-lg md:text-xl">
-  Those charged with a OWI (Operating While Intoxicated) for the first time and  facing severe penalties, including license suspension and fines
+  Those charged with a OWI (Operating While Intoxicated) for the first time and  facing severe penalties, including license suspension and fines.
   </li>
   
   <li className="text-lg md:text-xl">
@@ -1193,11 +1278,11 @@ Who Will Benefit From This Service?
   </li>
 
   <li className="text-lg md:text-xl">
-    People with employment concerns such as OWI convictions can adversely affect job prospects
+    People with employment concerns such as OWI convictions can adversely affect job prospects.
   </li>
 
   <li className="text-lg md:text-xl">
-    Those concerned about losing their driving license 
+    Those concerned about losing their driving license. 
   </li>
 
 </ul>
@@ -1216,7 +1301,7 @@ Problems You Will Face
   </li>
 
   <li className="text-lg md:text-xl">
-    If you’ve refused a breathalyzer or have a BAC over 0.08% results in an automatic administrative suspension under Wisconsin’s implied consent law
+    If you’ve refused a breathalyzer or have a BAC over 0.08% results in an automatic administrative suspension under Wisconsin’s implied consent law.
   </li>
 
   <li className="text-lg md:text-xl">
@@ -1228,7 +1313,7 @@ Problems You Will Face
   </li>
 
   <li className="text-lg md:text-xl">
-    If the officer had no valid reason to stop you, and you want to challenge the evidence
+    If the officer had no valid reason to stop you, and you want to challenge the evidence.
   </li>
 
   <li className="text-lg md:text-xl">
@@ -1247,7 +1332,7 @@ Problems You Will Face
 <ul className="flex flex-col gap-2 list-disc pl-5">
 
   <li className="text-lg md:text-xl">
-    Our lawyers are expert at negotiating with prosecutors to reduce charges or penalties
+    Our lawyers are expert at negotiating with prosecutors to reduce charges or penalties.
   </li>
 
   <li className="text-lg md:text-xl">
@@ -1280,10 +1365,20 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Drug Charges",
       slug: "drug-charges",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Drug-Charges.jpg",
       shortDesc:
         "Drug charges in the United States cover a wide range of offenses, including the illegal possession, distribution, manufacture, and trafficking of restricted drugs. These charges can vary greatly, depending on federal and state regulations, the sort of drug used, and the quantity in question.These charges can result from having equipment used to make drug or use drug. If convicted, you could face fine or prison time. ",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+      <img
+        src="/assets/services/criminal-law/Drug-Charges.jpg"
+        alt="Drug Charges"
+        className="w-full h-full mb-10"
+      />
+
                   <div className="text-lg md:text-xl mb-6">
                     Drug charges in the United States cover a wide range of
                     offenses, including the illegal possession, distribution,
@@ -1307,11 +1402,11 @@ Problems You Will Face
 
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
-                      Individuals charged with possessing illegal substances
+                      Individuals charged with possessing illegal substances.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Those accused of trafficking or distributing drugs
+                      Those accused of trafficking or distributing drugs.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1335,17 +1430,17 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       If minors are involved in drug offenses, it can lead to
-                      enhanced penalties
+                      enhanced penalties.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       If minors are involved in drug offenses, it can lead to
-                      enhanced penalties
+                      enhanced penalties.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       A drug conviction can severely hinder future employment
-                      opportunities and housing facilities
+                      opportunities and housing facilities.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1360,7 +1455,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Proven criminal record can impact personal relationships,
-                      professional licensing, and social standing
+                      professional licensing, and social standing.
                     </li>
                   </ul>
                 </div>
@@ -1425,10 +1520,19 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Felonies",
       slug: "felonies",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Felonies.jpg",
       shortDesc:
         "Felonies are serious crimes, typically defined as offenses punishable by imprisonment for more than one year. These crimes encompass a wide range of actions, such as murder, armed robbery, and drug trafficking. Wisconsin law categorizes felonies into nine classifications, from Class A to Class I, with each class carrying specific penalties associated with it.",
       description: `       <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Felonies.jpg"
+                alt="Felonies"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Felonies are serious crimes, typically defined as offenses
                     punishable by imprisonment for more than one year. These
@@ -1446,7 +1550,7 @@ Problems You Will Face
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
                       People facing charges such as drug trafficking, and
-                      robbery that lead to felony charges
+                      robbery that lead to felony charges.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1456,7 +1560,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Individuals accused of white-collar crimes like fraud or
-                      embezzlement
+                      embezzlement.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1484,17 +1588,17 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       The conviction impact on your work opportunities and
-                      professional life
+                      professional life.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Being charged with a felony can carry significant social
-                      stigma
+                      stigma.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Personal relationships and community standing may be
-                      deeply affected by this charge
+                      deeply affected by this charge.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1532,7 +1636,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Our defense attorneys are adept at negotiating with
-                      prosecutors if your case goes to trial
+                      prosecutors if your case goes to trial.
                     </li>
                   </ul>
                 </div>
@@ -1551,10 +1655,21 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Theft Charges",
       slug: "theft-charges",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Theft-Charges.jpg",
       shortDesc:
         "Theft Charges are defined as the unlawful taking of someone else's property with the intent of permanently depriving the owner of it. It includes larceny, shoplifting, embezzlement, robbery, cyber theft, fraud, etc. These charges can arise from various motivations. If you’re struggling with such charges, our legal representation can create a robust defense strategy and ensure that your rights are protected throughout the legal process.",
       description: `  <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+
+
+
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Theft-Charges.jpg"
+                alt="Theft Charges"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Theft Charges are defined as the unlawful taking of someone
                     else's property with the intent of permanently depriving the
@@ -1608,7 +1723,7 @@ Problems You Will Face
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
                       Legal penalties such as fines, restitution, probation, or
-                      imprisonment, depending on the severity of the charge
+                      imprisonment, depending on the severity of the charge.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1679,10 +1794,19 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Assault",
       slug: "assault",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Assault.jpg",
       shortDesc:
         "Assault refers to a range of behaviors involving threats or attempts to harm another person. Assault charges can arise from various situations, ranging from domestic disputes to bar fights, and can lead to severe legal consequences. This is where an experienced criminal defense attorney becomes invaluable and fights for you to protect your rights.",
       description: `      <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Assault.jpg"
+                alt="Assault"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Assault refers to a range of behaviors involving threats or
                     attempts to harm another person. Assault charges can arise
@@ -1708,12 +1832,12 @@ Problems You Will Face
                     <li className="text-lg md:text-xl">
                       Those charged with simple assault who may not fully
                       understand the legal procedure and any potential
-                      consequences
+                      consequences.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Those facing more serious charges involving threats with a
-                      deadly weapon
+                      deadly weapon.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1755,7 +1879,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Understanding the legal paths of these penalties and their
-                      steps can be confusing but crucial
+                      steps can be confusing but crucial.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1793,7 +1917,7 @@ Problems You Will Face
                     <li className="text-lg md:text-xl">
                       We have successfully defended numerous clients against
                       assault charges, so we prioritize maintaining time
-                      limitation for filing a claim for assault
+                      limitation for filing a claim for assault.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1819,10 +1943,20 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Battery",
       slug: "battery",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Battery.jpg",
       shortDesc:
         "Battery charges appear in Wisconsin and throughout the United States when someone intentionally touches or hits another person without their consent, causing harm to them. Battery laws vary by state, but Wisconsin has specific rules defining battery and its penalties. Under Wisconsin Statutes Section 940.19, battery can be classified as either simple battery or aggravated battery, depending on the extent of the harm and whether a dangerous weapon was involved. Whether your charges are simple or aggravated, we can help protect your rights and get the compensation you deserve.",
       description: `         <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+
+      
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Battery.jpg"
+                alt="Battery"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Battery charges appear in Wisconsin and throughout the
                     United States when someone intentionally touches or hits
@@ -1854,17 +1988,17 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       Those facing battery charges in connection with domestic
-                      violence
+                      violence.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Anyone accused of battery charges as part of a larger
-                      assault case where the stakes are higher
+                      assault case where the stakes are higher.
                     </li>
 
                     <li className="text-lg md:text-xl">
                       Individuals needing guidance on their rights and options
-                      after being charged with battery
+                      after being charged with battery.
                     </li>
                   </ul>
                 </div>
@@ -1884,7 +2018,7 @@ Problems You Will Face
 
                     <li className="text-lg md:text-xl">
                       The punishment could include fines, probation, or prison
-                      time depending on how serrious the crime is.
+                      time depending on how serious the crime is.
                     </li>
 
                     <li className="text-lg md:text-xl">
@@ -1938,7 +2072,7 @@ Problems You Will Face
                   <p className="text-lg md:text-xl">
                     Don’t navigate these charges alone. Contact us today for a
                     free consultation, and let us guide you through your legal
-                    options to protect your rights and future
+                    options to protect your rights and future.
                   </p>
                 </div>
               </div>`,
@@ -1948,10 +2082,20 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Firearms Charges",
       slug: "firearms-charges",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Firearms-Charges.jpg",
       shortDesc:
         "In the United States, firearms charges are based on a combination of federal and state laws governing firearms possession, sale, and transfer. Federal laws such as the National Firearms Act of 1934 and the Gun Control Act of 1968 established registration, fees, and dealer licensing. Violations of these rules can result in serious consequences.",
       description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+
+                <img
+                src="/assets/services/criminal-law/Firearms-Charges.jpg"
+                alt="Firearms Charges"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     In the United States, firearms charges are based on a
                     combination of federal and state laws governing firearms
@@ -2090,10 +2234,20 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Drug Trafficking",
       slug: "drug-trafficking",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Drug-Trafficking.jpg",
       shortDesc:
         "Drug trafficking, often known as illegal drug trade or narcotrafficking, is the unlawful business of cultivating, producing, distributing, and selling drugs forbidden by drug laws. The consequences have a huge influence on economies, society, and healthcare systems. Wisconsin follows both state and federal drug laws, which means those charged could face either or both jurisdictions depending on the scope of the offense. Therefore, legal services for drug trafficking are essential for anyone directly or indirectly involved in drug-related legal issues.",
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Drug-Trafficking.jpg"
+                alt="Drug Trafficking"
+                className="w-full h-full mb-10"
+                />
+
                   <div className="text-lg md:text-xl mb-6">
                     Drug trafficking, often known as illegal drug trade or
                     narcotrafficking, is the unlawful business of cultivating,
@@ -2213,21 +2367,30 @@ Problems You Will Face
                 <div>
                   <p className="text-lg md:text-xl">
                     Don't face your drug trafficking charges alone. Contact us
-                    today for a free consultation, and we'll provideyou
+                    today for a free consultation, and we'll provide you
                     personalized guidance on your unique situation.
                   </p>
                 </div>
               </div>`,
     },
 
-    {
+    { 
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Arson",
       slug: "arson",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Arson.jpg",
       shortDesc:
         "Arson, the intentional and malicious burning of property, is a serious crime under Wisconsin Statute 943.021. It can be done intentionally or unintentionally. This conviction comes with severe legal consequences. It can cause significant property damage, loss of life, and emotional trauma. If you are facing arson charges or are under investigation, it is crucial to seek legal representation from a qualified arson criminal lawyer.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Arson.jpg"
+                alt="Arson"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Arson, the intentional and malicious burning of property, is
                     a serious crime under Wisconsin Statute 943.021. It can be
@@ -2348,10 +2511,19 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Kidnapping",
       slug: "kidnapping",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Kidnapping.jpg", 
       shortDesc:
         "Kidnapping is defined as the unlawful confinement or abduction of a person against their will. It is a severe offense under Wisconsin Statute 940.31, often resulting in harsh penalties including lengthy prison sentences. If you are facing kidnapping charges, it is essential to seek immediate legal representation from an experienced criminal defense lawyer.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Kidnapping.jpg"
+                alt="Kidnapping"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Kidnapping is defined as the unlawful confinement or
                     abduction of a person against their will. It is a severe
@@ -2428,7 +2600,7 @@ Problems You Will Face
                       If the kidnapping involves a child under 13 or is
                       accompanied by other crimes like sexual battery or
                       aggravated child abuse, the charges and penalties can be
-                      even more severe.{" "}
+                      even more severe.
                     </li>
                   </ul>
                 </div>
@@ -2481,10 +2653,18 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Sexual Crimes",
       slug: "sexual-crimes",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Sexual-Crimes.jpg",
       shortDesc:
         "Sexual crimes involve offenses such as sexual assault, rape, child molestation, statutory rape, child pornography, internet-related sex crimes, prostitution, and solicitation. These offenses  are prosecuted vigorously under the Wisconsin law. Basically, an 18-year-old or over commits a mentioned crime with under or over 18 years old without consent. Over 1 million adults faced sexual violence in their lifetime. It comes with severe penalties including long-term imprisonment and mandatory registration as a sex offender. Legal representation from a specialized attorney is crucial to navigating these complex and sensitive cases.",
       description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
                 <div>
+
+                <img
+                src="/assets/services/criminal-law/Sexual-Crimes.jpg"
+                alt="Sexual Crimes"
+                className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     Sexual crimes involve offenses such as sexual assault, rape,
                     child molestation, statutory rape, child pornography,
@@ -2622,11 +2802,20 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Murder",
       slug: "murder",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Murder.jpg",
       shortDesc:
         "In Wisconsin, the definition of “murder” falls under the category of first-degree intentional homicide. This is defined as causing the death of another human being or an unborn child with the intent to kill that person or unborn child. It is one of the most serious crimes under Wisconsin law, specifically Wisconsin Statutes 940.01, 940.02, and 940.05. It carries penalties that can include life imprisonment or the death penalty. If you are charged with murder, it is important to have a highly skilled criminal defense lawyer to protect your rights and build a strong defense.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
                 <div>
+
+                <img
+                  src="/assets/services/criminal-law/Murder.jpg"
+                  alt="Murder"
+                  className="w-full h-full mb-10"
+                />
                   <div className="text-lg md:text-xl mb-6">
                     In Wisconsin, the definition of “murder” falls under the
                     category of first-degree intentional homicide. This is
@@ -2751,16 +2940,30 @@ Problems You Will Face
                 </div>
               </div>`,
     },
+
+
     // End - Abu
+
+
+    
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets With Criminal Negligence",
       slug: "traffic-tickets-with-criminal-negligence",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Traffic-Tickets-With-Criminal-Negligence.jpg",
       shortDesc:
         "A traffic ticket with criminal negligence is issued when a driver is accused of driving recklessly and causing an accident under Wisconsin Statute 346.62. Another reason for traffic tickets can be due to drunk driving (OWI) under Wisconsin Statute 346.63. This can lead to severe consequences including fines, license suspension, and even jail time. It is important to consult with a knowledgeable attorney to mitigate these penalties and defend your case effectively.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+
+      
   <div>
+
+  <img
+        src="/assets/services/criminal-law/Traffic-Tickets-With-Criminal-Negligence.jpg"
+        alt="Traffic-Tickets-With-Criminal-Negligence"
+        className="w-full h-full mb-10"
+    />
     <div className ="text-lg md:text-xl mb-6">A traffic ticket with criminal negligence is issued when a driver is accused of driving recklessly and causing an accident under Wisconsin Statute 346.62. Another reason for traffic tickets can be due to drunk driving (OWI) under Wisconsin Statute 346.63. This can lead to severe consequences including fines, license suspension, and even jail time. It is important to consult with a knowledgeable attorney to mitigate these penalties and defend your case effectively.</div>
     <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
     This Service Is For
@@ -2784,7 +2987,7 @@ Problems You Will Face
       </li>
 
       <li className="text-lg md:text-xl">
-       Drivers facing severe penalties.
+       Drivers are facing severe penalties.
       </li>
 
       <li className="text-lg md:text-xl">
@@ -2810,8 +3013,6 @@ Problems You Will Face
       </li>
       <li className="text-lg md:text-xl">
        Convictions for traffic offenses often lead to significantly higher insurance premiums.
-
-
       </li>
       <li className="text-lg md:text-xl">
     Especially for commercial drivers, a criminal traffic conviction can jeopardize your job and future employment opportunities.
@@ -2872,11 +3073,19 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "White Collar Defense",
       slug: "white-collar-defense",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/White-Collar-Defense.jpg",
       shortDesc:
         "White-collar crimes, including fraud, embezzlement, and insider trading, involve non-violent offenses under Wisconsin Statutes 943.20 (theft), 943.50 (retail theft), and 943.81 (fraudulent writings), among others. These crimes are typically committed for financial gain and are prosecuted under both state and federal laws. An experienced white-collar defense attorney can help navigate these complex cases and develop a robust defense strategy.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+      
   <div>
+
+  <img
+        src="/assets/services/criminal-law/White-Collar-Defense.jpg"
+        alt="White Collar Defense"
+        className="w-full h-full mb-10"
+    />
     <div className ="text-lg md:text-xl mb-6">White-collar crimes, including fraud, embezzlement, and insider trading, involve non-violent offenses under Wisconsin Statutes 943.20 (theft), 943.50 (retail theft), and 943.81 (fraudulent writings), among others. These crimes are typically committed for financial gain and are prosecuted under both state and federal laws. An experienced white-collar defense attorney can help navigate these complex cases and develop a robust defense strategy.</div>
     <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
     This Service Is For
@@ -2886,7 +3095,7 @@ Contact us for a free consultation to get the right support based on your unique
         Business professionals accused of embezzlement, stock manipulation, and insider trading.
       </li>
       <li className="text-lg md:text-xl">
-        Healthcare providers accused of upcoding, overutilization, and violations of the Anti-Kickback Statute.
+        Healthcare providers are accused of upcoding, overutilization, and violations of the Anti-Kickback Statute.
       </li>
       <li className="text-lg md:text-xl">
         Government or public officials facing charges related to corruption, bribery, or misuse of public funds.
@@ -2919,7 +3128,7 @@ Challenges You Might Face After Being Charged With White Collar
       White-collar cases are often complicated, requiring a specialized defense team, including attorneys, forensic accountants, and investigators.
       </li>
       <li className="text-lg md:text-xl">
-     In addition to severe penalties like fines, restitution, probation, and imprisonment, aggravated white-collar crime cases (first-degree felony), you could face long prison sentences.
+     In addition to severe penalties like fines, restitution, probation, and imprisonment for aggravated white-collar crime cases (first-degree felony), you could face long prison sentences.
       </li>
       <li className="text-lg md:text-xl">
        Victims may sue for additional compensation, leading to more financial penalties and legal battles.
@@ -2987,11 +3196,20 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Pharmaceutical Fraud",
       slug: "pharmaceutical-fraud",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Pharmaceutical-Fraud.jpg",
       shortDesc:
         "Pharmaceutical fraud involves illegal activities such as prescription forgery, drug diversion, and false claims. It is a serious offense under Wisconsin law, often resulting in significant fines and imprisonment. If you are accused of pharmaceutical fraud, it’s important to have legal representation from a specialized attorney to defend against these charges and protect your rights.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-  <div>
+      
+        <div>
+
+        <img
+        src="/assets/services/criminal-law/Pharmaceutical-Fraud.jpg"
+        alt="Pharmaceutical Fraud"
+        className="w-full h-full mb-10"
+        />
+
     <div className ="text-lg md:text-xl mb-6">Pharmaceutical fraud involves illegal activities such as prescription forgery, drug diversion, and false claims. It is a serious offense under Wisconsin law, often resulting in significant fines and imprisonment. If you are accused of pharmaceutical fraud, it’s important to have legal representation from a specialized attorney to defend against these charges and protect your rights.</div>
     <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
     This Service Is For
@@ -3007,11 +3225,11 @@ Contact us for a free consultation to get the right support based on your unique
         Owners of healthcare businesses or practices targeted by federal agencies.
       </li>
       <li className="text-lg md:text-xl">
-      Pharmaceutical companies facing allegations of fraudulent marketing practices, kickbacks, or off-label promotion of drugs.
+      Pharmaceutical companies are facing allegations of fraudulent marketing practices, kickbacks, or off-label promotion of drugs.
       </li>
 
     <li className="text-lg md:text-xl">
-       Medical device manufacturers accused of fraud related to the marketing and sale of medical devices.
+       Medical device manufacturers are accused of fraud related to the marketing and sale of medical devices.
       </li>
 
       <li className="text-lg md:text-xl">
@@ -3028,8 +3246,7 @@ Contact us for a free consultation to get the right support based on your unique
       </li>
 
            <li className="text-lg md:text-xl">
-  Research and development personnel accused of falsifying data or engaging in other fraudulent activities.
-
+  Research and development personnel are accused of falsifying data or engaging in other fraudulent activities.
       </li>
 
     </ul>
@@ -3118,11 +3335,21 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Public Intoxication Defense",
       slug: "public-intoxication-defense",
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Public-Intoxication-Defense.jpg",
       shortDesc:
         "The act of being visibly drunk or under the influence of drugs in public is considered public intoxication, also known as disorderly intoxication. There are mainly two scenarios: one is causing danger to people or property, and another is disturbing people in public areas. This can lead to arrest and penalties under Wisconsin Statute 125.07(4). A skilled defense attorney can help challenge the charges and work towards a favorable outcome.",
 
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
-  <div>
+
+      
+        <div>
+
+        <img
+        src="/assets/services/criminal-law/Public-Intoxication-Defense.jpg"
+        alt="Public Intoxication Defense"
+        className="w-full h-full mb-10"
+        />
+
     <div className ="text-lg md:text-xl mb-6">The act of being visibly drunk or under the influence of drugs in public is considered public intoxication, also known as disorderly intoxication. There are mainly two scenarios: one is causing danger to people or property, and another is disturbing people in public areas. This can lead to arrest and penalties under Wisconsin Statute 125.07(4). A skilled defense attorney can help challenge the charges and work towards a favorable outcome.</div>
     <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
     This Service Is For
@@ -3197,7 +3424,7 @@ We simplify the legal process for you, explaining your rights and court procedur
       Our team works to reduce fines and community service requirements. We explore plea deals or diversion programs for first-time offenders.
       </li>
       <li className="text-lg md:text-xl">
-        We gather evidence and find witnesses to build a solid defense and ensure you're well-represented in court.
+        We gather evidence and find witnesses to build a solid defense and ensure you're well represented in court.
       </li>
       <li className="text-lg md:text-xl">
          We focus on minimizing the impact of a criminal record on your job and travel rights.
@@ -3216,7 +3443,6 @@ We simplify the legal process for you, explaining your rights and court procedur
   <div>
     <p className="text-lg md:text-xl">
 Contact us for a free consultation to get the right support based on your unique situation. We are committed to guiding you through the legal process and helping you move forward with your life.
-
     </p>
   </div>
 </div>

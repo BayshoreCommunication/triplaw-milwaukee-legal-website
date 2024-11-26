@@ -1,6 +1,6 @@
-import React from 'react';
-import SectionLayout from '../shared/SectionLayout';
-import Link from 'next/link';
+import React from "react";
+import SectionLayout from "../shared/SectionLayout";
+import Link from "next/link";
 
 const css = `
   h1{
@@ -37,26 +37,26 @@ const css = `
 
 `;
 
-const LeagalInformation = () => {
+const LegalInformation = () => {
   return (
     <>
       <style>{css}</style>
       <SectionLayout>
-        <div className='text-center md:text-left'>
-          <div className='my-8'>
-            <h2 className='font-extrabold'>Legal Information</h2>
+        <div className="text-center md:text-left">
+          <div className="my-8">
+            <h2 className="font-extrabold">Legal Information</h2>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Privacy Policy</h5>
             <p>
               At Trip-Law, we respect your privacy and are committed to
               protecting your personal information. Our Privacy Policy outlines
               how we collect, use, disclose, and safeguard your information when
-              you visit our website,{' '}
+              you visit our website,{" "}
               <Link
-                href='https://www.trip-law.com/'
-                className='text-blue-500 underline'
+                href="https://www.trip-law.com/"
+                className="text-blue-500 underline"
               >
                 www.trip-law.com
               </Link>
@@ -71,7 +71,7 @@ const LeagalInformation = () => {
               review this policy to stay informed.
             </p>
           </div>
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Information Collection</h5>
             <p>We collect information in various ways, including:</p>
             <ul>
@@ -100,7 +100,7 @@ const LeagalInformation = () => {
               </li>
             </ul>
           </div>
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Use of Information</h5>
             <p>We use the collected information to:</p>
             <ul>
@@ -112,7 +112,7 @@ const LeagalInformation = () => {
             </ul>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Disclosure of Information</h5>
             <p>We collect information in various ways, including:</p>
             <ul>
@@ -147,7 +147,7 @@ const LeagalInformation = () => {
             </ul>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Cookies and Web Beacons</h5>
             <p>
               We apply cookies, web beacons, tracking pixels, and various other
@@ -161,7 +161,7 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Security</h5>
             <p>
               We use various measures to protect your information, but no system
@@ -169,7 +169,7 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Children's Privacy</h5>
             <p>
               We strictly discourage collecting any data from children aged
@@ -177,12 +177,12 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Do-Not-Track Features</h5>
             <p>Currently, we are not responding to any DNT signals.</p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Managing Your Information</h5>
             <p>
               You can opt out of communications by updating your account
@@ -191,7 +191,7 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Privacy Rights</h5>
             <p>
               United States residents can request information on personal data
@@ -200,7 +200,7 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Consent</h5>
             <p>
               When you are using our site, we consider your consent to our
@@ -210,7 +210,7 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Comment Policy</h5>
             <p>
               We welcome your comments and feedback on our site. However, we
@@ -220,7 +220,7 @@ const LeagalInformation = () => {
             </p>
           </div>
 
-          <div className='privacy-title'>
+          <div className="privacy-title">
             <h5>Copyright Notice</h5>
             <p>
               All content on this site is the property of Trip-Law and is
@@ -235,4 +235,4 @@ const LeagalInformation = () => {
   );
 };
 
-export default LeagalInformation;
+export default LegalInformation;
