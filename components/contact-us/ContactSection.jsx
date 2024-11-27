@@ -127,7 +127,7 @@ const ContactSection = () => {
                     <p className="text-black ">Enter Name</p>
                     <input
                       className="bg-gray-100 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-black focus:border-black block w-full p-2.5 py-3 placeholder:text-lg pl-5 mt-3"
-                      placeholder="Sadit Hasan"
+                      placeholder="Your Name"
                       required
                       type="text"
                       name="name"
@@ -186,7 +186,7 @@ const ContactSection = () => {
                     <p className="text-black ">US States</p>
                     <input
                       className="bg-gray-100 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-black focus:border-black block w-full p-2.5 py-3 placeholder:text-lg pl-5 mt-3"
-                      placeholder="example@gmail.com"
+                      placeholder="State"
                       required
                       type="text"
                       name="state"
@@ -204,7 +204,7 @@ const ContactSection = () => {
                     <p className="text-black ">Zip Code</p>
                     <input
                       className="bg-gray-100 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-black focus:border-black block w-full p-2.5 py-3 placeholder:text-lg pl-5 mt-3"
-                      placeholder="example@gmail.com"
+                      placeholder="Zip Code"
                       required
                       type="email"
                       name="zipeCode"
@@ -230,7 +230,8 @@ const ContactSection = () => {
                     {/* First Checkbox */}
                     <div className="flex items-center mb-4 mt-3">
                       <input
-                        type="checkbox"
+                        id="likeToContact"
+                        type="radio"
                         name="likeToContact"
                         value={"Phone"}
                         onChange={(event) => {
@@ -239,7 +240,7 @@ const ContactSection = () => {
                             likeToContact: event.target.checked,
                           });
                         }}
-                        className="w-4 h-4 text-primary bg-gray-100 border-gray-300 rounded-full "
+                        className="w-4 h-4 text-primary bg-gray-100 border-gray-300 rounded-full  "
                       />
                       <label className="ms-2 text-sm font-medium text-black">
                         Phone
@@ -249,7 +250,8 @@ const ContactSection = () => {
                     {/* Second Checkbox */}
                     <div className="flex items-center">
                       <input
-                        type="checkbox"
+                        id="likeToContact"
+                        type="radio"
                         name="likeToContact"
                         value={"Email"}
                         onChange={(event) => {
@@ -314,7 +316,7 @@ const ContactSection = () => {
             </ScrollMotionEffect>
           </div>
 
-          <div className="bg-[#181818] p-6 rounded-md gap-y-14">
+          <div className="bg-[#181818] p-6 rounded-md gap-y-14 h-full overflow-hidden">
             <ScrollMotionEffect effect="fade-left" duration="2000">
               <h2 className="text-2xl font-semibold text-white py-6 border-b-1 border-gray-400">
                 Contact Details
@@ -358,7 +360,7 @@ const ContactSection = () => {
                     53045
                   </h5>
                 </li>
-                <li className="py-6 max-w-[700px] h-[200px]">
+                <li className="py-6 max-w-[700px] h-full ">
                   <GoogleMap />
                 </li>
               </ul>

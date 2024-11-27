@@ -1,11 +1,12 @@
-import PageHeroSection from '@/components/shared/PageHeroSection';
-import React from 'react';
+import PageHeroSection from "@/components/shared/PageHeroSection";
+import React from "react";
 
 const HeroSection = () => {
   return (
     <PageHeroSection
-      image={'/assets/about/about-us-hero-banner.png'}
-      title={'Disclaimers and Terms of Use'}
+      image={"/assets/about/about-us-hero-banner.png"}
+      title={"Disclaimers"}
+      subTitle={"Disclaimers"}
     />
   );
 };

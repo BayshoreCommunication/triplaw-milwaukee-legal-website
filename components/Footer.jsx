@@ -201,11 +201,8 @@ const Footer = () => {
           <div className="md:flex :items-center sm:justify-between">
             <div className="text-[18px] font-medium text-center text-black">
               © 2024{" "}
-              <a
-                href="https://trip-law.com/"
-                className="hover:underline text-primary"
-              >
-                Trip Law™
+              <a href="/" className="hover:underline text-primary">
+                Milwaukee Legal Pros
               </a>
               . All Rights Reserved.
             </div>

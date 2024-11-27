@@ -73,7 +73,7 @@ const page = () => {
                   className=" duration-300 hover:text-primary underline"
                 >
                   www.milwaukeelegalpros.com
-                </Link>{" "}
+                </Link>
                 . By accessing or using our website, you consent to the use of
                 cookies in accordance with this Cookie Policy.
               </p>
@@ -237,14 +237,14 @@ const page = () => {
                 cookies, please contact us at:
               </p>
               <p className="text-xl text-stone-950 text-center md:text-left">
-                Milwaukee Legal Pros 230 W Wells St, Ste 800 Milwaukee, WI 53203{" "}
-                <br />
+                Milwaukee Legal Pros <br /> 230 W Wells St, Ste 800 <br />{" "}
+                Milwaukee, WI 53203 <br />
                 Phone: <strong>(855) 947-2527</strong>
                 <br />
                 Email:{" "}
                 <Link
                   href="mailto:info@milwaukeelegalpros.com"
-                  className="hover:text-primary duration-300"
+                  className="hover:text-primary duration-300 font-medium underline"
                 >
                   info@milwaukeelegalpros.com
                 </Link>

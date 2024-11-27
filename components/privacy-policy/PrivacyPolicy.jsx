@@ -47,20 +47,13 @@ const PrivacyPolicy = () => {
 
           <div className="flex flex-col gap-4 lg:gap-5">
             <p className="text-xl text-stone-950 text-center md:text-left">
-              Welcome to the Milwaukee Legal Pros website. By accessing or using
-              this Site, you agree to the terms outlined in this Privacy Policy.
-              We are committed to protecting your privacy and ensuring that your
-              personal information is handled responsibly. This policy explains
-              how we collect, use, and safeguard your information.
+              Welcome to the Milwaukee Legal Pros website (the “Site”). By
+              accessing or using this Site, you agree to the terms outlined in
+              this Privacy Policy. We are committed to protecting your privacy
+              and ensuring that your personal information is handled
+              responsibly. This policy explains how we collect, use, and
+              safeguard your information.
             </p>
-            <div className="">
-              <h5 className="text-stone-950 font-bold text-xl md:text-2xl  text-center md:text-left">
-                Communication and Call Recording
-              </h5>
-              <p className="text-xl text-stone-950 text-center md:text-left">
-                {`Welcome to the Milwaukee Legal Pros website (the “Site”). By accessing or using this Site, you agree to the terms outlined in this Privacy Policy. We are committed to protecting your privacy and ensuring that your personal information is handled responsibly. This policy explains how we collect, use, and safeguard your information.`}
-              </p>
-            </div>
             <div className="">
               <h5 className="text-stone-950 font-bold text-xl md:text-2xl  text-center md:text-left">
                 Limitations on Use
@@ -75,7 +68,7 @@ const PrivacyPolicy = () => {
                   any part of the Site or its content without authorization.
                 </li>
                 <li className="text-lg text-stone-950 text-center md:text-left">
-                  {`Avoid adapting, altering, modifying, reverse engineering, disassembling, or decompiling the Site or its underlying technology`}
+                  {`Avoid adapting, altering, modifying, reverse engineering, disassembling, or decompiling the Site or its underlying technology.`}
                 </li>
                 <li className="text-lg text-stone-950 text-center md:text-left">
                   You are prohibited from preparing derivative works based on
@@ -311,10 +304,10 @@ const PrivacyPolicy = () => {
               <p className="text-xl text-stone-950 text-center md:text-left">
                 If any provision of this Privacy Policy or Terms of Use is
                 deemed invalid or unenforceable, the remaining terms will remain
-                in full effect. Milwaukee Legal Pros may block or terminate
-                website access for Terms violations or misuse at its discretion.
-                Failure to enforce any provision does not constitute a waiver of
-                Milwaukee Legal Pros’ rights.
+                in full effect. <br /> Milwaukee Legal Pros may block or
+                terminate website access for Terms violations or misuse at its
+                discretion. Failure to enforce any provision does not constitute
+                a waiver of Milwaukee Legal Pros’ rights.
               </p>
             </div>
             <div className="">
@@ -324,6 +317,7 @@ const PrivacyPolicy = () => {
               <p className="text-xl text-stone-950 text-center md:text-left">
                 Milwaukee Legal Pros owns all materials on this site unless
                 attributed or public domain; unauthorized use is prohibited.
+                <br />
                 Copyright © 2024 Milwaukee Legal Pros. All rights reserved.
               </p>
             </div>

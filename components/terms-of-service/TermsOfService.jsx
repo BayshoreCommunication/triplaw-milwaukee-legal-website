@@ -45,7 +45,7 @@ const TermsOfService = () => {
         <div className="text-center md:text-left">
           <div className="text-center mb-4 md:mb-5">
             <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
-              Privacy Policy
+              Terms Of Service
             </h1>
           </div>
 
@@ -184,7 +184,7 @@ const TermsOfService = () => {
 
             <div>
               <h5 className="text-stone-950 font-bold text-xl md:text-2xl  text-center md:text-left">
-                6. USER GENERATED CONTRIBUTIONS
+                6. USER-GENERATED CONTRIBUTIONS
               </h5>
               <p className="text-xl text-stone-950 text-center md:text-left">
                 You must ensure that the content you submit does not infringe on
@@ -270,16 +270,17 @@ const TermsOfService = () => {
               </h5>
               <p className="text-xl text-stone-950 text-center md:text-left">
                 For inquiries or issues related to the Services, please contact
-                us at: Milwaukee Legal Pros
+                us at:
               </p>
               <p className="text-xl text-stone-950 text-center md:text-left">
-                230 W Wells St, Ste 800 Milwaukee, WI 53203 <br />
+                Milwaukee Legal Pros <br /> 230 W Wells St, Ste 800 <br />{" "}
+                Milwaukee, WI 53203 <br />
                 Phone: <strong>(855) 947-2527</strong>
                 <br />
                 Email:{" "}
                 <Link
                   href="mailto:info@milwaukeelegalpros.com"
-                  className="hover:text-primary duration-300"
+                  className="hover:text-primary duration-300 font-medium underline"
                 >
                   info@milwaukeelegalpros.com
                 </Link>
