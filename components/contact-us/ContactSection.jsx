@@ -328,7 +328,7 @@ const ContactSection = () => {
                     <h5 className="text-2xl font-semibold text-white">Email</h5>
                   </div>
                   <h5 className="mt-5 text-xl font-normal text-white">
-                    info@trip-law.com
+                    info@milwaukeelegalpros.com
                   </h5>
                 </li>
                 <li className="py-6 border-gray-600 border-b-1">
@@ -341,7 +341,7 @@ const ContactSection = () => {
                     </h5>
                   </div>
                   <h5 className="mt-5 text-xl font-normal text-white">
-                    (863)-599-6735
+                    +1 (863) 370-2427
                   </h5>
                 </li>
                 <li className="py-6 border-gray-600 border-b-1">
@@ -354,7 +354,8 @@ const ContactSection = () => {
                     </h5>
                   </div>
                   <h5 className="mt-2 text-xl font-normal text-white">
-                    231 N. Kentucky Ave. Ste. 213, Lakeland, FL 33801
+                    675 North Brookfield Road, Suite 102, Brookfield, Wisconsin
+                    53045
                   </h5>
                 </li>
                 <li className="py-6 max-w-[700px] h-[200px]">

@@ -38,12 +38,12 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="py-5 text-[18px] font-normal text-center text-black md:text-left max-w-[450px] leading-8">
-                  At Trip Law, we offer dedicated criminal defense and personal
-                  injury representation, ensuring justice and advocacy for those
-                  in need. Our team works tirelessly to protect clients' rights,
-                  providing compassionate support through challenging times. We
-                  blend legal expertise with a deep commitment to humanity,
-                  delivering exceptional results for every case.
+                  At Milwaukee Legal Pros, we are relentless in protecting your
+                  rights. Specializing in personal injury and criminal cases, we
+                  deliver powerful results-driven representation with a
+                  client-first approach. Trust us to fight for justice and
+                  secure the favorable outcomes you deserve. Let us guide you
+                  through every legal challenge with confidence and care.
                 </p>
 
                 <div className="flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
@@ -145,11 +145,12 @@ const Footer = () => {
                       </h3>
                     </div>
                     <Link
-                      href="https://maps.app.goo.gl/BxuNRwy3CHg2ykCd7"
+                      href="https://maps.app.goo.gl/tvg7Vt6mYsx4HVTu7"
                       className=" hover:underline duration-300"
                       target="_blank"
                     >
-                      231 N. Kentucky Ave. Ste. 213, Lakeland, Florida 33801
+                      675 North Brookfield Road, Suite 102, Brookfield,
+                      Wisconsin 53045
                     </Link>
                   </li>
                   <li className="mb-4">

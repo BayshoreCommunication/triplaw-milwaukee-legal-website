@@ -14,7 +14,7 @@ function ServicesSection() {
   return (
     <div className="bg-[#F6F6F6]">
       <SectionLayout>
-        <div className="w-full lg:max-w-[60%] mx-auto">
+        <div className="w-full lg:max-w-[80%] mx-auto">
           <ScrollMotionEffect effect="fade-right" duration="2000">
             <h2
               className={`text-stone-950 font-bold text-3xl md:text-5xl mb-4 text-center ${playfair.className}`}
@@ -25,7 +25,8 @@ function ServicesSection() {
 
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <p className="mb-0 md:mb-4 text-sm text-center md:text-lg text-stone-950 ">
-              {`Are you married to a USAn the United States? Obtaining a green card through marriage can be a complex and emotionally charged process. We understand the challenges you face and are dedicated to providing comprehensive legal guidance throughout your journey.`}
+              {`Are you facing criminal charges or grappling with a personal injury in Milwaukee? The legal system can feel like an unforgiving maze, whether you’re standing accused or seeking the justice you rightfully deserve. We understand the weight these challenges can bring—the emotional toll and the financial strain. With unwavering dedication and expert guidance, we're here to support you all the way, every step until justice has its say.
+`}
             </p>
           </ScrollMotionEffect>
         </div>

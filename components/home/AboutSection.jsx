@@ -53,21 +53,20 @@ const AboutSection = () => {
                 <h2
                   className={`text-stone-950 font-bold text-3xl md:text-5xl mb-8 text-center md:text-left ${playfair.className}`}
                 >
-                  About Trip Law
+                  About Milwaukee Legal Pros
                 </h2>
 
                 <p className="mb-4 text-lg text-center text-stone-950 md:text-left">
-                  At Trip Law we set out to create a unique law firm where
-                  outstanding immigration representation and a deep commitment
-                  to humanity go hand in hand. Hardam H. Tripathi was a former
-                  legal professional in the federal government.
+                  At Milwaukee Legal Pros, we provide exceptional criminal
+                  defense and personal injury representation with a steadfast
+                  commitment to justice and client care. Founded by Hardam H.
+                  Tripathi, a former federal legal professional, our firm blends
+                  skill, experience, and client-centered advocacy.
                 </p>
                 <p className="mb-4 text-lg text-center text-stone-950 md:text-left">
-                  Trip Law at this moment is the home to some of the most
-                  experienced lawyers. Trip Law has turned into a leader in the
-                  field of immigration law. The growth of Trip Law was fueled by
-                  excellence, integrity, and a hard-earned reputation for
-                  quality.
+                  Home to some of Wisconsin's top attorneys, Milwaukee Legal
+                  Pros is a leader in criminal and personal injury law, known
+                  for excellence, integrity, and relentless pursuit of justice.
                 </p>
                 <ul className="flex flex-col gap-4 my-8">
                   <li className="flex gap-2">
@@ -81,7 +80,7 @@ const AboutSection = () => {
                       />
                     </div>
                     <p className="text-lg font-semibold">
-                      Defining Success by Your Satisfaction
+                      Your Success Is Our Priority
                     </p>
                   </li>
                   <li className="flex gap-2">
@@ -95,7 +94,7 @@ const AboutSection = () => {
                       />
                     </div>
                     <p className="text-lg font-semibold">
-                      Committed bringing client's justice
+                      Delivering Results with Unmatched Representation
                     </p>
                   </li>
                   <li className="flex gap-2">
@@ -109,7 +108,7 @@ const AboutSection = () => {
                       />
                     </div>
                     <p className="text-lg font-semibold">
-                      Proven Results, Exceptional Representation
+                      Justice Won’t Wait, Neither Will We
                     </p>
                   </li>
                 </ul>

@@ -49,16 +49,18 @@ const FAQ = () => {
                       }
                       title={
                         <span className="text-lg md:text-2xl font-medium">
-                          What are good questions to ask law firms?
+                          What is your availability for consultations and
+                          communication?
                         </span>
                       }
                       // title="What are good questions to ask law firms?"
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        Likeness had fruit moved herb you're earth sea dry
-                        you're creature own man give It fish cattle they're male
-                        creepeth give male
+                        We offer free initial consultations and flexible
+                        scheduling, whether in-person or virtual. We’ll respond
+                        to your inquiries within 24 hours and keep you updated
+                        regularly on the progress of your case.
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -73,15 +75,17 @@ const FAQ = () => {
                       }
                       title={
                         <span className="text-lg md:text-2xl font-medium">
-                          What are your non-academic interests?
+                          Do you volunteer your time to any legal aid
+                          organizations or pro bono work?
                         </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        Likeness had fruit moved herb you're earth sea dry
-                        you're creature own man give It fish cattle they're male
-                        creepeth give male
+                        Yes, we actively give back through pro bono work with
+                        legal aid organizations, helping those who can’t afford
+                        legal services. It’s all part of our commitment to
+                        justice, equality, and supporting our community.
                       </p>
                     </AccordionItem>
                     <AccordionItem
@@ -96,15 +100,15 @@ const FAQ = () => {
                       }
                       title={
                         <span className="text-lg md:text-2xl font-medium">
-                          What is hardest question to ask a lawyer?
+                          How do you approach client confidentiality?
                         </span>
                       }
                       className="text-lg text-[#4A4A4A] "
                     >
                       <p>
-                        Likeness had fruit moved herb you're earth sea dry
-                        you're creature own man give It fish cattle they're male
-                        creepeth give male
+                        We follow strict legal and ethical standards to protect
+                        all your case details and communications. Rest assured,
+                        your information stays safe and confidential with us.
                       </p>
                     </AccordionItem>
                   </Accordion>

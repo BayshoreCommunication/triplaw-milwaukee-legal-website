@@ -61,26 +61,26 @@ const WhyChooseUs = () => {
           {/* Right Column */}
           <div className="flex flex-col gap-y-10 lg:gap-8 order-2 xl:order-1">
             <FeatureBlock
-              title="Expert Legal Advice"
-              description="Legal guidance, ensuring informed decisions and understanding of complex legal issues."
+              title="Experienced Legal Representation"
+              description="Skilled attorneys providing expert guidance in personal injury and criminal defense cases."
               imgSrc="/assets/home/expert-legal-advice.png"
               reverse
             />
             <FeatureBlock
-              title="Efficient Case Handling"
-              description="Handles your legal matters efficiently, leading to quicker and more effective resolutions."
+              title="Proven Success Record"
+              description="Successfully handled numerous cases, achieving favorable outcomes for personal injury and criminal defense."
               imgSrc="/assets/home/efficient-case-handling.png"
               reverse
             />
             <FeatureBlock
-              title="Cost-Effective"
-              description="Offers flexible fee structures, providing cost-effective legal solutions compared to larger firms."
+              title="Aggressive Legal Advocacy"
+              description="Relentlessly fight for your rights, securing justice and optimal results for your case."
               imgSrc="/assets/home/cost-effective.png"
               reverse
             />
             <FeatureBlock
-              title="Accessible and Responsive"
-              description="More accessible and responsive, addressing your concerns and questions promptly and effectively."
+              title="In-Depth Local Knowledge"
+              description="Extensive familiarity with Wisconsin’s courts, judges, and legal procedures to strengthen your case."
               imgSrc="/assets/home/accessible-and-responsive.png"
               reverse
             />
@@ -90,26 +90,26 @@ const WhyChooseUs = () => {
           <div className="flex flex-col gap-5 lg:gap-8 order-3 xl:order-3">
             <FeatureBlock
               className="xl:!text-start"
-              title="Personalized Attention"
-              description="Offers dedicated focus on your case, understanding unique circumstances and goals."
+              title="Affordable and Transparent Fees"
+              description="Competitive pricing with clear fee structures, providing top-tier legal representation without hidden costs."
               imgSrc="/assets/home/personalized-attention.png"
             />
             <FeatureBlock
               className="xl:!text-start"
-              title="Confidentiality and Trust"
-              description="Ensures sensitive information is managed with the highest level of confidentiality and trust."
+              title="Skilled Negotiation and Litigation"
+              description="Strong negotiators and courtroom advocates ensure the best results for your legal matters."
               imgSrc="/assets/home/confidentiality-and-trust.png"
             />
             <FeatureBlock
               className="xl:!text-start"
-              title="Proactive Legal Planning"
-              description="Helps with proactive planning like estate planning and contract reviews to prevent future legal issues."
+              title="Emergency Legal Support"
+              description="Available 24/7 to assist with urgent personal injury or criminal defense needs."
               imgSrc="/assets/home/proactive-legal-planning.png"
             />
             <FeatureBlock
               className="xl:!text-start"
-              title="Comprehensive Legal Services"
-              description="Provides a wide range of legal services, from litigation to negotiation, for complete support."
+              title="Thorough Case Investigation"
+              description="Comprehensive evidence gathering and analysis to build a strong and effective legal strategy."
               imgSrc="/assets/home/comprehensive-legal-services.png"
             />
           </div>

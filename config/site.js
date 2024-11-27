@@ -70,7 +70,7 @@ export const SITECONFIG = {
       {
         title: "Cookie Policy",
         slug: "/cookie-policy",
-      }
+      },
     ],
     contact_us: [
       {
@@ -90,11 +90,11 @@ export const SITECONFIG = {
       </svg>`,
       },
       {
-        title: "info@trip-law.com",
+        title: "info@milwaukeelegalpros.com",
         slug: "/services",
       },
       {
-        title: "(863)-599-6735",
+        title: "+1 (863) 370-2427",
         slug: "/about-us",
       },
     ],
@@ -118,6 +118,6 @@ export const SITECONFIG = {
     },
   ],
   address: "1543 Lakeland Hills Blvd, Ste. 17, Lakeland, FL 33805",
-  phone: "info@trip-law.com",
-  email: "(863)-599-6735",
+  phone: "+1 (863) 370-2427",
+  email: "info@milwaukeelegalpros.com",
 };

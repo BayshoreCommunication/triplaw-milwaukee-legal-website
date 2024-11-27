@@ -19,7 +19,7 @@ const CallToAction = () => {
         height: "auto",
       }}
     >
-      <ScrollMotionEffect effect="fade-up" duration="2000" >
+      <ScrollMotionEffect effect="fade-up" duration="2000">
         <SectionLayout bg="py-10">
           <div className="w-full lg:max-w-[60%] mx-auto">
             <h2
@@ -29,22 +29,22 @@ const CallToAction = () => {
             </h2>
 
             <p className="mb-4 text-lg text-center text-gray-200 font-light ">
-              At Trip Law, you’re family. We offer open lines of communication
-              to foster personal relationships and optimize case outcomes for
-              our clients. Every client gets the personal cell phone number of
-              the attorney.
+              Milwaukee Legal Pros is here to fight for you with expertise,
+              compassion, and dedication. Your case gets our full attention, and
+              we’re committed to protecting your rights every step of the way.
+              Let’s talk—schedule a consultation today.
             </p>
           </div>
           <div className="flex justify-center mt-6">
             <div className="flex justify-center m-6">
-            <Link
-              href="/appointment"
-              className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-primary text-white rounded-lg hover:bg-[#facc15] duration-300"
-            >
-              Free Consultation
-              <FaArrowRightLong className="ml-2  size-5" />
-            </Link>
-          </div>
+              <Link
+                href="/appointment"
+                className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-primary text-white rounded-lg hover:bg-[#facc15] duration-300"
+              >
+                Free Consultation
+                <FaArrowRightLong className="ml-2  size-5" />
+              </Link>
+            </div>
           </div>
         </SectionLayout>
       </ScrollMotionEffect>
