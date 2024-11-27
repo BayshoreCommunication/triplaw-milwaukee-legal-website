@@ -1,5 +1,6 @@
 import React from "react";
 import SectionLayout from "../shared/SectionLayout";
+import Link from "next/link";
 
 const css = `
   h1{
