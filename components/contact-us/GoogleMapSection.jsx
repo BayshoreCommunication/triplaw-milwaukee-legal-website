@@ -1,10 +1,10 @@
-import React from 'react';
-import GoogleMap from '../shared/GoogleMap';
-import CardMotion from '../motion/CardMotion';
+import React from "react";
+import GoogleMap from "../shared/GoogleMap";
+import CardMotion from "../motion/CardMotion";
 
 const GoogleMapSection = () => {
   return (
-    <div className='bg-white'>
+    <div className="bg-white">
       <div>
         <CardMotion
           whileInView={{
@@ -19,7 +19,7 @@ const GoogleMapSection = () => {
             y: 100,
           }}
         >
-          <div className='relative h-[600px] w-full'>
+          <div className="relative  w-full">
             <GoogleMap />
           </div>
         </CardMotion>

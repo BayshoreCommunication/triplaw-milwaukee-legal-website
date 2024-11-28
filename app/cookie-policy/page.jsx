@@ -109,11 +109,11 @@ const page = () => {
                   href="#"
                   className=" duration-300 hover:text-primary underline"
                 >
-                  www.milwaukeelegalpros.com
+                  www.milwaukeelegalpros.com,
                 </Link>{" "}
-                , we may place a number of cookies on your browser to enhance
-                your experience and provide specific functions. We use cookies
-                for the following purposes:
+                we may place a number of cookies on your browser to enhance your
+                experience and provide specific functions. We use cookies for
+                the following purposes:
               </p>
               <ul className="list-decimal  ms-7">
                 <li className="text-lg lg:text-xl text-stone-950 text-center md:text-left">

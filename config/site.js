@@ -63,10 +63,10 @@ export const SITECONFIG = {
         title: "Terms Of Service",
         slug: "/terms-of-service",
       },
-      // {
-      //   title: "Legal Information",
-      //   slug: "/legal-information",
-      // },
+      {
+        title: "Legal Information",
+        slug: "/legal-information",
+      },
       {
         title: "Cookie Policy",
         slug: "/cookie-policy",

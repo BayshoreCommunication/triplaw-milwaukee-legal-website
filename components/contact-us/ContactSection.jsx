@@ -111,8 +111,8 @@ const ContactSection = () => {
   return (
     <SectionLayout>
       <div className="">
-        <div className="grid items-start justify-between grid-cols-1 mt-4 lg:grid-cols-3 md:gap-x-10 gap-x-0">
-          <div className="flex flex-col col-span-2 mt-6 md:mt-0">
+        <div className="grid justify-between grid-cols-1 mt-4 lg:grid-cols-3 md:gap-10 gap-6">
+          <div className="flex flex-col justify-between lg:col-span-2 mt-6 md:mt-0 ">
             <ScrollMotionEffect effect="fade-right" duration="2000">
               <p
                 className={`text-4xl font-bold text-center md:text-left text-black mb-10 ${playfair.className}`}
@@ -121,7 +121,7 @@ const ContactSection = () => {
               </p>
             </ScrollMotionEffect>
             <ScrollMotionEffect effect="fade-right" duration="2000">
-              <form className="w-full" onSubmit={handleSubmit}>
+              <form className="w-full " onSubmit={handleSubmit}>
                 <div className="md:flex items-start gap-x-3">
                   <div className="w-full mb-6">
                     <p className="text-black ">Enter Name</p>
@@ -293,7 +293,7 @@ const ContactSection = () => {
                 {loading ? (
                   <Button
                     isLoading
-                    className="flex items-center justify-center px-2 py-2.5 mb-2 text-sm font-medium text-white border bg-primary  md:text-lg md:px-8 me-0 md:me-6 rounded-md "
+                    className="flex items-center justify-center px-2 py-2.5  text-sm font-medium text-white border bg-primary  md:text-lg md:px-8 me-0 md:me-6 rounded-md "
                     radius="sm"
                     size="lg"
                   >
@@ -301,7 +301,7 @@ const ContactSection = () => {
                   </Button>
                 ) : (
                   <Button
-                    className="flex items-center justify-center px-2 py-2.5 mb-2 text-sm font-medium text-white border  bg-primary md:text-lg md:px-8 me-0 md:me-6 rounded-md "
+                    className="flex items-center justify-center px-2 py-2.5  text-sm font-medium text-white border  bg-primary md:text-lg md:px-8 me-0 md:me-6 rounded-md "
                     radius="sm"
                     size="lg"
                     onClick={handleSubmit}
@@ -316,12 +316,12 @@ const ContactSection = () => {
             </ScrollMotionEffect>
           </div>
 
-          <div className="bg-[#181818] p-6 rounded-md gap-y-14 h-full overflow-hidden">
+          <div className="bg-[#181818] p-6 rounded-md gap-y-14 h-full overflow-hidden w-full">
             <ScrollMotionEffect effect="fade-left" duration="2000">
-              <h2 className="text-2xl font-semibold text-white py-6 border-b-1 border-gray-400">
+              <h2 className="text-2xl font-semibold text-white pb-6 border-b-1 border-gray-400">
                 Contact Details
               </h2>
-              <ul className="space-y-1 text-white list-none list-inside">
+              <ul className="space-y-1 text-white list-none list-inside overflow-hidden">
                 <li className="py-6 border-gray-600 border-b-1">
                   <div className="flex items-center gap-x-2">
                     <span>
@@ -360,7 +360,7 @@ const ContactSection = () => {
                     53045
                   </h5>
                 </li>
-                <li className="py-6 max-w-[700px] h-full ">
+                <li className="pt-6 max-w-[700px] w-full h-full overflow-hidden">
                   <GoogleMap />
                 </li>
               </ul>

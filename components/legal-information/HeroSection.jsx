@@ -6,6 +6,7 @@ const HeroSection = () => {
     <PageHeroSection
       image={"/assets/about/about-us-hero-banner.png"}
       title={"Legal Information"}
+      subTitle={"Legal Information"}
     />
   );
 };
