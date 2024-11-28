@@ -185,7 +185,7 @@ const LegalInformation = () => {
               </li>
 
               <li className="text-xl text-stone-950 text-center md:text-left">
-                <strong>Business Transactions </strong> If we undergo a merger,
+                <strong>Business Transactions: </strong> If we undergo a merger,
                 acquisition, or sale of all or part of our business, we may
                 transfer your information as part of that transaction.
               </li>

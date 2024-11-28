@@ -8,6 +8,7 @@ export const SITECONFIG = {
     { title: "Home", slug: "/" },
     { title: "About Us", slug: "/about" },
     { title: "Services", slug: "/services" },
+    { title: "Appointment", slug: "/appointment" },
     // { title: "Case Studies", slug: "/case-studies" },
     { title: "Blog", slug: "/blog" },
   ],

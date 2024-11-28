@@ -10,6 +10,7 @@ import CardMotion from "@/components/motion/CardMotion";
 import Head from "next/head";
 import { Playfair_Display } from "next/font/google";
 import PrimaryButton from "@/components/shared/PrimaryButton";
+import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -67,51 +68,60 @@ const page = async () => {
             {blogPostData?.data
               ?.filter((pub, no) => pub.published === true)
               ?.map((blogs, index) => (
-                <Link
-                  href={`/blog/${blogs.slug}`}
-                  // variants={variants}
-                  // whileHover={{ scale: 0.99 }}
-                  // whileTap={{ scale: 0.95 }}
-                  // href='#'
-                  className={`relative flex flex-col items-center max-w-sm gap-6 p-6 border border-gray-200 rounded-md shadow hover:bg-gray-100 group ${index === 1 ? "bg-black" : "bg-white"}`}
+                <ScrollMotionEffect
+                  key={index}
+                  effect="fade-up"
+                  duration="2000"
                 >
-                  <Image
-                    width={1000}
-                    height={300}
-                    src={blogs?.featuredImage?.image?.url}
-                    alt={blogs?.featuredImage?.altText}
-                    className="w-full h-auto bg-center bg-cover"
-                  />
-                  <div className="mb-6">
-                    <div className="flex items-center justify-between mb-3">
-                      <p>{blogs?.category}</p>
-                      <p className="text-gray-900">
-                        {postDate(blogs?.createdAt)}
-                      </p>
+                  <div className="relative flex flex-col items-center justify-between max-w-sm gap-6 p-6 border border-gray-200 rounded-md shadow overflow-hidden group h-full">
+                    {/* Smooth background effect from bottom to top */}
+                    <div className="absolute inset-0 z-0 bg-black transform scale-y-0 origin-bottom transition-transform duration-700 ease-out group-hover:scale-y-100"></div>
+
+                    {/* Card content stays on top of the effect */}
+                    <div className="relative z-10 flex flex-col items-center">
+                      <div className="">
+                        <Image
+                          width={1000}
+                          height={300}
+                          src={blogs?.featuredImage?.image?.url}
+                          alt={blogs?.featuredImage?.altText}
+                          className="w-full h-auto bg-center bg-cover"
+                        />
+                      </div>
+                      <div className="mt-4">
+                        <div className="flex items-center justify-between mb-3">
+                          {/* <p className=" group-hover:text-white duration-300">
+                            Blog
+                          </p> */}
+                          <p className=" group-hover:text-white duration-300">
+                            {postDate(blogs?.createdAt)}
+                          </p>
+                        </div>
+                        <h5
+                          className={`mb-2 font-bold tracking-wide text-center text-md md:text-md lg:text-lg xl:text-lg 2xl:text-2xl transition-colors  text-black group-hover:text-white`}
+                        >
+                          {blogs?.title}
+                        </h5>
+                        <p
+                          className={`font-normal text-center line-clamp-2 transition-colors text-black group-hover:text-white`}
+                        >
+                          {parse(blogs?.body)}
+                        </p>
+                        <div className="flex justify-center mt-8">
+                          <Link
+                            href={`/blog/${blogs.slug}`}
+                            className="flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none group-hover:border-white group-hover:text-white"
+                          >
+                            Read More
+                          </Link>
+                        </div>
+                      </div>
                     </div>
-                    <h5
-                      className={`mb-2 font-bold tracking-wide text-center text-md md:text-md lg:text-lg xl:text-lg 2xl:text-2xl ${index === 1 ? "text-white group-hover:text-black" : "text-black group-hover:text-black"}`}
-                    >
-                      {blogs?.title}
-                    </h5>
-                    <p
-                      className={`font-normal text-center line-clamp-4 ${index === 1 ? "text-white group-hover:text-black" : "text-gray-700 group-hover:text-black"}`}
-                    >
-                      {parse(blogs?.body)}
-                    </p>
-                    <div className="flex justify-center mt-8">
-                      <Link
-                        link={`/blog/${blogs.slug}`}
-                        className="flex items-center justify-center px-2 py-2 mb-2 text-sm font-normal text-primary rounded-lg border-2 border-primary hover:bg-primary md:text-lg md:px-8 me-3 md:me-6 bg-transparent hover:text-white shadow-none gap-2"
-                        radius={"sm"}
-                      >
-                        Read More
-                      </Link>
-                    </div>
+
+                    {/* Colored bottom strip */}
+                    <div className="absolute bottom-0 left-0 w-full h-3 bg-black rounded-b-md"></div>
                   </div>
-                  {/* Add a colored bottom strip */}
-                  <div className="absolute bottom-0 left-0 w-full h-3 bg-black rounded-b-md"></div>
-                </Link>
+                </ScrollMotionEffect>
               ))}
           </div>
         </CardMotion>

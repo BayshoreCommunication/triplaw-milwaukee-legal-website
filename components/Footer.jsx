@@ -47,10 +47,11 @@ const Footer = () => {
                 </p>
 
                 <div className="flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
+                  {/* Facebook */}
                   <Link
-                    href="https://www.facebook.com/TripLawPA"
+                    href="https://www.facebook.com/milwaukeelegalpros"
                     target="_blank"
-                    className="text-[#1B2639] hover:animate-pulse bg-primary rounded-full p-2"
+                    className="text-[#1B2639] hover:animate-pulse hover:bg-primary bg-black duration-300  rounded-full p-2"
                   >
                     <svg
                       className="h-3.5 w-3.5 text-white"
@@ -65,13 +66,53 @@ const Footer = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="sr-only">Facebook page</span>
                   </Link>
-
+                  {/* Linkedin */}
                   <Link
-                    href="https://www.instagram.com/trip_law_/"
+                    href="https://www.linkedin.com/company/milwaukeelegalproscriminaldefense"
                     target="_blank"
-                    className="text-[#1B2639] hover:animate-pulse bg-black rounded-full p-2"
+                    className="text-[#1B2639] hover:animate-pulse bg-black hover:bg-primary duration-300 rounded-full p-2"
+                  >
+                    <svg
+                      class="h-3.5 w-3.5 text-white"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+                        clip-rule="evenodd"
+                      />
+                      <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+                    </svg>
+                  </Link>
+                  {/* Twitter/x */}
+                  <Link
+                    href="https://x.com/milwaukelegal"
+                    target="_blank"
+                    className="text-[#1B2639] hover:animate-pulse bg-black hover:bg-primary duration-300 rounded-full p-2"
+                  >
+                    <svg
+                      class="h-3.5 w-3.5 text-white"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z" />
+                    </svg>
+                  </Link>
+                  {/* Instagram */}
+                  <Link
+                    href="https://www.instagram.com/milwakeelegalpros/"
+                    target="_blank"
+                    className="text-[#1B2639] hover:animate-pulse bg-black hover:bg-primary duration-300 rounded-full p-2"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -81,12 +122,12 @@ const Footer = () => {
                     >
                       <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
                     </svg>
-                    <span className="sr-only">Facebook page</span>
                   </Link>
+                  {/* Youtube */}
                   <Link
-                    href="https://www.youtube.com/@triplawpa"
+                    href="https://www.youtube.com/@miwaukeelegalpros"
                     target="_blank"
-                    className="text-[#1B2639] hover:animate-pulse bg-black rounded-full p-2"
+                    className="text-[#1B2639] hover:animate-pulse bg-black hover:bg-primary duration-300 rounded-full p-2"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
