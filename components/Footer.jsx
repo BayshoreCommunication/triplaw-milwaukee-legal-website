@@ -1,11 +1,9 @@
+import { SITECONFIG } from "@/config/site";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { SITECONFIG } from "@/config/site";
-import SectionLayout from "./shared/SectionLayout";
-import { RiPhoneFill } from "react-icons/ri";
-import { MdMarkEmailUnread } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
+import { MdMarkEmailUnread } from "react-icons/md";
+import { RiPhoneFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -26,7 +24,7 @@ const Footer = () => {
             <div className="grid justify-center grid-cols-2 gap-8 sm:gap-6 md:grid-cols-5 ">
               <div className="col-span-2 mx-auto mb-6 md:mb-0 md:mx-0">
                 <Link
-                  href="https://trip-law.com"
+                  href="https://www.milwaukeelegalpros.com"
                   className="flex items-center justify-center cursor-pointer md:justify-start"
                 >
                   <Image

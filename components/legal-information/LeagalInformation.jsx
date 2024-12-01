@@ -1,6 +1,5 @@
-import React from "react";
-import SectionLayout from "../shared/SectionLayout";
 import Link from "next/link";
+import SectionLayout from "../shared/SectionLayout";
 
 const css = `
   h1{
@@ -59,11 +58,12 @@ const LegalInformation = () => {
               explains how we collect, use, disclose, and protect your
               information when you visit our website,{" "}
               <Link
-                href={"www.milwaukeelegalpros.com"}
+                href={`https://www.milwaukeelegalpros.com`}
+                target="_blank"
                 className="underline hover:text-primary duration-300"
               >
                 www.milwaukeelegalpros.com,
-              </Link>{" "}
+              </Link>
               or any associated platforms. Please take a moment to read it
               carefully. If you do not agree with this policy, we ask that you
               refrain from using our site.
