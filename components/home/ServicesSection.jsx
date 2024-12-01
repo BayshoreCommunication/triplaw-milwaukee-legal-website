@@ -59,7 +59,7 @@ function ServicesSection() {
               href="/services"
               className="font-medium text-lg px-10 py-2.5 mb-2 flex items-center gap-2 bg-none  rounded-lg hover:bg-primary duration-300 border-2 border-black hover:border-primary text-black hover:text-white"
             >
-              Vew All
+              View All
               <FaArrowRightLong className="ml-2  size-5" />
             </Link>
           </div>
