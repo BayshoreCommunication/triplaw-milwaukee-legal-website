@@ -89,10 +89,10 @@ const HeroSection = () => {
                     </span>
                   </Link>
                   <Link
-                    href={"tel:+18633702427"}
+                    href={"tel:+18635996735"}
                     className="flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white border rounded-lg border-primary hover:bg-primary md:text-lg md:px-8 me-0 md:me-6 w-[180px] md:w-[240px] bg-transparent"
                   >
-                    +1 (863) 370-2427
+                    +1 (863) 599-6735
                   </Link>
                 </motion.div>
               </div>

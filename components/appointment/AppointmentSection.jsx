@@ -47,7 +47,7 @@ const AppointmentSection = () => {
           We are dedicated to delivering exceptional legal representation while
           prioritizing justice and personalized client care. Visit us at 675
           North Brookfield Road, Suite 102, Brookfield, Wisconsin 53045, or call
-          us at +1 (863) 370-2427 to get the support you need.
+          us at +1 (863) 599-6735 to get the support you need.
         </p>
       </CardMotion>
     </SectionLayout>

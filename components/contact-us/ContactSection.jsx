@@ -343,7 +343,7 @@ const ContactSection = () => {
                     </h5>
                   </div>
                   <h5 className="mt-5 text-xl font-normal text-white">
-                    +1 (863) 370-2427
+                    +1 (863) 599-6735
                   </h5>
                 </li>
                 <li className="py-6 border-gray-600 border-b-1">

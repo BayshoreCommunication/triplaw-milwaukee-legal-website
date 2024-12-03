@@ -95,7 +95,7 @@ export const SITECONFIG = {
         slug: "/services",
       },
       {
-        title: "+1 (863) 370-2427",
+        title: "+1 (863) 599-6735",
         slug: "/about-us",
       },
     ],
@@ -119,6 +119,6 @@ export const SITECONFIG = {
     },
   ],
   address: "1543 Lakeland Hills Blvd, Ste. 17, Lakeland, FL 33805",
-  phone: "+1 (863) 370-2427",
+  phone: "+1 (863) 599-6735",
   email: "info@milwaukeelegalpros.com",
 };

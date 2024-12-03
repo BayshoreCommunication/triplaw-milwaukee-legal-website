@@ -27,11 +27,9 @@ const ClientTestimonials = () => {
             <Swiper
               pagination={{
                 dynamicBullets: true,
-              }}
-              modules={Pagination}
-              pagination={{
                 clickable: true,
               }}
+              modules={Pagination}
               className="flex"
               breakpoints={{
                 640: {

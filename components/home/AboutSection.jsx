@@ -36,10 +36,10 @@ const AboutSection = () => {
                         We are available - 24/7
                       </p>
                       <Link
-                        href={"tel:+18633702427"}
+                        href={"tel:+18635996735"}
                         className="text-base font-bold text-white md:text-2xl"
                       >
-                        +1 (863) 370-2427
+                        +1 (863) 599-6735
                       </Link>
                     </div>
                   </div>
