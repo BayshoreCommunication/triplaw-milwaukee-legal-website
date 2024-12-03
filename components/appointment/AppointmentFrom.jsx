@@ -1,11 +1,11 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import SectionLayout from "../shared/SectionLayout";
 import { Button } from "@nextui-org/react";
 import { send } from "emailjs-com";
+import Image from "next/image";
+import { useState } from "react";
 import Swal from "sweetalert2";
 import CardMotion from "../motion/CardMotion";
-import Image from "next/image";
+import SectionLayout from "../shared/SectionLayout";
 
 const AppointmentFrom = () => {
   const [emailForm, setEmailForm] = useState({
@@ -49,10 +49,10 @@ const AppointmentFrom = () => {
     // Check if there are any errors
     if (Object.keys(errors).length === 0) {
       send(
-        "service_21srltl",
-        "template_regri0n",
+        "service_xtbeufj",
+        "template_niejyh3",
         emailForm,
-        "QQbwIXKpnJegjLF_x"
+        "y7vvdB4gjuQFue5A6"
       )
         .then((response) => {
           setLoading(false); // Stop loading
