@@ -5,7 +5,8 @@ export const allServiceData = {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Motorcycle Accidents",
       slug: "motorcycle-accidents",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Motorcycle-Accidents.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Motorcycle-Accidents.jpg",
       shortDesc:
         "If you've been injured in a motorcycle accident, our legal team can help you get the compensation. Motorcycle accidents often result in serious injuries, financial hardship, and emotional distress. Our experienced motorcycle accident lawyers are dedicated to fighting for your rights. We'll work to ensure you receive full compensation for your injuries, pain, suffering, lost wages, and damage to your motorcycle.",
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -135,7 +136,8 @@ How Milwaukee Legal Pros can support you
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Car Accidents",
       slug: "car-accidents",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Car-Accidents.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Car-Accidents.jpg",
       shortDesc:
         "If you've been involved in a car accident, our legal team is here to help. We understand how stressful it can be to navigate legal matters, injuries, and insurance companies after an accident. That's why we're committed to helping you get the compensation you deserve so you can focus on your recovery.",
 
@@ -257,7 +259,8 @@ You can contact us for a free consultation to get the right support based on you
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Trucking Accidents",
       slug: "trucking-accidents",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Truck-Accidents.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Truck-Accidents.jpg",
       shortDesc:
         "Trucking accidents can have a devastating impact on your life. Due to the size and weight of commercial trucks like 18-wheelers and semis, these collisions often result in severe injuries and property damage. If you or someone else has been in such an occurrence, you don't have to deal with this situation alone. Our dedicated team is here to provide you with all kinds of support to compensate for your problems.",
 
@@ -379,7 +382,8 @@ We will ensure that you get fair compensation for both current and future medica
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Dog Bites",
       slug: "dog-bites",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Dog-Bites.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Dog-Bites.jpg",
       shortDesc:
         "Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. ",
 
@@ -494,7 +498,8 @@ We understand dog bites can cause psychological problems like post-traumatic str
       icon: "/assets/services/services-icon/slip-fall.png",
       title: "Slips and Falls",
       slug: "slip-and-falls",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Slips-and-Falls.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Slips-and-Falls.jpg",
       shortDesc:
         "Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
 
@@ -614,7 +619,8 @@ This service is designed for people who are facing the following problems:
       icon: "/assets/services/services-icon/medical-malpractice.png",
       title: "Medical Malpractice",
       slug: "medical-malpractice",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Medical-Malpractice.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Medical-Malpractice.jpg",
       shortDesc:
         "If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence.",
 
@@ -733,7 +739,8 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets",
       slug: "traffic-tickets",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Traffic-Tickets.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Traffic-Tickets.jpg",
       shortDesc:
         "If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.",
 
@@ -862,7 +869,8 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Nursing Home Abuse & Neglect",
       slug: "nursing-home-abuse-and-neglect",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Nursing-Home-Abuse-&-Neglect.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Nursing-Home-Abuse-&-Neglect.jpg",
       shortDesc:
         "If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.",
 
@@ -985,7 +993,8 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Wrongful Death",
       slug: "wrongful-death",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Wrongful-Death.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Wrongful-Death.jpg",
       shortDesc:
         "Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.",
 
@@ -1110,7 +1119,8 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Workplace Injury Accidents",
       slug: "workplace-injury-accidents",
-      practiceAreasSidebarImage: "/assets/services/personal-injury-law/Workplace-Injury-Accidents.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/personal-injury-law/Workplace-Injury-Accidents.jpg",
       shortDesc:
         "Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.",
 
@@ -1246,7 +1256,8 @@ You might have a medical malpractice case if you have been affected by the follo
       icon: "/assets/services/services-icon/car-accident.png",
       title: "OWI Defence (Dui Defense)",
       slug: "owi-defence",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/OWI-Defense.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/OWI-Defense.jpg",
       shortDesc:
         "OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.",
       description: `<div className="col-span-2 flex flex-col  gap-3 md:gap-6 lg:gap-8">
@@ -1365,7 +1376,8 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Drug Charges",
       slug: "drug-charges",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Drug-Charges.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Drug-Charges.jpg",
       shortDesc:
         "Drug charges in the United States cover a wide range of offenses, including the illegal possession, distribution, manufacture, and trafficking of restricted drugs. These charges can vary greatly, depending on federal and state regulations, the sort of drug used, and the quantity in question.These charges can result from having equipment used to make drug or use drug. If convicted, you could face fine or prison time. ",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -1655,7 +1667,8 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Theft Charges",
       slug: "theft-charges",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Theft-Charges.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Theft-Charges.jpg",
       shortDesc:
         "Theft Charges are defined as the unlawful taking of someone else's property with the intent of permanently depriving the owner of it. It includes larceny, shoplifting, embezzlement, robbery, cyber theft, fraud, etc. These charges can arise from various motivations. If you’re struggling with such charges, our legal representation can create a robust defense strategy and ensure that your rights are protected throughout the legal process.",
       description: `  <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2082,7 +2095,8 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Firearms Charges",
       slug: "firearms-charges",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Firearms-Charges.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Firearms-Charges.jpg",
       shortDesc:
         "In the United States, firearms charges are based on a combination of federal and state laws governing firearms possession, sale, and transfer. Federal laws such as the National Firearms Act of 1934 and the Gun Control Act of 1968 established registration, fees, and dealer licensing. Violations of these rules can result in serious consequences.",
       description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2234,7 +2248,8 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Drug Trafficking",
       slug: "drug-trafficking",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Drug-Trafficking.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Drug-Trafficking.jpg",
       shortDesc:
         "Drug trafficking, often known as illegal drug trade or narcotrafficking, is the unlawful business of cultivating, producing, distributing, and selling drugs forbidden by drug laws. The consequences have a huge influence on economies, society, and healthcare systems. Wisconsin follows both state and federal drug laws, which means those charged could face either or both jurisdictions depending on the scope of the offense. Therefore, legal services for drug trafficking are essential for anyone directly or indirectly involved in drug-related legal issues.",
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2374,7 +2389,7 @@ Problems You Will Face
               </div>`,
     },
 
-    { 
+    {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Arson",
       slug: "arson",
@@ -2511,7 +2526,7 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Kidnapping",
       slug: "kidnapping",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Kidnapping.jpg", 
+      practiceAreasSidebarImage: "/assets/services/criminal-law/Kidnapping.jpg",
       shortDesc:
         "Kidnapping is defined as the unlawful confinement or abduction of a person against their will. It is a severe offense under Wisconsin Statute 940.31, often resulting in harsh penalties including lengthy prison sentences. If you are facing kidnapping charges, it is essential to seek immediate legal representation from an experienced criminal defense lawyer.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2653,7 +2668,8 @@ Problems You Will Face
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Sexual Crimes",
       slug: "sexual-crimes",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Sexual-Crimes.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Sexual-Crimes.jpg",
       shortDesc:
         "Sexual crimes involve offenses such as sexual assault, rape, child molestation, statutory rape, child pornography, internet-related sex crimes, prostitution, and solicitation. These offenses  are prosecuted vigorously under the Wisconsin law. Basically, an 18-year-old or over commits a mentioned crime with under or over 18 years old without consent. Over 1 million adults faced sexual violence in their lifetime. It comes with severe penalties including long-term imprisonment and mandatory registration as a sex offender. Legal representation from a specialized attorney is crucial to navigating these complex and sensitive cases.",
       description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -2941,16 +2957,14 @@ Problems You Will Face
               </div>`,
     },
 
-
     // End - Abu
 
-
-    
     {
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Traffic Tickets With Criminal Negligence",
       slug: "traffic-tickets-with-criminal-negligence",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Traffic-Tickets-With-Criminal-Negligence.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Traffic-Tickets-With-Criminal-Negligence.jpg",
       shortDesc:
         "A traffic ticket with criminal negligence is issued when a driver is accused of driving recklessly and causing an accident under Wisconsin Statute 346.62. Another reason for traffic tickets can be due to drunk driving (OWI) under Wisconsin Statute 346.63. This can lead to severe consequences including fines, license suspension, and even jail time. It is important to consult with a knowledgeable attorney to mitigate these penalties and defend your case effectively.",
 
@@ -3073,7 +3087,8 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "White Collar Defense",
       slug: "white-collar-defense",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/White-Collar-Defense.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/White-Collar-Defense.jpg",
       shortDesc:
         "White-collar crimes, including fraud, embezzlement, and insider trading, involve non-violent offenses under Wisconsin Statutes 943.20 (theft), 943.50 (retail theft), and 943.81 (fraudulent writings), among others. These crimes are typically committed for financial gain and are prosecuted under both state and federal laws. An experienced white-collar defense attorney can help navigate these complex cases and develop a robust defense strategy.",
 
@@ -3196,7 +3211,8 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Pharmaceutical Fraud",
       slug: "pharmaceutical-fraud",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Pharmaceutical-Fraud.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Pharmaceutical-Fraud.jpg",
       shortDesc:
         "Pharmaceutical fraud involves illegal activities such as prescription forgery, drug diversion, and false claims. It is a serious offense under Wisconsin law, often resulting in significant fines and imprisonment. If you are accused of pharmaceutical fraud, it’s important to have legal representation from a specialized attorney to defend against these charges and protect your rights.",
 
@@ -3335,7 +3351,8 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/car-accident.png",
       title: "Public Intoxication Defense",
       slug: "public-intoxication-defense",
-      practiceAreasSidebarImage: "/assets/services/criminal-law/Public-Intoxication-Defense.jpg",
+      practiceAreasSidebarImage:
+        "/assets/services/criminal-law/Public-Intoxication-Defense.jpg",
       shortDesc:
         "The act of being visibly drunk or under the influence of drugs in public is considered public intoxication, also known as disorderly intoxication. There are mainly two scenarios: one is causing danger to people or property, and another is disturbing people in public areas. This can lead to arrest and penalties under Wisconsin Statute 125.07(4). A skilled defense attorney can help challenge the charges and work towards a favorable outcome.",
 
@@ -3447,6 +3464,202 @@ Contact us for a free consultation to get the right support based on your unique
   </div>
 </div>
 `,
+    },
+  ],
+
+  immigration: [
+    {
+      icon: "/assets/services/services-icon/green-card-through-marriage.png",
+      title: "Green Card Through Marriage",
+      slug: "green-card-through-marriage",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/green-card-through-marriage.jpg",
+      shortDesc:
+        "Married to a U.S. citizen or lawful permanent resident and eager to start a new chapter together in the United States? The prospect of obtaining a green card through marriage is exciting. However, it can also be legally complex and emotionally overwhelming. In Wisconsin, specific rules and regulations under federal immigration law intersect with state-specific considerations, making skilled legal guidance essential to your success.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/green-card-through-immediate-relative.png",
+      title: "Green Card Through Immediate Relative",
+      slug: "green-card-through-immediate-relative",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/green-card-through-immediate-relative.jpg",
+      shortDesc:
+        "Are you longing to reunite with your family members who are U.S. citizens and eager to make the United States your permanent home? Obtaining a green card through an immediate relative offers a direct path to lawful permanent residency. However, the process is often layered with complexities and strict legal requirements. We understand the challenges and are committed to guiding you every step of the way under both federal immigration laws and Wisconsin statutes.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/green-card-through-consular-processing.png",
+      title: "Green Card Through Consular Processing",
+      slug: "green-card-through-consular-processing",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/green-card-through-consular-processing.jpg",
+      shortDesc:
+        "If you are living outside the United States and ready to begin your journey toward obtaining lawful permanent residency, this service is for you. Consular Processing offers a pathway for individuals who wish to secure a green card while residing abroad. While the process can be intricate and filled with legal and procedural challenges, we are here to provide expert guidance and dedicated support, ensuring your transition to life in the United States is as seamless as possible.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/h1b-visa.png",
+      title: "H1B Visa",
+      slug: "h1b-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/h1b-visa.jpg",
+      shortDesc:
+        "Looking for an opportunity to advance your career by bringing your specialized skills to the United States? The H-1B visa program is designed to connect talented foreign professionals with U.S. employers in need of their expertise. However, the process of securing an H-1B visa can be complicated, with intricate rules, strict deadlines, and detailed documentation requirements. We’re here to simplify the process and provide the legal support you need to successfully achieve your goal of working in the U.S.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/l1-visa.png",
+      title: "L-1 Visa",
+      slug: "l1-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/l1-visa.jpg",
+      shortDesc:
+        "If you are a vital team member of a multinational company and ready to bring your expertise to the U.S. branch, the L-1 visa program is for you. It is designed to enable intracompany transfers for executives, managers, and employees with specialized knowledge. While the opportunity is exciting, navigating the L-1 visa process can be complex. We’re here to simplify the journey, offering expert legal support to help you transition seamlessly to your new role in the U.S.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/o1-visa.png",
+      title: "O-1 Visa",
+      slug: "o1-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/o1-visa.jpg",
+      shortDesc:
+        "Do you have Extraordinary Abilities in the sciences, arts, education, business, or athletics and dream of showcasing your talents in the United States? The O-1 visa program provides a pathway for individuals with exceptional skills and national or international acclaim to contribute to the U.S.’s vibrant landscape. We provide expert legal guidance and personalized support to ensure your O-1 visa journey is a smooth and successful one.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/eb1-visa.png",
+      title: "EB-1 Visa",
+      slug: "eb1-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/eb1-visa.jpg",
+      shortDesc:
+        "Do you excel in your field and aspire to share your extraordinary skills and talent with the United States? The EB-1 visa program is designed for individuals at the top of their profession, offering a prestigious pathway to permanent residency. At Trip Law, we’re here to make your EB-1 visa journey straightforward and successful, providing expert guidance every step of the way.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/eb2-visa.png",
+      title: "EB-2 Visa",
+      slug: "eb2-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/eb2-visa.jpg",
+      shortDesc:
+        "If you're seeking to bring your expertise and talents to the American workforce on a permanent basis, the EB-2 visa program could be the perfect avenue for you. Tailored for individuals with advanced degrees or exceptional abilities, this program offers a straightforward pathway to securing a green card and making a significant contribution to the United States.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/eb3-visa.png",
+      title: "EB-3 Visa",
+      slug: "eb3-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/eb3-visa.jpg",
+      shortDesc:
+        "Ready to lay the foundation for a bright future in the United States by showcasing your skills and dedication? The EB-3 visa program is designed specifically for skilled workers, professionals, and individuals with valuable experience, providing a pathway to permanent residency.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/vawa.png",
+      title: "VAWA",
+      slug: "vawa",
+      practiceAreasSidebarImage: "/assets/services/immigration/vawa.jpg",
+      shortDesc:
+        "The Violence Against Women Act (VAWA) provides critical legal protections and a pathway to safety and justice for those affected by domestic violence, dating violence, sexual assault, or stalking.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/u-visa.png",
+      title: "U Visa",
+      slug: "u-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/u-visa.jpg",
+      shortDesc:
+        "If you have endured a serious crime in the United States and collaborated with law enforcement, the U visa program offers a crucial avenue to secure lawful status for victims who meet specific criteria.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/asylum.png",
+      title: "Asylum",
+      slug: "asylum",
+      practiceAreasSidebarImage: "/assets/services/immigration/asylum.jpg",
+      shortDesc:
+        "The asylum process provides a critical opportunity for individuals to seek refuge and protection in the United States due to a legitimate fear of persecution in their home country.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/t-visa.png",
+      title: "T Visa",
+      slug: "t-visa",
+      practiceAreasSidebarImage: "/assets/services/immigration/t-visa.jpg",
+      shortDesc:
+        "The T visa program offers temporary residency and protection to victims of severe forms of human trafficking, ensuring their safety and rights are upheld.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/services-icon/bond-hearing.png",
+      title: "Bond Hearing",
+      slug: "bond-hearing",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/bond-hearing.jpg",
+      shortDesc:
+        "A bond hearing determines whether you’ll be granted release while awaiting trial. Skilled legal counsel at this critical juncture is essential.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/master-calendar-hearing-icon.png",
+      title: "Master Calendar Hearing",
+      slug: "master-calendar-hearing",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "Receiving a Notice to Appear (NTA) in immigration court signals the beginning of a significant legal process. The Master Calendar Hearing (MCH) serves as the first step, where your case's trajectory is outlined. We are here to guide you through every stage of the MCH process. Our experienced attorneys will provide clear legal advice and strategic representation, helping you understand your rights and options under Wisconsin law.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/individual-hearing-icon.png",
+      title: "Individual Hearing",
+      slug: "individual-hearing",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "An Individual Hearing is a critical stage in your immigration process, where you present evidence and arguments to support your case. This hearing determines whether you qualify for relief or protection under U.S. immigration laws. Having experienced legal guidance can make all the difference in preparing a strong case and presenting it effectively before the judge.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/waivers-icon.png",
+      title: "Waivers",
+      slug: "waivers",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "Waivers are essential tools for addressing immigration challenges and preserving legal status in the United States. Whether you are seeking to overcome inadmissibility or resolve case-specific issues, experienced attorneys can guide you through the process. This service is designed to help you fully understand your options and pursue the most effective path forward.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/e2-treaty-visas-icon.png",
+      title: "E2 Treaty Visas",
+      slug: "e2-treaty-visas",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "The E2 Treaty Visa opens doors for entrepreneurs and investors to establish or manage a business in the United States. Designed for individuals from treaty countries, it allows for a substantial investment in a U.S.-based enterprise. This visa is your opportunity to expand your business footprint and build a future in Wisconsin, with expert guidance to streamline the process.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/citizenship-icon.png",
+      title: "Citizenship",
+      slug: "citizenship",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "Becoming a U.S. citizen is a monumental step toward achieving greater opportunities, security, and a sense of belonging in the United States. The citizenship process may seem intricate, but with professional guidance, you can approach each step with confidence. From determining eligibility to preparing for your naturalization interview, our team is here to assist you every step of the way.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/naturalization-and-citizenship-services-icon.png",
+      title: "Naturalization and Citizenship Services",
+      slug: "naturalization-and-citizenship-services",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "Applying for naturalization or obtaining citizenship is a significant step in your immigration journey. The process involves detailed requirements and specific legal steps. This service ensures that you have clear guidance and support throughout your application, making the process more straightforward and manageable.",
+      description: "",
+    },
+    {
+      icon: "/assets/services/icons/green-card-icon.png",
+      title: "Green Card",
+      slug: "green-card",
+      practiceAreasSidebarImage: "",
+      shortDesc:
+        "Obtaining a Green Card is a significant step toward achieving lawful permanent residency in the United States. This process involves various legal requirements, and each stage demands careful attention. We are committed to guiding you through this process with clarity, professionalism, and a strong focus on your goals.",
+      description: "",
     },
   ],
 };
