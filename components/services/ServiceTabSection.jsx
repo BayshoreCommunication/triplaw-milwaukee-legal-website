@@ -24,6 +24,10 @@ const ServiceTabSection = () => {
       key: "criminal-law-services",
       title: "Criminal Law Services",
     },
+    {
+      key: "immigration-services",
+      title: "Immigration Services",
+    },
   ];
 
   return (
@@ -38,7 +42,7 @@ const ServiceTabSection = () => {
 
       <div className="">
         <ScrollMotionEffect effect="fade-up" duration="2000">
-          <div className="flex border-b border-gray-300 w-[350px] md:w-[600px] mx-auto justify-center">
+          <div className="flex border-b border-gray-300 w-[350px] md:w-[600px] lg:w-[1024px] mx-auto justify-center">
             {tabsItem.map((tab, index) => (
               <div key={tab?.key} className="relative flex-1 text-center">
                 <button

@@ -18,11 +18,21 @@ const ServiceTabContent = ({ activeTab }) => {
               </ScrollMotionEffect>
             ))}
           </>
-        ) : (
+        ) : activeTab === "criminal-law-services" ? (
           <>
             {allServiceData?.criminal_law?.map((el, index) => (
               <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
-                <Link href={`/services/${el?.slug}`} className="w-full h-full" >
+                <Link href={`/services/${el?.slug}`} className="w-full h-full">
+                  <ServiceCard key={index} serversData={el} index={index} />
+                </Link>
+              </ScrollMotionEffect>
+            ))}
+          </>
+        ) : (
+          <>
+            {allServiceData?.immigration?.map((el, index) => (
+              <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
+                <Link href={`/services/${el?.slug}`} className="w-full h-full">
                   <ServiceCard key={index} serversData={el} index={index} />
                 </Link>
               </ScrollMotionEffect>

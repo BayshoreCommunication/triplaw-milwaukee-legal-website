@@ -15,7 +15,7 @@ export const allServiceData = {
       <img
         src="/assets/services/personal-injury-law/Motorcycle-Accidents.jpg"
         alt="Motorcycle Accidents"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
       
       <div className ="text-lg md:text-xl mb-6">If you've been injured in a motorcycle accident, our legal team can help you get the compensation. Motorcycle accidents often result in serious injuries, financial hardship, and emotional distress. Our experienced motorcycle accident lawyers are dedicated to fighting for your rights. We'll work to ensure you receive full compensation for your injuries, pain, suffering, lost wages, and damage to your motorcycle.</div>
@@ -147,7 +147,7 @@ How Milwaukee Legal Pros can support you
         <img
         src="/assets/services/personal-injury-law/Car-Accidents.jpg"
         alt="Car Accidents"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
         <div className ="text-lg md:text-xl mb-6">If you've been involved in a car accident, our legal team is here to help. We understand how stressful it can be to navigate legal matters, injuries, and insurance companies after an accident. That's why we're committed to helping you get the compensation you deserve so you can focus on your recovery.</div>
         
@@ -271,7 +271,7 @@ You can contact us for a free consultation to get the right support based on you
         <img
         src="/assets/services/personal-injury-law/Truck-Accidents.jpg"
         alt="Truck Accidents"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
         
         <div className ="text-lg md:text-xl mb-6">Trucking accidents can have a devastating impact on your life. Due to the size and weight of commercial trucks like 18-wheelers and semis, these collisions often result in severe injuries and property damage. If you or someone else has been in such an occurrence, you don't have to deal with this situation alone. Our dedicated team is here to provide you with all kinds of support to compensate for your problems.</div>
@@ -394,7 +394,7 @@ We will ensure that you get fair compensation for both current and future medica
         <img
         src="/assets/services/personal-injury-law/Dog-Bites.jpg"
         alt="Dog-Bites"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
         <div className ="text-lg md:text-xl mb-6">Although dogs might be devoted friends, dog bites can cause serious damage. Studies found that a lot of people suffer from dog bites every year. This can ultimately cause mental distress as well as physical injury. If a dog bites you and causes injury, our dedicated team is here to educate you about your rights. We will help you obtain your deserved compensation after such an incident. </div>
         
@@ -511,7 +511,7 @@ We understand dog bites can cause psychological problems like post-traumatic str
         <img
         src="/assets/services/personal-injury-law/Slips-and-Falls.jpg"
         alt="Slips and Falls"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
 
         <div className ="text-lg md:text-xl mb-6">Any kind of accident can happen unexpectedly. These incidents can result in major injuries anywhere from a grocery store's damp floor or a poorly lighted staircase. Those who have experienced a slip and fall might be dealing with physical injury, medical expenses, and missed earnings. We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.</div>
@@ -632,7 +632,7 @@ This service is designed for people who are facing the following problems:
         <img
         src="/assets/services/personal-injury-law/Medical-Malpractice.jpg"
         alt="Medical Malpractice"s
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
         
         <div className ="text-lg md:text-xl mb-6">If you have been harmed due to medical malpractice, our legal team is here to help you get the justice you deserve. When a healthcare professional does not follow the standard rules of medical care due to their negligence, medical malpractice occurs. This kind of negligence can often cause serious illness or even death of the patient. We are committed to work to ensure you receive full compensation for your suffering, medical expenses, lost wages or any long-term effects caused by the negligence.</div>
@@ -751,7 +751,7 @@ You might have a medical malpractice case if you have been affected by the follo
         <img
         src="/assets/services/personal-injury-law/Traffic-Tickets.jpg"
         alt="Traffic-Tickets"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
         
         <div className ="text-lg md:text-xl mb-6">If you have received a traffic ticket, our experienced attorneys are here to help you protect your driving record. Traffic tickets can lead to points on your license, enhance insurance rates, and even the hassles of court appearances. Although you got a traffic ticket, it doesn't mean that you are absolutely guilty. However, a minor traffic violation can have a long-term effect on your driving license. Our team has worked with these traffic ticket issues. We are ready to fight for your rights also and keep your driving record protected.</div>
@@ -880,7 +880,7 @@ You might have a medical malpractice case if you have been affected by the follo
         <img
         src="/assets/services/personal-injury-law/Nursing-Home-Abuse-&-Neglect.jpg"
         alt="Nursing-Home-Abuse-&-Neglect"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
         <div className ="text-lg md:text-xl mb-6">If someone your beloved has been harmed in a nursing home due to abuse or neglect, our legal team is here to help. Nursing home abuse is a common issue, which can lead to severe physical and mental distress for the elderly. Due to poor care or mistreatment in the nursing home, many of the elderly family members are struggling a lot. Our experienced attorneys are here to protect the rights of your family member who is admitted to a nursing home for better care.
         </div>
@@ -1005,7 +1005,7 @@ You might have a medical malpractice case if you have been affected by the follo
         <img
         src="/assets/services/personal-injury-law/Wrongful-Death.jpg"
         alt="Wrongful Death"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
         
         <div className ="text-lg md:text-xl mb-6">Seeing the death of our loved one is the most tragic moment in our lives. Especially when it happens due to the negligence of someone else. This kind of problem is known as wrongful death. If you are going through such situations, our legal team is here to help evaluate your case. We are committed to seeking justice for you against these kinds of misconduct and supporting you throughout this challenging journey.
@@ -1131,7 +1131,7 @@ You might have a medical malpractice case if you have been affected by the follo
         <img
         src="/assets/services/personal-injury-law/Workplace-Injury-Accidents.jpg"
         alt="Workplace Injury Accidents"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
         
         <div className ="text-lg md:text-xl mb-6">Any kind of accident can happen unexpectedly in the workplace. These incidents can result in major injuries, whether from machinery malfunctions, slips and falls, or other hazardous conditions. Those who have experienced a workplace injury might be dealing with physical injury, medical expenses, and missed earnings. Our service is here to help you navigate the legal proceedings to ensure you receive the compensation you deserve.
@@ -1268,7 +1268,7 @@ You might have a medical malpractice case if you have been affected by the follo
       <img
         src="/assets/services/criminal-law/OWI-Defense.jpg"
         alt="Car Accidents"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
       />
 
 <div className ="text-lg md:text-xl mb-6">OWI (Operating While Intoxicated) defense refers to the legal strategies and arguments used by attorneys to challenge allegations of driving under the influence of alcohol or drugs. The law does recognize various offenses related to OWI accidents, which can lead to serious criminal charges and penalties. These defenses try to ensure the accused's rights while perhaps reducing or dismissing the charges.  We are here to help you deal with the legal proceedings so that you receive the compensation you deserve.
@@ -1388,7 +1388,7 @@ Problems You Will Face
       <img
         src="/assets/services/criminal-law/Drug-Charges.jpg"
         alt="Drug Charges"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
       />
 
                   <div className="text-lg md:text-xl mb-6">
@@ -1543,7 +1543,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Felonies.jpg"
                 alt="Felonies"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Felonies are serious crimes, typically defined as offenses
@@ -1681,7 +1681,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Theft-Charges.jpg"
                 alt="Theft Charges"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Theft Charges are defined as the unlawful taking of someone
@@ -1818,7 +1818,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Assault.jpg"
                 alt="Assault"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Assault refers to a range of behaviors involving threats or
@@ -1968,7 +1968,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Battery.jpg"
                 alt="Battery"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Battery charges appear in Wisconsin and throughout the
@@ -2108,7 +2108,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Firearms-Charges.jpg"
                 alt="Firearms Charges"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     In the United States, firearms charges are based on a
@@ -2260,7 +2260,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Drug-Trafficking.jpg"
                 alt="Drug Trafficking"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
 
                   <div className="text-lg md:text-xl mb-6">
@@ -2404,7 +2404,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Arson.jpg"
                 alt="Arson"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Arson, the intentional and malicious burning of property, is
@@ -2537,7 +2537,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Kidnapping.jpg"
                 alt="Kidnapping"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Kidnapping is defined as the unlawful confinement or
@@ -2679,7 +2679,7 @@ Problems You Will Face
                 <img
                 src="/assets/services/criminal-law/Sexual-Crimes.jpg"
                 alt="Sexual Crimes"
-                className="w-full h-full mb-10"
+                className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     Sexual crimes involve offenses such as sexual assault, rape,
@@ -2830,7 +2830,7 @@ Problems You Will Face
                 <img
                   src="/assets/services/criminal-law/Murder.jpg"
                   alt="Murder"
-                  className="w-full h-full mb-10"
+                  className="w-full mb-10"
                 />
                   <div className="text-lg md:text-xl mb-6">
                     In Wisconsin, the definition of “murder” falls under the
@@ -2976,7 +2976,7 @@ Problems You Will Face
   <img
         src="/assets/services/criminal-law/Traffic-Tickets-With-Criminal-Negligence.jpg"
         alt="Traffic-Tickets-With-Criminal-Negligence"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
     <div className ="text-lg md:text-xl mb-6">A traffic ticket with criminal negligence is issued when a driver is accused of driving recklessly and causing an accident under Wisconsin Statute 346.62. Another reason for traffic tickets can be due to drunk driving (OWI) under Wisconsin Statute 346.63. This can lead to severe consequences including fines, license suspension, and even jail time. It is important to consult with a knowledgeable attorney to mitigate these penalties and defend your case effectively.</div>
     <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
@@ -3099,7 +3099,7 @@ Contact us for a free consultation to get the right support based on your unique
   <img
         src="/assets/services/criminal-law/White-Collar-Defense.jpg"
         alt="White Collar Defense"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
     />
     <div className ="text-lg md:text-xl mb-6">White-collar crimes, including fraud, embezzlement, and insider trading, involve non-violent offenses under Wisconsin Statutes 943.20 (theft), 943.50 (retail theft), and 943.81 (fraudulent writings), among others. These crimes are typically committed for financial gain and are prosecuted under both state and federal laws. An experienced white-collar defense attorney can help navigate these complex cases and develop a robust defense strategy.</div>
     <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
@@ -3223,7 +3223,7 @@ Contact us for a free consultation to get the right support based on your unique
         <img
         src="/assets/services/criminal-law/Pharmaceutical-Fraud.jpg"
         alt="Pharmaceutical Fraud"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
 
     <div className ="text-lg md:text-xl mb-6">Pharmaceutical fraud involves illegal activities such as prescription forgery, drug diversion, and false claims. It is a serious offense under Wisconsin law, often resulting in significant fines and imprisonment. If you are accused of pharmaceutical fraud, it’s important to have legal representation from a specialized attorney to defend against these charges and protect your rights.</div>
@@ -3364,7 +3364,7 @@ Contact us for a free consultation to get the right support based on your unique
         <img
         src="/assets/services/criminal-law/Public-Intoxication-Defense.jpg"
         alt="Public Intoxication Defense"
-        className="w-full h-full mb-10"
+        className="w-full mb-10"
         />
 
     <div className ="text-lg md:text-xl mb-6">The act of being visibly drunk or under the influence of drugs in public is considered public intoxication, also known as disorderly intoxication. There are mainly two scenarios: one is causing danger to people or property, and another is disturbing people in public areas. This can lead to arrest and penalties under Wisconsin Statute 125.07(4). A skilled defense attorney can help challenge the charges and work towards a favorable outcome.</div>
@@ -3476,7 +3476,143 @@ Contact us for a free consultation to get the right support based on your unique
         "/assets/services/immigration/green-card-through-marriage.jpg",
       shortDesc:
         "Married to a U.S. citizen or lawful permanent resident and eager to start a new chapter together in the United States? The prospect of obtaining a green card through marriage is exciting. However, it can also be legally complex and emotionally overwhelming. In Wisconsin, specific rules and regulations under federal immigration law intersect with state-specific considerations, making skilled legal guidance essential to your success.",
-      description: "",
+      description: `
+         <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="Motorcycle Accidents"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Married to a U.S. citizen or lawful permanent resident and
+                    eager to start a new chapter together in the United States?
+                    The prospect of obtaining a green card through marriage is
+                    exciting. However, it can also be legally complex and
+                    emotionally overwhelming. In Wisconsin, specific rules and
+                    regulations under federal immigration law intersect with
+                    state-specific considerations, making skilled legal guidance
+                    essential to your success.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Spouses of U.S. citizens or lawful permanent residents.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals seeking lawful permanent residency in the
+                      United States.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Couples are looking to simplify the complexities of the
+                      immigration process.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those concerned about proving the authenticity of their
+                      marriage.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those who want a stress-free and 100% successful
+                      immigration process.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding detailed eligibility criteria and
+                      application processes.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Collecting and organizing required documents.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Addressing strict scrutiny to establish the bona fides of
+                      your marriage.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Effectively communicating with USCIS officials.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Overcoming delays, legal roadblocks, or unexpected
+                      complications.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    We are more than just a team of experienced attorneys. We
+                    have a proven track record of successfully securing green
+                    cards through marriage. Our extensive experience allows us
+                    to navigate the unique aspects of each case, addressing the
+                    specific concerns of different couples and tailoring our
+                    strategies accordingly. Here’s how we support you:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Streamlined Documentation: </strong>
+                      We do not ask for any hidden costs. You can pay if we help
+                      you win the case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Proof of Marriage Validity: </strong>
+                      From affidavits to photos and other evidence, we’ll ensure
+                      your case demonstrates the authenticity of your marital
+                      relationship.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Interview Preparation and Representation:</strong>{" "}
+                      We’ll thoroughly prepare you for interviews with USCIS and
+                      stand by your side to address any challenges that arise.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Waivers and Appeals:</strong> If complications
+                      such as inadmissibility arise, we’ll assist with necessary
+                      waivers or represent you in the appeals process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Ongoing Support: </strong> From answering your
+                      questions to keeping you updated on legal changes, we’ll
+                      handle communication with USCIS and ensure you’re always
+                      informed.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Choosing us means partnering with professionals who are
+                    passionate about helping you achieve your immigration goals.
+                    Together, we’ll work to make your dream of living in the
+                    U.S. with your loved one a reality while adhering to all
+                    applicable Wisconsin statutes and federal immigration laws.
+                  </p>
+                </div>
+              </div>
+      `,
     },
     {
       icon: "/assets/services/services-icon/green-card-through-immediate-relative.png",
@@ -3486,7 +3622,138 @@ Contact us for a free consultation to get the right support based on your unique
         "/assets/services/immigration/green-card-through-immediate-relative.jpg",
       shortDesc:
         "Are you longing to reunite with your family members who are U.S. citizens and eager to make the United States your permanent home? Obtaining a green card through an immediate relative offers a direct path to lawful permanent residency. However, the process is often layered with complexities and strict legal requirements. We understand the challenges and are committed to guiding you every step of the way under both federal immigration laws and Wisconsin statutes.",
-      description: "",
+      description: `
+        <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="Green Card Through Immediate Relative"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Are you longing to reunite with your family members who are
+                    U.S. citizens and eager to make the United States your
+                    permanent home? Obtaining a green card through an immediate
+                    relative offers a direct path to lawful permanent residency.
+                    However, the process is often layered with complexities and
+                    strict legal requirements. We understand the challenges and
+                    are committed to guiding you every step of the way under
+                    both federal immigration laws and Wisconsin statutes.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Parents, unmarried children under 21, or spouses of U.S.
+                      citizens.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals seeking lawful permanent residency in the
+                      United States.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those who need clarity on eligibility requirements and
+                      family-based immigration processes.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Families are worried about meeting USCIS documentation and
+                      financial requirements.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Navigating eligibility criteria and understanding family
+                      relationship definitions.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Compiling and organizing detailed and accurate
+                      documentation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Meeting financial sponsorship requirements to support your
+                      family members.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Communicating with USCIS and responding to their inquiries
+                      effectively.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    Our firm is dedicated to making family reunification as
+                    seamless as possible. With extensive experience in
+                    family-based immigration, we offer personalized, practical
+                    solutions tailored to your unique situation. Here’s how we
+                    can help:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Documentation and Filing: </strong>
+                      From initiating Form I-130 to establishing the family
+                      relationship, to preparing Form I-485 for Adjustment of
+                      Status, we’ll handle the paperwork for you.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Financial Sponsorship Guidance: </strong>
+                      We’ll assist in ensuring compliance with financial
+                      requirements and help you prepare the Affidavit of Support
+                      to sponsor your family members effectively.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>
+                        Proof of Relationship and USCIS Interviews:
+                      </strong>{" "}
+                      We’ll help you gather the necessary evidence to
+                      demonstrate your family ties and prepare you for any
+                      interviews with USCIS.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Navigating Obstacles: </strong> If you face
+                      challenges such as inadmissibility issues, visa age-out
+                      concerns for children, or financial hardship, we’ll guide
+                      you through waivers, appeals, or other legal remedies.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Staying Updated: </strong> Immigration laws and
+                      procedures change frequently. We’ll maintain communication
+                      with USCIS on your behalf and ensure you’re informed about
+                      updates that may impact your case.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Schedule a consultation today to explore how we can help you
+                    successfully navigate the immigration process and reunite
+                    with your loved ones.
+                  </p>
+                </div>
+              </div>
+      `,
     },
     {
       icon: "/assets/services/services-icon/green-card-through-consular-processing.png",
@@ -3496,7 +3763,157 @@ Contact us for a free consultation to get the right support based on your unique
         "/assets/services/immigration/green-card-through-consular-processing.jpg",
       shortDesc:
         "If you are living outside the United States and ready to begin your journey toward obtaining lawful permanent residency, this service is for you. Consular Processing offers a pathway for individuals who wish to secure a green card while residing abroad. While the process can be intricate and filled with legal and procedural challenges, we are here to provide expert guidance and dedicated support, ensuring your transition to life in the United States is as seamless as possible.",
-      description: "",
+      description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="Green Card Through Consular Processing"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    If you are living outside the United States and ready to
+                    begin your journey toward obtaining lawful permanent
+                    residency, this service is for you. Consular Processing
+                    offers a pathway for individuals who wish to secure a green
+                    card while residing abroad. While the process can be
+                    intricate and filled with legal and procedural challenges,
+                    we are here to provide expert guidance and dedicated
+                    support, ensuring your transition to life in the United
+                    States is as seamless as possible.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals residing outside the United States seeking
+                      lawful permanent residency.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants are eligible through an approved immigrant
+                      petition by a U.S. citizen or green card holder
+                      (family-based or employment-based).
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those needing help navigating the complexities of consular
+                      processing abroad.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals are concerned about visa availability,
+                      interview preparation, or documentation requirements.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Anyone seeking a reliable legal partner to streamline the
+                      green card application process.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding the unique procedures, requirements, and
+                      timelines involved in consular processing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Managing document gathering, translations, and compliance
+                      with country-specific consular rules.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Handling communication with the National Visa Center (NVC)
+                      and foreign government agencies.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Preparing for visa interviews and addressing potential
+                      anxieties.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Overcoming legal challenges such as inadmissibility or
+                      securing waivers when necessary.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Feeling disconnected and uncertain about what to do next
+                      while being outside the U.S.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    We understand that applying for a green card through
+                    consular processing can be daunting. Our experienced team is
+                    committed to providing comprehensive legal support tailored
+                    to your unique situation. Here’s what we can do for you:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Detailed Petition Review and Filing: </strong>
+                      We’ll meticulously review your approved immigrant petition
+                      and assist you in completing and submitting the DS-260
+                      immigrant visa application.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Document Preparation and Organization: </strong>
+                      From gathering necessary documents to ensuring
+                      translations meet consular requirements, we’ll handle the
+                      details to ensure accuracy.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Communication with NVC and Consulates:</strong>{" "}
+                      We’ll manage interactions with the National Visa Center
+                      and foreign consular offices, so you’re never left dealing
+                      with bureaucratic hurdles alone.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Visa Interview Preparation: </strong> We’ll guide
+                      you through the visa interview process, provide
+                      personalized coaching, and address potential concerns to
+                      boost your confidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Overcoming Obstacles: </strong> If issues like
+                      inadmissibility arise, we’ll pursue waivers or other legal
+                      remedies to help you move forward.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Medical Exam and Vaccination Guidance: </strong>{" "}
+                      We’ll provide clear instructions on medical requirements
+                      to ensure compliance with immigration health protocols.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Regular Updates and Case Monitoring: </strong>{" "}
+                      From tracking visa availability to keeping you informed
+                      about processing times and changes, we’ll ensure you’re
+                      always in the loop.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Let’s discuss your case and how we can help you achieve your
+                    dream of becoming a lawful permanent resident in the United
+                    States. Schedule a consultation today.
+                  </p>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/h1b-visa.png",
@@ -3505,7 +3922,157 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/h1b-visa.jpg",
       shortDesc:
         "Looking for an opportunity to advance your career by bringing your specialized skills to the United States? The H-1B visa program is designed to connect talented foreign professionals with U.S. employers in need of their expertise. However, the process of securing an H-1B visa can be complicated, with intricate rules, strict deadlines, and detailed documentation requirements. We’re here to simplify the process and provide the legal support you need to successfully achieve your goal of working in the U.S.",
-      description: "",
+      description: `
+         <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="H1B Visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Looking for an opportunity to advance your career by
+                    bringing your specialized skills to the United States? The
+                    H-1B visa program is designed to connect talented foreign
+                    professionals with U.S. employers in need of their
+                    expertise. However, the process of securing an H-1B visa can
+                    be complicated, with intricate rules, strict deadlines, and
+                    detailed documentation requirements. We’re here to simplify
+                    the process and provide the legal support you need to
+                    successfully achieve your goal of working in the U.S.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Foreign professionals with specialized skills and at least
+                      a bachelor’s degree (or equivalent experience) in their
+                      field.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals offered qualifying employment by a U.S.
+                      employer willing to sponsor their H-1B application.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants seeking legal guidance to navigate the
+                      complexities of the H-1B visa process.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those concerned about meeting eligibility criteria and
+                      addressing potential legal or procedural challenges.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Individuals aim to streamline the process, avoid delays,
+                      and maximize their chances of approval.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Interpreting eligibility requirements and ensuring your
+                      job qualifies as a “specialty occupation” under H-1B
+                      rules.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Completing detailed forms, such as the Form I-129 Petition
+                      for Nonimmigrant Workers, and compiling extensive
+                      supporting documentation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Understanding and navigating the Labor Condition
+                      Application (LCA) certification process with the
+                      Department of Labor.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Addressing concerns related to employer sponsorship or
+                      discrepancies in job offer details.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Communicating effectively with USCIS and responding to
+                      Requests for Evidence (RFEs) or other inquiries.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Managing the stress of complex legal procedures and
+                      potential delays in processing.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    Our experienced team at Milwaukee Immigration Law is
+                    committed to providing comprehensive legal assistance
+                    tailored to your unique circumstances. Here's how we’ll
+                    support you:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Eligibility Assessment: </strong>
+                      We’ll evaluate your qualifications and job offer to ensure
+                      you meet H-1B visa requirements, including the specialty
+                      occupation criteria.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Thorough Petition Preparation: </strong>
+                      Form I-129 petition, ensuring it is accurate, complete,
+                      and compliant with USCIS standards.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>
+                        Labor Condition Application (LCA) Assistance:{" "}
+                      </strong>
+                      We’ll obtain a certified LCA from the Department of Labor,
+                      a crucial step in the H-1B process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Document Management: </strong> From assembling
+                      your academic credentials to gathering employer-provided
+                      evidence, we’ll handle the details to ensure a smooth
+                      process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>USCIS Communication: </strong>We’ll serve as your
+                      representative, managing interactions with USCIS and
+                      promptly addressing any requests or issues that arise.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Problem Resolution: </strong> If challenges such
+                      as RFEs or potential ineligibility arise, we’ll develop
+                      strategies to address them effectively and keep your case
+                      on track.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Schedule a consultation today to explore your H-1B visa
+                    options and see how we can assist you in making your career
+                    aspirations a reality.
+                  </p>
+                </div>
+              </div>
+      `,
     },
     {
       icon: "/assets/services/services-icon/l1-visa.png",
@@ -3514,7 +4081,150 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/l1-visa.jpg",
       shortDesc:
         "If you are a vital team member of a multinational company and ready to bring your expertise to the U.S. branch, the L-1 visa program is for you. It is designed to enable intracompany transfers for executives, managers, and employees with specialized knowledge. While the opportunity is exciting, navigating the L-1 visa process can be complex. We’re here to simplify the journey, offering expert legal support to help you transition seamlessly to your new role in the U.S.",
-      description: "",
+      description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="L-1 Visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    If you are a vital team member of a multinational company
+                    and ready to bring your expertise to the U.S. branch, the
+                    L-1 visa program is for you. It is designed to enable
+                    intracompany transfers for executives, managers, and
+                    employees with specialized knowledge. While the opportunity
+                    is exciting, navigating the L-1 visa process can be complex.
+                    We’re here to simplify the journey, offering expert legal
+                    support to help you transition seamlessly to your new role
+                    in the U.S.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Employees of multinational companies with a U.S. branch,
+                      affiliate, or subsidiary.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals holding executive, managerial, or specialized
+                      knowledge positions.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those transferring to the U.S. for long-term assignments
+                      or establishing new operations.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants seeking legal expertise to manage the
+                      complexities of the L-1 visa application process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Professionals are concerned about eligibility,
+                      documentation, or potential delays in processing.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding the differences between L-1A (executives and
+                      managers) and L-1B (specialized knowledge workers)
+                      categories.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Compiling and organizing extensive documentation,
+                      including proof of qualifying relationships between
+                      foreign and U.S. entities.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Demonstrating your managerial duties or specialized
+                      knowledge to satisfy USCIS requirements.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Addressing communication challenges with USCIS and
+                      responding to requests for evidence (RFEs).
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Navigating strict timelines and potential processing
+                      delays.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Preparing for visa interviews and understanding the legal
+                      intricacies involved in the process.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    We specialize in guiding professionals and businesses
+                    through the intricacies of L-1 visa applications. Here’s how
+                    we’ll support you:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Eligibility Assessment: </strong>
+                      We’ll review your role, responsibilities, and your
+                      company’s structure to confirm your eligibility for either
+                      the L-1A or L-1B visa category.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Petition Preparation: </strong>
+                      We’ll prepare and file the I-129 petition for nonimmigrant
+                      workers, ensuring it meets all USCIS requirements.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Document Support: </strong>
+                      From gathering evidence of the qualifying relationship
+                      between your foreign and U.S. entities to verifying your
+                      credentials, we’ll assist you in organizing and presenting
+                      a strong case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Communication Management: </strong> We’ll handle
+                      interactions with USCIS, addressing RFEs and any legal
+                      concerns promptly to keep your application on track.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Interview Preparation: </strong> If a visa
+                      interview is required, we’ll guide you through what to
+                      expect and how to present your case effectively.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Ongoing Updates: </strong> We’ll keep you informed
+                      about visa availability, processing times, and any updates
+                      relevant to your application.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Book a consultation today to discuss your L-1 visa needs and
+                    discover how we can help you achieve your professional and
+                    business goals with confidence and ease.
+                  </p>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/o1-visa.png",
@@ -3523,7 +4233,154 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/o1-visa.jpg",
       shortDesc:
         "Do you have Extraordinary Abilities in the sciences, arts, education, business, or athletics and dream of showcasing your talents in the United States? The O-1 visa program provides a pathway for individuals with exceptional skills and national or international acclaim to contribute to the U.S.’s vibrant landscape. We provide expert legal guidance and personalized support to ensure your O-1 visa journey is a smooth and successful one.",
-      description: "",
+      description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="O-1 Visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Do you have <strong>Extraordinary Abilities</strong> in the
+                    sciences, arts, education, business, or athletics and dream
+                    of showcasing your talents in the United States? The O-1
+                    visa program provides a pathway for individuals with
+                    exceptional skills and national or international acclaim to
+                    contribute to the U.S.’s vibrant landscape. We provide
+                    expert legal guidance and personalized support to ensure
+                    your O-1 visa journey is a smooth and successful one.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals with proven extraordinary abilities in
+                      eligible fields:
+                      <ul className="flex flex-col gap-2 list-disc pl-5">
+                        <li className="text-lg md:text-xl">
+                          O-1A: Sciences, education, business, or athletics.
+                        </li>
+                        <li className="text-lg md:text-xl">
+                          O-1B: Arts or extraordinary achievements in motion
+                          picture or television production.
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those with national or international recognition for their
+                      contributions and achievements.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Professionals seeking temporary residency in the U.S. to
+                      advance their work and share their expertise.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants navigating the complexities of the O-1 visa
+                      process, including eligibility criteria and documentation.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Individuals looking to maximize their chances of approval
+                      while addressing potential legal challenges.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding and meeting the high standards of
+                      "extraordinary ability" defined by U.S. immigration laws.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Identifying and compiling strong evidence of your
+                      achievements, such as awards, publications, or industry
+                      recognition.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Effectively communicating the significance of your work
+                      and its value to the U.S.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Ensuring the accuracy and completeness of your application
+                      and supporting documents.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Navigating potential obstacles, including requests for
+                      evidence (RFEs) or complex USCIS procedures.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    We recognize the unique journey of individuals with
+                    extraordinary abilities and the immense value you bring to
+                    the United States. Here’s how we can assist:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Eligibility Assessment: </strong>
+                      We’ll evaluate your qualifications and accomplishments to
+                      ensure you meet the rigorous standards for the O-1 visa.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Documentation Preparation: </strong>
+                      From gathering evidence of your extraordinary ability to
+                      demonstrating the significance of your work, we’ll help
+                      present a compelling case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Petition Filing: </strong>
+                      We’ll prepare and file the Form I-129 petition with USCIS,
+                      ensuring all requirements are met for a smooth application
+                      process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Expert Opinion Support: </strong> For O-1A or O-1B
+                      cases, we’ll secure necessary advisory opinions from peer
+                      groups or relevant organizations to strengthen your
+                      application.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>USCIS Communication: </strong> We’ll handle all
+                      correspondence with USCIS, addressing any concerns, RFEs,
+                      or additional documentation requests.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Problem Resolution: </strong> If complications
+                      arise, we’ll tackle them head-on, exploring waivers or
+                      alternative strategies to keep your application on track.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Today, set up a free consultation to discuss your O-1 visa
+                    options. Learn how we can help you leave a lasting
+                    impression in the United States while advancing your career
+                    on an international stage.
+                  </p>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/eb1-visa.png",
@@ -3532,7 +4389,161 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/eb1-visa.jpg",
       shortDesc:
         "Do you excel in your field and aspire to share your extraordinary skills and talent with the United States? The EB-1 visa program is designed for individuals at the top of their profession, offering a prestigious pathway to permanent residency. At Trip Law, we’re here to make your EB-1 visa journey straightforward and successful, providing expert guidance every step of the way.",
-      description: "",
+      description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/-.jpg"
+                    alt="EB-1 Visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Do you excel in your field and aspire to share your
+                    extraordinary skills and talent with the United States? The
+                    EB-1 visa program is designed for individuals at the top of
+                    their profession, offering a prestigious pathway to
+                    permanent residency. At Trip Law, we’re here to make your
+                    EB-1 visa journey straightforward and successful, providing
+                    expert guidance every step of the way.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals with extraordinary abilities in the sciences,
+                      arts, education, business, or athletics.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Professionals who have achieved national or international
+                      recognition for their exceptional contributions.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Researchers, professors, or executives meeting the
+                      specific eligibility criteria for the EB-1 categories:
+                      <ul className="flex flex-col gap-2 list-disc pl-5">
+                        <li className="text-lg md:text-xl">
+                          EB-1A: Individuals with extraordinary ability.
+                        </li>
+                        <li className="text-lg md:text-xl">
+                          EB-1B: Outstanding professors and researchers.
+                        </li>
+                        <li className="text-lg md:text-xl">
+                          EB-1C: Multinational executives or managers.
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those seeking permanent residency in the U.S. to continue
+                      their impactful work and enrich the nation.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Applicants face challenges in navigating the complex EB-1
+                      application process and eligibility requirements.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Problems You'll Face Without Legal Guidance
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding and meeting the rigorous standards of
+                      "extraordinary ability" required for the EB-1 visa.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Identifying and presenting compelling evidence to
+                      demonstrate sustained contributions and impact.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Navigating the nuances of the three distinct EB-1
+                      categories and their specific requirements.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Compiling and ensuring the accuracy and completeness of
+                      supporting documentation.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Effectively communicating the significance of your work
+                      and the lasting value you bring to the U.S.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Why Choose Milwaukee Legal Pros
+                  </h4>
+
+                  <p className="text-lg md:text-xl mb-4">
+                    We recognize the transformative potential of individuals
+                    with extraordinary abilities and the value they add to the
+                    United States. Here’s how we’ll support your EB-1 visa
+                    application:
+                  </p>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      <strong>Eligibility Assessment: </strong>
+                      We’ll review your qualifications and achievements to
+                      determine the appropriate EB-1 category for you:
+                      <ul className="flex flex-col gap-2 list-disc pl-5">
+                        <li className="text-lg md:text-xl">
+                          EB-1A for individuals with extraordinary ability.
+                        </li>
+                        <li className="text-lg md:text-xl">
+                          EB-1B for distinguished professors and researchers.
+                        </li>
+                        <li className="text-lg md:text-xl">
+                          EB-1C for executives or managers of multinational
+                          companies.
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Evidence Compilation: </strong>
+                      We’ll help gather and organize documentation showcasing
+                      your exceptional contributions, such as awards,
+                      publications, or industry leadership.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Immigrant Petition Filing: </strong>
+                      We’ll prepare and file the Form I-140 (Immigrant Petition
+                      for Alien Worker) to initiate the application process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Special Opinions: </strong> For EB-1A cases, we’ll
+                      secure advisory opinions if necessary to strengthen your
+                      application.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      <strong>Compliance Monitoring: </strong> We’ll keep you
+                      informed about any changes in visa regulations, timelines,
+                      or legal developments to ensure your application is always
+                      on track.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl mb-6">
+                    Schedule a consultation today to discuss your EB-1 visa
+                    options. Discover how we can help you unlock the fast track
+                    to permanent residency and leave a lasting legacy in the
+                    United States.
+                  </p>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/eb2-visa.png",

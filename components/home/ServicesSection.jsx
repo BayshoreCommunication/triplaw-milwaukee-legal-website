@@ -52,6 +52,13 @@ function ServicesSection() {
               </ScrollMotionEffect>
             ))}
           </div>
+          <div className="grid grid-cols-1 gap-6 mt-6 md:grid-cols-2 lg:grid-cols-3">
+            {allServiceData.immigration.slice(0, 3).map((service, index) => (
+              <ScrollMotionEffect key={index} effect="fade-up" duration="2000">
+                <ServiceCard serversData={service} index={""} />
+              </ScrollMotionEffect>
+            ))}
+          </div>
         </div>
         <ScrollMotionEffect effect="fade-up" duration="2000">
           <div className="flex justify-center items-center mt-10">
