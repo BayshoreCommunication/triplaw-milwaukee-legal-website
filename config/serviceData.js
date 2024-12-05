@@ -5603,7 +5603,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/individual-hearing.jpg"
+                    src="/assets/services/immigration/individual-hearing.jpg"
                     alt="individual-hearing"
                     className="w-full  mb-10"
                   />
