@@ -3480,7 +3480,7 @@ Contact us for a free consultation to get the right support based on your unique
          <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/green-card-through-marriage.jpg"
                     alt="Motorcycle Accidents"
                     className="w-full  mb-10"
                   />
@@ -3626,7 +3626,7 @@ Contact us for a free consultation to get the right support based on your unique
         <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/green-card-through-immediate-relative.jpg"
                     alt="Green Card Through Immediate Relative"
                     className="w-full  mb-10"
                   />
@@ -3766,7 +3766,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/green-card-through-consular-processing.jpg"
                     alt="Green Card Through Consular Processing"
                     className="w-full  mb-10"
                   />
@@ -3926,7 +3926,7 @@ Contact us for a free consultation to get the right support based on your unique
          <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/h1b-visa.jpg"
                     alt="H1B Visa"
                     className="w-full  mb-10"
                   />
@@ -4084,7 +4084,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/l1-visa.jpg"
                     alt="L-1 Visa"
                     className="w-full  mb-10"
                   />
@@ -4236,7 +4236,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/o1-visa.jpg"
                     alt="O-1 Visa"
                     className="w-full  mb-10"
                   />
@@ -4392,7 +4392,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
+                    src="/assets/services/immigration/eb1-visa.jpg"
                     alt="EB-1 Visa"
                     className="w-full  mb-10"
                   />
@@ -5096,13 +5096,13 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/asylum.png",
       title: "Asylum",
       slug: "asylum",
-      practiceAreasSidebarImage: "/assets/services/immigration/asylum.jpg",
+      practiceAreasSidebarImage: "/assets/services/immigration/asylums.jpg",
       shortDesc:
         "The asylum process provides a critical opportunity for individuals to seek refuge and protection in the United States due to a legitimate fear of persecution in their home country.",
       description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/asylum.jpg"
+                    src="/assets/services/immigration/asylums.jpg"
                     alt="asylum"
                     className="w-full  mb-10"
                   />
@@ -5467,13 +5467,14 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/master-calendar-hearing.png",
       title: "Master Calendar Hearing",
       slug: "master-calendar-hearing",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/master-calendar-hearing.jpg",
       shortDesc:
         "Receiving a Notice to Appear (NTA) in immigration court signals the beginning of a significant legal process. The Master Calendar Hearing (MCH) serves as the first step, where your case's trajectory is outlined. We are here to guide you through every stage of the MCH process. Our experienced attorneys will provide clear legal advice and strategic representation, helping you understand your rights and options under Wisconsin law.",
       description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/master-calendar-hearing.jpg"
+                    src="/assets/services/immigration/master-calendar-hearing.jpg"
                     alt="master-calendar-hearing"
                     className="w-full  mb-10"
                   />
@@ -5595,7 +5596,8 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/individual-hearing.png",
       title: "Individual Hearing",
       slug: "individual-hearing",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/individual-hearing.jpg",
       shortDesc:
         "An Individual Hearing is a critical stage in your immigration process, where you present evidence and arguments to support your case. This hearing determines whether you qualify for relief or protection under U.S. immigration laws. Having experienced legal guidance can make all the difference in preparing a strong case and presenting it effectively before the judge.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -5723,7 +5725,7 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/waivers.png",
       title: "Waivers",
       slug: "waivers",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage: "/assets/services/immigration/waivers.jpg",
       shortDesc:
         "Waivers are essential tools for addressing immigration challenges and preserving legal status in the United States. Whether you are seeking to overcome inadmissibility or resolve case-specific issues, experienced attorneys can guide you through the process. This service is designed to help you fully understand your options and pursue the most effective path forward.",
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -5850,7 +5852,8 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/e2-treaty-visas.png",
       title: "E2 Treaty Visas",
       slug: "e2-treaty-visas",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/e2-treaty-visas.jpg",
       shortDesc:
         "The E2 Treaty Visa opens doors for entrepreneurs and investors to establish or manage a business in the United States. Designed for individuals from treaty countries, it allows for a substantial investment in a U.S.-based enterprise. This visa is your opportunity to expand your business footprint and build a future in Wisconsin, with expert guidance to streamline the process.",
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -5979,7 +5982,7 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/citizenship.png",
       title: "Citizenship",
       slug: "citizenship",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage: "/assets/services/immigration/citizenship.jpg",
       shortDesc:
         "Becoming a U.S. citizen is a monumental step toward achieving greater opportunities, security, and a sense of belonging in the United States. The citizenship process may seem intricate, but with professional guidance, you can approach each step with confidence. From determining eligibility to preparing for your naturalization interview, our team is here to assist you every step of the way.",
       description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
@@ -6110,13 +6113,14 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/naturalization-and-citizenship-services.png",
       title: "Naturalization and Citizenship Services",
       slug: "naturalization-and-citizenship-services",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage:
+        "/assets/services/immigration/naturalization-and-citizenship-services.jpg",
       shortDesc:
         "Applying for naturalization or obtaining citizenship is a significant step in your immigration journey. The process involves detailed requirements and specific legal steps. This service ensures that you have clear guidance and support throughout your application, making the process more straightforward and manageable.",
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/naturalization-and-citizenship-services.jpg"
+                    src="/assets/services/immigration/naturalization-and-citizenship-services.jpg"
                     alt="naturalization-and-citizenship-services"
                     className="w-full  mb-10"
                   />
@@ -6239,7 +6243,7 @@ Contact us for a free consultation to get the right support based on your unique
       icon: "/assets/services/services-icon/green-card.png",
       title: "Green Card",
       slug: "green-card",
-      practiceAreasSidebarImage: "",
+      practiceAreasSidebarImage: "/assets/services/immigration/green-card.jpg",
       shortDesc:
         "Obtaining a Green Card is a significant step toward achieving lawful permanent residency in the United States. This process involves various legal requirements, and each stage demands careful attention. We are committed to guiding you through this process with clarity, professionalism, and a strong focus on your goals.",
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
