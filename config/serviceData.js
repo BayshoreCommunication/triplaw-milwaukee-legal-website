@@ -5597,13 +5597,13 @@ Contact us for a free consultation to get the right support based on your unique
       title: "Individual Hearing",
       slug: "individual-hearing",
       practiceAreasSidebarImage:
-        "/assets/services/immigration/individual-hearing.jpg",
+        "/assets/services/immigration/individual-hearings.jpg",
       shortDesc:
         "An Individual Hearing is a critical stage in your immigration process, where you present evidence and arguments to support your case. This hearing determines whether you qualify for relief or protection under U.S. immigration laws. Having experienced legal guidance can make all the difference in preparing a strong case and presenting it effectively before the judge.",
       description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/individual-hearing.jpg"
+                    src="/assets/services/immigration/individual-hearings.jpg"
                     alt="individual-hearing"
                     className="w-full  mb-10"
                   />
