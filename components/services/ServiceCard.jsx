@@ -17,9 +17,11 @@ const ServiceCard = ({ serversData, index }) => {
           <Image
             src={serversData.icon}
             alt="Picture of the author"
-            width={100}
-            height={100}
-            className="size-12"
+            width={60}
+            height={60}
+            style={{
+              filter: "brightness(0) saturate(100%) invert(100%)",
+            }}
           />
         </div>
         <div className="mt-4 mb-6">

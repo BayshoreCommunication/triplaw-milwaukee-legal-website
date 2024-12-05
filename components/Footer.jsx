@@ -37,11 +37,12 @@ const Footer = () => {
                 </Link>
                 <p className="py-5 text-[18px] font-normal text-center text-black md:text-left max-w-[450px] leading-8">
                   At Milwaukee Legal Pros, we are relentless in protecting your
-                  rights. Specializing in personal injury and criminal cases, we
-                  deliver powerful results-driven representation with a
-                  client-first approach. Trust us to fight for justice and
-                  secure the favorable outcomes you deserve. Let us guide you
-                  through every legal challenge with confidence and care.
+                  rights. Specializing in immigration, personal injury and
+                  criminal cases, we deliver powerful results-driven
+                  representation with a client-first approach. Trust us to fight
+                  for justice and secure the favorable outcomes you deserve. Let
+                  us guide you through every legal challenge with confidence and
+                  care.
                 </p>
 
                 <div className="flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">

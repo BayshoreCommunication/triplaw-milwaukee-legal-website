@@ -21,30 +21,10 @@ const WhoWeAre = () => {
                 </h2>
 
                 <p className="mb-3 text-center md:text-left">
-                  {`   USA Immigration Attorney Hardam Tripathi is a USA Immigration
-              and Nationality Law Attorney specializing in Business & Investor
-              Based Immigration, specifically in Treaty Based Investor Visas
-              (E2), Citizenship by Investment (Golden Visas) for USA Citizens
-              interested in investing in the European Union, and Employment
-              Based (EB-2, 3, 4, 5) Visas focusing on commercial real estate
-              investments, staffing companies, and franchises. Attorney
-              Tripathi zealously advocates for his clients with family-based
-              immigration matters related to waivers of inadmissibility,
-              adjustment of status, citizenship/naturalization, and visa &
-              green card services.`}
+                  {`Hardam Tripathi is an attorney who understands the weight of the human condition. His work spans the worlds of immigration, criminal defense, and personal injury law—not as separate realms, but as interconnected threads of people’s lives. In immigration, he walks with clients through the pathways of business and investor-based options, from Treaty Based Investor Visas (E2), Citizenship by Investment (Golden Visas) for USA Citizens interested in investing in the European Union, and Employment Based (EB-2, 3, 4, 5) Visas focusing on commercial real estate investments, staffing companies, and franchises. When families face barriers, he’s there, guiding them through waivers, adjustments, and the long road to citizenship.`}
                 </p>
                 <p className="mb-2 text-center md:text-left">
-                  {`   USA Immigration Attorney Hardam Tripathi is a USA Immigration
-              and Nationality Law Attorney specializing in Business & Investor
-              Based Immigration, specifically in Treaty Based Investor Visas
-              (E2), Citizenship by Investment (Golden Visas) for USA Citizens
-              interested in investing in the European Union, and Employment
-              Based (EB-2, 3, 4, 5) Visas focusing on commercial real estate
-              investments, staffing companies, and franchises. Attorney
-              Tripathi zealously advocates for his clients with family-based
-              immigration matters related to waivers of inadmissibility,
-              adjustment of status, citizenship/naturalization, and visa &
-              green card services.`}
+                  {`When it comes to criminal defense, Hardam fights not just to win cases but to restore dignity. He defends his clients with a steadfast resolve, knowing that justice is more than a verdict—it’s the preservation of hope. And in personal injury cases, he stands beside those hurt by the carelessness of others, working to ensure they find both compensation and closure.`}
                 </p>
               </div>
               <div className="w-[100%] md:w-[30%] flex text-center justify-center md:justify-end">
@@ -77,30 +57,10 @@ const WhoWeAre = () => {
                 </h2>
 
                 <p className="mb-3 text-center md:text-left">
-                  {`   USA Immigration Attorney Hardam Tripathi is a USA Immigration
-              and Nationality Law Attorney specializing in Business & Investor
-              Based Immigration, specifically in Treaty Based Investor Visas
-              (E2), Citizenship by Investment (Golden Visas) for USA Citizens
-              interested in investing in the European Union, and Employment
-              Based (EB-2, 3, 4, 5) Visas focusing on commercial real estate
-              investments, staffing companies, and franchises. Attorney
-              Tripathi zealously advocates for his clients with family-based
-              immigration matters related to waivers of inadmissibility,
-              adjustment of status, citizenship/naturalization, and visa &
-              green card services.`}
+                  {`At Milwaukee Legal Pros, Hardam Tripathi’s mission is simple yet profound: to stand beside people when they need it most. Whether it’s fighting for immigration rights, defending against criminal charges, or seeking justice for personal injuries, his work is grounded in compassion and a deep respect for the human experience. Hardam believes in more than just legal solutions—he believes in trust, in understanding, and in helping clients find a way forward, no matter how complex the challenge.`}
                 </p>
                 <p className="mb-2 text-center md:text-left">
-                  {`   USA Immigration Attorney Hardam Tripathi is a USA Immigration
-              and Nationality Law Attorney specializing in Business & Investor
-              Based Immigration, specifically in Treaty Based Investor Visas
-              (E2), Citizenship by Investment (Golden Visas) for USA Citizens
-              interested in investing in the European Union, and Employment
-              Based (EB-2, 3, 4, 5) Visas focusing on commercial real estate
-              investments, staffing companies, and franchises. Attorney
-              Tripathi zealously advocates for his clients with family-based
-              immigration matters related to waivers of inadmissibility,
-              adjustment of status, citizenship/naturalization, and visa &
-              green card services.`}
+                  {`His vision for Milwaukee Legal Pros is equally straightforward. He sees it as a place where justice isn’t just a word, but a practice—a relentless pursuit of fairness and equality. Hardam wants his work to mean something, to give people not just a legal win but a sense of empowerment. In his eyes, the law is not about rules and systems; it’s about people, their stories, and their futures. Through his efforts, he hopes to make the legal world less daunting and more accessible, helping clients move forward with clarity and confidence.`}
                 </p>
               </div>
             </div>

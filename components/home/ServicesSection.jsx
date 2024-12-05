@@ -25,7 +25,7 @@ function ServicesSection() {
 
           <ScrollMotionEffect effect="fade-left" duration="2000">
             <p className="mb-0 md:mb-4 text-sm text-center md:text-lg text-stone-950 ">
-              {`Are you facing criminal charges or grappling with a personal injury in Milwaukee? The legal system can feel like an unforgiving maze, whether you’re standing accused or seeking the justice you rightfully deserve. We understand the weight these challenges can bring—the emotional toll and the financial strain. With unwavering dedication and expert guidance, we're here to support you all the way, every step until justice has its say.
+              {`Are you facing criminal charges, any immigration-related matters, or grappling with a personal injury in Milwaukee? The legal system can feel like an unforgiving maze, whether you’re standing accused or seeking the justice you rightfully deserve. We understand the weight these challenges can bring—the emotional toll and the financial strain. With unwavering dedication and expert guidance, we're here to support you all the way, every step until justice has its say.
 `}
             </p>
           </ScrollMotionEffect>

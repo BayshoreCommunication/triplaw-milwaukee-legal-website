@@ -58,10 +58,10 @@ const AboutSection = () => {
 
                 <p className="mb-4 text-lg text-center text-stone-950 md:text-left">
                   At Milwaukee Legal Pros, we provide exceptional criminal
-                  defense and personal injury representation with a steadfast
-                  commitment to justice and client care. Founded by Hardam H.
-                  Tripathi, a former federal legal professional, our firm blends
-                  skill, experience, and client-centered advocacy.
+                  defense, immigration, and personal injury representation with
+                  a steadfast commitment to justice and client care. Founded by
+                  Hardam H. Tripathi, a former federal legal professional, our
+                  firm blends skill, experience, and client-centered advocacy.
                 </p>
                 <p className="mb-4 text-lg text-center text-stone-950 md:text-left">
                   Home to some of Wisconsin's top attorneys, Milwaukee Legal
