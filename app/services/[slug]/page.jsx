@@ -84,162 +84,130 @@ const page = async ({ params }) => {
           <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-10">
             <div className="flex flex-col justify-center md:justify-start ">
               <div className="">{parse(servicesDetails?.description)}</div>
+              {/* ======================== */}
               {/* <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/immigration/-.jpg"
-                    alt="EB-1 Visa"
+                    src="/assets/services/green-card.jpg"
+                    alt="green-card"
                     className="w-full  mb-10"
                   />
-
                   <p className="text-lg md:text-xl mb-6">
-                    Do you excel in your field and aspire to share your
-                    extraordinary skills and talent with the United States? The
-                    EB-1 visa program is designed for individuals at the top of
-                    their profession, offering a prestigious pathway to
-                    permanent residency. At Trip Law, we’re here to make your
-                    EB-1 visa journey straightforward and successful, providing
-                    expert guidance every step of the way.
+                    Obtaining a Green Card is a significant step toward
+                    achieving lawful permanent residency in the United States.
+                    This process involves various legal requirements, and each
+                    stage demands careful attention. We are committed to guiding
+                    you through this process with clarity, professionalism, and
+                    a strong focus on your goals. Whether you are applying for
+                    the first time or facing challenges with your current
+                    application, we are here to assist.
                   </p>
 
                   <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-                    Who Is This Service For
+                    Who Is in Need of This Service?
                   </h4>
 
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
-                      Individuals with extraordinary abilities in the sciences,
-                      arts, education, business, or athletics.
+                      Individuals seeking lawful permanent residency in the
+                      United States.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Professionals who have achieved national or international
-                      recognition for their exceptional contributions.
+                      Family members or employers sponsoring a loved one or
+                      employee for a Green Card.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Researchers, professors, or executives meeting the
-                      specific eligibility criteria for the EB-1 categories:
-                      <ul className="flex flex-col gap-2 list-disc pl-5">
-                        <li className="text-lg md:text-xl">
-                          EB-1A: Individuals with extraordinary ability.
-                        </li>
-                        <li className="text-lg md:text-xl">
-                          EB-1B: Outstanding professors and researchers.
-                        </li>
-                        <li className="text-lg md:text-xl">
-                          EB-1C: Multinational executives or managers.
-                        </li>
-                      </ul>
+                      People who need help with adjustment of status or consular
+                      processing.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Those seeking permanent residency in the U.S. to continue
-                      their impactful work and enrich the nation.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      Applicants face challenges in navigating the complex EB-1
-                      application process and eligibility requirements.
+                      Those facing issues such as visa backlogs,
+                      inadmissibility, or application denials.
                     </li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-                    Problems You'll Face Without Legal Guidance
+                    Barriers Standing in Your Way
                   </h4>
 
                   <ul className="flex flex-col gap-2 list-disc pl-5">
                     <li className="text-lg md:text-xl">
-                      Understanding and meeting the rigorous standards of
-                      "extraordinary ability" required for the EB-1 visa.
+                      Uncertainty about eligibility requirements or suitable
+                      Green Card categories.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Identifying and presenting compelling evidence to
-                      demonstrate sustained contributions and impact.
+                      Errors or omissions in forms, leading to delays or
+                      rejections.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Navigating the nuances of the three distinct EB-1
-                      categories and their specific requirements.
+                      Managing requests for additional evidence or interviews
+                      with immigration officers.
                     </li>
 
                     <li className="text-lg md:text-xl">
-                      Compiling and ensuring the accuracy and completeness of
-                      supporting documentation.
+                      Addressing potential barriers like visa availability or
+                      inadmissibility.
                     </li>
                     <li className="text-lg md:text-xl">
-                      Effectively communicating the significance of your work
-                      and the lasting value you bring to the U.S.
+                      Misunderstanding the timelines and procedures for
+                      adjustment of status or consular processing.
                     </li>
                   </ul>
                 </div>
 
                 <div>
                   <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
-                    Why Choose Milwaukee Legal Pros
+                    How Milwaukee Legal Pros Can Guide You Through Green Card
                   </h4>
-
-                  <p className="text-lg md:text-xl mb-4">
-                    We recognize the transformative potential of individuals
-                    with extraordinary abilities and the value they add to the
-                    United States. Here’s how we’ll support your EB-1 visa
-                    application:
-                  </p>
-
-                  <ul className="flex flex-col gap-2 list-disc pl-5">
-                    <li className="text-lg md:text-xl">
-                      <strong>Eligibility Assessment: </strong>
-                      We’ll review your qualifications and achievements to
-                      determine the appropriate EB-1 category for you:
-                      <ul className="flex flex-col gap-2 list-disc pl-5">
-                        <li className="text-lg md:text-xl">
-                          EB-1A for individuals with extraordinary ability.
-                        </li>
-                        <li className="text-lg md:text-xl">
-                          EB-1B for distinguished professors and researchers.
-                        </li>
-                        <li className="text-lg md:text-xl">
-                          EB-1C for executives or managers of multinational
-                          companies.
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      <strong>Evidence Compilation: </strong>
-                      We’ll help gather and organize documentation showcasing
-                      your exceptional contributions, such as awards,
-                      publications, or industry leadership.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      <strong>Immigrant Petition Filing: </strong>
-                      We’ll prepare and file the Form I-140 (Immigrant Petition
-                      for Alien Worker) to initiate the application process.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      <strong>Special Opinions: </strong> For EB-1A cases, we’ll
-                      secure advisory opinions if necessary to strengthen your
-                      application.
-                    </li>
-                    <li className="text-lg md:text-xl">
-                      <strong>Compliance Monitoring: </strong> We’ll keep you
-                      informed about any changes in visa regulations, timelines,
-                      or legal developments to ensure your application is always
-                      on track.
-                    </li>
-                  </ul>
-                </div>
-                <div>
                   <p className="text-lg md:text-xl mb-6">
-                    Schedule a consultation today to discuss your EB-1 visa
-                    options. Discover how we can help you unlock the fast track
-                    to permanent residency and leave a lasting legacy in the
-                    United States.
+                    We understand the challenges you face in obtaining a Green
+                    Card. Here is the approach we can take to address your
+                    concerns:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will assess your situation and identify the most
+                      suitable Green Card category based on Wisconsin
+                      immigration law.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will review and accurately complete your forms to
+                      prevent mistakes, ensuring timely processing, and avoiding
+                      rejections.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will guide you through any requests for additional
+                      evidence and prepare you for interviews with immigration
+                      officers.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will address potential barriers like visa backlogs or
+                      inadmissibility, exploring all available solutions to move
+                      your case forward.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will help you understand the specific timelines and
+                      steps for adjusting your status or applying through
+                      consular processing.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    You do not have to go through the Green Card process alone.
+                    Schedule a consultation with us today to discuss your case.
+                    Let us guide you toward achieving your immigration goals.
                   </p>
                 </div>
               </div> */}
-
+              {/* ======================== */}
               <div className="flex justify-center mt-12">
                 <Link
                   href="/contact"

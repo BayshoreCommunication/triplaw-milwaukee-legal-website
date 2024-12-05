@@ -2,7 +2,7 @@ export const allServiceData = {
   // Criminal Law Services (1-8)
   personal_injury_law: [
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/motorcycle-accidents.png",
       title: "Motorcycle Accidents",
       slug: "motorcycle-accidents",
       practiceAreasSidebarImage:
@@ -133,7 +133,7 @@ How Milwaukee Legal Pros can support you
       `,
     },
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/car-accidents.png",
       title: "Car Accidents",
       slug: "car-accidents",
       practiceAreasSidebarImage:
@@ -256,7 +256,7 @@ You can contact us for a free consultation to get the right support based on you
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/trucking-accident.png",
       title: "Trucking Accidents",
       slug: "trucking-accidents",
       practiceAreasSidebarImage:
@@ -379,7 +379,7 @@ We will ensure that you get fair compensation for both current and future medica
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/dog-bites.png",
       title: "Dog Bites",
       slug: "dog-bites",
       practiceAreasSidebarImage:
@@ -495,7 +495,7 @@ We understand dog bites can cause psychological problems like post-traumatic str
         `,
     },
     {
-      icon: "/assets/services/services-icon/slip-fall.png",
+      icon: "/assets/services/services-icon/slip-and-falls.png",
       title: "Slips and Falls",
       slug: "slip-and-falls",
       practiceAreasSidebarImage:
@@ -736,7 +736,7 @@ You might have a medical malpractice case if you have been affected by the follo
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/traffic-tickets.png",
       title: "Traffic Tickets",
       slug: "traffic-tickets",
       practiceAreasSidebarImage:
@@ -866,7 +866,7 @@ You might have a medical malpractice case if you have been affected by the follo
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/nursing-home-abuse-and-neglect.png",
       title: "Nursing Home Abuse & Neglect",
       slug: "nursing-home-abuse-and-neglect",
       practiceAreasSidebarImage:
@@ -990,7 +990,7 @@ You might have a medical malpractice case if you have been affected by the follo
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/wrongful-death.png",
       title: "Wrongful Death",
       slug: "wrongful-death",
       practiceAreasSidebarImage:
@@ -1116,7 +1116,7 @@ You might have a medical malpractice case if you have been affected by the follo
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/workplace-injury-accidents.png",
       title: "Workplace Injury Accidents",
       slug: "workplace-injury-accidents",
       practiceAreasSidebarImage:
@@ -1251,9 +1251,8 @@ You might have a medical malpractice case if you have been affected by the follo
     },
   ],
   criminal_law: [
-    // Start -Abu
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/owi-defence.png",
       title: "OWI Defence (Dui Defense)",
       slug: "owi-defence",
       practiceAreasSidebarImage:
@@ -1373,7 +1372,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/drug-charges.png",
       title: "Drug Charges",
       slug: "drug-charges",
       practiceAreasSidebarImage:
@@ -1529,7 +1528,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/felonies.png",
       title: "Felonies",
       slug: "felonies",
       practiceAreasSidebarImage: "/assets/services/criminal-law/Felonies.jpg",
@@ -1664,7 +1663,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/theft-charges.png",
       title: "Theft Charges",
       slug: "theft-charges",
       practiceAreasSidebarImage:
@@ -1804,7 +1803,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/assault.png",
       title: "Assault",
       slug: "assault",
       practiceAreasSidebarImage: "/assets/services/criminal-law/Assault.jpg",
@@ -1953,7 +1952,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/battery.png",
       title: "Battery",
       slug: "battery",
       practiceAreasSidebarImage: "/assets/services/criminal-law/Battery.jpg",
@@ -2092,7 +2091,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/firearms-charges.png",
       title: "Firearms Charges",
       slug: "firearms-charges",
       practiceAreasSidebarImage:
@@ -2245,7 +2244,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/drug-trafficking.png",
       title: "Drug Trafficking",
       slug: "drug-trafficking",
       practiceAreasSidebarImage:
@@ -2390,7 +2389,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/arson.png",
       title: "Arson",
       slug: "arson",
       practiceAreasSidebarImage: "/assets/services/criminal-law/Arson.jpg",
@@ -2523,7 +2522,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/kidnapping.png",
       title: "Kidnapping",
       slug: "kidnapping",
       practiceAreasSidebarImage: "/assets/services/criminal-law/Kidnapping.jpg",
@@ -2665,7 +2664,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/sexual-crimes.png",
       title: "Sexual Crimes",
       slug: "sexual-crimes",
       practiceAreasSidebarImage:
@@ -2815,7 +2814,7 @@ Problems You Will Face
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/murder.png",
       title: "Murder",
       slug: "murder",
       practiceAreasSidebarImage: "/assets/services/criminal-law/Murder.jpg",
@@ -2960,7 +2959,7 @@ Problems You Will Face
     // End - Abu
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/traffic-tickets-with-criminal-negligence.png",
       title: "Traffic Tickets With Criminal Negligence",
       slug: "traffic-tickets-with-criminal-negligence",
       practiceAreasSidebarImage:
@@ -3084,7 +3083,7 @@ Contact us for a free consultation to get the right support based on your unique
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/white-collar-defense.png",
       title: "White Collar Defense",
       slug: "white-collar-defense",
       practiceAreasSidebarImage:
@@ -3208,7 +3207,7 @@ Contact us for a free consultation to get the right support based on your unique
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/pharmaceutical-fraud.png",
       title: "Pharmaceutical Fraud",
       slug: "pharmaceutical-fraud",
       practiceAreasSidebarImage:
@@ -3348,7 +3347,7 @@ Contact us for a free consultation to get the right support based on your unique
     },
 
     {
-      icon: "/assets/services/services-icon/car-accident.png",
+      icon: "/assets/services/services-icon/public-intoxication-defense.png",
       title: "Public Intoxication Defense",
       slug: "public-intoxication-defense",
       practiceAreasSidebarImage:
@@ -3468,6 +3467,7 @@ Contact us for a free consultation to get the right support based on your unique
   ],
 
   immigration: [
+    // 1-7
     {
       icon: "/assets/services/services-icon/green-card-through-marriage.png",
       title: "Green Card Through Marriage",
@@ -4545,6 +4545,7 @@ Contact us for a free consultation to get the right support based on your unique
                 </div>
               </div>`,
     },
+    // 8-14
     {
       icon: "/assets/services/services-icon/eb2-visa.png",
       title: "EB-2 Visa",
@@ -4552,7 +4553,144 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/eb2-visa.jpg",
       shortDesc:
         "If you're seeking to bring your expertise and talents to the American workforce on a permanent basis, the EB-2 visa program could be the perfect avenue for you. Tailored for individuals with advanced degrees or exceptional abilities, this program offers a straightforward pathway to securing a green card and making a significant contribution to the United States.",
-      description: "",
+      description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/eb2-visa.jpg"
+                    alt="eb2-visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    If you're seeking to bring your expertise and talents to the
+                    American workforce on a permanent basis, the EB-2 visa
+                    program could be the perfect avenue for you. Tailored for
+                    individuals with advanced degrees or exceptional abilities,
+                    this program offers a straightforward pathway to securing a
+                    green card and making a significant contribution to the
+                    United States. Allow us to provide you with expert legal
+                    counsel and dedicated assistance, ensuring that your EB-2
+                    visa journey is seamless, efficient, and ultimately
+                    successful.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Have at least five years of progressive experience in
+                      their field as an alternative to a master’s degree.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Can demonstrate exceptional ability in the sciences, arts,
+                      or business, with evidence of sustained national or
+                      international recognition.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Have received a valid job offer from a U.S. employer.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Hold a master’s degree or higher (or its equivalent) in a
+                      field related to the job offer.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Are seeking professional growth and the stability that
+                      comes with permanent residency in the United States.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Need expert assistance in navigating the complexities of
+                      the application process and understanding eligibility
+                      requirements under Wisconsin law.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding the intricate details of the EB-2 categories
+                      and eligibility requirements, particularly for cases
+                      involving exceptional ability.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Completing the complex application forms and gathering the
+                      extensive documentation required to support your case.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Navigating the complexities of the PERM labor
+                      certification process is a critical step in securing your
+                      visa.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Demonstrating the national or international impact of your
+                      exceptional ability, especially in the EB-2B category.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Effectively conveying the value you bring to the U.S.
+                      workforce while overcoming potential challenges in proving
+                      your qualifications.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Feeling overloaded by the legal intricacies of the process
+                      and the possibility of delays in processing your
+                      application.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through EB-2 Visa
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      First, we’ll thoroughly assess your qualifications and job
+                      offer to determine your eligibility for the EB-2 visa.
+                      There are two categories: one for individuals with
+                      advanced degrees (EB-2A) and another for those with
+                      exceptional abilities (EB-2B).
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Once we’ve confirmed your eligibility, we’ll handle the
+                      preparation and submission of your I-140 form to get the
+                      process underway.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      For applicants under the advanced degree category, we may
+                      need to obtain a Labor Certification (PERM process) from
+                      the Department of Labor. Don’t worry—we’ll manage this
+                      process for you.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We’ll take care of the paperwork. From gathering degrees
+                      and experience letters to providing proof of exceptional
+                      ability, we’ll ensure everything is in order.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      If an interview is part of the process, we’ll help you
+                      prepare so you can approach it with confidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      At Milwaukee Legal Pros, we stay up-to-date on the latest
+                      EB-2 visa regulations, processing times, and any legal
+                      changes, so you’re always informed and prepared.
+                    </li>
+                  </ul>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/eb3-visa.png",
@@ -4561,7 +4699,127 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/eb3-visa.jpg",
       shortDesc:
         "Ready to lay the foundation for a bright future in the United States by showcasing your skills and dedication? The EB-3 visa program is designed specifically for skilled workers, professionals, and individuals with valuable experience, providing a pathway to permanent residency.",
-      description: "",
+      description: `       <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/eb3-visa.jpg"
+                    alt="eb3-visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Ready to lay the foundation for a bright future in the
+                    United States by showcasing your skills and dedication? The
+                    EB-3 visa program is designed specifically for skilled
+                    workers, professionals, and individuals with valuable
+                    experience, providing a pathway to permanent residency. At
+                    Milwaukee Legal Pros, we’ll navigate the complexities of the
+                    application process on your behalf, ensuring your journey to
+                    a green card is seamless and worry-free.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Have a valid job offer from a U.S. employer for an
+                      eligible position.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Possess at least two years of experience in a skilled
+                      trade or professional role.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals feel uncertain about understanding the
+                      complexities of EB-3 categories and eligibility criteria.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Value the expertise of seasoned legal professionals to
+                      guide them through every step of the application process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Anyone who wants to optimize their chances of approval
+                      while avoiding unnecessary delays.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Navigating the complexities of each EB-3 category and the
+                      specific qualifications required for various job roles.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Completing intricate application forms and gathering all
+                      necessary supporting documentation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      To provide clear and convincing evidence of your
+                      experience and credentials to meet the standards set by
+                      both federal immigration laws and Wisconsin labor
+                      guidelines.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through EB-3 Visa
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    At Milwaukee Legal Pros, we understand the immense value
+                    skilled workers like you bring to the U.S. That’s why we’re
+                    committed to helping you turn your dream of permanent
+                    residency into reality. Here’s how we support your EB-3 visa
+                    journey:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      First, we’ll evaluate your qualifications and job offer to
+                      determine your eligibility for the EB-3 visa. This
+                      includes identifying the right category for you—skilled
+                      workers (EB-3A), professionals (EB-3B), or other workers
+                      (EB-3C).
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Once your eligibility is confirmed, we’ll handle the
+                      preparation and submission of the I-140 form to initiate
+                      your application.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      For EB-3A applicants, we’ll guide you through the Labor
+                      Certification (PERM) process, securing approval from the
+                      Department of Labor—so you don’t have to worry about the
+                      finer details.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We’ll also take care of the paperwork, helping you compile
+                      and organize essential documents like experience letters
+                      and job offer details to build a strong case.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Curious about your EB-3 visa options? Schedule a
+                    consultation today, and let Milwaukee Legal Pros guide you
+                    toward securing your green card and creating a bright,
+                    fulfilling future in the United States.
+                  </p>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/vawa.png",
@@ -4570,7 +4828,147 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/vawa.jpg",
       shortDesc:
         "The Violence Against Women Act (VAWA) provides critical legal protections and a pathway to safety and justice for those affected by domestic violence, dating violence, sexual assault, or stalking.",
-      description: "",
+      description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/vawa.jpg"
+                    alt="vawa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Have you been affected by domestic violence, dating
+                    violence, sexual assault, or stalking, either here in the
+                    United States or abroad? The Violence Against Women Act
+                    (VAWA) provides critical legal protections and a pathway to
+                    safety and justice for those in need. At Milwaukee Legal
+                    Pros, we offer compassionate and experienced legal support,
+                    helping you navigate the complexities of VAWA under
+                    Wisconsin law and ensuring you receive the protection and
+                    justice you deserve.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone facing dating violence from a current or former
+                      romantic partner.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals who have experienced domestic violence at the
+                      hands of a spouse, intimate partner, or parent.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Stalking that has left you fearing for your safety and
+                      well-being.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Experienced sexual assault, whether as a minor or an
+                      adult.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      If you are or were married to the individual responsible
+                      for the abuse, you can still opt for VAWA protection.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      You May Qualify for VAWA Protections If You are currently
+                      undocumented but have faced abuse.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Any kind of abuse occurred outside the United States but
+                      continues to affect your safety and well-being.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding and meeting the detailed eligibility
+                      requirements outlined in the Violence Against Women Act
+                      (VAWA).
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Navigating communication with legal authorities and
+                      professionals to ensure your case is clearly represented.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Struggling to determine the right course of action after
+                      experiencing abuse, leaves you uncertain about where to
+                      seek support.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Addressing concerns about personal safety while taking
+                      steps toward legal protection.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Safely and effectively compiling the necessary evidence to
+                      substantiate your claims of abuse.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Dealing with feelings of isolation and uncertainty about
+                      the options available for a secure and hopeful future.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through VAWA
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    At Milwaukee Legal Pros, we understand the profound impact
+                    of abuse and are dedicated to empowering you to seek safety,
+                    justice, and a secure future. Our approach includes:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Carefully assess your eligibility for VAWA protections,
+                      considering your immigration status and the abuse you have
+                      endured.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Preparing and filing the I-360 petition with precision to
+                      ensure the process begins smoothly.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Assisting you in compiling compelling evidence to support
+                      your case, such as police reports, medical records, and
+                      witness affidavits.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Exploring alternative immigration pathways personalized to
+                      your unique circumstances, in addition to VAWA
+                      protections.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Maintaining consistent communication with USCIS to monitor
+                      progress, promptly address any challenges, and explore
+                      waiver options if needed.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Connecting you with trusted community resources and
+                      support networks to help you rebuild your life with
+                      confidence and stability.
+                    </li>
+                  </ul>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/u-visa.png",
@@ -4579,7 +4977,120 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/u-visa.jpg",
       shortDesc:
         "If you have endured a serious crime in the United States and collaborated with law enforcement, the U visa program offers a crucial avenue to secure lawful status for victims who meet specific criteria.",
-      description: "",
+      description: `          <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/u-visa.jpg"
+                    alt="U Visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    If you have endured a serious crime in the United States,
+                    such as human trafficking, violent assault, or domestic
+                    violence, and have collaborated with law enforcement during
+                    the investigation or prosecution of the crime, you may
+                    qualify for the U visa program. This program serves as a
+                    crucial avenue to secure lawful status for victims who
+                    satisfy specific criteria. We’re bound to help you, offering
+                    expert legal guidance and unwavering support to obtain the
+                    safety and justice that you rightfully deserve under
+                    Wisconsin law.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    This service is intended for individuals who:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Have endured significant physical or emotional harm as a
+                      direct consequence of the crime.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Have been the victim of a qualifying serious crime in the
+                      United States, such as violent assault, sexual assault,
+                      kidnapping, or human trafficking.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Are unable or hesitant to return to their native country
+                      due to a credible fear of retaliation or further harm.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Have cooperated with law enforcement in the investigation
+                      or prosecution of the offense, either by directly
+                      assisting or providing critical information.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      The U visa's eligibility requirements and application
+                      process are complicated, requiring a thorough knowledge of
+                      criteria and documentation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Gathering essential evidence, such as police reports and
+                      medical records to substantiate your case and prove your
+                      victimization and cooperation with law enforcement.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      After a traumatic event, it’s common to feel lost and
+                      unsure about where to seek help, making the legal process
+                      even more challenging.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Victims often fear retaliation or further harm if they
+                      return to their home country, which can prevent them from
+                      engaging with law enforcement or pursuing legal action.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through U Visa
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will evaluate your eligibility for the U visa by
+                      examining the nature of the crime, your level of
+                      cooperation with law enforcement, and any risks you may
+                      encounter should you return to your home country.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Once we determine your eligibility, we’ll meticulously
+                      complete and file the I-918 form to initiate the process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team will assist you in gathering all the necessary
+                      documentation and evidence showing the dangers of
+                      returning to your home country.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will maintain close communication with USCIS throughout
+                      the entire process, ensuring that everything proceeds
+                      smoothly. If any issues arise, we will handle them
+                      promptly and explore waiver options if required.
+                    </li>
+                  </ul>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/asylum.png",
@@ -4588,7 +5099,120 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/asylum.jpg",
       shortDesc:
         "The asylum process provides a critical opportunity for individuals to seek refuge and protection in the United States due to a legitimate fear of persecution in their home country.",
-      description: "",
+      description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/asylum.jpg"
+                    alt="asylum"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Did you escape your home country due to a legitimate fear of
+                    persecution because of your race, religion, nationality,
+                    political views, or membership in a specific social group?
+                    The asylum process provides a critical opportunity for
+                    individuals like you to seek refuge and protection in the
+                    United States. We are here to guide you through this complex
+                    process with the support and expertise you need. Our mission
+                    is to help you secure the safety and security you deserve in
+                    a new and welcoming environment.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Those who face a credible, well-founded fear of
+                      persecution based on one or more of the five protected
+                      grounds: race, religion, nationality, political opinion,
+                      or membership in a specific social group.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants who have not submitted an asylum application
+                      more than one year after entering the United States,
+                      unless eligible for certain exceptions.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals currently residing in the United States who
+                      qualify as a "refugee" under the Immigration and
+                      Nationality Act (INA).
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals who are unsure about the complex details of
+                      the asylum process and need guidance on meeting the
+                      eligibility requirements.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Asylum eligibility involves intricate legal criteria,
+                      which require careful attention to detail.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Assembling strong, clear documentation to support your
+                      claims of persecution is essential.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Overcoming emotional scars from past persecution is
+                      crucial to navigating the asylum process and presenting
+                      your case.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Effectively sharing your story in a way that resonates
+                      with decision-makers. Remaining culturally sensitive is
+                      key.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Asylum
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will thoroughly assess your situation to determine if
+                      you qualify for asylum, considering the persecution you've
+                      faced and the genuine fear of harm should you return to
+                      your home country.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      After confirming your eligibility, we’ll promptly prepare
+                      and submit your I-589 application to begin the asylum
+                      process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Throughout the entire process, we'll maintain direct
+                      communication with USCIS. If a hearing or interview
+                      arises, we’ll ensure you’re well-prepared and confident.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will assist in gathering all the necessary
+                      documentation—identity papers, evidence of the persecution
+                      or threats you’ve encountered, and any reports detailing
+                      the conditions in your country. If needed, we’ll help
+                      secure testimonies to support your case.
+                    </li>
+                  </ul>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/t-visa.png",
@@ -4597,7 +5221,122 @@ Contact us for a free consultation to get the right support based on your unique
       practiceAreasSidebarImage: "/assets/services/immigration/t-visa.jpg",
       shortDesc:
         "The T visa program offers temporary residency and protection to victims of severe forms of human trafficking, ensuring their safety and rights are upheld.",
-      description: "",
+      description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/t-visa.jpg"
+                    alt="t-visa"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Have you endured severe forms of human trafficking, such as
+                    forced labor, debt bondage, sex trafficking, or domestic
+                    servitude, either in the U.S. or abroad? Are you unsure of
+                    where to turn for support and how to secure a stable future?
+                    The T visa program offers a vital opportunity, granting
+                    temporary residency and protection to victims like you. We
+                    are here to guide you through every step of the T visa
+                    process, ensuring your voice is heard, your rights are
+                    upheld, and you are on the path to safety and security.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals seeking safety and the opportunity to rebuild
+                      their lives, free from fear and exploitation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those who have endured physical or psychological abuse,
+                      threats, or coercion as a result of trafficking.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals who have been subjected to severe forms of
+                      human trafficking, as outlined by U.S. law.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Victims who have cooperated with law enforcement in
+                      investigating or prosecuting the trafficking offense, or
+                      have a valid reason for not being able to do so.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Grappling with the complex and detailed legal definition
+                      of "severe human trafficking" and ensuring your case meets
+                      its rigorous standards.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Collecting and presenting compelling evidence that
+                      convincingly supports your experience and cooperation with
+                      authorities.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Managing the emotional distress, fear, and potential
+                      threats of retaliation stemming from your trafficking
+                      ordeal.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through T Visa
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We’ll carefully evaluate your eligibility for the T Visa,
+                      considering the nature of your experience and any
+                      assistance you may have provided to law enforcement.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Once we’ve confirmed your qualifications, we’ll complete
+                      and submit the I-914 form to begin your application
+                      process.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We’ll work closely with you to gather all necessary
+                      documents—police reports, testimonies from witnesses,
+                      medical records, and any evidence of your collaboration
+                      with authorities.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Throughout the entire process, we’ll stay in contact with
+                      USCIS, keeping your case on track and addressing any
+                      concerns along the way.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      If returning to your home country poses a danger to your
+                      safety, we’ll ensure this is thoroughly documented.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Contact us today to schedule a free consultation and explore
+                    your T Visa options. Let Milwaukee Legal Pros guide you
+                    through this journey to safety, stability, and a brighter
+                    future.
+                  </p>
+                </div>
+              </div>`,
     },
     {
       icon: "/assets/services/services-icon/bond-hearing.png",
@@ -4607,70 +5346,1024 @@ Contact us for a free consultation to get the right support based on your unique
         "/assets/services/immigration/bond-hearing.jpg",
       shortDesc:
         "A bond hearing determines whether you’ll be granted release while awaiting trial. Skilled legal counsel at this critical juncture is essential.",
-      description: "",
+      description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/immigration/bond-hearing.jpg"
+                    alt="bond-hearing"
+                    className="w-full  mb-10"
+                  />
+
+                  <p className="text-lg md:text-xl mb-6">
+                    Experiencing an arrest can be an exceedingly unsettling yet
+                    Intimidating experience One of the first challenges you'll
+                    encounter is a bond hearing. This is when a judge determines
+                    whether you'll be granted release while awaiting trial.
+                    Having skilled legal counsel at this critical juncture is
+                    essential. Our seasoned attorneys will guide you through the
+                    bond hearing process, working to secure your release and
+                    protect your rights.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Anyone in need of expert guidance through the intricate
+                      legal processes of a bond hearing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those who want seasoned legal counsel to present a
+                      compelling case before the judge.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those seeking release from custody while awaiting trial.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals who can demonstrate they are not a flight risk
+                      nor a danger to the community.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding the nuanced legal framework and requirements
+                      involved in bond hearings.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Assembling and presenting compelling evidence to support
+                      your request for release.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Managing the anxiety of extended detention, can severely
+                      impact your personal and professional responsibilities.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Lacking the expertise and confidence needed to advocate
+                      effectively before the court.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Overcoming the confusion and uncertainty about your legal
+                      rights following an arrest.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Bond Hearing
+                  </h4>
+                  <li className="text-lg md:text-xl mb-6">
+                    At Milwaukee Legal Pro, we understand how critical securing
+                    your release is to maintaining your stability and dignity.
+                    When you choose us, you gain access to:
+                  </li>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We carefully assess your charges, and personal history to
+                      determine your eligibility for release. Our goal is to
+                      present a compelling argument that demonstrates you are
+                      not a flight risk or a danger.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We compile the necessary evidence to strengthen your
+                      case—this includes proof of employment, stable housing,
+                      family connections, financial ability to meet bond terms,
+                      and your commitment to abide by all court orders.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team engages directly with prosecutors to advocate for
+                      fair and reasonable bond conditions. If concerns arise
+                      about your risk level, we address them proactively,
+                      providing reassurances to support your release.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      During your bond hearing, we represent you with
+                      professionalism and persuasive arguments, ensuring the
+                      court understands your reliability and commitment to
+                      complying with legal requirements. If necessary, we stand
+                      ready to appeal and fight for better terms.
+                    </li>
+                  </ul>
+                </div>
+              </div>`,
     },
+    //15-21
     {
-      icon: "/assets/services/icons/master-calendar-hearing-icon.png",
+      icon: "/assets/services/services-icon/master-calendar-hearing.png",
       title: "Master Calendar Hearing",
       slug: "master-calendar-hearing",
       practiceAreasSidebarImage: "",
       shortDesc:
         "Receiving a Notice to Appear (NTA) in immigration court signals the beginning of a significant legal process. The Master Calendar Hearing (MCH) serves as the first step, where your case's trajectory is outlined. We are here to guide you through every stage of the MCH process. Our experienced attorneys will provide clear legal advice and strategic representation, helping you understand your rights and options under Wisconsin law.",
-      description: "",
+      description: `    <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/master-calendar-hearing.jpg"
+                    alt="master-calendar-hearing"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    Receiving a Notice to Appear (NTA) in immigration court
+                    signals the beginning of a significant legal process. The
+                    Master Calendar Hearing (MCH) serves as the first step,
+                    where your case's trajectory is outlined. We are here to
+                    guide you through every stage of the MCH process. Our
+                    experienced attorneys will provide clear legal advice and
+                    strategic representation, helping you understand your rights
+                    and options under Wisconsin law.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals who have received an NTA to appear in U.S.
+                      immigration court.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those unfamiliar with the purpose or procedures of a
+                      Master Calendar Hearing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Anyone seeking professional legal advice to approach their
+                      MCH confidently.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      People looking to protect their rights and improve their
+                      chances of a favorable case outcome.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding the complex terminology and procedures
+                      involved in the Master Calendar Hearing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Facing the immigration judge without proper legal
+                      representation or preparation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Uncertainty about your rights and available forms of legal
+                      relief.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Fear of deportation and unclear future legal prospects.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Misinformation or misunderstanding about the role and
+                      potential outcomes of the MCH.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Master
+                    Calendar Hearing
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges you face dealing with the
+                    immigration system under Wisconsin law. Here is the way we
+                    can resolve your unique concerns:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will explain every term and procedure in simple
+                      language, so you fully understand the Master Calendar
+                      Hearing.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will thoroughly prepare you for the MCH. We will review
+                      your case, guide you through potential questions, and
+                      practice your responses.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will explain your rights and explore all legal relief
+                      options, such as waivers or asylum, that apply to your
+                      situation.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will stand by your side during the MCH and present your
+                      case effectively, aiming to protect you from deportation.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will ensure you fully understand the purpose of the MCH
+                      and what outcomes to expect, eliminating any confusion.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Do not go through your Master Calendar Hearing alone.
+                    Contact us today for a consultation with our experienced
+                    immigration attorneys.
+                  </p>
+                </div>
+              </div>`,
     },
     {
-      icon: "/assets/services/icons/individual-hearing-icon.png",
+      icon: "/assets/services/services-icon/individual-hearing.png",
       title: "Individual Hearing",
       slug: "individual-hearing",
       practiceAreasSidebarImage: "",
       shortDesc:
         "An Individual Hearing is a critical stage in your immigration process, where you present evidence and arguments to support your case. This hearing determines whether you qualify for relief or protection under U.S. immigration laws. Having experienced legal guidance can make all the difference in preparing a strong case and presenting it effectively before the judge.",
-      description: "",
+      description: ` <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/individual-hearing.jpg"
+                    alt="individual-hearing"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    Individual Hearing: Presenting Your Immigration Case with
+                    Confidence An Individual Hearing is a critical stage in your
+                    immigration process, where you present evidence and
+                    arguments to support your case. This hearing determines
+                    whether you qualify for relief or protection under U.S.
+                    immigration laws. Having experienced legal guidance can make
+                    all the difference in preparing a strong case and presenting
+                    it effectively before the judge.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals advancing to the Individual Hearing stage in
+                      immigration court after receiving a Notice to Appear.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those seeking clarity on the procedures and expectations
+                      for their hearing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Individuals in need of professional legal representation
+                      to advocate on their behalf during the hearing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Anyone exploring eligibility for asylum, cancellation of
+                      removal, or other forms of relief.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Struggles with understanding legal jargon and meeting
+                      evidentiary requirements for your case.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Stress about responding to government arguments without
+                      legal support or preparation.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Risk of being unprepared, leading to the denial of relief
+                      or protection.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Uncertainty about how to present a clear and persuasive
+                      case before the judge.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Worry about the possibility of removal and its impact on
+                      your life and family.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Individual
+                    Hearing
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges and stress you face during an
+                    Individual Hearing. Here is how we can help:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will break down complex legal terms into plain language
+                      and help you collect strong evidence to support your case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team will prepare counterarguments for any claims made
+                      by the government and stand by you during the hearing.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will meticulously prepare your case, review every
+                      detail, and rehearse responses to questions the judge may
+                      ask.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will structure your case to highlight key facts and
+                      legal arguments, ensuring the judge clearly understands
+                      your eligibility for relief.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will explore all legal options to help you remain in
+                      the U.S., including potential waivers or alternative
+                      relief measures.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Our experienced team stays up-to-date with changes in
+                    immigration law and court decisions to ensure you get the
+                    best possible representation.
+                  </p>
+                </div>
+              </div>`,
     },
     {
-      icon: "/assets/services/icons/waivers-icon.png",
+      icon: "/assets/services/services-icon/waivers.png",
       title: "Waivers",
       slug: "waivers",
       practiceAreasSidebarImage: "",
       shortDesc:
         "Waivers are essential tools for addressing immigration challenges and preserving legal status in the United States. Whether you are seeking to overcome inadmissibility or resolve case-specific issues, experienced attorneys can guide you through the process. This service is designed to help you fully understand your options and pursue the most effective path forward.",
-      description: "",
+      description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/waivers.jpg"
+                    alt="waivers"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    Waivers are essential tools for addressing immigration
+                    challenges and preserving legal status in the United States.
+                    Whether you are seeking to overcome inadmissibility or
+                    resolve case-specific issues, experienced attorneys can
+                    guide you through the process. This service is designed to
+                    help you fully understand your options and pursue the most
+                    effective path forward.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals facing inadmissibility issues due to unlawful
+                      presence, misrepresentation, or criminal convictions.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those seeking to reunite with family members in the United
+                      States through a waiver.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants who need assistance demonstrating hardship and
+                      meeting waiver eligibility requirements.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      People looking for reliable legal guidance to effectively
+                      complete the waiver application process.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Uncertainty about which type of waiver applies to your
+                      specific immigration case.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Difficulty collecting and presenting the documentation
+                      needed to support your waiver application.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Delays or denials caused by incomplete or improperly
+                      prepared submissions.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Challenges in demonstrating the necessary hardship or
+                      other qualifying criteria for approval.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Confusion about how changes in immigration laws might
+                      affect your case.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Waivers
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges you face when seeking a waiver.
+                    Here is how we can assist you at every step:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will thoroughly review your situation to identify the
+                      waiver that best fits your case under Wisconsin law.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team will help you gather, organize, and prepare all
+                      required documents to ensure your application meets legal
+                      standards.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will meticulously complete and review your application
+                      to prevent errors and reduce the risk of delays or
+                      rejections.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our attorneys will craft compelling legal arguments and
+                      provide guidance to prove hardship or other eligibility
+                      factors specific to your case.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We actively monitor Wisconsin and federal immigration laws
+                      to keep your case aligned with the most current legal
+                      updates.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Do not face the waiver process alone. Schedule a
+                    consultation today to receive skilled and personalized legal
+                    assistance tailored to your needs.
+                  </p>
+                </div>
+              </div>`,
     },
     {
-      icon: "/assets/services/icons/e2-treaty-visas-icon.png",
+      icon: "/assets/services/services-icon/e2-treaty-visas.png",
       title: "E2 Treaty Visas",
       slug: "e2-treaty-visas",
       practiceAreasSidebarImage: "",
       shortDesc:
         "The E2 Treaty Visa opens doors for entrepreneurs and investors to establish or manage a business in the United States. Designed for individuals from treaty countries, it allows for a substantial investment in a U.S.-based enterprise. This visa is your opportunity to expand your business footprint and build a future in Wisconsin, with expert guidance to streamline the process.",
-      description: "",
+      description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/e2-treaty-visas.jpg"
+                    alt="e2-treaty-visas"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    The E2 Treaty Visa opens doors for entrepreneurs and
+                    investors to establish or manage a business in the United
+                    States. Designed for individuals from treaty countries, it
+                    allows for a substantial investment in a U.S.-based
+                    enterprise. This visa is your opportunity to expand your
+                    business footprint and build a future in Wisconsin, with
+                    expert guidance to streamline the process.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Entrepreneurs from treaty countries looking to invest in
+                      or manage a business in the United States.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Business owners seeking to establish or grow their
+                      presence within Wisconsin’s thriving economy.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants who are unclear about E2 visa eligibility
+                      criteria and application steps.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Investors requiring assistance in structuring their
+                      businesses to meet U.S. immigration standards.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Meeting the legal and financial requirements to qualify
+                      for the E2 visa.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Developing a compliant business plan that satisfies
+                      immigration authorities.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Proving the investment is substantial and will generate
+                      economic benefits in the U.S.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Handling extensive documentation and potential interviews
+                      with immigration officials.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Keeping up with any changes in immigration laws affecting
+                      the E2 visa process.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through E2 Treaty
+                    Visas
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges that come with applying for an
+                    E2 Treaty Visa under Wisconsin law. This is how we can
+                    tackle your specific concerns:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will review your financial situation and ensure your
+                      investment meets the "substantial" requirement under U.S.
+                      immigration laws.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will work with you to create a detailed business plan
+                      that aligns with U.S. immigration standards and
+                      expectations.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will help you gather financial data and projections to
+                      clearly demonstrate the economic impact your business will
+                      have.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will organize and submit the required documents on your
+                      behalf and prepare you for interviews with immigration
+                      authorities.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will monitor updates to U.S. immigration law and advise
+                      you on any necessary adjustments to your case.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Don't go through this process alone. Schedule a consultation
+                    today to discuss how our experienced team can assist with
+                    your E2 visa application.
+                  </p>
+                </div>
+              </div>`,
     },
     {
-      icon: "/assets/services/icons/citizenship-icon.png",
+      icon: "/assets/services/services-icon/citizenship.png",
       title: "Citizenship",
       slug: "citizenship",
       practiceAreasSidebarImage: "",
       shortDesc:
         "Becoming a U.S. citizen is a monumental step toward achieving greater opportunities, security, and a sense of belonging in the United States. The citizenship process may seem intricate, but with professional guidance, you can approach each step with confidence. From determining eligibility to preparing for your naturalization interview, our team is here to assist you every step of the way.",
-      description: "",
+      description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/citizenship.jpg"
+                    alt="citizenship"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    Becoming a U.S. citizen is a monumental step toward
+                    achieving greater opportunities, security, and a sense of
+                    belonging in the United States. The citizenship process may
+                    seem intricate, but with professional guidance, you can
+                    approach each step with confidence. From determining
+                    eligibility to preparing for your naturalization interview,
+                    our team is here to assist you every step of the way.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals ready to apply for citizenship but unsure how
+                      to get started.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Lawful Permanent Residents seeking help completing Form
+                      N-400 accurately and efficiently.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants concerned about potential legal or procedural
+                      obstacles affecting their case.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those who want to confidently prepare for the
+                      naturalization interview and civics test.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Uncertainty about meeting eligibility requirements,
+                      including continuous residence, physical presence, and
+                      good moral character.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Errors or omissions in completing Form N-400, leading to
+                      unnecessary delays or denials.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Difficulty preparing for the civics and English tests or
+                      the naturalization interview.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Legal or administrative challenges, such as prior
+                      immigration violations or unresolved tax or criminal
+                      issues.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Anxiety about the naturalization process and the potential
+                      impact of past mistakes.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Citizenship
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges and uncertainties you may face
+                    during the citizenship process. We can handle your specific
+                    concerns in the following way:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will assess your situation to confirm if you meet
+                      requirements for continuous residence, physical presence,
+                      and good moral character.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team will carefully complete and review Form N-400 to
+                      ensure all information and documents are accurate and
+                      properly submitted.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will prepare you for the naturalization interview,
+                      conducting mock sessions and practicing civics and English
+                      test questions to build confidence.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      If you have legal or administrative challenges, we will
+                      address issues such as immigration violations or
+                      unresolved tax or criminal matters.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our support will alleviate stress by creating a clear
+                      roadmap, helping you approach the process with clarity and
+                      peace of mind.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Do not face the citizenship journey alone. Schedule a
+                    consultation today to start your path toward U.S.
+                    citizenship with trusted guidance.
+                  </p>
+                </div>
+              </div>`,
     },
     {
-      icon: "/assets/services/icons/naturalization-and-citizenship-services-icon.png",
+      icon: "/assets/services/services-icon/naturalization-and-citizenship-services.png",
       title: "Naturalization and Citizenship Services",
       slug: "naturalization-and-citizenship-services",
       practiceAreasSidebarImage: "",
       shortDesc:
         "Applying for naturalization or obtaining citizenship is a significant step in your immigration journey. The process involves detailed requirements and specific legal steps. This service ensures that you have clear guidance and support throughout your application, making the process more straightforward and manageable.",
-      description: "",
+      description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/naturalization-and-citizenship-services.jpg"
+                    alt="naturalization-and-citizenship-services"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    Applying for naturalization or obtaining citizenship is a
+                    significant step in your immigration journey. The process
+                    involves detailed requirements and specific legal steps.
+                    This service ensures that you have clear guidance and
+                    support throughout your application, making the process more
+                    straightforward and manageable.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is This Service For?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals ready to become naturalized U.S. citizens.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Lawful Permanent Residents (LPRs) uncertain about their
+                      eligibility for citizenship.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Applicants seeking assistance in preparing and submitting
+                      Form N-400.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Immigrants facing challenges due to extended absences,
+                      criminal records, or other potential barriers to
+                      citizenship.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Understanding the eligibility requirements for
+                      naturalization, including continuous residence and good
+                      moral character.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Difficulty preparing for the English and civics tests,
+                      which are part of the application process.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Concerns about application delays or denials due to
+                      incomplete or incorrect forms.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Uncertainty about responding to questions during the
+                      naturalization interview.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Dealing with the impact of prior immigration issues on
+                      your application.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through
+                    Naturalization and Citizenship Services
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges you face in the naturalization
+                    process. Here is how we can address your specific concerns:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will review your history, including residence and moral
+                      character, to confirm your eligibility and avoid potential
+                      issues.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We provide personalized study materials and practice
+                      sessions to help you confidently pass both the English and
+                      civics tests.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Our team ensures your Form N-400 is accurate, complete,
+                      and supported by all necessary documents to avoid common
+                      filing mistakes.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We conduct mock interviews, guiding you on how to answer
+                      questions effectively while addressing any areas of
+                      concern proactively.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We identify challenges, like prior legal or immigration
+                      matters, and work on strategies to overcome them based on
+                      Wisconsin law.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    Our goal is to simplify your naturalization journey and
+                    increase your chances of success. Contact us today to get
+                    started.
+                  </p>
+                </div>
+              </div>`,
     },
     {
-      icon: "/assets/services/icons/green-card-icon.png",
+      icon: "/assets/services/services-icon/green-card.png",
       title: "Green Card",
       slug: "green-card",
       practiceAreasSidebarImage: "",
       shortDesc:
         "Obtaining a Green Card is a significant step toward achieving lawful permanent residency in the United States. This process involves various legal requirements, and each stage demands careful attention. We are committed to guiding you through this process with clarity, professionalism, and a strong focus on your goals.",
-      description: "",
+      description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
+                <div>
+                  <img
+                    src="/assets/services/green-card.jpg"
+                    alt="green-card"
+                    className="w-full  mb-10"
+                  />
+                  <p className="text-lg md:text-xl mb-6">
+                    Obtaining a Green Card is a significant step toward
+                    achieving lawful permanent residency in the United States.
+                    This process involves various legal requirements, and each
+                    stage demands careful attention. We are committed to guiding
+                    you through this process with clarity, professionalism, and
+                    a strong focus on your goals. Whether you are applying for
+                    the first time or facing challenges with your current
+                    application, we are here to assist.
+                  </p>
+
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Who Is in Need of This Service?
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Individuals seeking lawful permanent residency in the
+                      United States.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Family members or employers sponsoring a loved one or
+                      employee for a Green Card.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      People who need help with adjustment of status or consular
+                      processing.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Those facing issues such as visa backlogs,
+                      inadmissibility, or application denials.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    Barriers Standing in Your Way
+                  </h4>
+
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      Uncertainty about eligibility requirements or suitable
+                      Green Card categories.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Errors or omissions in forms, leading to delays or
+                      rejections.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Managing requests for additional evidence or interviews
+                      with immigration officers.
+                    </li>
+
+                    <li className="text-lg md:text-xl">
+                      Addressing potential barriers like visa availability or
+                      inadmissibility.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      Misunderstanding the timelines and procedures for
+                      adjustment of status or consular processing.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-lg md:text-2xl text-black mb-4">
+                    How Milwaukee Legal Pros Can Guide You Through Green Card
+                  </h4>
+                  <p className="text-lg md:text-xl mb-6">
+                    We understand the challenges you face in obtaining a Green
+                    Card. Here is the approach we can take to address your
+                    concerns:
+                  </p>
+                  <ul className="flex flex-col gap-2 list-disc pl-5">
+                    <li className="text-lg md:text-xl">
+                      We will assess your situation and identify the most
+                      suitable Green Card category based on Wisconsin
+                      immigration law.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will review and accurately complete your forms to
+                      prevent mistakes, ensuring timely processing, and avoiding
+                      rejections.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will guide you through any requests for additional
+                      evidence and prepare you for interviews with immigration
+                      officers.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will address potential barriers like visa backlogs or
+                      inadmissibility, exploring all available solutions to move
+                      your case forward.
+                    </li>
+                    <li className="text-lg md:text-xl">
+                      We will help you understand the specific timelines and
+                      steps for adjusting your status or applying through
+                      consular processing.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-lg md:text-xl">
+                    You do not have to go through the Green Card process alone.
+                    Schedule a consultation with us today to discuss your case.
+                    Let us guide you toward achieving your immigration goals.
+                  </p>
+                </div>
+              </div>`,
     },
   ],
 };
