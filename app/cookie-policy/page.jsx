@@ -58,9 +58,9 @@ const page = () => {
       <SectionLayout>
         <div className="text-center md:text-left">
           <div className="text-center">
-            <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
+            <h2 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
               Cookie Policy
-            </h1>
+            </h2>
           </div>
 
           <div className="flex flex-col gap-4 lg:gap-5">

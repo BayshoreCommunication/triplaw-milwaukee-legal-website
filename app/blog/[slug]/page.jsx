@@ -2,7 +2,7 @@ import Image from "next/image";
 import GetAllPostData from "@/lib/GetAllPostData";
 import parse from "html-react-parser";
 import SectionLayout from "@/components/shared/SectionLayout";
-import HeroSection from "@/components/blog/HeroSection";
+import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
 import Head from "next/head";
 import Link from "next/link";
@@ -128,11 +128,11 @@ const page = async ({ params }) => {
                     {postDate(blogs?.createdAt)}
                   </p>
                 </div>
-                <h2
+                <h1
                   className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639] ${playfair.className}`}
                 >
                   {blogs?.title}
-                </h2>
+                </h1>
                 <Image
                   width={1000}
                   height={300}
