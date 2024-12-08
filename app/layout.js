@@ -29,7 +29,7 @@ const roboto = Roboto({
 //   },
 // };
 export const metadata = {
-  metadataBase: new URL("https://triplaw-milwaukee-legal-website.vercel.app"),
+  metadataBase: new URL("https://www.milwaukeelegalpros.com"),
 };
 
 export default function RootLayout({ children }) {
