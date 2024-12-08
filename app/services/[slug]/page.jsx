@@ -64,11 +64,6 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{servicesDetails?.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="" />
-      </Head>
       <style>{css}</style>
       <PageHeroSection subTitle={"Services"} title={servicesDetails?.title} />
       <SectionLayout>
