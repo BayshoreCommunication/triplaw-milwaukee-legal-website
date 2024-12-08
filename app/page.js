@@ -9,6 +9,22 @@ import ClientTestimonials from "@/components/home/ClientTestimonials";
 import RecentCases from "@/components/home/RecentCases";
 import RecentBlogs from "@/components/home/RecentBlogs";
 
+export const metadata = {
+  title:
+    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+  description:
+    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
+
 export default function Home() {
   return (
     <main className="w-full">

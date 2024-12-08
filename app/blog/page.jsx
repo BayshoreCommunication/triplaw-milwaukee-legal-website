@@ -7,7 +7,6 @@ import parse from "html-react-parser";
 import { Link } from "@nextui-org/react";
 import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
-import Head from "next/head";
 import { Playfair_Display } from "next/font/google";
 import PrimaryButton from "@/components/shared/PrimaryButton";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
@@ -19,6 +18,15 @@ export const metadata = {
     "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
   description:
     "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
 };
 
 const page = async () => {

@@ -12,21 +12,24 @@ const roboto = Roboto({
   weight: ["100", "300", "400", "700", "900"],
 });
 
+// export const metadata = {
+//   title:
+//     "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+//   description:
+//     "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+//   metadataBase: new URL("https://triplaw-milwaukee-legal-website.vercel.app/"),
+//   alternates: {
+//     canonical: "/",
+//     languages: {
+//       "en-US": "/en-USA",
+//     },
+//   },
+//   openGraph: {
+//     images: "/opengraph-image.jpg",
+//   },
+// };
 export const metadata = {
-  title:
-    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
-  description:
-    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
-  metadataBase: new URL("https://triplaw-milwaukee-legal-website.vercel.app/"),
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-US": "/en-USA",
-    },
-  },
-  openGraph: {
-    images: "/opengraph-image.jpg",
-  },
+  metadataBase: new URL("https://triplaw-milwaukee-legal-website.vercel.app"),
 };
 
 export default function RootLayout({ children }) {

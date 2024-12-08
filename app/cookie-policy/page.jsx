@@ -1,8 +1,22 @@
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import SectionLayout from "@/components/shared/SectionLayout";
-import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+
+export const metadata = {
+  title: "Cookie Policy - Attorney Hardam Tripathi, Esq.",
+  description:
+    "Learn about Trip-Law's commitment to your privacy, the use of cookies, comment policy, and legal notices in our detailed Legal Information section",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
 
 const page = () => {
   const css = `
@@ -42,14 +56,6 @@ const page = () => {
   return (
     <>
       <style>{css}</style>
-      <Head>
-        <title>Cookie Policy - Attorney Hardam Tripathi, Esq.</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`Learn about Trip-Law's commitment to your privacy, the use of cookies, comment policy, and legal notices in our detailed Legal Information section`}
-        />
-      </Head>
       {/* <HeroSection /> */}
       <PageHeroSection
         image={"/assets/about/about-us-hero-banner.png"}

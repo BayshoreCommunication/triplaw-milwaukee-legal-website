@@ -1,16 +1,24 @@
 import ContactSection from "@/components/contact-us/ContactSection";
 import GoogleMapSection from "@/components/contact-us/GoogleMapSection";
 import HeroSection from "@/components/contact-us/HeroSection";
-import Head from "next/head";
+
+export const metadata = {
+  title: "Contact Trip Law - Get Legal Assistance Today",
+  description: "",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
 
 const page = () => {
   return (
     <>
-      <Head>
-        <title>Contact Trip Law - Get Legal Assistance Today</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="" />
-      </Head>
       <HeroSection />
       <ContactSection />
     </>

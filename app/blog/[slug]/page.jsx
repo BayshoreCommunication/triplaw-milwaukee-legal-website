@@ -4,7 +4,6 @@ import parse from "html-react-parser";
 import SectionLayout from "@/components/shared/SectionLayout";
 import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
-import Head from "next/head";
 import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 
@@ -106,11 +105,6 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{blogDetails[0]?.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content={blogDetails[0]?.title} />
-      </Head>
       <style>{css}</style>
       <HeroSection />
       <SectionLayout bg="bg-white">

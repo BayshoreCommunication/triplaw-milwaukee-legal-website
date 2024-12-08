@@ -4,16 +4,9 @@ import { Link } from "@nextui-org/react";
 import SectionLayout from "@/components/shared/SectionLayout";
 import SideServicesCard from "@/components/services/SideServicesCard";
 import PageHeroSection from "@/components/shared/PageHeroSection";
-import CardMotion from "@/components/motion/CardMotion";
-import Head from "next/head";
 import { allServiceData } from "@/config/serviceData";
-import { IoIosArrowForward } from "react-icons/io";
-import Image from "next/image";
-import { FaPersonFalling } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Playfair_Display } from "next/font/google";
-import PrimaryButton from "@/components/shared/PrimaryButton";
-import { VscDebugBreakpointData } from "react-icons/vsc";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
