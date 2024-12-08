@@ -29,7 +29,7 @@ const WhoWeAre = () => {
               </div>
               <div className="w-[100%] md:w-[30%] flex text-center justify-center md:justify-end">
                 <Image
-                  src="/assets/about/image1.png"
+                  src="/assets/about/who-we-are.png"
                   alt="hardam tripathi"
                   width={1000}
                   height={1000}
@@ -42,7 +42,7 @@ const WhoWeAre = () => {
             <div className=" flex items-center flex-col md:flex-row justify-between">
               <div className="w-[100%] md:w-[30%] flex text-center justify-center md:justify-start">
                 <Image
-                  src="/assets/about/image1.png"
+                  src="/assets/about/our-mission-and-vision.png"
                   alt="hardam tripathi"
                   width={1000}
                   height={1000}
@@ -67,7 +67,6 @@ const WhoWeAre = () => {
           </ScrollMotionEffect>
         </SectionLayout>
       </div>
-      ;
     </div>
   );
 };

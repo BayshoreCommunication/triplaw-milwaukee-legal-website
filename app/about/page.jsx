@@ -4,8 +4,7 @@ import TestimonialSection from "@/components/about-us/TestimonialSection";
 import VideoSection from "@/components/about-us/VideoSection";
 import WhoWeAre from "@/components/about-us/WhoWeAre";
 import CallToAction from "@/components/shared/CallToAction";
-import Clients from "@/components/shared/Clients";
-import FAQ from "@/components/shared/FAQ";
+// import Clients from "@/components/shared/Clients";
 
 export const metadata = {
   title: "About Trip Law Immigration Law Firm - Who We Are",
@@ -28,7 +27,7 @@ const page = () => {
       <HeroSection />
       <AboutSection />
       <VideoSection />
-      <Clients />
+      {/* <Clients /> */}
       <WhoWeAre />
       <CallToAction />
     </>
