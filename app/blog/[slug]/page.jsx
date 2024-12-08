@@ -42,6 +42,20 @@ ul {
 
 `;
 
+function extractTextFromHtml(htmlString) {
+  // Use regex to strip HTML tags and extract plain text
+  const plainText = htmlString.replace(/<\/?[^>]+(>|$)/g, "");
+  return plainText;
+}
+
+function truncateText(text, wordLimit) {
+  const words = text.split(/\s+/);
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(" ") + "...";
+  }
+  return text;
+}
+
 export async function generateMetadata({ params }) {
   const blogPostData = await GetAllPostData();
 
@@ -56,28 +70,16 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  let description = parse(blogDetails?.body);
-  // console.log(
-  //   "Check",
-  //   description[0]?.props?.children
-  //     ? description[0]?.props?.children.props?.children[0]
-  //     : description[0]?.props?.children ||
-  //         description[0]?.props?.children.props?.children ||
-  //         description[0]?.props?.children[0].props?.children
-  // );
+  const rawDescription = blogDetails?.body || "";
+  const plainTextDescription = extractTextFromHtml(rawDescription);
+  const shortDescription = truncateText(plainTextDescription, 120);
+
   return {
     title: blogDetails?.title,
-    description: description[0]?.props?.children
-      ? description[0]?.props?.children.props?.children[0]
-      : description[0]?.props?.children ||
-        description[0]?.props?.children.props?.children ||
-        description[0]?.props?.children[0].props?.children,
+    description: shortDescription,
     openGraph: {
       title: blogDetails?.title,
-      description:
-        description[0]?.props?.children ||
-        description[0]?.props?.children.props?.children ||
-        description[0]?.props?.children[0].props?.children,
+      description: shortDescription,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
       type: "article",
