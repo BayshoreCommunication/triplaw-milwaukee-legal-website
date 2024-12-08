@@ -57,13 +57,21 @@ export async function generateMetadata({ params }) {
   }
 
   let description = parse(blogDetails?.body);
-  //console.log(description[0]?.props?.children);
+  // console.log(
+  //   "Check",
+  //   description[0]?.props?.children
+  //     ? description[0]?.props?.children.props?.children[0]
+  //     : description[0]?.props?.children ||
+  //         description[0]?.props?.children.props?.children ||
+  //         description[0]?.props?.children[0].props?.children
+  // );
   return {
     title: blogDetails?.title,
-    description:
-      description[0]?.props?.children ||
-      description[0]?.props?.children.props?.children ||
-      description[0]?.props?.children[0].props?.children,
+    description: description[0]?.props?.children
+      ? description[0]?.props?.children.props?.children[0]
+      : description[0]?.props?.children ||
+        description[0]?.props?.children.props?.children ||
+        description[0]?.props?.children[0].props?.children,
     openGraph: {
       title: blogDetails?.title,
       description:

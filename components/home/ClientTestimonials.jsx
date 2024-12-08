@@ -25,11 +25,11 @@ const ClientTestimonials = () => {
           </h2>
           <div className="mx-0 md:mx-16">
             <Swiper
+              modules={Pagination}
               pagination={{
                 dynamicBullets: true,
                 clickable: true,
               }}
-              modules={Pagination}
               className="flex"
               breakpoints={{
                 640: {
