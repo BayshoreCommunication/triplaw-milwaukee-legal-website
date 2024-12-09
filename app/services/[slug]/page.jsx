@@ -66,7 +66,7 @@ export async function generateMetadata({ params }) {
 
   // let description = servicesDetails[0];
   // console.log("====================================");
-  // console.log("Check Service Data", servicesDetails?.practiceAreasSidebarImage);
+  console.log("Check Service Data", servicesDetails?.practiceAreasSidebarImage);
   // console.log("====================================");
   return {
     title: servicesDetails?.title,
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }) {
       description: servicesDetails?.shortDesc,
       images: [
         {
-          url: `/image/${servicesDetails?.practiceAreasSidebarImage}`,
+          url: servicesDetails?.practiceAreasSidebarImage,
           width: 1200,
           height: 600,
           alt: "Og Image",
