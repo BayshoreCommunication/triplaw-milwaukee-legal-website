@@ -64,23 +64,25 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  let description = servicesDetails[0];
-
+  // let description = servicesDetails[0];
+  // console.log("====================================");
+  // console.log("Check Service Data", servicesDetails?.practiceAreasSidebarImage);
+  // console.log("====================================");
   return {
-    title: description?.title,
-    description: description?.shortDesc,
+    title: servicesDetails?.title,
+    description: servicesDetails?.shortDesc,
     openGraph: {
-      title: description?.topBarTitle,
-      description: description?.shortDesc,
+      title: servicesDetails?.title,
+      description: servicesDetails?.shortDesc,
       images: [
         {
-          url: `/image/${description?.practiceAreasSidebarImage}`,
+          url: `/image/${servicesDetails?.practiceAreasSidebarImage}`,
           width: 1200,
           height: 600,
           alt: "Og Image",
         },
       ],
-      url: `https://www.milwaukeelegalpros.com/${description?.slug}`,
+      url: `https://www.milwaukeelegalpros.com/${servicesDetails?.slug}`,
       type: "article",
       site_name: "Milwaukee Legal Pros",
     },
