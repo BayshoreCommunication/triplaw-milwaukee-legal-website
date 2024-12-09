@@ -44,6 +44,49 @@ nav{
 
 `;
 
+// generate metadata
+export async function generateMetadata({ params }) {
+  const servicesDetails =
+    allServiceData?.personal_injury_law?.find(
+      (service) => service.slug === params.slug
+    ) ||
+    allServiceData?.criminal_law?.find(
+      (service) => service.slug === params.slug
+    ) ||
+    allServiceData?.immigration?.find(
+      (service) => service.slug === params.slug
+    );
+
+  if (!servicesDetails) {
+    return {
+      title: "Service not found",
+      description: "No service post available.",
+    };
+  }
+
+  let description = servicesDetails[0];
+
+  return {
+    title: description?.title,
+    description: description?.shortDesc,
+    openGraph: {
+      title: description?.topBarTitle,
+      description: description?.shortDesc,
+      images: [
+        {
+          url: `/image/${description?.practiceAreasSidebarImage}`,
+          width: 1200,
+          height: 600,
+          alt: "Og Image",
+        },
+      ],
+      url: `https://www.milwaukeelegalpros.com/${description?.slug}`,
+      type: "article",
+      site_name: "Milwaukee Legal Pros",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const servicesDetails =
     allServiceData?.personal_injury_law?.find(
