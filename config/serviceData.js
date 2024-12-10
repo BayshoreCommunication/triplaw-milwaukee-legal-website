@@ -5731,7 +5731,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/waivers.jpg"
+                    src="/assets/services/immigration/waivers.jpg"
                     alt="waivers"
                     className="w-full  mb-10"
                   />
@@ -5859,7 +5859,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `   <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/e2-treaty-visas.jpg"
+                    src="/assets/services/immigration/e2-treaty-visas.jpg"
                     alt="e2-treaty-visas"
                     className="w-full  mb-10"
                   />
@@ -5988,7 +5988,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `     <div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/citizenship.jpg"
+                    src="/assets/services/immigration/citizenship.jpg"
                     alt="citizenship"
                     className="w-full  mb-10"
                   />
@@ -6249,7 +6249,7 @@ Contact us for a free consultation to get the right support based on your unique
       description: `<div className="col-span-2 flex flex-col gap-3 md:gap-6 lg:gap-8">
                 <div>
                   <img
-                    src="/assets/services/green-card.jpg"
+                    src="/assets/services/immigration/green-card.jpg"
                     alt="green-card"
                     className="w-full  mb-10"
                   />
