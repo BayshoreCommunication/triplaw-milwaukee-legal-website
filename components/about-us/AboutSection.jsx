@@ -17,7 +17,7 @@ const AboutSection = () => {
   return (
     <div className="mt-5">
       <SectionLayout>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-x-10 gap-y-5">
           <ScrollMotionEffect effect="fade-right" duration="2000">
             <div className="flex-1">
               <Image

@@ -26,7 +26,7 @@ const page = () => {
     <>
       <HeroSection />
       <AboutSection />
-      <VideoSection />
+      {/* <VideoSection /> */}
       {/* <Clients /> */}
       <WhoWeAre />
       <CallToAction />
