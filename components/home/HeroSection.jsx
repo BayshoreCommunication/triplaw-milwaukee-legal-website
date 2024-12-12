@@ -50,11 +50,11 @@ const HeroSection = () => {
           exit={{ opacity: 0, transition: { duration: 1 } }}
           variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
         >
-          <div className="container ">
-            <div className="grid items-center grid-cols-1 md:grid-cols-3 pt-200px">
+          <div className="container h-full">
+            <div className="grid items-center grid-cols-1 md:grid-cols-3 pt-200px h-full">
               <div className="col-span-2 mt-32">
                 <h1
-                  className={`text-[50px] md:text-[90px] font-[800] text-white text-center md:text-left leading-tight tracking-normal ${playfair.className}`}
+                  className={`text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] 2xl:text-[90px] font-[800] text-white text-center md:text-left leading-tight tracking-normal ${playfair.className}`}
                 >
                   {text.map((word, index) => (
                     <motion.span
@@ -96,15 +96,17 @@ const HeroSection = () => {
                   </Link>
                 </motion.div>
               </div>
-              <div className="relative mb-[-55%] md:block hidden">
-                <Image
-                  src="/assets/home/tripathi.png"
-                  alt="about-image"
-                  className=""
-                  rel="preload"
-                  height={400}
-                  width={1600}
-                />
+              <div className="relative md:block h-full hidden">
+                <div className="absolute bottom-0">
+                  <Image
+                    src="/assets/home/tripathi.png"
+                    alt="about-image"
+                    className=""
+                    rel="preload"
+                    height={400}
+                    width={1600}
+                  />
+                </div>
               </div>
             </div>
           </div>
