@@ -15,9 +15,9 @@ const playfair = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+    " Top Rated Wisconsin Immigration Lawyers - Expert Insights, Tips, and Legal Updates",
   description:
-    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+    "Explore in-depth insights, expert advice, and the latest updates from top-rated Wisconsin immigration lawyers. The Milwaukee Legal Pros blog covers key topics in immigration law, helping you stay informed and prepared for your legal journey. Whether you're seeking citizenship guidance or navigating complex immigration processes, our attorneys provide valuable resources tailored to your needs.",
   alternates: {
     canonical: "/",
     languages: {

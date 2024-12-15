@@ -7,9 +7,10 @@ import CallToAction from "@/components/shared/CallToAction";
 // import Clients from "@/components/shared/Clients";
 
 export const metadata = {
-  title: "About Trip Law Immigration Law Firm - Who We Are",
+  title:
+    "Best Immigration Lawyer for Citizenship | Personal Injury & Criminal Defense in Milwaukee",
   description:
-    "Learn about TripLaw's experienced immigration attorneys, dedication to client success, and commitment to excellence.",
+    "Learn about Milwaukee Legal Pros, your trusted partner for legal expertise. From the best immigration lawyer for citizenship to personal injury and criminal defense, we deliver exceptional results.",
   alternates: {
     canonical: "/",
     languages: {

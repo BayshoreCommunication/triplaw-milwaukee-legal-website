@@ -11,9 +11,9 @@ import RecentBlogs from "@/components/home/RecentBlogs";
 
 export const metadata = {
   title:
-    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+    "Top-Rated Criminal Defense, Immigration, and Personal Injury Lawyers in Milwaukee",
   description:
-    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+    "Milwaukee Legal Pros specializes in Criminal Defense, Immigration, and Personal Injury cases. Trust our experienced attorneys to protect your rights and provide the representation you deserve. Contact us today for a consultation!",
   alternates: {
     canonical: "/",
     languages: {

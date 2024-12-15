@@ -7,9 +7,10 @@ import { servicesData } from "@/config/data";
 import Link from "next/link";
 
 export const metadata = {
-  title: "What Immigration Services Does TripLaw Offer",
+  title:
+    "Personal Injury & Criminal Defense Attorneys | Immigration Law Experts in Milwaukee",
   description:
-    "Explore TripLaw's comprehensive immigration services, including visas, green cards, citizenship, and more. Find the right solution for your situation.",
+    "Explore Milwaukee Legal Pros' expert legal services, including Criminal Defense, Immigration, and Personal Injury. Our skilled attorneys are committed to achieving the best outcomes for your case. Learn more about our services today!",
   alternates: {
     canonical: "/",
     languages: {
