@@ -4,7 +4,6 @@ import TestimonialSection from "@/components/about-us/TestimonialSection";
 import VideoSection from "@/components/about-us/VideoSection";
 import WhoWeAre from "@/components/about-us/WhoWeAre";
 import CallToAction from "@/components/shared/CallToAction";
-// import Clients from "@/components/shared/Clients";
 
 export const metadata = {
   title:
