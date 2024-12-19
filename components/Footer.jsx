@@ -247,7 +247,7 @@ const Footer = () => {
               . All Rights Reserved.
             </div>
             <div className="text-[18px] font-medium text-center text-primary flex gap-3 justify-center  xl:gap-5">
-              <p>Mon-Fri: 7:00 am – 7:00pm</p> <p>Sat-Sun: 24/7</p>
+              <p>Mon-Fri: 7:00 am – 7:00pm & Sat-Sun: 24/7</p>
             </div>
             <div className="text-[18px] font-medium text-center text-black">
               Design & Developed by{" "}
