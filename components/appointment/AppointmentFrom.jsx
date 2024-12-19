@@ -200,11 +200,19 @@ const AppointmentFrom = () => {
                 />
                 <span className="text-orange-600">{formErrors.message}</span>
               </div>
-
+              {/* <Link
+                className="flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg bg-primary hover:bg-yellow-500 md:text-lg md:px-8 me-3 md:me-6 w-[180px] md:w-[240px]"
+                href="/appointment"
+              >
+                Free Consultation{" "}
+                <span>
+                  <FaArrowRightLong className="ml-2 text-white size-5" />
+                </span>
+              </Link> */}
               {loading ? (
                 <Button
                   isLoading
-                  className="text-white bg-[#1B2639] text-xl w-full px-5 py-3 text-center"
+                  className="flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg bg-primary hover:bg-yellow-500 md:text-lg md:px-8 w-full"
                   radius="sm"
                   size="lg"
                 >
@@ -212,7 +220,7 @@ const AppointmentFrom = () => {
                 </Button>
               ) : (
                 <Button
-                  className="text-white bg-[#1B2639] text-xl w-full px-5 py-3 text-center"
+                  className="flex items-center justify-center px-2 py-3 mb-2 text-sm font-medium text-white rounded-lg bg-primary hover:bg-yellow-500 md:text-lg md:px-8 w-full"
                   radius="sm"
                   size="lg"
                   onClick={handleSubmit}

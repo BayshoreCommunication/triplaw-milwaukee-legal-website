@@ -4,9 +4,6 @@ import ServicesSection from "@/components/home/ServicesSection";
 import FAQ from "@/components/shared/FAQ";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import CallToAction from "@/components/shared/CallToAction";
-import Clients from "@/components/shared/Clients";
-import ClientTestimonials from "@/components/home/ClientTestimonials";
-import RecentCases from "@/components/home/RecentCases";
 import RecentBlogs from "@/components/home/RecentBlogs";
 
 export const metadata = {
