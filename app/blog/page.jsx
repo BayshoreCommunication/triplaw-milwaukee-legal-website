@@ -43,14 +43,6 @@ const page = async () => {
 
   return (
     <>
-      {/* <Head>
-        <title>Trip Law Blog - Insights and Updates on Immigration Law</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`Stay informed on the latest immigration news, legal updates, and valuable resources with TripLaw's immigration blog`}
-        />
-      </Head> */}
       <HeroSection />
       <SectionLayout bg="bg-white">
         <CardMotion
