@@ -2,6 +2,22 @@ import SectionLayout from "@/components/shared/SectionLayout";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title:
+    "DUI lawyer Milwaukee | DUI Defense Lawyer Wisconsin | Best DUI Attorney in Wisconsin | Milwaukee legal pros",
+  description:
+    "Top DUI Lawyer in Milwaukee | Expert DUI Defense Lawyer in Wisconsin | Secure the representation of the Best DUI Attorney in Wisconsin with Milwaukee Legal Pros. Protect your rights and navigate DUI charges with confidence",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
+
 const css = `
   h2{
     padding-top: 10px;

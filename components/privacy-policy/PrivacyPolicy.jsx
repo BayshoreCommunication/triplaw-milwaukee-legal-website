@@ -2,6 +2,21 @@ import React from "react";
 import SectionLayout from "../shared/SectionLayout";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Wisconsin Traffic Tickets Lawyers | Wisconsin Traffic Violation Attorney Lawyer | Traffic Ticket Defense - Milwaukee legal pros",
+  description:
+    "Top DUI Lawyer in Milwaukee | Expert DUI Defense Lawyer in Wisconsin | Secure the representation of the Best DUI Attorney in Wisconsin with Milwaukee Legal Pros. Protect your rights and navigate DUI charges with confidence.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
 const css = `
   h2{
     padding-top: 10px;

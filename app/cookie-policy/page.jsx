@@ -4,9 +4,10 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Cookie Policy - Attorney Hardam Tripathi, Esq.",
+  title:
+    "Criminal justice attorney in Wisconsin | Personal Injury Lawyer in  Brookfield, Wisconsin  | Milwaukee Legal Pros| top criminal defense attorneys in wisconsin",
   description:
-    "Learn about Trip-Law's commitment to your privacy, the use of cookies, comment policy, and legal notices in our detailed Legal Information section",
+    "Contact Milwaukee Legal Pros – Your trusted team of immigration, criminal defense, and personal injury lawyers in Milwaukee. Work with top criminal defense attorneys in Wisconsin and find an affordable criminal defense attorney in Milwaukee for expert legal representation tailored to your needs. Milwaukee legal pros",
   alternates: {
     canonical: "/",
     languages: {

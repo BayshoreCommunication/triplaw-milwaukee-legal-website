@@ -8,16 +8,15 @@ import { Link } from "@nextui-org/react";
 import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
 import { Playfair_Display } from "next/font/google";
-import PrimaryButton from "@/components/shared/PrimaryButton";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    " Top Rated Wisconsin Immigration Lawyers - Expert Insights, Tips, and Legal Updates",
+    " Best criminal defense attorney in milwaukee | criminal defense lawyers in wisconsin |  Milwaukee Legal Pros",
   description:
-    "Explore in-depth insights, expert advice, and the latest updates from top-rated Wisconsin immigration lawyers. The Milwaukee Legal Pros blog covers key topics in immigration law, helping you stay informed and prepared for your legal journey. Whether you're seeking citizenship guidance or navigating complex immigration processes, our attorneys provide valuable resources tailored to your needs.",
+    "Looking for the best criminal defense attorney in Milwaukee? Trust Milwaukee Legal Pros, your expert criminal defense lawyers in Wisconsin, providing top-tier legal representation and personalized defense strategies.",
   alternates: {
     canonical: "/",
     languages: {

@@ -8,9 +8,9 @@ import RecentBlogs from "@/components/home/RecentBlogs";
 
 export const metadata = {
   title:
-    "Top-Rated Criminal Defense, Immigration, and Personal Injury Lawyers in Milwaukee",
+    "Criminal justice attorney in Wisconsin | Personal Injury Lawyer in  Brookfield, Wisconsin  | Milwaukee Legal Pros top criminal defense attorneys in wisconsin",
   description:
-    "Milwaukee Legal Pros specializes in Criminal Defense, Immigration, and Personal Injury cases. Trust our experienced attorneys to protect your rights and provide the representation you deserve. Contact us today for a consultation!",
+    " Milwaukee Legal Pros: Your trusted Criminal Justice Attorney in Wisconsin and Personal Injury Lawyer in Brookfield, Wisconsin. With a reputation as one of the top criminal defense attorneys in Wisconsin, we provide expert legal representation to protect your rights and secure your future. Milwaukee Legal Pros",
   alternates: {
     canonical: "/",
     languages: {

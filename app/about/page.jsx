@@ -7,9 +7,9 @@ import CallToAction from "@/components/shared/CallToAction";
 
 export const metadata = {
   title:
-    "Best Immigration Lawyer for Citizenship | Personal Injury & Criminal Defense in Milwaukee",
+    "Best Immigration Lawyer for Citizenship | Personal Injury & Criminal Defense in Milwaukee | Milwaukee Legal Pros",
   description:
-    "Learn about Milwaukee Legal Pros, your trusted partner for legal expertise. From the best immigration lawyer for citizenship to personal injury and criminal defense, we deliver exceptional results.",
+    " Milwaukee Legal Pros: Your trusted legal team for Personal Injury, Criminal Defense, and Immigration Law in Milwaukee. Work with the best immigration lawyer for citizenship to navigate your path to success.",
   alternates: {
     canonical: "/",
     languages: {

@@ -4,9 +4,9 @@ import HeroSection from "@/components/appointment/HeroSection";
 
 export const metadata = {
   title:
-    "Consult the Best Immigration Lawyer for USA | Reputable Immigration Law Experts ",
+    "Criminal justice attorney in Wisconsin | Consult the Best Immigration Lawyer for USA | Reputable Immigration Law Experts  ",
   description:
-    "Secure expert legal help with Milwaukee Legal Pros. Schedule your appointment with reputable immigration lawyers focused on U.S. citizenship and visa solutions.",
+    "Trusted criminal justice attorneys in Wisconsin, specializing in personal injury, criminal defense, and immigration law. Consult the best immigration lawyer for the USA and work with reputable experts for your legal needs.",
   alternates: {
     canonical: "/",
     languages: {

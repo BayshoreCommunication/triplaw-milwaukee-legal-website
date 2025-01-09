@@ -3,14 +3,12 @@ import ServiceCard from "@/components/services/ServiceCard";
 import ServiceTabSection from "@/components/services/ServiceTabSection";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import SectionLayout from "@/components/shared/SectionLayout";
-import { servicesData } from "@/config/data";
-import Link from "next/link";
 
 export const metadata = {
   title:
-    "Personal Injury & Criminal Defense Attorneys | Immigration Law Experts in Milwaukee",
+    "Personal Injury & Criminal Defense Attorneys | Immigration Law Experts in Milwaukee |best immigration lawyer milwaukee | Milwaukee Legal Pros",
   description:
-    "Explore Milwaukee Legal Pros' expert legal services, including Criminal Defense, Immigration, and Personal Injury. Our skilled attorneys are committed to achieving the best outcomes for your case. Learn more about our services today!",
+    "Milwaukee Legal Pros: Dedicated Personal Injury & Criminal Defense Attorneys and Immigration Law Experts in Milwaukee. Trust the best immigration lawyer in Milwaukee for expert guidance and personalized legal solutions tailored to your needs.",
   alternates: {
     canonical: "/",
     languages: {

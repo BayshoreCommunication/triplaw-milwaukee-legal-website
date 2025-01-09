@@ -4,9 +4,9 @@ import HeroSection from "@/components/contact-us/HeroSection";
 
 export const metadata = {
   title:
-    "Contact the Best Immigration, Criminal Defense & Personal Injury Lawyers in Milwaukee",
+    "Contact the Best Immigration, Criminal Defense & Personal Injury Lawyers in Milwaukee | top criminal defense attorneys in wisconsin | affordable criminal defense attorney milwaukee | Milwaukee Legal Pros",
   description:
-    "Get in touch with the trusted team at Milwaukee Legal Pros for expert legal assistance in immigration, criminal defense, and personal injury cases. Schedule a consultation today to discuss your legal needs with our experienced attorneys who are committed to providing personalized legal support in Milwaukee, Wisconsin.",
+    "Contact Milwaukee Legal Pros – Your trusted team of immigration, criminal defense, and personal injury lawyers in Milwaukee. Work with top criminal defense attorneys in Wisconsin and find an affordable criminal defense attorney in Milwaukee for expert legal representation tailored to your needs. Milwaukee legal pros",
   alternates: {
     canonical: "/",
     languages: {

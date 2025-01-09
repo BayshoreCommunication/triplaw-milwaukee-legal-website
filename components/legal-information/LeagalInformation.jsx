@@ -1,6 +1,22 @@
 import Link from "next/link";
 import SectionLayout from "../shared/SectionLayout";
 
+export const metadata = {
+  title:
+    "Immigration lawyer near me | Best personal injury lawyers in Milwaukee | Milwaukee Personal Injury Lawyers | Milwaukee Legal pros",
+  description:
+    "Find the Best Legal Support with an Immigration Lawyer Near Me | Top Personal Injury Lawyers in Milwaukee | Trusted Milwaukee Personal Injury Lawyers. Milwaukee Legal Pros delivers expert representation for your immigration and personal injury cases. ",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
+
 const css = `
   h1{
     font-size: 40px;
