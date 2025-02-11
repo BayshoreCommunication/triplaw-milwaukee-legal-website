@@ -20,7 +20,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "res.cloudinary.com",
         port: "",
-      },
+      },{
+        protocol: 'https',
+        hostname: 'bayshore.nyc3.digitaloceanspaces.com',
+        // hostname: "**",
+      },  
     ],
   },
   skipTrailingSlashRedirect: true,
