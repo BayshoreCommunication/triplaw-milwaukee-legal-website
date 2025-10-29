@@ -1,5 +1,6 @@
 const nextConfig = {
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -19,6 +20,16 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "bayshore.nyc3.digitaloceanspaces.com",
+        // hostname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "bayshore.nyc3.cdn.digitaloceanspaces.com",
         port: "",
       },
     ],
