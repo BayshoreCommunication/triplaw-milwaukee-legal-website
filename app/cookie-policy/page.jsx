@@ -1,8 +1,23 @@
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import SectionLayout from "@/components/shared/SectionLayout";
-import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+
+export const metadata = {
+  title:
+    "Criminal justice attorney in Wisconsin | Personal Injury Lawyer in  Brookfield, Wisconsin  | Milwaukee Legal Pros| top criminal defense attorneys in wisconsin",
+  description:
+    "Contact Milwaukee Legal Pros – Your trusted team of immigration, criminal defense, and personal injury lawyers in Milwaukee. Work with top criminal defense attorneys in Wisconsin and find an affordable criminal defense attorney in Milwaukee for expert legal representation tailored to your needs. Milwaukee legal pros",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
 
 const page = () => {
   const css = `
@@ -42,14 +57,6 @@ const page = () => {
   return (
     <>
       <style>{css}</style>
-      <Head>
-        <title>Cookie Policy - Attorney Hardam Tripathi, Esq.</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`Learn about Trip-Law's commitment to your privacy, the use of cookies, comment policy, and legal notices in our detailed Legal Information section`}
-        />
-      </Head>
       {/* <HeroSection /> */}
       <PageHeroSection
         image={"/assets/about/about-us-hero-banner.png"}
@@ -58,9 +65,9 @@ const page = () => {
       <SectionLayout>
         <div className="text-center md:text-left">
           <div className="text-center">
-            <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
+            <h2 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
               Cookie Policy
-            </h1>
+            </h2>
           </div>
 
           <div className="flex flex-col gap-4 lg:gap-5">

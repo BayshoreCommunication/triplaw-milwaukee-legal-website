@@ -2,6 +2,22 @@ import React from "react";
 import SectionLayout from "../shared/SectionLayout";
 import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Best Milwaukee, WI Traffic Violations Attorneys | Milwaukee Immigration Lawyers | Best Milwaukee Legal Pros, WI Immigration Attorneys ",
+  description:
+    "Best Milwaukee, WI Traffic Violations Attorneys | Trusted Milwaukee Immigration Lawyers | Top-Rated Milwaukee, WI Immigration Attorneys. Milwaukee Legal Pros offers exceptional legal services in traffic violations, immigration law, and more, ensuring your rights are protected.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
+
 const css = `
   h1{
     font-size: 40px;
@@ -44,9 +60,9 @@ const TermsOfService = () => {
       <SectionLayout>
         <div className="text-center md:text-left">
           <div className="text-center mb-4 md:mb-5">
-            <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
+            <h2 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
               Terms Of Service
-            </h1>
+            </h2>
           </div>
 
           <div className="flex flex-col gap-4 lg:gap-5">

@@ -12,8 +12,8 @@ const WhoWeAre = () => {
       <div className="bg-[#F6F6F6]">
         <SectionLayout>
           <ScrollMotionEffect effect="fade-up" duration="2000">
-            <div className="flex items-center md:flex-row flex-col-reverse justify-between md:mb-16 mb-6">
-              <div className="w-[100%] md:w-[70%]">
+            <div className="flex items-center md:flex-row flex-col-reverse justify-between md:mb-16 mb-6 gap-x-10 gap-y-5">
+              <div className="w-[100%] md:max-w-[70%]">
                 <h2
                   className={`text-stone-950 font-bold text-3xl md:text-4xl mt-5 mb-6 text-center md:text-left ${playfair.className}`}
                 >
@@ -27,29 +27,29 @@ const WhoWeAre = () => {
                   {`When it comes to criminal defense, Hardam fights not just to win cases but to restore dignity. He defends his clients with a steadfast resolve, knowing that justice is more than a verdict—it’s the preservation of hope. And in personal injury cases, he stands beside those hurt by the carelessness of others, working to ensure they find both compensation and closure.`}
                 </p>
               </div>
-              <div className="w-[100%] md:w-[30%] flex text-center justify-center md:justify-end">
+              <div className="w-[100%] md:w-[30%] flex text-center justify-center md:justify-end shrink-0">
                 <Image
-                  src="/assets/about/image1.png"
+                  src="/assets/about/who-we-are.png"
                   alt="hardam tripathi"
                   width={1000}
                   height={1000}
-                  className="size-[300px] md:size-[400px]"
+                  // className="size-[300px] md:size-[400px]"
                 />
               </div>
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration="2000">
-            <div className=" flex items-center flex-col md:flex-row justify-between">
+            <div className=" flex items-center flex-col md:flex-row justify-between  gap-x-10 gap-y-5">
               <div className="w-[100%] md:w-[30%] flex text-center justify-center md:justify-start">
                 <Image
-                  src="/assets/about/image1.png"
+                  src="/assets/about/our-mission-and-vision.png"
                   alt="hardam tripathi"
                   width={1000}
                   height={1000}
-                  className="size-[300px] md:size-[400px]"
+                  // className="size-[300px] md:size-[400px]"
                 />
               </div>
-              <div className="w-[100%] md:w-[70%]">
+              <div className="w-[100%] md:max-w-[70%] shrink-0">
                 <h2
                   className={`text-stone-950 font-bold text-3xl md:text-4xl mt-5 mb-6 text-center md:text-left ${playfair.className}`}
                 >
@@ -67,7 +67,6 @@ const WhoWeAre = () => {
           </ScrollMotionEffect>
         </SectionLayout>
       </div>
-      ;
     </div>
   );
 };

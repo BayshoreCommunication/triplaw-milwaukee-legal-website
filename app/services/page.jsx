@@ -3,21 +3,25 @@ import ServiceCard from "@/components/services/ServiceCard";
 import ServiceTabSection from "@/components/services/ServiceTabSection";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import SectionLayout from "@/components/shared/SectionLayout";
-import { servicesData } from "@/config/data";
-import Head from "next/head";
-import Link from "next/link";
 
+export const metadata = {
+  title:
+    "Personal Injury & Criminal Defense Attorneys | Immigration Law Experts in Milwaukee |best immigration lawyer milwaukee | Milwaukee Legal Pros",
+  description:
+    "Milwaukee Legal Pros: Dedicated Personal Injury & Criminal Defense Attorneys and Immigration Law Experts in Milwaukee. Trust the best immigration lawyer in Milwaukee for expert guidance and personalized legal solutions tailored to your needs.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
 const page = () => {
   return (
     <div>
-      <Head>
-        <title>What Immigration Services Does TripLaw Offer</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`Explore TripLaw's comprehensive immigration services, including visas, green cards, citizenship, and more. Find the right solution for your situation.`}
-        />
-      </Head>
       <PageHeroSection subTitle={"Services"} title={"Services"} />
       <SectionLayout bg="bg-white">
         <ServiceTabSection />

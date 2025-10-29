@@ -5,20 +5,27 @@ import GetAllPostData from "@/lib/GetAllPostData";
 import SectionLayout from "@/components/shared/SectionLayout";
 import parse from "html-react-parser";
 import { Link } from "@nextui-org/react";
-import HeroSection from "@/components/blog/HeroSection";
+import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
-import Head from "next/head";
 import { Playfair_Display } from "next/font/google";
-import PrimaryButton from "@/components/shared/PrimaryButton";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "Florida Immigration Lawyer Firm || USA Immigration Attorney Hardam Tripathi, Esq.",
+    " Best criminal defense attorney in milwaukee | criminal defense lawyers in wisconsin |  Milwaukee Legal Pros",
   description:
-    "Florida Immigration Law Services Call our local Immigration office for your Green Card, Naturalization or Investor Visa.",
+    "Looking for the best criminal defense attorney in Milwaukee? Trust Milwaukee Legal Pros, your expert criminal defense lawyers in Wisconsin, providing top-tier legal representation and personalized defense strategies.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
 };
 
 const page = async () => {
@@ -35,14 +42,6 @@ const page = async () => {
 
   return (
     <>
-      {/* <Head>
-        <title>Trip Law Blog - Insights and Updates on Immigration Law</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`Stay informed on the latest immigration news, legal updates, and valuable resources with TripLaw's immigration blog`}
-        />
-      </Head> */}
       <HeroSection />
       <SectionLayout bg="bg-white">
         <CardMotion
@@ -58,11 +57,11 @@ const page = async () => {
             y: 100,
           }}
         >
-          <h2
+          <h1
             className={`text-stone-950 font-bold text-3xl md:text-5xl text-center mb-10 md:mb-16 ${playfair.className}`}
           >
             Insights and Advice Legal Blog
-          </h2>
+          </h1>
 
           <div className="grid items-stretch justify-between grid-cols-1 md:grid-cols-3 gap-6">
             {blogPostData?.data

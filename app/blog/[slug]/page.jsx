@@ -2,9 +2,8 @@ import Image from "next/image";
 import GetAllPostData from "@/lib/GetAllPostData";
 import parse from "html-react-parser";
 import SectionLayout from "@/components/shared/SectionLayout";
-import HeroSection from "@/components/blog/HeroSection";
+import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
-import Head from "next/head";
 import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 
@@ -42,6 +41,20 @@ ul {
 
 `;
 
+function extractTextFromHtml(htmlString) {
+  // Use regex to strip HTML tags and extract plain text
+  const plainText = htmlString.replace(/<\/?[^>]+(>|$)/g, "");
+  return plainText;
+}
+
+function truncateText(text, wordLimit) {
+  const words = text.split(/\s+/);
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(" ") + "...";
+  }
+  return text;
+}
+
 export async function generateMetadata({ params }) {
   const blogPostData = await GetAllPostData();
 
@@ -56,20 +69,16 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  let description = parse(blogDetails?.body);
-  //console.log(description[0]?.props?.children);
+  const rawDescription = blogDetails?.body || "";
+  const plainTextDescription = extractTextFromHtml(rawDescription);
+  const shortDescription = truncateText(plainTextDescription, 120);
+
   return {
     title: blogDetails?.title,
-    description:
-      description[0]?.props?.children ||
-      description[0]?.props?.children.props?.children ||
-      description[0]?.props?.children[0].props?.children,
+    description: shortDescription,
     openGraph: {
       title: blogDetails?.title,
-      description:
-        description[0]?.props?.children ||
-        description[0]?.props?.children.props?.children ||
-        description[0]?.props?.children[0].props?.children,
+      description: shortDescription,
       images: blogDetails?.featuredImage?.image?.url,
       url: `https://www.milwaukeelegalpros.com/blog/${blogDetails?.slug}`,
       type: "article",
@@ -96,11 +105,6 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{blogDetails[0]?.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content={blogDetails[0]?.title} />
-      </Head>
       <style>{css}</style>
       <HeroSection />
       <SectionLayout bg="bg-white">
@@ -128,11 +132,11 @@ const page = async ({ params }) => {
                     {postDate(blogs?.createdAt)}
                   </p>
                 </div>
-                <h2
+                <h1
                   className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639] ${playfair.className}`}
                 >
                   {blogs?.title}
-                </h2>
+                </h1>
                 <Image
                   width={1000}
                   height={300}

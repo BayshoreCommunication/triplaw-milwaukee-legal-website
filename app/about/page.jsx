@@ -4,25 +4,30 @@ import TestimonialSection from "@/components/about-us/TestimonialSection";
 import VideoSection from "@/components/about-us/VideoSection";
 import WhoWeAre from "@/components/about-us/WhoWeAre";
 import CallToAction from "@/components/shared/CallToAction";
-import Clients from "@/components/shared/Clients";
-import FAQ from "@/components/shared/FAQ";
-import Head from "next/head";
+
+export const metadata = {
+  title:
+    "Best Immigration Lawyer for Citizenship | Personal Injury & Criminal Defense in Milwaukee | Milwaukee Legal Pros",
+  description:
+    " Milwaukee Legal Pros: Your trusted legal team for Personal Injury, Criminal Defense, and Immigration Law in Milwaukee. Work with the best immigration lawyer for citizenship to navigate your path to success.",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
 
 const page = () => {
   return (
     <>
-      <Head>
-        <title>About Trip Law Immigration Law Firm - Who We Are</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content={`Learn about TripLaw's experienced immigration attorneys, dedication to client success, and commitment to excellence.`}
-        />
-      </Head>
       <HeroSection />
       <AboutSection />
-      <VideoSection />
-      <Clients />
+      {/* <VideoSection /> */}
+      {/* <Clients /> */}
       <WhoWeAre />
       <CallToAction />
     </>

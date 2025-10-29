@@ -7,7 +7,7 @@ import { Playfair_Display } from "next/font/google";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
-const PageHeroSection = ({ title, subTitle }) => {
+const BlogHeroSection = ({ title, subTitle }) => {
   return (
     <>
       <div className="relative w-full bg-black bg-opacity-85">
@@ -36,11 +36,11 @@ const PageHeroSection = ({ title, subTitle }) => {
         >
           <SectionLayout>
             <div className="relative z-10 gap-10 py-20 mt-[50px]">
-              <h1
+              <h2
                 className={`text-white font-bold text-5xl text-center mb-6 ${playfair.className}`}
               >
-                {title}
-              </h1>
+                Blogs
+              </h2>
 
               <nav
                 className="flex items-center justify-center mt-8 md:mt-1"
@@ -74,7 +74,7 @@ const PageHeroSection = ({ title, subTitle }) => {
                       </svg>
 
                       <span className="text-lg font-medium text-primary ms-1 md:ms-2">
-                        {subTitle}
+                        Blogs
                       </span>
                     </div>
                   </li>
@@ -88,4 +88,4 @@ const PageHeroSection = ({ title, subTitle }) => {
   );
 };
 
-export default PageHeroSection;
+export default BlogHeroSection;

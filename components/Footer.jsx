@@ -240,14 +240,14 @@ const Footer = () => {
           <hr className="my-6 border-black sm:mx-auto lg:my-8" />
           <div className="md:flex :items-center sm:justify-between">
             <div className="text-[18px] font-medium text-center text-black">
-              © 2024{" "}
+              <span>© {new Date().getFullYear()}</span>{" "}
               <a href="/" className="hover:underline text-primary">
                 Milwaukee Legal Pros
               </a>
               . All Rights Reserved.
             </div>
-            <div className="text-[18px] font-medium text-center text-primary">
-              <p>Mon-Fri: 7:00 am – 7:00pm</p>
+            <div className="text-[18px] font-medium text-center text-primary flex gap-3 justify-center  xl:gap-5">
+              <p>Mon-Fri: 7:00 am – 7:00pm & Sat-Sun: 24/7</p>
             </div>
             <div className="text-[18px] font-medium text-center text-black">
               Design & Developed by{" "}

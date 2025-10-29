@@ -4,16 +4,9 @@ import { Link } from "@nextui-org/react";
 import SectionLayout from "@/components/shared/SectionLayout";
 import SideServicesCard from "@/components/services/SideServicesCard";
 import PageHeroSection from "@/components/shared/PageHeroSection";
-import CardMotion from "@/components/motion/CardMotion";
-import Head from "next/head";
 import { allServiceData } from "@/config/serviceData";
-import { IoIosArrowForward } from "react-icons/io";
-import Image from "next/image";
-import { FaPersonFalling } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Playfair_Display } from "next/font/google";
-import PrimaryButton from "@/components/shared/PrimaryButton";
-import { VscDebugBreakpointData } from "react-icons/vsc";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -51,6 +44,51 @@ nav{
 
 `;
 
+// generate metadata
+export async function generateMetadata({ params }) {
+  const servicesDetails =
+    allServiceData?.personal_injury_law?.find(
+      (service) => service.slug === params.slug
+    ) ||
+    allServiceData?.criminal_law?.find(
+      (service) => service.slug === params.slug
+    ) ||
+    allServiceData?.immigration?.find(
+      (service) => service.slug === params.slug
+    );
+
+  if (!servicesDetails) {
+    return {
+      title: "Service not found",
+      description: "No service post available.",
+    };
+  }
+
+  // let description = servicesDetails[0];
+  // console.log("====================================");
+  console.log("Check Service Data", servicesDetails?.practiceAreasSidebarImage);
+  // console.log("====================================");
+  return {
+    title: servicesDetails?.title,
+    description: servicesDetails?.shortDesc,
+    openGraph: {
+      title: servicesDetails?.title,
+      description: servicesDetails?.shortDesc,
+      images: [
+        {
+          url: servicesDetails?.practiceAreasSidebarImage,
+          width: 1200,
+          height: 600,
+          alt: "Og Image",
+        },
+      ],
+      url: `https://www.milwaukeelegalpros.com/${servicesDetails?.slug}`,
+      type: "article",
+      site_name: "Milwaukee Legal Pros",
+    },
+  };
+}
+
 const page = async ({ params }) => {
   const servicesDetails =
     allServiceData?.personal_injury_law?.find(
@@ -71,11 +109,6 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{servicesDetails?.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="" />
-      </Head>
       <style>{css}</style>
       <PageHeroSection subTitle={"Services"} title={servicesDetails?.title} />
       <SectionLayout>

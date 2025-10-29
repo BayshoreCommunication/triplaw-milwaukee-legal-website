@@ -1,6 +1,22 @@
 import Link from "next/link";
 import SectionLayout from "../shared/SectionLayout";
 
+export const metadata = {
+  title:
+    "Immigration lawyer near me | Best personal injury lawyers in Milwaukee | Milwaukee Personal Injury Lawyers | Milwaukee Legal pros",
+  description:
+    "Find the Best Legal Support with an Immigration Lawyer Near Me | Top Personal Injury Lawyers in Milwaukee | Trusted Milwaukee Personal Injury Lawyers. Milwaukee Legal Pros delivers expert representation for your immigration and personal injury cases. ",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
+
 const css = `
   h1{
     font-size: 40px;
@@ -43,9 +59,9 @@ const LegalInformation = () => {
       <SectionLayout>
         <div className="text-center md:text-left">
           <div className="text-center mb-4 md:mb-5">
-            <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal">
+            <h2 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal">
               Legal Information
-            </h1>
+            </h2>
           </div>
 
           <div>

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Playfair_Display } from "next/font/google";
 import { servicesData } from "@/config/data";
@@ -9,11 +9,13 @@ import CardMotion from "../motion/CardMotion";
 import ServiceTabContent from "./ServiceTabContent";
 import SectionLayout from "../shared/SectionLayout";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import { usePathname } from "next/navigation";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 const ServiceTabSection = () => {
-  const [activeTab, setActiveTab] = useState("personal-injury-law-services");
+  const [activeTab, setActiveTab] = useState("");
+  const pathname = usePathname();
 
   const tabsItem = [
     {
@@ -29,6 +31,26 @@ const ServiceTabSection = () => {
       title: "Immigration Services",
     },
   ];
+
+  // Load data from localStorage when the component mounts
+  useEffect(() => {
+    const storedName = localStorage.getItem("activeTab");
+    if (storedName) {
+      setActiveTab(storedName);
+    } else {
+      setActiveTab("personal-injury-law-services");
+    }
+  }, []);
+
+  const tabHandleClick = (value) => {
+    localStorage.setItem("activeTab", value);
+    setActiveTab(value);
+  };
+
+  const removeFromLocalStorage = () => {
+    localStorage.removeItem("activeTab");
+    setActiveTab("");
+  };
 
   return (
     <SectionLayout>
@@ -51,7 +73,7 @@ const ServiceTabSection = () => {
                       ? "text-primary font-semibold"
                       : "text-gray-500"
                   }`}
-                  onClick={() => setActiveTab(tab?.key)}
+                  onClick={() => tabHandleClick(tab?.key)}
                 >
                   {tab?.title}
                 </button>

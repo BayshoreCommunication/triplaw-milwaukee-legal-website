@@ -2,6 +2,22 @@ import SectionLayout from "@/components/shared/SectionLayout";
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title:
+    "DUI lawyer Milwaukee | DUI Defense Lawyer Wisconsin | Best DUI Attorney in Wisconsin | Milwaukee legal pros",
+  description:
+    "Top DUI Lawyer in Milwaukee | Expert DUI Defense Lawyer in Wisconsin | Secure the representation of the Best DUI Attorney in Wisconsin with Milwaukee Legal Pros. Protect your rights and navigate DUI charges with confidence",
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-USA",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
+};
+
 const css = `
   h2{
     padding-top: 10px;
@@ -40,9 +56,9 @@ const DisclaimersTermsOfUse = () => {
       <SectionLayout>
         <div className="text-center md:text-left text-md md:text-xl">
           <div className="text-center mb-4 md:mb-5">
-            <h1 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
+            <h2 className="text-center text-3xl md:text-[40px] font-extrabold leading-normal  ">
               Disclaimers
-            </h1>
+            </h2>
           </div>
 
           <div className="flex flex-col gap-4 lg:gap-5">
