@@ -1,9 +1,8 @@
-import React from "react";
-import SectionLayout from "../shared/SectionLayout";
+import { Playfair_Display } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import CardMotion from "../motion/CardMotion";
-import Image from "next/image";
-import { Playfair_Display } from "next/font/google";
+import SectionLayout from "../shared/SectionLayout";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -13,10 +12,9 @@ const BlogHeroSection = ({ title, subTitle }) => {
       <div className="relative w-full bg-black bg-opacity-85">
         <Image
           src={"/assets/hero-img/hero-bg.jpg"}
-          alt={title}
-          layout="fill"
-          objectFit="cover"
-          objectPosition="top center"
+          alt={title || "Blogs"}
+          fill
+          style={{ objectFit: "cover", objectPosition: "top center" }}
           className="z-0"
           priority
         />
@@ -66,9 +64,9 @@ const BlogHeroSection = ({ title, subTitle }) => {
                       >
                         <path
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="m1 9 4-4-4-4"
                         />
                       </svg>

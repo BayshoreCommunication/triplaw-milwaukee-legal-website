@@ -1,12 +1,11 @@
-import React from "react";
-import parse from "html-react-parser";
-import { Link } from "@nextui-org/react";
-import SectionLayout from "@/components/shared/SectionLayout";
 import SideServicesCard from "@/components/services/SideServicesCard";
 import PageHeroSection from "@/components/shared/PageHeroSection";
+import SectionLayout from "@/components/shared/SectionLayout";
 import { allServiceData } from "@/config/serviceData";
-import { FaArrowRightLong } from "react-icons/fa6";
+import parse from "html-react-parser";
 import { Playfair_Display } from "next/font/google";
+import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 

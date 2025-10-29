@@ -1,16 +1,11 @@
-import React from "react";
-import parse from "html-react-parser";
-import { Link } from "@nextui-org/react";
-import SectionLayout from "@/components/shared/SectionLayout";
+// Link not used here; remove NextUI import
 import SideServicesCard from "@/components/services/SideServicesCard";
 import PageHeroSection from "@/components/shared/PageHeroSection";
-import CardMotion from "@/components/motion/CardMotion";
+import SectionLayout from "@/components/shared/SectionLayout";
 import { allServiceData } from "@/config/serviceData";
-import { IoIosArrowForward } from "react-icons/io";
+import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import { FaPersonFalling } from "react-icons/fa6";
-import { Playfair_Display } from "next/font/google";
-import PrimaryButton from "@/components/shared/PrimaryButton";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
@@ -55,11 +50,7 @@ const page = async ({ params }) => {
 
   return (
     <>
-      <Head>
-        <title>{servicesDetails[0]?.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="" />
-      </Head>
+      {/* Metadata for App Router should be provided via export const metadata in this file if needed */}
       <style>{css}</style>
       <PageHeroSection
         image={"/assets/hero-img/hero-bg.jpg"}
