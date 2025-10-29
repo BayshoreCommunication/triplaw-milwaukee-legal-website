@@ -1,14 +1,12 @@
-import React from "react";
-import Image from "next/image";
-import { blogData } from "@/config/data";
-import GetAllPostData from "@/lib/GetAllPostData";
-import SectionLayout from "@/components/shared/SectionLayout";
-import parse from "html-react-parser";
-import { Link } from "@nextui-org/react";
 import HeroSection from "@/components/blog/BlogHeroSection";
 import CardMotion from "@/components/motion/CardMotion";
-import { Playfair_Display } from "next/font/google";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
+import SectionLayout from "@/components/shared/SectionLayout";
+import GetAllPostData from "@/lib/GetAllPostData";
+import parse from "html-react-parser";
+import { Playfair_Display } from "next/font/google";
+import Image from "next/image";
+import Link from "next/link";
 
 const playfair = Playfair_Display({ subsets: ["latin"] });
 

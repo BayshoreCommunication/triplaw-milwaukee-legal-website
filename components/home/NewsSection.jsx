@@ -1,11 +1,10 @@
-import React from "react";
-import SectionLayout from "../shared/SectionLayout";
-import CardMotion from "../motion/CardMotion";
-import { Bitter } from "next/font/google";
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
-import ScondayButton from "../shared/SecondaryButton";
 import GetAllPostData from "@/lib/GetAllPostData";
+import { Bitter } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
+import CardMotion from "../motion/CardMotion";
+import ScondayButton from "../shared/SecondaryButton";
+import SectionLayout from "../shared/SectionLayout";
 
 const bitter = Bitter({ subsets: ["latin"] });
 
@@ -25,26 +24,23 @@ const NewsSection = async () => {
       ?.filter((pub, index) => pub.published && index < 3)
       ?.map((blog, index) => (
         <Link href={`/blog/${blog.slug}`} key={index}>
-          <Card shadow="sm" radius="none" isPressable>
-            <CardBody className="p-0">
+          <div className="border border-gray-200 rounded-none shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+            <div className="p-0">
               <Image
-                shadow="none"
-                radius="none"
-                width="100%"
-                className="w-full object-cover h-[300px]"
                 src={blog.featuredImage?.image?.url}
-                alt={blog.featuredImage?.altText}
+                alt={blog.featuredImage?.altText || blog.title}
+                width={1200}
+                height={300}
+                className="w-full object-cover h-[300px]"
               />
-            </CardBody>
-            <CardFooter className="text-small block text-left">
-              <h2 className="text-default-500 text-lg font-bold line-clamp-1">
+            </div>
+            <div className="text-left p-3">
+              <h2 className="text-stone-700 text-lg font-bold line-clamp-1">
                 {blog.title}
               </h2>
-              <p className="text-default-500 block">
-                {postDate(blog.createdAt)}
-              </p>
-            </CardFooter>
-          </Card>
+              <p className="text-stone-500">{postDate(blog.createdAt)}</p>
+            </div>
+          </div>
         </Link>
       ));
   };
